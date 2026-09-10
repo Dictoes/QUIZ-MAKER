@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviewer for Nhericka(CE)</title>
+  <link rel="stylesheet" href="style.css?v=ce364-topic9-5">
+
+  <!-- Open Graph / Social Media Preview -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jnotaly.vercel.app/">
+  <meta property="og:title" content="Reviewer for Nhericka(CE)">
+  <meta property="og:description" content="Study reviewer application">
+</head>
+<body class="home-view">
+
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <span class="brand-name">Jnotaly</span>
+        <small class="brand-tagline">• Engineering Reviewer</small>
+      </div>
+
+      <div class="header-actions">
+        <button type="button" class="header-action home-nav" onclick="showSection('home')" aria-label="Home">
+          <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="m3 10 9-7 9 7"></path><path d="M5 9v11h14V9"></path><path d="M9 20v-6h6v6"></path>
+          </svg>
+          <span>Home</span>
+        </button>
+        <button type="button" class="header-action" onclick="showSection('reviewer')" aria-label="Study notes">Study</button>
+        <button type="button" class="header-action" onclick="showSection('quiz')" aria-label="Practice quizzes">Quiz</button>
+        <button type="button" class="header-action" onclick="showSection('flashcards')" aria-label="Flashcards">Cards</button>
+      <div class="theme-controls">
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch to light theme" onclick="toggleTheme()">
+          <svg id="theme-moon-icon" class="theme-icon" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.7 6.7 0 0 0 21 12.8z"></path>
+          </svg>
+          <svg id="theme-sun-icon" class="theme-icon hidden" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="palette-controls">
+        <button id="palette-toggle" class="palette-toggle" type="button" aria-label="Choose accent palette" aria-expanded="false" onclick="togglePaletteMenu()">
+          <svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="8.5"></circle>
+            <circle cx="9" cy="9" r="1" fill="currentColor"></circle>
+            <circle cx="15" cy="8" r="1" fill="currentColor"></circle>
+            <circle cx="16" cy="14" r="1" fill="currentColor"></circle>
+            <path d="M4.5 13.5c1.5 2.8 4.2 4.5 7.5 4.5"></path>
+          </svg>
+        </button>
+        <div id="palette-menu" class="palette-menu hidden" role="menu" aria-label="Accent palettes">
+          <button type="button" class="palette-option" data-palette-option="aurora" role="menuitem" onclick="setPalette('aurora')">
+            <span class="palette-swatch palette-swatch-aurora"></span><span>Aurora</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="rosewood" role="menuitem" onclick="setPalette('rosewood')">
+            <span class="palette-swatch palette-swatch-rosewood"></span><span>Rosewood</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="velvet" role="menuitem" onclick="setPalette('velvet')">
+            <span class="palette-swatch palette-swatch-velvet"></span><span>Velvet</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="sage" role="menuitem" onclick="setPalette('sage')">
+            <span class="palette-swatch palette-swatch-sage"></span><span>Sage</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="amber" role="menuitem" onclick="setPalette('amber')">
+            <span class="palette-swatch palette-swatch-amber"></span><span>Amber</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="ocean" role="menuitem" onclick="setPalette('ocean')">
+            <span class="palette-swatch palette-swatch-ocean"></span><span>Ocean</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="slate" role="menuitem" onclick="setPalette('slate')">
+            <span class="palette-swatch palette-swatch-slate"></span><span>Slate</span>
+          </button>
+          <button type="button" class="palette-option" data-palette-option="terracotta" role="menuitem" onclick="setPalette('terracotta')">
+            <span class="palette-swatch palette-swatch-terracotta"></span><span>Terracotta</span>
+          </button>
+        </div>
+      </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <main class="main-container">
+    
+    <!-- HOME / GET STARTED TAB -->
+    <section id="home" class="content-panel home-panel">
+      <div class="home-glow" aria-hidden="true"></div>
+
+      <div class="home-layout">
+        <div class="home-hero">
+          <p id="home-greeting" class="home-greeting">Hello, Nhericka</p>
+          <h1 class="home-headline">Let's get you ready for<br>your next exam.</h1>
+
+          <div class="quote-box">
+            <p id="quote-text" class="quote-text">Loading today's reminder…</p>
+          </div>
+
+          <button type="button" class="get-started-btn" onclick="getStarted()">
+          Start Reviewing
+            <small class="get-started-hint">➜</small>
+          </button>
+        </div>
+
+        <div class="home-welcome-card">
+          <div class="home-lily-graphic" aria-hidden="true">
+            <svg class="lily-svg" viewBox="0 0 120 100" fill="none">
+              <path d="M60 58C43 43 43 15 60 7C77 15 77 43 60 58Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <path d="M56 58C34 58 18 39 25 24C43 24 58 36 56 58Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <path d="M64 58C86 58 102 39 95 24C77 24 62 36 64 58Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <path d="M58 60C42 75 25 73 18 58C31 48 48 49 58 60Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <path d="M62 60C78 75 95 73 102 58C89 48 72 49 62 60Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <path d="M60 59C60 80 50 91 38 88C37 73 46 62 60 59Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <path d="M60 59C60 80 70 91 82 88C83 73 74 62 60 59Z" fill="url(#lily-pink)" stroke="var(--rose)" stroke-width="1.5"/>
+              <g stroke="var(--accent)" stroke-width="1.2" stroke-linecap="round">
+                <path d="M60 59 47 36"/><path d="M60 59 53 32"/><path d="M60 59 67 32"/><path d="M60 59 73 36"/>
+              </g>
+              <g fill="var(--rose)"><circle cx="47" cy="36" r="2"/><circle cx="53" cy="32" r="2"/><circle cx="67" cy="32" r="2"/><circle cx="73" cy="36" r="2"/></g>
+              <circle cx="60" cy="59" r="5" fill="var(--accent)" stroke="var(--rose)" stroke-width="1.5"/>
+              <defs><linearGradient id="lily-pink" x1="20" y1="15" x2="95" y2="85" gradientUnits="userSpaceOnUse"><stop stop-color="var(--rose)" stop-opacity=".55"/><stop offset="1" stop-color="var(--rose-soft)"/></linearGradient></defs>
+            </svg>
+          </div>
+          <h2>Title: Devotion</h2>
+          <div class="home-card-rule"></div>
+          <p><strong>N</strong>othing feels right without you,</p>
+          <p><strong>H</strong>ome is wherever I’m with you.</p>
+          <p><strong>E</strong>very day, I love you more,</p>
+          <p><strong>R</strong>ight beside you is where I belong.</p>
+          <p><strong>I</strong>n my heart, it’s always you,</p>
+          <p><strong>C</strong>herished in everything I do.</p>
+          <p><strong>K</strong>eeping you close, my greatest dream,</p>
+          <p><strong>A</strong>nd loving you is all I need.</p>
+          <div class="home-card-rule"></div>
+          <span class="home-card-hint">I made this poem for Nhericka
+          </span>
+        </div>
+      </div>
+      <section id="continue-studying-card" class="continue-studying-card hidden" aria-labelledby="continue-studying-title">
+        <div class="continue-studying-copy">
+          <div class="continue-studying-label" id="continue-studying-title">CONTINUE STUDYING</div>
+          <h2 data-continue-subject></h2>
+          <p class="continue-studying-topic"><span>Continue:</span> <strong data-continue-topic></strong></p>
+          <p class="continue-studying-last"><span>Last viewed:</span> <strong data-continue-section></strong></p>
+        </div>
+        <button type="button" class="get-started-btn continue-studying-btn" onclick="continueStudying()">Continue Studying <small class="get-started-hint">➜</small></button>
+      </section>
+
+    </section>
+
+    <!-- REVIEWER TAB -->
+    <section id="reviewer" class="content-panel hidden">
+      <div class="panel-header">
+        <h2 id="subject-title">Study Notes</h2>
+        <p id="subject-desc">Select a subject from the top menu to start reviewing.</p>
+      </div>
+      <!-- SEARCH BAR -->
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="topic-search" 
+          class="search-input" 
+          placeholder="Search topics, definitions, laws, or keywords..." 
+          oninput="filterTopics()"
+        >
+      </div>
+      <div class="filter-row">
+        <button type="button" class="filter-chip active" onclick="setTopicFilter('all', this)">All topics</button>
+        <button type="button" class="filter-chip bookmarked-filter" onclick="setTopicFilter('bookmarked', this)">
+          <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 3.5A1.5 1.5 0 0 1 7.5 2h9A1.5 1.5 0 0 1 18 3.5V21l-6-3.5L6 21z"></path>
+          </svg>
+          <span>Bookmarked</span>
+        </button>
+      </div>
+
+      <div class="reviewer-tools">
+        <div id="subject-progress-container"></div>
+        <div id="subject-tasks-container"></div>
+      </div>
+      <div id="notes-container" class="cards-stack"></div>
+    </section>
+
+    <!-- QUIZ TAB -->
+    <section id="quiz" class="content-panel hidden">
+      <div class="panel-header">
+        <h2>Practice Examination</h2>
+        <p>Test your knowledge on the selected subject.</p>
+      </div>
+
+      <div id="quiz-picker-container"></div>
+      <div id="quiz-options" class="quiz-options hidden"></div>
+
+      <form id="quiz-form"></form>
+
+      <div id="quiz-action-footer" class="action-footer hidden">
+        <button type="button" class="submit-btn" onclick="gradeQuiz()">
+  Submit Answers
+</button>
+      </div>
+
+      <div id="result-box" class="result-box hidden"></div>
+    </section>
+
+    <section id="flashcards" class="content-panel hidden">
+      <div class="panel-header"><h2>Flashcard mode</h2><p>Tap a card to reveal its explanation. Mark concepts you want to revisit.</p></div>
+      <div id="flashcard-container"></div>
+    </section>
+
+  </main>
+
+  <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" type="button" aria-label="Open sidebar" onclick="openReviewerDrawer()">
+    <span class="sidebar-toggle-lines" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+
+  <div id="reviewer-drawer-overlay" class="drawer-overlay hidden" onclick="closeReviewerDrawer(event)">
+    <aside id="reviewer-drawer" class="reviewer-drawer" role="complementary" aria-labelledby="drawer-title" onclick="event.stopPropagation()">
+      <div class="drawer-header">
+        <div>
+          <span class="drawer-eyebrow">Study workspace</span>
+          <h2 id="drawer-title">SUBJECTS</h2>
+        </div>
+        <button type="button" class="drawer-close-btn" aria-label="Collapse sidebar" onclick="closeReviewerDrawer()">
+          <span class="sidebar-toggle-lines" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </button>
+      </div>
+      <input id="reviewer-search" class="search-input drawer-search" type="search" placeholder="Search subjects..." oninput="renderReviewerDrawer()">
+      <div id="reviewer-drawer-list" class="reviewer-drawer-list"></div>
+    </aside>
+  </div>
+
+  <footer class="site-footer">
+    <div>© 2026 Jnotaly · Learn at your own pace.</div>
+    <small>Created by JB</small>
+  </footer>
+
+  <button id="back-to-top" class="back-to-top hidden" type="button" aria-label="Scroll to top" title="Scroll to top" onclick="scrollToTop()">
+    <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="m6 15 6-6 6 6"></path>
+    </svg>
+  </button>
+
+  <script src="script.js?v=ce364-nbcp-4"></script>
+</body>
+</html>

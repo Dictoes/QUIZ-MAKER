@@ -1,0 +1,448 @@
+{
+  "id": "topic-5",
+  "title": "Reactions to Determinate Structures (Beams)",
+  "description": "Reviewer on load transmission, slabs, tributary loadings, beam internal forces, sign conventions, and shear-and-moment diagrams.",
+  "reviewer": [
+    {
+      "title": "1. Load Transmission in a Building",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gravity loads travel through a continuous structural path. The typical sequence is <strong>slab -> beams -> girders -> columns -> footings -> soil</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Load-transmission.png",
+          "alt": "Structural load transmission from slab to foundation",
+          "caption": "Typical load path in a single-storey building"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Slabs</strong> receive floor or roof surface loads.",
+            "<strong>Beams</strong> collect slab loads and transfer them to girders.",
+            "<strong>Girders</strong> support beams and transfer their reactions to columns.",
+            "<strong>Columns</strong> carry the accumulated loads downward.",
+            "<strong>Footings</strong> spread column loads into the supporting ground."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Slabs: One-Way and Two-Way Action",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>one-way slab</strong> is designed to span primarily in one direction. A <strong>two-way slab</strong> spans and distributes load in both directions."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/slabs.png",
+          "alt": "Comparison of one-way and two-way slab load paths",
+          "caption": "One-way and two-way slab action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Let <strong>S</strong> be the shorter span and <strong>L</strong> be the longer span. A common classification rule is <strong>S/L <= 0.5</strong> for one-way action and <strong>S/L > 0.5</strong> for two-way action."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/slabs2.png",
+          "alt": "Plan showing one-way and two-way slab panels",
+          "caption": "Slab classification using the shorter-to-longer span ratio"
+        }
+      ]
+    },
+    {
+      "title": "3. Tributary Loadings",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tributary loading determines how a surface load from a wall, floor, or roof is assigned to the structural members supporting it. The tributary area of a member is the portion of the surface whose load is carried by that member."
+        },
+        {
+          "type": "list",
+          "items": [
+            "For an interior member, the tributary width is commonly half the spacing to the adjacent member on each side.",
+            "For an exterior member, the tributary area extends from the edge to the midpoint toward the adjacent member.",
+            "A surface load in kPa multiplied by tributary width in m produces a line load in kN/m.",
+            "Tributary areas can be traced for beams, girders, and columns."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings.png",
+          "alt": "Structural grid used to identify tributary areas",
+          "caption": "Beam, girder, and column locations on a structural grid"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings2.png",
+          "alt": "Tributary areas of beams",
+          "caption": "Typical tributary areas for exterior and interior beams"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings3.png",
+          "alt": "Tributary areas of girders",
+          "caption": "Typical tributary areas for girders"
+        }
+      ]
+    },
+    {
+      "title": "4. Tributary Loading Example",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a floor carrying a uniformly distributed surface load, first determine the tributary area of each member. Multiply the surface load by the tributary area to obtain the total load delivered to that member, then use equilibrium to determine its reactions."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings-example.png",
+          "alt": "Example of a floor slab supported by floor beams and a girder",
+          "caption": "Floor slab load transferred through floor beams to a girder"
+        }
+      ]
+    },
+    {
+      "title": "5. Internal Forces of a Member",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Internal forces are the stress resultants that develop inside a member when external loads act on it. They are found by making a section cut and applying equilibrium to one part of the member."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Axial force N</strong> acts along the member's longitudinal axis.",
+            "<strong>Shear force V</strong> acts perpendicular to the member's axis.",
+            "<strong>Bending moment M</strong> causes the member to curve.",
+            "Ideal truss members are subjected only to axial forces, while beams and rigid-frame members may carry axial force, shear, and bending moment."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/internal-forces.png",
+          "alt": "Internal axial, shear, and bending forces in a beam",
+          "caption": "Internal force resultants exposed by a section cut"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/internal-forces2.png",
+          "alt": "Internal forces in a frame member",
+          "caption": "Internal forces in a rigid frame"
+        }
+      ]
+    },
+    {
+      "title": "6. Sign Conventions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Use one consistent sign convention when calculating internal forces. In the convention shown in the lecture, positive axial force is tension and positive bending moment produces a sagging or smiling shape."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Axial force:</strong> (+) tension; (-) compression.",
+            "<strong>Shear force:</strong> (+) left side up and right side down; (-) left side down and right side up.",
+            "<strong>Bending moment:</strong> (+) sagging or smile; (-) hogging or sad shape."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/sign-convention.png",
+          "alt": "Sign convention diagrams for axial force, shear force, and bending moment",
+          "caption": "Positive and negative internal-force conventions"
+        }
+      ]
+    },
+    {
+      "title": "7. Shear and Moment Diagrams",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Shear and moment diagrams graphically show how internal forces vary along a beam. They help identify critical regions so that member size, material, and reinforcement can be selected appropriately."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A point load causes a sudden jump in the shear diagram.",
+            "A distributed load causes the shear diagram to vary continuously.",
+            "The slope of the moment diagram is related to the shear force.",
+            "The maximum or minimum bending moment occurs where shear is zero or changes sign.",
+            "At a simple support with no applied couple, the beam-end moment is usually zero."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/shear-and-moment2.png",
+          "alt": "Example shear and moment diagrams for a beam",
+          "caption": "Shear and moment diagrams under concentrated loads"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/shear-and-moment.png",
+          "alt": "Beam loading examples for shear and moment analysis",
+          "caption": "Beam loading cases used for internal-force analysis"
+        }
+      ]
+    },
+    {
+      "title": "8. Determinate Beam Reactions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A statically determinate beam can be solved using the three planar equilibrium equations: <strong>ΣFx = 0</strong>, <strong>ΣFy = 0</strong>, and <strong>ΣM = 0</strong>. Replace distributed loads with equivalent resultant forces acting at their centroids before solving reactions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A pin support can provide horizontal and vertical reactions.",
+            "A roller support generally provides one reaction normal to the supporting surface.",
+            "The resultant of a uniform distributed load acts at the midpoint of its loaded length.",
+            "The resultant of a triangular distributed load acts one-third of the base length from the larger-intensity end, or two-thirds from the zero-intensity end.",
+            "After solving reactions, check force and moment equilibrium."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/internal-forces3.png",
+          "alt": "Free-body diagrams for beam internal force analysis",
+          "caption": "Free-body diagrams for sections of a loaded beam"
+        }
+      ]
+    },
+    {
+      "title": "9. Seatwork Practice",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Practice determining the internal shear and moment at a point 1.5 ft to the left of point C. Also determine the internal shear and moment at a point 2 m to the left of the roller support. Begin by finding the support reactions, then isolate the portion of the beam containing the section."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Draw the complete free-body diagram.",
+            "Replace distributed loads with equivalent resultants.",
+            "Solve the support reactions using equilibrium.",
+            "Cut the beam at the requested point.",
+            "Apply the selected sign convention to solve V and M."
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "What is the usual gravity-load path in a building?",
+      "options": [
+        "Slab -> columns -> beams -> footings",
+        "Slab -> beams -> girders -> columns -> footings",
+        "Footings -> columns -> girders -> beams",
+        "Beams -> slab -> girders -> soil"
+      ],
+      "answer": "Slab -> beams -> girders -> columns -> footings"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Which member primarily collects loads from smaller beams?",
+      "options": [
+        "Slab",
+        "Girder",
+        "Footing",
+        "Brace"
+      ],
+      "answer": "Girder"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "Using the lecture rule, which condition indicates one-way slab action?",
+      "options": [
+        "S/L <= 0.5",
+        "S/L > 0.5",
+        "S/L = 1.5",
+        "S/L is not used"
+      ],
+      "answer": "S/L <= 0.5"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What does S represent in the slab-span ratio S/L?",
+      "options": [
+        "Support reaction",
+        "Shorter span",
+        "Shear force",
+        "Surface load"
+      ],
+      "answer": "Shorter span"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "What unit results when a surface load in kPa is multiplied by tributary width in m?",
+      "options": [
+        "kN",
+        "kN/m",
+        "kN/m2",
+        "m/kN"
+      ],
+      "answer": "kN/m"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Which internal force acts along a member's longitudinal axis?",
+      "options": [
+        "Axial force",
+        "Shear force",
+        "Bending moment",
+        "Tributary force"
+      ],
+      "answer": "Axial force"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Under the stated sign convention, positive axial force means:",
+      "options": [
+        "Compression",
+        "Tension",
+        "Shear",
+        "Bending"
+      ],
+      "answer": "Tension"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "A positive bending moment is represented by what shape?",
+      "options": [
+        "Sad or hogging",
+        "Smile or sagging",
+        "Straight line",
+        "Twisting shape"
+      ],
+      "answer": "Smile or sagging"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "Where is a maximum or minimum bending moment commonly located?",
+      "options": [
+        "Where shear is zero or changes sign",
+        "Where the beam is longest",
+        "At every column",
+        "Only at the left support"
+      ],
+      "answer": "Where shear is zero or changes sign"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "Which equations are used to solve planar beam support reactions?",
+      "options": [
+        "ΣFx = 0, ΣFy = 0, and ΣM = 0",
+        "S/L = 0.5 only",
+        "V = 0 only",
+        "M = WL only"
+      ],
+      "answer": "ΣFx = 0, ΣFy = 0, and ΣM = 0"
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Ideal truss members are subjected only to axial forces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "A two-way slab is designed to span in one direction only.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "The resultant of a uniform distributed load acts at the midpoint of its loaded length.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "The maximum bending moment is always located at the beam's left support.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 15,
+      "type": "identification",
+      "question": "What is the portion of a surface whose load is carried by a particular structural member called?",
+      "answer": "Tributary area"
+    },
+    {
+      "id": 16,
+      "type": "identification",
+      "question": "What stress resultant causes a member to curve?",
+      "answer": "Bending moment"
+    },
+    {
+      "id": 17,
+      "type": "identification",
+      "question": "What stress resultant acts perpendicular to a beam's longitudinal axis?",
+      "answer": "Shear force"
+    },
+    {
+      "id": 18,
+      "type": "enumeration",
+      "question": "List the three planar equilibrium equations used for a determinate beam.",
+      "answer": [
+        "ΣFx = 0",
+        "ΣFy = 0",
+        "ΣM = 0"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "enumeration",
+      "question": "List the three main internal force resultants discussed for beams and rigid frames.",
+      "answer": [
+        "Axial force",
+        "Shear force",
+        "Bending moment"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "enumeration",
+      "question": "List the load-transfer sequence from a slab to the ground.",
+      "answer": [
+        "Slab",
+        "Beams",
+        "Girders",
+        "Columns",
+        "Footings"
+      ]
+    }
+  ]
+}

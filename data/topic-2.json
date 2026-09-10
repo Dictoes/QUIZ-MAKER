@@ -1,0 +1,381 @@
+{
+  "id": "ce331",
+  "title": "CE331: Highway and Railroad Engineering",
+  "description": "Module 1  -  Introduction to Highway & Railroad Engineering: transportation systems, modes, planning, and route surveys.",
+  "reviewer": [
+    {
+      "title": "1. Course Overview",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>CE331: Highway and Railroad Engineering</strong> is a <strong>3-unit</strong> lecture course (3 hours per week). Its prerequisite is <strong>Fundamentals of Surveying 2</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Course Description:</strong> This course presents the methods and underlying principles for the design and control of the elements of road and railroad infrastructure. Students become familiar with transportation system terminology, flow analysis, driver, vehicle and road characteristics, and aspects of road geometrics, road construction, drainage, pavements, and maintenance."
+        }
+      ]
+    },
+    {
+      "title": "2. What Does CE331 Cover?",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Core engineering scope:</strong> road and railroad infrastructure design, geometric and structural considerations, traffic and flow analysis, construction, drainage, pavements, and maintenance",
+            "<strong>Human & system characteristics:</strong> transportation system terminology, driver characteristics, vehicle characteristics, road characteristics"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Course Outcomes",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>CO1</strong>  -  Discuss historical development, fundamental concepts, and planning processes of highway and railroad transportation systems.",
+            "<strong>CO2</strong>  -  Apply engineering principles to geometric design of highways and railways, including horizontal and vertical alignments.",
+            "<strong>CO3</strong>  -  Evaluate materials and perform basic structural design for flexible pavements, rigid pavements, and railway track systems.",
+            "<strong>CO4</strong>  -  Analyze fundamental traffic-stream parameters, level of service, and formulate basic earthwork and drainage solutions."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. The Course Outline",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>1. Introduction</strong>  -  History, economy, modes, planning & route surveys",
+            "<strong>2. Geometric Design</strong>  -  Driver/vehicle/road characteristics, design controls, alignment",
+            "<strong>3. Traffic Engineering</strong>  -  Speed, flow, density, capacity, LOS, intersections",
+            "<strong>4. Pavement Design</strong>  -  Subgrade, bituminous materials, concrete, flexible/rigid",
+            "<strong>5. Railroad Infrastructure</strong>  -  Track elements, stresses, structural requirements",
+            "<strong>6. Earthworks & Drainage</strong>  -  Cross-sections, earthwork quantities, drainage",
+            "<strong>7. Maintenance</strong>  -  Highway distress, rehabilitation, railway track maintenance"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Why Start With Transportation Systems?",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>The infrastructure is a system</strong>  -  a road or railway is not an isolated structure; it connects people, goods, places, activities, and other transport modes.",
+            "<strong>The design is interdisciplinary</strong>  -  surveying, geometry, materials, geotechnics, hydraulics, structures, traffic operations, construction, and maintenance interact.",
+            "<strong>The engineer designs for users</strong>  -  safety, mobility, accessibility, reliability, economy, constructability, environmental effects, and long-term performance matter."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. What Is Transportation Engineering?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Transportation engineering</strong> is a civil engineering field concerned with the planning, design, operation, construction, maintenance, and improvement of transportation facilities and systems."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>People</strong>  -  passengers, workers, communities",
+            "<strong>Goods</strong>  -  cargo, products, supplies",
+            "<strong>Vehicles</strong>  -  cars, buses, trucks, trains",
+            "<strong>Facilities</strong>  -  roads, tracks, terminals",
+            "<strong>Operations</strong>  -  traffic, schedules, control"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Highway Engineering vs. Railroad Engineering",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Highway engineering:</strong> road alignment and geometric design, traffic operations and control, pavements and drainage, earthworks and roadside facilities, maintenance and rehabilitation",
+            "<strong>Railroad engineering:</strong> track alignment and geometry, rails/sleepers/ballast/subgrade, turnouts and crossings, track stresses and structural requirements, track maintenance and rehabilitation"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "8. Historical Development of Transportation",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Ancient routes</strong>  -  footpaths, animal trails, early trade routes",
+            "<strong>Road civilizations</strong>  -  engineered roads, drainage, bridges, durable surfaces",
+            "<strong>Industrial era</strong>  -  railways enable high-capacity land transport",
+            "<strong>Motorization</strong>  -  mass automobile use drives modern highway systems",
+            "<strong>Modern network</strong>  -  intermodal, digital, resilient, safer transportation"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Key idea:</strong> Transportation evolves as technology, population, trade, land use, and societal needs change. Engineering practice evolves with it."
+        }
+      ]
+    },
+    {
+      "title": "9. From Path to Network",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "A path becomes a <strong>route</strong> when movement is organized between origins and destinations.",
+            "A route becomes <strong>infrastructure</strong> when it is planned, designed, constructed, operated, and maintained.",
+            "A set of routes becomes a <strong>network</strong> when links and nodes interact to serve a larger area.",
+            "Modern transportation engineering looks beyond a single road segment or railway track."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10. Why Transportation Matters to the Economy",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Connects producers to markets and workers to jobs.",
+            "Reduces travel time and improves access to services.",
+            "Supports trade, tourism, logistics, agriculture, manufacturing, and construction.",
+            "Influences land development and the spatial distribution of economic activity.",
+            "Improves network redundancy and access during emergencies when designed for resilience."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Engineering perspective:</strong> A transportation project should be evaluated not only as a structure, but as an investment in accessibility, mobility, connectivity, safety, and long-term service."
+        }
+      ]
+    },
+    {
+      "title": "11. Transportation as an Economic Link",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The economic chain runs from <strong>Production</strong> (factories, farms, businesses) → <strong>Movement</strong> (roads, railways, terminals) → <strong>Markets</strong> (cities, ports, airports) → <strong>People</strong> (jobs, services, opportunities)."
+        }
+      ]
+    },
+    {
+      "title": "12. Major Modes of Transportation",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Road</strong>  -  high flexibility, door-to-door access (cars, buses, trucks)",
+            "<strong>Rail</strong>  -  high capacity, guided movement (passenger, freight)",
+            "<strong>Air</strong>  -  high speed, long-distance connectivity (passengers, high-value freight)",
+            "<strong>Water</strong>  -  high payload efficiency, port-to-port movement (ships, barges)",
+            "<strong>Pipeline</strong>  -  continuous flow, specialized cargo (oil, gas, water)"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "13. Mode Selection Factors",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Trip purpose and distance",
+            "Passenger or freight characteristics",
+            "Required speed and reliability",
+            "Capacity and demand",
+            "Terrain and geography",
+            "Capital and operating costs",
+            "Safety and environmental considerations",
+            "Connectivity with other modes"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Civil engineering judgment:</strong> The appropriate mode is the one that best satisfies the transportation need under the project's technical, economic, environmental, and social constraints."
+        }
+      ]
+    },
+    {
+      "title": "14. Intermodal Transportation",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "People and goods often use more than one transportation mode.",
+            "Roads provide access to ports, airports, rail stations, terminals, industrial areas, and communities.",
+            "Rail can provide high-capacity movement while roads provide flexible distribution.",
+            "Intermodal planning seeks to make transfers efficient, safe, accessible, and reliable."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "15. Philippine Transportation Context",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "The Philippine setting is strongly influenced by an <strong>archipelagic geography</strong>.",
+            "Road transport is essential for local and regional connectivity.",
+            "Railway development is important for high-capacity passenger and freight movement where appropriate.",
+            "Ports and airports provide critical links between islands and international markets.",
+            "Transportation planning must account for urban congestion, rural access, disaster exposure, and network continuity."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "16. Philippine Road Classification",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Road classification helps define the function and role of a road within the network.",
+            "Functional classification influences planning, design, management, and maintenance responsibilities.",
+            "DPWH materials identify functional classifications such as <strong>Primary</strong>, <strong>Secondary</strong>, and <strong>Tertiary</strong> roads within its road network system.",
+            "Classification connects a facility's intended function with engineering decisions."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "17. Transportation Planning Process",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>1. Identify the problem</strong>  -  what movement is needed, who travels, what goods move, origins and destinations",
+            "<strong>2. Understand demand</strong>  -  current traffic, population, land use, economic activity, travel patterns, future growth",
+            "<strong>3. Develop alternatives</strong>  -  different routes, modes, alignments, operational strategies, or combinations",
+            "<strong>4. Evaluate alternatives</strong>  -  safety, capacity, cost, environmental/social effects, constructability, resilience, service",
+            "<strong>5. Select and implement</strong>  -  choose the preferred solution, design, construct, operate, monitor, maintain"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "18. Planning as an Iterative Process",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Need</strong>  -  why is the facility needed?",
+            "<strong>Data</strong>  -  what do we know?",
+            "<strong>Alternatives</strong>  -  what could be done?",
+            "<strong>Evaluation</strong>  -  which option performs best?",
+            "<strong>Design</strong>  -  how will it be built?",
+            "<strong>Operation</strong>  -  does it work as intended?"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Feedback:</strong> Operational data can reveal whether assumptions were correct and whether improvements or rehabilitation are needed."
+        }
+      ]
+    },
+    {
+      "title": "19. Route Surveys",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Route surveys provide the physical and environmental information needed to investigate feasible alignments.",
+            "The engineer needs information on terrain, existing features, drainage, property constraints, utilities, land use, and other site conditions.",
+            "Surveying data support the transition from a conceptual route to a defensible engineering alignment."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "20. Route Survey Workflow",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>1. Reconnaissance</strong>  -  understand terrain, constraints, existing network, possible corridors",
+            "<strong>2. Preliminary investigation</strong>  -  collect maps, survey information, traffic/demand data, site observations",
+            "<strong>3. Alternative routes</strong>  -  develop and compare feasible corridors or alignments",
+            "<strong>4. Detailed survey</strong>  -  establish accurate geometry and site information for design",
+            "<strong>5. Evaluation</strong>  -  compare technical, economic, environmental, and social factors",
+            "<strong>6. Selected alignment</strong>  -  carry the preferred alternative into detailed design"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "21. Route Selection & Alignment Decisions",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "The shortest route is not automatically the best route.",
+            "A good alignment balances geometry, terrain, earthwork, drainage, structures, right-of-way, environmental constraints, access, safety, and cost.",
+            "The selected alignment should support the intended function and design criteria of the facility.",
+            "Trade-offs must be documented and justified."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Engineering constraints:</strong> terrain, geology, hydrology, existing development, utilities, property, environment. <strong>Project objectives:</strong> safety, mobility, capacity, reliability, cost, sustainability, resilience."
+        }
+      ]
+    },
+    {
+      "title": "22. Civil Engineer's Role in Transportation",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Translate transportation needs into engineering requirements.",
+            "Collect, interpret, and validate field and planning data.",
+            "Develop safe and functional geometric and structural solutions.",
+            "Coordinate with traffic, geotechnical, structural, environmental, construction, and planning disciplines.",
+            "Communicate assumptions, calculations, alternatives, risks, and recommendations.",
+            "Protect public safety and consider long-term performance."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "23. Module 1 Key Takeaways",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Transportation engineering is a system-level civil engineering discipline.",
+            "Highways and railways are infrastructure links that serve people, goods, and economic activity.",
+            "Different transportation modes have different strengths, limitations, and appropriate applications.",
+            "Planning starts with the transportation problem and develops evidence-based alternatives.",
+            "Route surveys provide the physical information needed for route and alignment decisions.",
+            "Engineering judgment is required to balance safety, service, cost, environment, constructability, and resilience."
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    { "id": 1, "type": "multiple_choice", "question": "What is the prerequisite subject for CE331?", "options": ["Fundamentals of Surveying 1", "Fundamentals of Surveying 2", "Structural Design 1", "Reinforced Concrete Design"], "answer": "Fundamentals of Surveying 2" },
+    { "id": 2, "type": "multiple_choice", "question": "How many lecture units does CE331 carry?", "options": ["2", "3", "4", "5"], "answer": "3" },
+    { "id": 3, "type": "multiple_choice", "question": "Which mode of transportation offers the highest flexibility and door-to-door access?", "options": ["Rail", "Air", "Road", "Water"], "answer": "Road" },
+    { "id": 4, "type": "multiple_choice", "question": "Which mode provides high capacity and guided movement for both passenger and freight traffic?", "options": ["Road", "Rail", "Pipeline", "Air"], "answer": "Rail" },
+    { "id": 5, "type": "multiple_choice", "question": "According to the lecture, is the shortest route automatically the best alignment?", "options": ["Yes, always", "No", "Only for railways", "Only in flat terrain"], "answer": "No" },
+    { "id": 6, "type": "multiple_choice", "question": "Which factor is described as making the Philippine transportation setting distinct?", "options": ["Archipelagic geography", "Flat inland terrain", "Absence of railways", "Lack of road networks"], "answer": "Archipelagic geography" },
+    { "id": 7, "type": "multiple_choice", "question": "Which of the following is NOT one of the five steps in the transportation planning process?", "options": ["Identify the problem", "Understand demand", "Develop alternatives", "Perform structural design"], "answer": "Perform structural design" },
+    { "id": 8, "type": "identification", "question": "What civil engineering field is concerned with the planning, design, operation, construction, maintenance, and improvement of transportation facilities and systems?", "answer": "Transportation engineering" },
+    { "id": 9, "type": "identification", "question": "What term describes the use of more than one transportation mode to move people or goods, such as road to rail to port?", "answer": "Intermodal transportation" },
+    { "id": 10, "type": "identification", "question": "What type of survey provides the physical and environmental information needed to investigate feasible alignments?", "answer": "Route survey" },
+    { "id": 11, "type": "identification", "question": "What is the first step in the transportation planning process discussed in the lecture?", "answer": "Identify the problem" },
+    { "id": 12, "type": "identification", "question": "What government agency's materials identify Primary, Secondary, and Tertiary functional road classifications in the Philippines?", "answer": "DPWH" },
+    { "id": 13, "type": "enumeration", "question": "List the five major modes of transportation discussed in Module 1.", "answer": ["Road", "Rail", "Air", "Water", "Pipeline"] },
+    { "id": 14, "type": "enumeration", "question": "List the five historical eras of transportation development discussed in Module 1.", "answer": ["Ancient routes", "Road civilizations", "Industrial era", "Motorization", "Modern network"] },
+    { "id": 15, "type": "enumeration", "question": "List the three functional road classifications identified by DPWH materials.", "answer": ["Primary", "Secondary", "Tertiary"] },
+    { "id": 16, "type": "enumeration", "question": "List the six stages of the iterative planning process.", "answer": ["Need", "Data", "Alternatives", "Evaluation", "Design", "Operation"] },
+    { "id": 17, "type": "enumeration", "question": "List the five categories that make up the scope of transportation engineering (People, Goods, Vehicles, Facilities, and one more).", "answer": ["People", "Goods", "Vehicles", "Facilities", "Operations"] }
+  ]
+}

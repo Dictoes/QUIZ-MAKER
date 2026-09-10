@@ -1,0 +1,166 @@
+{
+  "id": "topic-6",
+  "title": "Determinacy of Structures",
+  "description": "Reviewer on support reactions, structural stability, static determinacy, degree of indeterminacy, and truss determinacy.",
+  "reviewer": [
+    {
+      "title": "1. Support Reactions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A support restricts one or more movements of a structure and develops reaction forces or moments. The number and direction of the reactions depend on the support type."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/reactions.png",
+          "alt": "Light cable, link, roller, rocker, and smooth-contact support reactions",
+          "caption": "Support types with one unknown reaction"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Cable or link</strong> - The reaction acts along the cable or link.",
+            "<strong>Roller or rocker</strong> - The reaction acts perpendicular to the contact surface.",
+            "<strong>Smooth contacting surface</strong> - The reaction is normal to the surface."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/reactions2.png",
+          "alt": "Pin, slider, fixed-connected collar, and fixed support reactions",
+          "caption": "Support types with two or three unknown reactions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Pin or hinge</strong> - Provides two force components, usually Ax and Ay.",
+            "<strong>Slider or fixed-connected collar</strong> - Can provide force components and, when rotation is restrained, a moment.",
+            "<strong>Fixed support</strong> - Provides horizontal force, vertical force, and a reaction moment."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Structural Stability",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A structure is <strong>stable</strong> when its supports and members prevent rigid-body motion and maintain a reliable load path. Stability must be checked both externally, through the support arrangement, and internally, through the member arrangement."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/external-stability.png",
+          "alt": "Beam with support arrangement illustrating external stability",
+          "caption": "External stability depends on the support arrangement"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/external-stability2.png",
+          "alt": "Examples of externally stable and unstable support arrangements",
+          "caption": "Examples of external stability and instability"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/internal-stability.png",
+          "alt": "Examples of internally stable and unstable member arrangements",
+          "caption": "Internal stability depends on the member geometry and connections"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>External instability</strong> occurs when the reactions cannot prevent translation or rotation of the entire structure.",
+            "<strong>Internal instability</strong> occurs when the members can move relative to one another even though the external supports appear adequate.",
+            "A structure can be externally stable but internally unstable, so both checks are necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Stable, Determinate, and Indeterminate Structures",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a stable planar structure, the basic comparison is between the number of unknown reactions <strong>R</strong> and the number of independent equilibrium equations <strong>3m</strong>, where <strong>m</strong> is the number of rigid bodies or members being considered."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures.png",
+          "alt": "Criteria comparing reactions and equilibrium equations",
+          "caption": "General determinacy criteria for structures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>R = 3m</strong> - The structure is statically determinate if it is also stable.",
+            "<strong>R > 3m</strong> - The structure is statically indeterminate; extra reactions require additional compatibility or deformation equations.",
+            "<strong>R < 3m</strong> - The structure is unstable or has insufficient constraints."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The degree of static indeterminacy is the number of redundant unknowns beyond the available equilibrium equations. For the general case, <strong>DI = R - 3m</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures-examples.png",
+          "alt": "Examples of stable, determinate, and indeterminate structures",
+          "caption": "Examples classified by stability and degree of indeterminacy"
+        }
+      ]
+    },
+    {
+      "title": "4. Truss Determinacy",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a planar truss, use the number of members <strong>m</strong>, external reactions <strong>R</strong>, and joints <strong>j</strong>. The truss determinacy relationship is <strong>m + R = 2j</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures-truss.png",
+          "alt": "Truss determinacy criteria and degree of indeterminacy equation",
+          "caption": "Determinacy criteria for planar trusses"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>m + R = 2j</strong> - The truss is statically determinate if it is stable and properly arranged.",
+            "<strong>m + R > 2j</strong> - The truss is statically indeterminate.",
+            "<strong>m + R < 2j</strong> - The truss is unstable.",
+            "For a planar truss, the degree of indeterminacy is <strong>DI = m + R - 2j</strong>."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The count is only a necessary condition. A truss that satisfies the numerical equation can still be unstable if its members and joints form a mechanism, so geometry and support conditions must also be inspected."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures-examples2.png",
+          "alt": "Examples of determinate, indeterminate, and unstable trusses",
+          "caption": "Truss examples classified using member, reaction, and joint counts"
+        }
+      ]
+    },
+    {
+      "title": "5. A Practical Checking Procedure",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Step 1:</strong> Identify the support types and count every independent reaction component.",
+            "<strong>Step 2:</strong> Check external stability by asking whether the reactions prevent translation and rotation.",
+            "<strong>Step 3:</strong> Check internal stability by inspecting member geometry, hinges, and possible mechanisms.",
+            "<strong>Step 4:</strong> Count the rigid bodies or members and compare R with 3m for a general planar structure.",
+            "<strong>Step 5:</strong> For a planar truss, count members, reactions, and joints and compare m + R with 2j.",
+            "<strong>Step 6:</strong> Compute the degree of indeterminacy only after confirming that the structure is stable."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A numerical count identifies the likely classification, but it does not replace a stability check. Always confirm that the structure has a continuous and geometrically stable load path."
+        }
+      ]
+    }
+  ]
+}

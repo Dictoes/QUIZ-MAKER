@@ -1,0 +1,337 @@
+{
+  "id": "topic-8",
+  "title": "Design Guidelines from NBCP",
+  "description": "Selected National Building Code of the Philippines requirements covering group dwellings, light and ventilation, sanitation, foundations, posts, floors, roofs, stairs, entrances and exits, electrical and mechanical systems, ceiling heights, room dimensions, air-space requirements, and window openings.",
+  "reviewer": [
+    {
+      "title": "Section 708 - Minimum Requirements for Group Dwellings",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Group D dwellings include residential buildings such as multiple-family dwellings, hotels, and similar structures. The building must comply with minimum requirements for safety, sanitation, light, ventilation, and access."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Provide adequate light and ventilation.",
+            "Provide proper sanitation facilities.",
+            "Provide safe means of entrance and exit.",
+            "Provide structurally sound foundations, floors, walls, and roofs.",
+            "Provide required electrical and mechanical systems."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 805 - Ceiling Heights",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ceiling heights must comply with the minimum requirements prescribed by the building regulations. Proper ceiling height helps provide adequate air circulation, comfort, and usable space."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Ceiling height requirements depend on the type and use of the room.",
+            "Rooms intended for human occupancy must provide sufficient vertical clearance.",
+            "Ceiling height must be considered when preparing architectural plans."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 806 - Size and Dimension of Rooms",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Rooms must have dimensions appropriate for their intended use. Minimum room dimensions help ensure adequate space, ventilation, lighting, and comfortable occupancy."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Room dimensions must satisfy minimum requirements.",
+            "The intended use of the room affects its required dimensions.",
+            "Architectural plans must indicate the dimensions of rooms clearly."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 807 - Air-Space Requirements",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Air-space requirements provide adequate open space around buildings and rooms to support natural lighting and ventilation."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Air spaces contribute to natural ventilation.",
+            "Air spaces help provide access to natural light.",
+            "Required open spaces must be considered during site planning."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Section 808 - Window Openings",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Window openings are important for natural lighting and ventilation. Their size and placement must satisfy applicable building requirements."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Windows provide natural light.",
+            "Windows provide natural ventilation.",
+            "Window openings must comply with minimum requirements.",
+            "Window placement should be coordinated with room use and air-space requirements."
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Which building regulation section covers minimum requirements for group dwellings?",
+      "options": [
+        "Section 708",
+        "Section 805",
+        "Section 806",
+        "Section 808"
+      ],
+      "answer": "Section 708"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Which of the following is an important consideration for group dwellings?",
+      "options": [
+        "Adequate light and ventilation",
+        "Decorative furniture",
+        "Interior color only",
+        "Landscape ornaments only"
+      ],
+      "answer": "Adequate light and ventilation"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "Which section discusses ceiling heights?",
+      "options": [
+        "Section 708",
+        "Section 805",
+        "Section 806",
+        "Section 807"
+      ],
+      "answer": "Section 805"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What is one purpose of proper ceiling height?",
+      "options": [
+        "Adequate air circulation",
+        "Increasing lot size",
+        "Reducing window openings",
+        "Eliminating exits"
+      ],
+      "answer": "Adequate air circulation"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "Which section discusses the size and dimensions of rooms?",
+      "options": [
+        "Section 805",
+        "Section 806",
+        "Section 807",
+        "Section 808"
+      ],
+      "answer": "Section 806"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "What is one purpose of minimum room dimensions?",
+      "options": [
+        "To provide adequate usable space",
+        "To eliminate ventilation",
+        "To reduce structural safety",
+        "To remove natural lighting"
+      ],
+      "answer": "To provide adequate usable space"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Which section covers air-space requirements?",
+      "options": [
+        "Section 805",
+        "Section 806",
+        "Section 807",
+        "Section 808"
+      ],
+      "answer": "Section 807"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "What is one benefit of providing adequate air space?",
+      "options": [
+        "Natural ventilation",
+        "Reduced room dimensions",
+        "Elimination of windows",
+        "Removal of exits"
+      ],
+      "answer": "Natural ventilation"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "Which section deals with window openings?",
+      "options": [
+        "Section 805",
+        "Section 806",
+        "Section 807",
+        "Section 808"
+      ],
+      "answer": "Section 808"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "What are two important functions of windows?",
+      "options": [
+        "Lighting and ventilation",
+        "Foundation and drainage",
+        "Structural support and roofing",
+        "Electrical distribution and plumbing"
+      ],
+      "answer": "Lighting and ventilation"
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Group dwellings must provide adequate light and ventilation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Ceiling heights have no relationship to building design requirements.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "Room dimensions should be appropriate for their intended use.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Air-space requirements can contribute to natural ventilation.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Window openings have no role in natural lighting.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 16,
+      "type": "identification",
+      "question": "What section contains the minimum requirements for group dwellings?",
+      "answer": "Section 708"
+    },
+    {
+      "id": 17,
+      "type": "identification",
+      "question": "What section covers ceiling heights?",
+      "answer": "Section 805"
+    },
+    {
+      "id": 18,
+      "type": "identification",
+      "question": "What section covers the size and dimensions of rooms?",
+      "answer": "Section 806"
+    },
+    {
+      "id": 19,
+      "type": "identification",
+      "question": "What section covers air-space requirements?",
+      "answer": "Section 807"
+    },
+    {
+      "id": 20,
+      "type": "identification",
+      "question": "What section covers window openings?",
+      "answer": "Section 808"
+    },
+    {
+      "id": 21,
+      "type": "enumeration",
+      "question": "Enumerate three important requirements for group dwellings.",
+      "answer": [
+        "Adequate light and ventilation",
+        "Proper sanitation facilities",
+        "Safe means of entrance and exit"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "enumeration",
+      "question": "Enumerate three building elements that must be structurally sound.",
+      "answer": [
+        "Foundations",
+        "Floors",
+        "Roofs"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "enumeration",
+      "question": "Enumerate two benefits of windows.",
+      "answer": [
+        "Natural lighting",
+        "Natural ventilation"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "enumeration",
+      "question": "Enumerate three factors considered in room design.",
+      "answer": [
+        "Room dimensions",
+        "Lighting",
+        "Ventilation"
+      ]
+    }
+  ]
+}
+

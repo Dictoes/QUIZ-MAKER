@@ -1,0 +1,2024 @@
+{
+  "id": "ce361",
+  "title": "CE361: Theory of Structures",
+  "description": "Analysis of determinate structures: trusses, loads, beams, shear and moment, determinacy and stability.",
+  "topics": [
+    {
+      "id": "topic-3",
+      "topicNumber": 1,
+      "title": "Reactions to Determinate Structures  -  Trusses",
+      "description": "Reviewer on trusses, zero-force members, method of joints, and method of sections.",
+      "reviewer": [
+        {
+          "title": "1. What Is a Truss?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A <strong>truss</strong> is made of slender members connected at their ends by pins. Ideally, members carry only <strong>axial forces</strong> and each member is either in <strong>tension</strong> or <strong>compression</strong>."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Tension</strong>  -  The member is being pulled.",
+                "<strong>Compression</strong>  -  The member is being pushed.",
+                "<strong>Pin support</strong>  -  Usually provides horizontal and vertical reactions, Ax and Ay.",
+                "<strong>Roller support</strong>  -  Usually provides one vertical reaction, By."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For the whole truss: <strong>ΣFx = 0</strong>, <strong>ΣFy = 0</strong>, and <strong>ΣM = 0</strong>."
+            }
+          ]
+        },
+        {
+          "title": "2. Zero-Force Members",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Zero-force members carry no axial load for the given loading condition. They can be identified by inspecting an unloaded joint."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/Truss-0force-member.png",
+              "alt": "Truss showing zero-force members",
+              "caption": "Zero-force members marked with red X symbols"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/Truss-0force-member-2.png",
+              "alt": "Second truss zero-force member example",
+              "caption": "Zero-force member identification at unloaded joints"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/Truss-0force-member3.png",
+              "alt": "Large truss zero-force member example",
+              "caption": "Zero-force members in a loaded truss"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/Truss-0force-member4.png",
+              "alt": "Supported truss zero-force member example",
+              "caption": "Zero-force member locations in a multi-panel truss"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Rule 1:</strong> If a joint has only two non-collinear members and no load or support reaction, both members are zero-force members.",
+                "<strong>Rule 2:</strong> If a joint has three members, two collinear and one non-collinear, with no external load at the joint, the non-collinear member is a zero-force member."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3. Method of Joints",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The <strong>method of joints</strong> analyzes one joint at a time. At every joint, use <strong>ΣFx = 0</strong> and <strong>ΣFy = 0</strong>."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Determine the support reactions.",
+                "Identify zero-force members.",
+                "Start at a joint with no more than two unknown member forces.",
+                "Assume all unknown members are in tension.",
+                "Resolve diagonal forces into horizontal and vertical components.",
+                "Solve using ΣFx = 0 and ΣFy = 0.",
+                "A positive answer indicates tension; a negative answer indicates compression."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-joints.png",
+              "alt": "Method of joints worked example",
+              "caption": "Method of joints example with a 500 N load"
+            },
+            {
+              "type": "paragraph",
+              "text": "For the illustrated 45-degree example, the diagonal member is <strong>707.1 N compression</strong>, the vertical member is <strong>500 N tension</strong>, and the horizontal member is <strong>500 N tension</strong>."
+            }
+          ]
+        },
+        {
+          "title": "4. Trigonometric Components",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "For a diagonal member at angle θ, resolve its force into components: <strong>Fx = F cos θ</strong> and <strong>Fy = F sin θ</strong>."
+            },
+            {
+              "type": "list",
+              "items": [
+                "sin θ = opposite ÷ hypotenuse",
+                "cos θ = adjacent ÷ hypotenuse",
+                "For a 3-4-5 triangle: sin θ = 3/5 and cos θ = 4/5."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Always draw the free-body diagram first, then assign the correct signs to the horizontal and vertical components."
+            }
+          ]
+        },
+        {
+          "title": "5. Method of Sections",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The <strong>method of sections</strong> is useful when only a few member forces are required. An imaginary cut is passed through the truss, normally through no more than three unknown members."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-section.png",
+              "alt": "Method of sections truss example",
+              "caption": "A section cut through a truss"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-section2.png",
+              "alt": "Method of sections example with marked members",
+              "caption": "Members GH, HC, and BC selected for analysis"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-section3.png",
+              "alt": "Moment points for method of sections",
+              "caption": "Choosing moment centers to solve selected member forces"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-section4.png",
+              "alt": "Another method of sections example",
+              "caption": "Section cut through BF, BC, and FG"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-section5.png",
+              "alt": "Moment analysis for method of sections",
+              "caption": "Moment equations used to solve selected members"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Pass the cut through the required members.",
+                "Isolate the simpler side of the truss.",
+                "Use ΣM = 0 first when possible.",
+                "Then use ΣFx = 0 and ΣFy = 0.",
+                "Take moments about a point where two unknown cut-member forces intersect to eliminate them."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. Method of Joints Seatwork",
+          "content": [
+            {
+              "type": "image",
+              "src": "assets/topic-3/method-of-joints-seatwork.png",
+              "alt": "Method of joints seatwork problem",
+              "caption": "Seatwork problem: determine FG, DG, and CD"
+            },
+            {
+              "type": "paragraph",
+              "text": "For seatwork problems, begin by finding the support reactions for the entire truss. Then select a joint with no more than two unknown member forces and proceed joint by joint."
+            }
+          ]
+        },
+        {
+          "title": "7. Solving Checklist",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Identify all joints, members, supports, and external loads.",
+                "Check dimensions and angles.",
+                "Search for zero-force members.",
+                "Use the entire truss to calculate support reactions.",
+                "For the method of joints, use ΣFx = 0 and ΣFy = 0.",
+                "For the method of sections, use ΣFx = 0, ΣFy = 0, and ΣM = 0.",
+                "Label every final result as tension, compression, or zero-force."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Sign convention:</strong> A positive result means the assumed tension direction is correct. A negative result means the member is in compression."
+            }
+          ]
+        }
+      ],
+      "quizzes": []
+    },
+    {
+      "id": "topic-4",
+      "topicNumber": 2,
+      "title": "Types of Structures and Loads",
+      "description": "Reviewer on structural systems, load classifications, load transfer, and NSCP 2015 load combinations.",
+      "reviewer": [
+        {
+          "title": "1. What Is a Structure?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A <strong>structure</strong> is an assembly of connected members designed to support loads safely and transfer them to the ground. Structural design must provide adequate <strong>strength</strong>, <strong>stability</strong>, and <strong>serviceability</strong>."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Strength</strong> - The structure resists failure or collapse.",
+                "<strong>Stability</strong> - The structure maintains equilibrium under applied loads.",
+                "<strong>Serviceability</strong> - Deflection, vibration, and cracking remain within acceptable limits.",
+                "<strong>Durability</strong> - Materials and connections perform for the intended service life."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2. Types of Structures",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Structures may be classified by their form, material, or the way their members carry forces."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Frame structures</strong> use beams, columns, and connections to resist gravity and lateral loads.",
+                "<strong>Trusses</strong> use straight members connected at joints; ideal members carry mainly axial tension or compression.",
+                "<strong>Arches</strong> carry loads primarily through compression along a curved form.",
+                "<strong>Cables and membranes</strong> carry tension and are shaped by the applied loading.",
+                "<strong>Shells and plates</strong> distribute loads across thin, curved or flat surfaces.",
+                "<strong>Mass structures</strong> resist loads through their own weight and bulk, as in dams or retaining structures."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3. Structural Members and Their Actions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Different members are arranged so that each carries the internal action for which it is most suitable."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Slabs</strong> span across spaces and transfer floor or roof loads to beams.",
+                "<strong>Beams</strong> resist bending and shear and transfer loads to girders or columns.",
+                "<strong>Girders</strong> are primary beams that collect loads from smaller beams.",
+                "<strong>Columns</strong> carry mainly axial compression and transfer loads toward the foundation.",
+                "<strong>Foundations</strong> spread structural loads into the supporting soil or rock.",
+                "<strong>Braces and shear walls</strong> resist lateral forces and help maintain stability."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. Structural Load Transfer",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "In a typical building, gravity loads follow a continuous path from the occupied spaces to the ground. The load-transfer sequence is <strong>slab -> beams -> girders -> columns -> footings -> soil</strong>."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-4/Load-transfer.png",
+              "alt": "Building load transfer from slab to footings",
+              "caption": "Typical gravity-load path through a building"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Every connection in the load path must be strong and properly detailed.",
+                "The supporting member must be checked for the accumulated load it receives.",
+                "Foundations distribute reactions so that soil pressure remains safe and acceptable."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. Dead Loads",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<strong>Dead load</strong> is the permanent load caused by the self-weight of structural and permanently attached nonstructural components."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Beams, slabs, columns, walls, stairs, and foundations",
+                "Roofing, floor finishes, ceilings, partitions, and fixed equipment",
+                "The self-weight of a member should be included when calculating its design load"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Dead loads are usually calculated from the material density multiplied by the member volume, or from a published unit weight multiplied by the area or length supported."
+            }
+          ]
+        },
+        {
+          "title": "6. Live and Environmental Loads",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<strong>Live loads</strong> are movable or changing loads produced by occupants, furniture, stored materials, vehicles, and similar use. Environmental loads come from natural conditions and site effects."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Live load</strong> - Occupants, furniture, movable partitions, storage, and vehicles.",
+                "<strong>Wind load</strong> - Pressure or suction caused by wind acting on exposed surfaces.",
+                "<strong>Earthquake load</strong> - Inertial forces generated by ground motion.",
+                "<strong>Snow or rain load</strong> - Accumulation on roofs where applicable.",
+                "<strong>Temperature load</strong> - Expansion or contraction caused by temperature change.",
+                "<strong>Soil and fluid loads</strong> - Lateral pressure, buoyancy, and hydrostatic effects."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. Load Effects and Equilibrium",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Applied loads create internal forces and deformations. Structural analysis determines the reactions, shear forces, bending moments, axial forces, and torsion required for design."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Axial force</strong> acts along the member length and may produce tension or compression.",
+                "<strong>Shear force</strong> acts transverse to the member and tends to slide one part past another.",
+                "<strong>Bending moment</strong> causes curvature and bending stress.",
+                "<strong>Torsion</strong> twists a member about its longitudinal axis."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "For a structure in static equilibrium, use the conditions <strong>sum of horizontal forces = 0</strong>, <strong>sum of vertical forces = 0</strong>, and <strong>sum of moments = 0</strong>."
+            }
+          ]
+        },
+        {
+          "title": "8. NSCP 2015 Load Combinations",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Design load combinations account for the possibility that different loads act together. The National Structural Code of the Philippines (NSCP) 2015 provides separate combinations for <strong>strength design using LRFD</strong> and for <strong>allowable stress design using ASD</strong>."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-4/LRFD-load-combination.png",
+              "alt": "NSCP 2015 LRFD and ASD load combinations",
+              "caption": "NSCP 2015 load-combination reference"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>D</strong> = dead load",
+                "<strong>L</strong> = live load",
+                "<strong>W</strong> = wind load",
+                "<strong>E</strong> = earthquake load",
+                "<strong>LRFD</strong> applies load factors to produce factored design effects.",
+                "<strong>ASD</strong> compares service-level effects with allowable strengths."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "9. Basic Design Checklist",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Identify the structural system and its supports.",
+                "Trace the complete load path from each load to the foundation.",
+                "Classify all applicable dead, live, wind, earthquake, soil, fluid, and temperature loads.",
+                "Calculate support reactions and member force effects.",
+                "Apply the governing NSCP 2015 LRFD or ASD load combinations.",
+                "Check strength, stability, serviceability, and foundation bearing conditions.",
+                "Confirm that connections and load-transfer details are continuous and adequate."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A safe design is not based on one member alone: every member, connection, support, and foundation in the load path must work together."
+            }
+          ]
+        }
+      ],
+      "quizzes": []
+    },
+    {
+      "id": "topic-5",
+      "topicNumber": 3,
+      "title": "Reactions to Determinate Structures (Beams)",
+      "description": "Reviewer on load transmission, slabs, tributary loadings, beam internal forces, sign conventions, and shear-and-moment diagrams.",
+      "reviewer": [
+        {
+          "title": "1. Load Transmission in a Building",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Gravity loads travel through a continuous structural path. The typical sequence is <strong>slab -> beams -> girders -> columns -> footings -> soil</strong>."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/Load-transmission.png",
+              "alt": "Structural load transmission from slab to foundation",
+              "caption": "Typical load path in a single-storey building"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Slabs</strong> receive floor or roof surface loads.",
+                "<strong>Beams</strong> collect slab loads and transfer them to girders.",
+                "<strong>Girders</strong> support beams and transfer their reactions to columns.",
+                "<strong>Columns</strong> carry the accumulated loads downward.",
+                "<strong>Footings</strong> spread column loads into the supporting ground."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2. Slabs: One-Way and Two-Way Action",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A <strong>one-way slab</strong> is designed to span primarily in one direction. A <strong>two-way slab</strong> spans and distributes load in both directions."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/slabs.png",
+              "alt": "Comparison of one-way and two-way slab load paths",
+              "caption": "One-way and two-way slab action"
+            },
+            {
+              "type": "paragraph",
+              "text": "Let <strong>S</strong> be the shorter span and <strong>L</strong> be the longer span. A common classification rule is <strong>S/L <= 0.5</strong> for one-way action and <strong>S/L > 0.5</strong> for two-way action."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/slabs2.png",
+              "alt": "Plan showing one-way and two-way slab panels",
+              "caption": "Slab classification using the shorter-to-longer span ratio"
+            }
+          ]
+        },
+        {
+          "title": "3. Tributary Loadings",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Tributary loading determines how a surface load from a wall, floor, or roof is assigned to the structural members supporting it. The tributary area of a member is the portion of the surface whose load is carried by that member."
+            },
+            {
+              "type": "list",
+              "items": [
+                "For an interior member, the tributary width is commonly half the spacing to the adjacent member on each side.",
+                "For an exterior member, the tributary area extends from the edge to the midpoint toward the adjacent member.",
+                "A surface load in kPa multiplied by tributary width in m produces a line load in kN/m.",
+                "Tributary areas can be traced for beams, girders, and columns."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/Tributary-loadings.png",
+              "alt": "Structural grid used to identify tributary areas",
+              "caption": "Beam, girder, and column locations on a structural grid"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/Tributary-loadings2.png",
+              "alt": "Tributary areas of beams",
+              "caption": "Typical tributary areas for exterior and interior beams"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/Tributary-loadings3.png",
+              "alt": "Tributary areas of girders",
+              "caption": "Typical tributary areas for girders"
+            }
+          ]
+        },
+        {
+          "title": "4. Tributary Loading Example",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "For a floor carrying a uniformly distributed surface load, first determine the tributary area of each member. Multiply the surface load by the tributary area to obtain the total load delivered to that member, then use equilibrium to determine its reactions."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/Tributary-loadings-example.png",
+              "alt": "Example of a floor slab supported by floor beams and a girder",
+              "caption": "Floor slab load transferred through floor beams to a girder"
+            }
+          ]
+        },
+        {
+          "title": "5. Internal Forces of a Member",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Internal forces are the stress resultants that develop inside a member when external loads act on it. They are found by making a section cut and applying equilibrium to one part of the member."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Axial force N</strong> acts along the member's longitudinal axis.",
+                "<strong>Shear force V</strong> acts perpendicular to the member's axis.",
+                "<strong>Bending moment M</strong> causes the member to curve.",
+                "Ideal truss members are subjected only to axial forces, while beams and rigid-frame members may carry axial force, shear, and bending moment."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/internal-forces.png",
+              "alt": "Internal axial, shear, and bending forces in a beam",
+              "caption": "Internal force resultants exposed by a section cut"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/internal-forces2.png",
+              "alt": "Internal forces in a frame member",
+              "caption": "Internal forces in a rigid frame"
+            }
+          ]
+        },
+        {
+          "title": "6. Sign Conventions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Use one consistent sign convention when calculating internal forces. In the convention shown in the lecture, positive axial force is tension and positive bending moment produces a sagging or smiling shape."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Axial force:</strong> (+) tension; (-) compression.",
+                "<strong>Shear force:</strong> (+) left side up and right side down; (-) left side down and right side up.",
+                "<strong>Bending moment:</strong> (+) sagging or smile; (-) hogging or sad shape."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/sign-convention.png",
+              "alt": "Sign convention diagrams for axial force, shear force, and bending moment",
+              "caption": "Positive and negative internal-force conventions"
+            }
+          ]
+        },
+        {
+          "title": "7. Shear and Moment Diagrams",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Shear and moment diagrams graphically show how internal forces vary along a beam. They help identify critical regions so that member size, material, and reinforcement can be selected appropriately."
+            },
+            {
+              "type": "list",
+              "items": [
+                "A point load causes a sudden jump in the shear diagram.",
+                "A distributed load causes the shear diagram to vary continuously.",
+                "The slope of the moment diagram is related to the shear force.",
+                "The maximum or minimum bending moment occurs where shear is zero or changes sign.",
+                "At a simple support with no applied couple, the beam-end moment is usually zero."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/shear-and-moment2.png",
+              "alt": "Example shear and moment diagrams for a beam",
+              "caption": "Shear and moment diagrams under concentrated loads"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/shear-and-moment.png",
+              "alt": "Beam loading examples for shear and moment analysis",
+              "caption": "Beam loading cases used for internal-force analysis"
+            }
+          ]
+        },
+        {
+          "title": "8. Determinate Beam Reactions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A statically determinate beam can be solved using the three planar equilibrium equations: <strong>ΣFx = 0</strong>, <strong>ΣFy = 0</strong>, and <strong>ΣM = 0</strong>. Replace distributed loads with equivalent resultant forces acting at their centroids before solving reactions."
+            },
+            {
+              "type": "list",
+              "items": [
+                "A pin support can provide horizontal and vertical reactions.",
+                "A roller support generally provides one reaction normal to the supporting surface.",
+                "The resultant of a uniform distributed load acts at the midpoint of its loaded length.",
+                "The resultant of a triangular distributed load acts one-third of the base length from the larger-intensity end, or two-thirds from the zero-intensity end.",
+                "After solving reactions, check force and moment equilibrium."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-5/internal-forces3.png",
+              "alt": "Free-body diagrams for beam internal force analysis",
+              "caption": "Free-body diagrams for sections of a loaded beam"
+            }
+          ]
+        },
+        {
+          "title": "9. Seatwork Practice",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Practice determining the internal shear and moment at a point 1.5 ft to the left of point C. Also determine the internal shear and moment at a point 2 m to the left of the roller support. Begin by finding the support reactions, then isolate the portion of the beam containing the section."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Draw the complete free-body diagram.",
+                "Replace distributed loads with equivalent resultants.",
+                "Solve the support reactions using equilibrium.",
+                "Cut the beam at the requested point.",
+                "Apply the selected sign convention to solve V and M."
+              ]
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "What is the usual gravity-load path in a building?",
+          "options": [
+            "Slab -> columns -> beams -> footings",
+            "Slab -> beams -> girders -> columns -> footings",
+            "Footings -> columns -> girders -> beams",
+            "Beams -> slab -> girders -> soil"
+          ],
+          "answer": "Slab -> beams -> girders -> columns -> footings"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "Which member primarily collects loads from smaller beams?",
+          "options": [
+            "Slab",
+            "Girder",
+            "Footing",
+            "Brace"
+          ],
+          "answer": "Girder"
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "question": "Using the lecture rule, which condition indicates one-way slab action?",
+          "options": [
+            "S/L <= 0.5",
+            "S/L > 0.5",
+            "S/L = 1.5",
+            "S/L is not used"
+          ],
+          "answer": "S/L <= 0.5"
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "question": "What does S represent in the slab-span ratio S/L?",
+          "options": [
+            "Support reaction",
+            "Shorter span",
+            "Shear force",
+            "Surface load"
+          ],
+          "answer": "Shorter span"
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+          "question": "What unit results when a surface load in kPa is multiplied by tributary width in m?",
+          "options": [
+            "kN",
+            "kN/m",
+            "kN/m2",
+            "m/kN"
+          ],
+          "answer": "kN/m"
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "question": "Which internal force acts along a member's longitudinal axis?",
+          "options": [
+            "Axial force",
+            "Shear force",
+            "Bending moment",
+            "Tributary force"
+          ],
+          "answer": "Axial force"
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "question": "Under the stated sign convention, positive axial force means:",
+          "options": [
+            "Compression",
+            "Tension",
+            "Shear",
+            "Bending"
+          ],
+          "answer": "Tension"
+        },
+        {
+          "id": 8,
+          "type": "multiple_choice",
+          "question": "A positive bending moment is represented by what shape?",
+          "options": [
+            "Sad or hogging",
+            "Smile or sagging",
+            "Straight line",
+            "Twisting shape"
+          ],
+          "answer": "Smile or sagging"
+        },
+        {
+          "id": 9,
+          "type": "multiple_choice",
+          "question": "Where is a maximum or minimum bending moment commonly located?",
+          "options": [
+            "Where shear is zero or changes sign",
+            "Where the beam is longest",
+            "At every column",
+            "Only at the left support"
+          ],
+          "answer": "Where shear is zero or changes sign"
+        },
+        {
+          "id": 10,
+          "type": "multiple_choice",
+          "question": "Which equations are used to solve planar beam support reactions?",
+          "options": [
+            "ΣFx = 0, ΣFy = 0, and ΣM = 0",
+            "S/L = 0.5 only",
+            "V = 0 only",
+            "M = WL only"
+          ],
+          "answer": "ΣFx = 0, ΣFy = 0, and ΣM = 0"
+        },
+        {
+          "id": 11,
+          "type": "true_false",
+          "question": "Ideal truss members are subjected only to axial forces.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True"
+        },
+        {
+          "id": 12,
+          "type": "true_false",
+          "question": "A two-way slab is designed to span in one direction only.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False"
+        },
+        {
+          "id": 13,
+          "type": "true_false",
+          "question": "The resultant of a uniform distributed load acts at the midpoint of its loaded length.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True"
+        },
+        {
+          "id": 14,
+          "type": "true_false",
+          "question": "The maximum bending moment is always located at the beam's left support.",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "False"
+        },
+        {
+          "id": 15,
+          "type": "identification",
+          "question": "What is the portion of a surface whose load is carried by a particular structural member called?",
+          "answer": "Tributary area"
+        },
+        {
+          "id": 16,
+          "type": "identification",
+          "question": "What stress resultant causes a member to curve?",
+          "answer": "Bending moment"
+        },
+        {
+          "id": 17,
+          "type": "identification",
+          "question": "What stress resultant acts perpendicular to a beam's longitudinal axis?",
+          "answer": "Shear force"
+        },
+        {
+          "id": 18,
+          "type": "enumeration",
+          "question": "List the three planar equilibrium equations used for a determinate beam.",
+          "answer": [
+            "ΣFx = 0",
+            "ΣFy = 0",
+            "ΣM = 0"
+          ]
+        },
+        {
+          "id": 19,
+          "type": "enumeration",
+          "question": "List the three main internal force resultants discussed for beams and rigid frames.",
+          "answer": [
+            "Axial force",
+            "Shear force",
+            "Bending moment"
+          ]
+        },
+        {
+          "id": 20,
+          "type": "enumeration",
+          "question": "List the load-transfer sequence from a slab to the ground.",
+          "answer": [
+            "Slab",
+            "Beams",
+            "Girders",
+            "Columns",
+            "Footings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "topic-6",
+      "topicNumber": 4,
+      "title": "Determinacy of Structures",
+      "description": "Reviewer on support reactions, structural stability, static determinacy, degree of indeterminacy, and truss determinacy.",
+      "reviewer": [
+        {
+          "title": "1. Support Reactions",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A support restricts one or more movements of a structure and develops reaction forces or moments. The number and direction of the reactions depend on the support type."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/reactions.png",
+              "alt": "Light cable, link, roller, rocker, and smooth-contact support reactions",
+              "caption": "Support types with one unknown reaction"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Cable or link</strong> - The reaction acts along the cable or link.",
+                "<strong>Roller or rocker</strong> - The reaction acts perpendicular to the contact surface.",
+                "<strong>Smooth contacting surface</strong> - The reaction is normal to the surface."
+              ]
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/reactions2.png",
+              "alt": "Pin, slider, fixed-connected collar, and fixed support reactions",
+              "caption": "Support types with two or three unknown reactions"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Pin or hinge</strong> - Provides two force components, usually Ax and Ay.",
+                "<strong>Slider or fixed-connected collar</strong> - Can provide force components and, when rotation is restrained, a moment.",
+                "<strong>Fixed support</strong> - Provides horizontal force, vertical force, and a reaction moment."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2. Structural Stability",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A structure is <strong>stable</strong> when its supports and members prevent rigid-body motion and maintain a reliable load path. Stability must be checked both externally, through the support arrangement, and internally, through the member arrangement."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/external-stability.png",
+              "alt": "Beam with support arrangement illustrating external stability",
+              "caption": "External stability depends on the support arrangement"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/external-stability2.png",
+              "alt": "Examples of externally stable and unstable support arrangements",
+              "caption": "Examples of external stability and instability"
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/internal-stability.png",
+              "alt": "Examples of internally stable and unstable member arrangements",
+              "caption": "Internal stability depends on the member geometry and connections"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>External instability</strong> occurs when the reactions cannot prevent translation or rotation of the entire structure.",
+                "<strong>Internal instability</strong> occurs when the members can move relative to one another even though the external supports appear adequate.",
+                "A structure can be externally stable but internally unstable, so both checks are necessary."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3. Stable, Determinate, and Indeterminate Structures",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "For a stable planar structure, the basic comparison is between the number of unknown reactions <strong>R</strong> and the number of independent equilibrium equations <strong>3m</strong>, where <strong>m</strong> is the number of rigid bodies or members being considered."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/determinacy-of-structures.png",
+              "alt": "Criteria comparing reactions and equilibrium equations",
+              "caption": "General determinacy criteria for structures"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>R = 3m</strong> - The structure is statically determinate if it is also stable.",
+                "<strong>R > 3m</strong> - The structure is statically indeterminate; extra reactions require additional compatibility or deformation equations.",
+                "<strong>R < 3m</strong> - The structure is unstable or has insufficient constraints."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The degree of static indeterminacy is the number of redundant unknowns beyond the available equilibrium equations. For the general case, <strong>DI = R - 3m</strong>."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/determinacy-of-structures-examples.png",
+              "alt": "Examples of stable, determinate, and indeterminate structures",
+              "caption": "Examples classified by stability and degree of indeterminacy"
+            }
+          ]
+        },
+        {
+          "title": "4. Truss Determinacy",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "For a planar truss, use the number of members <strong>m</strong>, external reactions <strong>R</strong>, and joints <strong>j</strong>. The truss determinacy relationship is <strong>m + R = 2j</strong>."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/determinacy-of-structures-truss.png",
+              "alt": "Truss determinacy criteria and degree of indeterminacy equation",
+              "caption": "Determinacy criteria for planar trusses"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>m + R = 2j</strong> - The truss is statically determinate if it is stable and properly arranged.",
+                "<strong>m + R > 2j</strong> - The truss is statically indeterminate.",
+                "<strong>m + R < 2j</strong> - The truss is unstable.",
+                "For a planar truss, the degree of indeterminacy is <strong>DI = m + R - 2j</strong>."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "The count is only a necessary condition. A truss that satisfies the numerical equation can still be unstable if its members and joints form a mechanism, so geometry and support conditions must also be inspected."
+            },
+            {
+              "type": "image",
+              "src": "assets/topic-6/determinacy-of-structures-examples2.png",
+              "alt": "Examples of determinate, indeterminate, and unstable trusses",
+              "caption": "Truss examples classified using member, reaction, and joint counts"
+            }
+          ]
+        },
+        {
+          "title": "5. A Practical Checking Procedure",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "<strong>Step 1:</strong> Identify the support types and count every independent reaction component.",
+                "<strong>Step 2:</strong> Check external stability by asking whether the reactions prevent translation and rotation.",
+                "<strong>Step 3:</strong> Check internal stability by inspecting member geometry, hinges, and possible mechanisms.",
+                "<strong>Step 4:</strong> Count the rigid bodies or members and compare R with 3m for a general planar structure.",
+                "<strong>Step 5:</strong> For a planar truss, count members, reactions, and joints and compare m + R with 2j.",
+                "<strong>Step 6:</strong> Compute the degree of indeterminacy only after confirming that the structure is stable."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A numerical count identifies the likely classification, but it does not replace a stability check. Always confirm that the structure has a continuous and geometrically stable load path."
+            }
+          ]
+        }
+      ],
+      "quizzes": []
+    }
+  ],
+  "reviewer": [
+    {
+      "title": "1. What Is a Truss?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>truss</strong> is made of slender members connected at their ends by pins. Ideally, members carry only <strong>axial forces</strong> and each member is either in <strong>tension</strong> or <strong>compression</strong>."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Tension</strong>  -  The member is being pulled.",
+            "<strong>Compression</strong>  -  The member is being pushed.",
+            "<strong>Pin support</strong>  -  Usually provides horizontal and vertical reactions, Ax and Ay.",
+            "<strong>Roller support</strong>  -  Usually provides one vertical reaction, By."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For the whole truss: <strong>ΣFx = 0</strong>, <strong>ΣFy = 0</strong>, and <strong>ΣM = 0</strong>."
+        }
+      ]
+    },
+    {
+      "title": "2. Zero-Force Members",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Zero-force members carry no axial load for the given loading condition. They can be identified by inspecting an unloaded joint."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member.png",
+          "alt": "Truss showing zero-force members",
+          "caption": "Zero-force members marked with red X symbols"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member-2.png",
+          "alt": "Second truss zero-force member example",
+          "caption": "Zero-force member identification at unloaded joints"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member3.png",
+          "alt": "Large truss zero-force member example",
+          "caption": "Zero-force members in a loaded truss"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member4.png",
+          "alt": "Supported truss zero-force member example",
+          "caption": "Zero-force member locations in a multi-panel truss"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Rule 1:</strong> If a joint has only two non-collinear members and no load or support reaction, both members are zero-force members.",
+            "<strong>Rule 2:</strong> If a joint has three members, two collinear and one non-collinear, with no external load at the joint, the non-collinear member is a zero-force member."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Method of Joints",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The <strong>method of joints</strong> analyzes one joint at a time. At every joint, use <strong>ΣFx = 0</strong> and <strong>ΣFy = 0</strong>."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Determine the support reactions.",
+            "Identify zero-force members.",
+            "Start at a joint with no more than two unknown member forces.",
+            "Assume all unknown members are in tension.",
+            "Resolve diagonal forces into horizontal and vertical components.",
+            "Solve using ΣFx = 0 and ΣFy = 0.",
+            "A positive answer indicates tension; a negative answer indicates compression."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-joints.png",
+          "alt": "Method of joints worked example",
+          "caption": "Method of joints example with a 500 N load"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the illustrated 45-degree example, the diagonal member is <strong>707.1 N compression</strong>, the vertical member is <strong>500 N tension</strong>, and the horizontal member is <strong>500 N tension</strong>."
+        }
+      ]
+    },
+    {
+      "title": "4. Trigonometric Components",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a diagonal member at angle θ, resolve its force into components: <strong>Fx = F cos θ</strong> and <strong>Fy = F sin θ</strong>."
+        },
+        {
+          "type": "list",
+          "items": [
+            "sin θ = opposite ÷ hypotenuse",
+            "cos θ = adjacent ÷ hypotenuse",
+            "For a 3-4-5 triangle: sin θ = 3/5 and cos θ = 4/5."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Always draw the free-body diagram first, then assign the correct signs to the horizontal and vertical components."
+        }
+      ]
+    },
+    {
+      "title": "5. Method of Sections",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The <strong>method of sections</strong> is useful when only a few member forces are required. An imaginary cut is passed through the truss, normally through no more than three unknown members."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section.png",
+          "alt": "Method of sections truss example",
+          "caption": "A section cut through a truss"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section2.png",
+          "alt": "Method of sections example with marked members",
+          "caption": "Members GH, HC, and BC selected for analysis"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section3.png",
+          "alt": "Moment points for method of sections",
+          "caption": "Choosing moment centers to solve selected member forces"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section4.png",
+          "alt": "Another method of sections example",
+          "caption": "Section cut through BF, BC, and FG"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section5.png",
+          "alt": "Moment analysis for method of sections",
+          "caption": "Moment equations used to solve selected members"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pass the cut through the required members.",
+            "Isolate the simpler side of the truss.",
+            "Use ΣM = 0 first when possible.",
+            "Then use ΣFx = 0 and ΣFy = 0.",
+            "Take moments about a point where two unknown cut-member forces intersect to eliminate them."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Method of Joints Seatwork",
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-joints-seatwork.png",
+          "alt": "Method of joints seatwork problem",
+          "caption": "Seatwork problem: determine FG, DG, and CD"
+        },
+        {
+          "type": "paragraph",
+          "text": "For seatwork problems, begin by finding the support reactions for the entire truss. Then select a joint with no more than two unknown member forces and proceed joint by joint."
+        }
+      ]
+    },
+    {
+      "title": "7. Solving Checklist",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Identify all joints, members, supports, and external loads.",
+            "Check dimensions and angles.",
+            "Search for zero-force members.",
+            "Use the entire truss to calculate support reactions.",
+            "For the method of joints, use ΣFx = 0 and ΣFy = 0.",
+            "For the method of sections, use ΣFx = 0, ΣFy = 0, and ΣM = 0.",
+            "Label every final result as tension, compression, or zero-force."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Sign convention:</strong> A positive result means the assumed tension direction is correct. A negative result means the member is in compression."
+        }
+      ]
+    },
+    {
+      "title": "1. What Is a Structure?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>structure</strong> is an assembly of connected members designed to support loads safely and transfer them to the ground. Structural design must provide adequate <strong>strength</strong>, <strong>stability</strong>, and <strong>serviceability</strong>."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Strength</strong> - The structure resists failure or collapse.",
+            "<strong>Stability</strong> - The structure maintains equilibrium under applied loads.",
+            "<strong>Serviceability</strong> - Deflection, vibration, and cracking remain within acceptable limits.",
+            "<strong>Durability</strong> - Materials and connections perform for the intended service life."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Types of Structures",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Structures may be classified by their form, material, or the way their members carry forces."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Frame structures</strong> use beams, columns, and connections to resist gravity and lateral loads.",
+            "<strong>Trusses</strong> use straight members connected at joints; ideal members carry mainly axial tension or compression.",
+            "<strong>Arches</strong> carry loads primarily through compression along a curved form.",
+            "<strong>Cables and membranes</strong> carry tension and are shaped by the applied loading.",
+            "<strong>Shells and plates</strong> distribute loads across thin, curved or flat surfaces.",
+            "<strong>Mass structures</strong> resist loads through their own weight and bulk, as in dams or retaining structures."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Structural Members and Their Actions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Different members are arranged so that each carries the internal action for which it is most suitable."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Slabs</strong> span across spaces and transfer floor or roof loads to beams.",
+            "<strong>Beams</strong> resist bending and shear and transfer loads to girders or columns.",
+            "<strong>Girders</strong> are primary beams that collect loads from smaller beams.",
+            "<strong>Columns</strong> carry mainly axial compression and transfer loads toward the foundation.",
+            "<strong>Foundations</strong> spread structural loads into the supporting soil or rock.",
+            "<strong>Braces and shear walls</strong> resist lateral forces and help maintain stability."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Structural Load Transfer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In a typical building, gravity loads follow a continuous path from the occupied spaces to the ground. The load-transfer sequence is <strong>slab -> beams -> girders -> columns -> footings -> soil</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-4/Load-transfer.png",
+          "alt": "Building load transfer from slab to footings",
+          "caption": "Typical gravity-load path through a building"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Every connection in the load path must be strong and properly detailed.",
+            "The supporting member must be checked for the accumulated load it receives.",
+            "Foundations distribute reactions so that soil pressure remains safe and acceptable."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Dead Loads",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Dead load</strong> is the permanent load caused by the self-weight of structural and permanently attached nonstructural components."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beams, slabs, columns, walls, stairs, and foundations",
+            "Roofing, floor finishes, ceilings, partitions, and fixed equipment",
+            "The self-weight of a member should be included when calculating its design load"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dead loads are usually calculated from the material density multiplied by the member volume, or from a published unit weight multiplied by the area or length supported."
+        }
+      ]
+    },
+    {
+      "title": "6. Live and Environmental Loads",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Live loads</strong> are movable or changing loads produced by occupants, furniture, stored materials, vehicles, and similar use. Environmental loads come from natural conditions and site effects."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Live load</strong> - Occupants, furniture, movable partitions, storage, and vehicles.",
+            "<strong>Wind load</strong> - Pressure or suction caused by wind acting on exposed surfaces.",
+            "<strong>Earthquake load</strong> - Inertial forces generated by ground motion.",
+            "<strong>Snow or rain load</strong> - Accumulation on roofs where applicable.",
+            "<strong>Temperature load</strong> - Expansion or contraction caused by temperature change.",
+            "<strong>Soil and fluid loads</strong> - Lateral pressure, buoyancy, and hydrostatic effects."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Load Effects and Equilibrium",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Applied loads create internal forces and deformations. Structural analysis determines the reactions, shear forces, bending moments, axial forces, and torsion required for design."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Axial force</strong> acts along the member length and may produce tension or compression.",
+            "<strong>Shear force</strong> acts transverse to the member and tends to slide one part past another.",
+            "<strong>Bending moment</strong> causes curvature and bending stress.",
+            "<strong>Torsion</strong> twists a member about its longitudinal axis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For a structure in static equilibrium, use the conditions <strong>sum of horizontal forces = 0</strong>, <strong>sum of vertical forces = 0</strong>, and <strong>sum of moments = 0</strong>."
+        }
+      ]
+    },
+    {
+      "title": "8. NSCP 2015 Load Combinations",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Design load combinations account for the possibility that different loads act together. The National Structural Code of the Philippines (NSCP) 2015 provides separate combinations for <strong>strength design using LRFD</strong> and for <strong>allowable stress design using ASD</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-4/LRFD-load-combination.png",
+          "alt": "NSCP 2015 LRFD and ASD load combinations",
+          "caption": "NSCP 2015 load-combination reference"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>D</strong> = dead load",
+            "<strong>L</strong> = live load",
+            "<strong>W</strong> = wind load",
+            "<strong>E</strong> = earthquake load",
+            "<strong>LRFD</strong> applies load factors to produce factored design effects.",
+            "<strong>ASD</strong> compares service-level effects with allowable strengths."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "9. Basic Design Checklist",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Identify the structural system and its supports.",
+            "Trace the complete load path from each load to the foundation.",
+            "Classify all applicable dead, live, wind, earthquake, soil, fluid, and temperature loads.",
+            "Calculate support reactions and member force effects.",
+            "Apply the governing NSCP 2015 LRFD or ASD load combinations.",
+            "Check strength, stability, serviceability, and foundation bearing conditions.",
+            "Confirm that connections and load-transfer details are continuous and adequate."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A safe design is not based on one member alone: every member, connection, support, and foundation in the load path must work together."
+        }
+      ]
+    },
+    {
+      "title": "1. Load Transmission in a Building",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Gravity loads travel through a continuous structural path. The typical sequence is <strong>slab -> beams -> girders -> columns -> footings -> soil</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Load-transmission.png",
+          "alt": "Structural load transmission from slab to foundation",
+          "caption": "Typical load path in a single-storey building"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Slabs</strong> receive floor or roof surface loads.",
+            "<strong>Beams</strong> collect slab loads and transfer them to girders.",
+            "<strong>Girders</strong> support beams and transfer their reactions to columns.",
+            "<strong>Columns</strong> carry the accumulated loads downward.",
+            "<strong>Footings</strong> spread column loads into the supporting ground."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Slabs: One-Way and Two-Way Action",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>one-way slab</strong> is designed to span primarily in one direction. A <strong>two-way slab</strong> spans and distributes load in both directions."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/slabs.png",
+          "alt": "Comparison of one-way and two-way slab load paths",
+          "caption": "One-way and two-way slab action"
+        },
+        {
+          "type": "paragraph",
+          "text": "Let <strong>S</strong> be the shorter span and <strong>L</strong> be the longer span. A common classification rule is <strong>S/L <= 0.5</strong> for one-way action and <strong>S/L > 0.5</strong> for two-way action."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/slabs2.png",
+          "alt": "Plan showing one-way and two-way slab panels",
+          "caption": "Slab classification using the shorter-to-longer span ratio"
+        }
+      ]
+    },
+    {
+      "title": "3. Tributary Loadings",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tributary loading determines how a surface load from a wall, floor, or roof is assigned to the structural members supporting it. The tributary area of a member is the portion of the surface whose load is carried by that member."
+        },
+        {
+          "type": "list",
+          "items": [
+            "For an interior member, the tributary width is commonly half the spacing to the adjacent member on each side.",
+            "For an exterior member, the tributary area extends from the edge to the midpoint toward the adjacent member.",
+            "A surface load in kPa multiplied by tributary width in m produces a line load in kN/m.",
+            "Tributary areas can be traced for beams, girders, and columns."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings.png",
+          "alt": "Structural grid used to identify tributary areas",
+          "caption": "Beam, girder, and column locations on a structural grid"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings2.png",
+          "alt": "Tributary areas of beams",
+          "caption": "Typical tributary areas for exterior and interior beams"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings3.png",
+          "alt": "Tributary areas of girders",
+          "caption": "Typical tributary areas for girders"
+        }
+      ]
+    },
+    {
+      "title": "4. Tributary Loading Example",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a floor carrying a uniformly distributed surface load, first determine the tributary area of each member. Multiply the surface load by the tributary area to obtain the total load delivered to that member, then use equilibrium to determine its reactions."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/Tributary-loadings-example.png",
+          "alt": "Example of a floor slab supported by floor beams and a girder",
+          "caption": "Floor slab load transferred through floor beams to a girder"
+        }
+      ]
+    },
+    {
+      "title": "5. Internal Forces of a Member",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Internal forces are the stress resultants that develop inside a member when external loads act on it. They are found by making a section cut and applying equilibrium to one part of the member."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Axial force N</strong> acts along the member's longitudinal axis.",
+            "<strong>Shear force V</strong> acts perpendicular to the member's axis.",
+            "<strong>Bending moment M</strong> causes the member to curve.",
+            "Ideal truss members are subjected only to axial forces, while beams and rigid-frame members may carry axial force, shear, and bending moment."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/internal-forces.png",
+          "alt": "Internal axial, shear, and bending forces in a beam",
+          "caption": "Internal force resultants exposed by a section cut"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/internal-forces2.png",
+          "alt": "Internal forces in a frame member",
+          "caption": "Internal forces in a rigid frame"
+        }
+      ]
+    },
+    {
+      "title": "6. Sign Conventions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Use one consistent sign convention when calculating internal forces. In the convention shown in the lecture, positive axial force is tension and positive bending moment produces a sagging or smiling shape."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Axial force:</strong> (+) tension; (-) compression.",
+            "<strong>Shear force:</strong> (+) left side up and right side down; (-) left side down and right side up.",
+            "<strong>Bending moment:</strong> (+) sagging or smile; (-) hogging or sad shape."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/sign-convention.png",
+          "alt": "Sign convention diagrams for axial force, shear force, and bending moment",
+          "caption": "Positive and negative internal-force conventions"
+        }
+      ]
+    },
+    {
+      "title": "7. Shear and Moment Diagrams",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Shear and moment diagrams graphically show how internal forces vary along a beam. They help identify critical regions so that member size, material, and reinforcement can be selected appropriately."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A point load causes a sudden jump in the shear diagram.",
+            "A distributed load causes the shear diagram to vary continuously.",
+            "The slope of the moment diagram is related to the shear force.",
+            "The maximum or minimum bending moment occurs where shear is zero or changes sign.",
+            "At a simple support with no applied couple, the beam-end moment is usually zero."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/shear-and-moment2.png",
+          "alt": "Example shear and moment diagrams for a beam",
+          "caption": "Shear and moment diagrams under concentrated loads"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/shear-and-moment.png",
+          "alt": "Beam loading examples for shear and moment analysis",
+          "caption": "Beam loading cases used for internal-force analysis"
+        }
+      ]
+    },
+    {
+      "title": "8. Determinate Beam Reactions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A statically determinate beam can be solved using the three planar equilibrium equations: <strong>ΣFx = 0</strong>, <strong>ΣFy = 0</strong>, and <strong>ΣM = 0</strong>. Replace distributed loads with equivalent resultant forces acting at their centroids before solving reactions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A pin support can provide horizontal and vertical reactions.",
+            "A roller support generally provides one reaction normal to the supporting surface.",
+            "The resultant of a uniform distributed load acts at the midpoint of its loaded length.",
+            "The resultant of a triangular distributed load acts one-third of the base length from the larger-intensity end, or two-thirds from the zero-intensity end.",
+            "After solving reactions, check force and moment equilibrium."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-5/internal-forces3.png",
+          "alt": "Free-body diagrams for beam internal force analysis",
+          "caption": "Free-body diagrams for sections of a loaded beam"
+        }
+      ]
+    },
+    {
+      "title": "9. Seatwork Practice",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Practice determining the internal shear and moment at a point 1.5 ft to the left of point C. Also determine the internal shear and moment at a point 2 m to the left of the roller support. Begin by finding the support reactions, then isolate the portion of the beam containing the section."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Draw the complete free-body diagram.",
+            "Replace distributed loads with equivalent resultants.",
+            "Solve the support reactions using equilibrium.",
+            "Cut the beam at the requested point.",
+            "Apply the selected sign convention to solve V and M."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "1. Support Reactions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A support restricts one or more movements of a structure and develops reaction forces or moments. The number and direction of the reactions depend on the support type."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/reactions.png",
+          "alt": "Light cable, link, roller, rocker, and smooth-contact support reactions",
+          "caption": "Support types with one unknown reaction"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Cable or link</strong> - The reaction acts along the cable or link.",
+            "<strong>Roller or rocker</strong> - The reaction acts perpendicular to the contact surface.",
+            "<strong>Smooth contacting surface</strong> - The reaction is normal to the surface."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/reactions2.png",
+          "alt": "Pin, slider, fixed-connected collar, and fixed support reactions",
+          "caption": "Support types with two or three unknown reactions"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Pin or hinge</strong> - Provides two force components, usually Ax and Ay.",
+            "<strong>Slider or fixed-connected collar</strong> - Can provide force components and, when rotation is restrained, a moment.",
+            "<strong>Fixed support</strong> - Provides horizontal force, vertical force, and a reaction moment."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Structural Stability",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A structure is <strong>stable</strong> when its supports and members prevent rigid-body motion and maintain a reliable load path. Stability must be checked both externally, through the support arrangement, and internally, through the member arrangement."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/external-stability.png",
+          "alt": "Beam with support arrangement illustrating external stability",
+          "caption": "External stability depends on the support arrangement"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/external-stability2.png",
+          "alt": "Examples of externally stable and unstable support arrangements",
+          "caption": "Examples of external stability and instability"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/internal-stability.png",
+          "alt": "Examples of internally stable and unstable member arrangements",
+          "caption": "Internal stability depends on the member geometry and connections"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>External instability</strong> occurs when the reactions cannot prevent translation or rotation of the entire structure.",
+            "<strong>Internal instability</strong> occurs when the members can move relative to one another even though the external supports appear adequate.",
+            "A structure can be externally stable but internally unstable, so both checks are necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Stable, Determinate, and Indeterminate Structures",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a stable planar structure, the basic comparison is between the number of unknown reactions <strong>R</strong> and the number of independent equilibrium equations <strong>3m</strong>, where <strong>m</strong> is the number of rigid bodies or members being considered."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures.png",
+          "alt": "Criteria comparing reactions and equilibrium equations",
+          "caption": "General determinacy criteria for structures"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>R = 3m</strong> - The structure is statically determinate if it is also stable.",
+            "<strong>R > 3m</strong> - The structure is statically indeterminate; extra reactions require additional compatibility or deformation equations.",
+            "<strong>R < 3m</strong> - The structure is unstable or has insufficient constraints."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The degree of static indeterminacy is the number of redundant unknowns beyond the available equilibrium equations. For the general case, <strong>DI = R - 3m</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures-examples.png",
+          "alt": "Examples of stable, determinate, and indeterminate structures",
+          "caption": "Examples classified by stability and degree of indeterminacy"
+        }
+      ]
+    },
+    {
+      "title": "4. Truss Determinacy",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a planar truss, use the number of members <strong>m</strong>, external reactions <strong>R</strong>, and joints <strong>j</strong>. The truss determinacy relationship is <strong>m + R = 2j</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures-truss.png",
+          "alt": "Truss determinacy criteria and degree of indeterminacy equation",
+          "caption": "Determinacy criteria for planar trusses"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>m + R = 2j</strong> - The truss is statically determinate if it is stable and properly arranged.",
+            "<strong>m + R > 2j</strong> - The truss is statically indeterminate.",
+            "<strong>m + R < 2j</strong> - The truss is unstable.",
+            "For a planar truss, the degree of indeterminacy is <strong>DI = m + R - 2j</strong>."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The count is only a necessary condition. A truss that satisfies the numerical equation can still be unstable if its members and joints form a mechanism, so geometry and support conditions must also be inspected."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-6/determinacy-of-structures-examples2.png",
+          "alt": "Examples of determinate, indeterminate, and unstable trusses",
+          "caption": "Truss examples classified using member, reaction, and joint counts"
+        }
+      ]
+    },
+    {
+      "title": "5. A Practical Checking Procedure",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "<strong>Step 1:</strong> Identify the support types and count every independent reaction component.",
+            "<strong>Step 2:</strong> Check external stability by asking whether the reactions prevent translation and rotation.",
+            "<strong>Step 3:</strong> Check internal stability by inspecting member geometry, hinges, and possible mechanisms.",
+            "<strong>Step 4:</strong> Count the rigid bodies or members and compare R with 3m for a general planar structure.",
+            "<strong>Step 5:</strong> For a planar truss, count members, reactions, and joints and compare m + R with 2j.",
+            "<strong>Step 6:</strong> Compute the degree of indeterminacy only after confirming that the structure is stable."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A numerical count identifies the likely classification, but it does not replace a stability check. Always confirm that the structure has a continuous and geometrically stable load path."
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "What is the usual gravity-load path in a building?",
+      "options": [
+        "Slab -> columns -> beams -> footings",
+        "Slab -> beams -> girders -> columns -> footings",
+        "Footings -> columns -> girders -> beams",
+        "Beams -> slab -> girders -> soil"
+      ],
+      "answer": "Slab -> beams -> girders -> columns -> footings"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Which member primarily collects loads from smaller beams?",
+      "options": [
+        "Slab",
+        "Girder",
+        "Footing",
+        "Brace"
+      ],
+      "answer": "Girder"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "Using the lecture rule, which condition indicates one-way slab action?",
+      "options": [
+        "S/L <= 0.5",
+        "S/L > 0.5",
+        "S/L = 1.5",
+        "S/L is not used"
+      ],
+      "answer": "S/L <= 0.5"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What does S represent in the slab-span ratio S/L?",
+      "options": [
+        "Support reaction",
+        "Shorter span",
+        "Shear force",
+        "Surface load"
+      ],
+      "answer": "Shorter span"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "What unit results when a surface load in kPa is multiplied by tributary width in m?",
+      "options": [
+        "kN",
+        "kN/m",
+        "kN/m2",
+        "m/kN"
+      ],
+      "answer": "kN/m"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Which internal force acts along a member's longitudinal axis?",
+      "options": [
+        "Axial force",
+        "Shear force",
+        "Bending moment",
+        "Tributary force"
+      ],
+      "answer": "Axial force"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Under the stated sign convention, positive axial force means:",
+      "options": [
+        "Compression",
+        "Tension",
+        "Shear",
+        "Bending"
+      ],
+      "answer": "Tension"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "A positive bending moment is represented by what shape?",
+      "options": [
+        "Sad or hogging",
+        "Smile or sagging",
+        "Straight line",
+        "Twisting shape"
+      ],
+      "answer": "Smile or sagging"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "Where is a maximum or minimum bending moment commonly located?",
+      "options": [
+        "Where shear is zero or changes sign",
+        "Where the beam is longest",
+        "At every column",
+        "Only at the left support"
+      ],
+      "answer": "Where shear is zero or changes sign"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "Which equations are used to solve planar beam support reactions?",
+      "options": [
+        "ΣFx = 0, ΣFy = 0, and ΣM = 0",
+        "S/L = 0.5 only",
+        "V = 0 only",
+        "M = WL only"
+      ],
+      "answer": "ΣFx = 0, ΣFy = 0, and ΣM = 0"
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "Ideal truss members are subjected only to axial forces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "A two-way slab is designed to span in one direction only.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "The resultant of a uniform distributed load acts at the midpoint of its loaded length.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "The maximum bending moment is always located at the beam's left support.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 15,
+      "type": "identification",
+      "question": "What is the portion of a surface whose load is carried by a particular structural member called?",
+      "answer": "Tributary area"
+    },
+    {
+      "id": 16,
+      "type": "identification",
+      "question": "What stress resultant causes a member to curve?",
+      "answer": "Bending moment"
+    },
+    {
+      "id": 17,
+      "type": "identification",
+      "question": "What stress resultant acts perpendicular to a beam's longitudinal axis?",
+      "answer": "Shear force"
+    },
+    {
+      "id": 18,
+      "type": "enumeration",
+      "question": "List the three planar equilibrium equations used for a determinate beam.",
+      "answer": [
+        "ΣFx = 0",
+        "ΣFy = 0",
+        "ΣM = 0"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "enumeration",
+      "question": "List the three main internal force resultants discussed for beams and rigid frames.",
+      "answer": [
+        "Axial force",
+        "Shear force",
+        "Bending moment"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "enumeration",
+      "question": "List the load-transfer sequence from a slab to the ground.",
+      "answer": [
+        "Slab",
+        "Beams",
+        "Girders",
+        "Columns",
+        "Footings"
+      ]
+    }
+  ]
+}

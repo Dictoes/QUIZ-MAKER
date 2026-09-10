@@ -1,0 +1,11 @@
+{
+  "name": "quiz-maker",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Local study reviewer with PDF-to-reviewer importing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

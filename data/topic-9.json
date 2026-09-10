@@ -1,0 +1,401 @@
+{
+  "id": "topic-9",
+  "title": "Architectural Plans",
+  "description": "Components of architectural plans including perspective drawings, lot or site development plans, location or vicinity maps, floor plans, doors, windows, jamb parts, identification marks, wall thickness, scales, and required floor-plan information.",
+  "reviewer": [
+    {
+      "title": "Components of Architectural Plans",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Architectural plans communicate the design, dimensions, arrangement, and construction information of a building."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Perspective drawing",
+            "Lot or site development plan",
+            "Location or vicinity map",
+            "Floor plans",
+            "Door and window information",
+            "Dimensions and identification marks"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Perspective Drawing",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A perspective drawing presents a three-dimensional view of a building. It helps communicate how the building may appear when viewed from a particular position."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Shows a three-dimensional representation.",
+            "Helps visualize the exterior appearance.",
+            "Provides a clearer understanding of the proposed design."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lot Plan or Site Development Plan",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A lot plan or site development plan shows the building in relation to the property boundaries and other site features."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Shows property boundaries.",
+            "Shows the proposed building location.",
+            "May indicate setbacks and open spaces.",
+            "Shows the relationship of the building to the site."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Location Plan or Vicinity Map",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A location plan or vicinity map indicates where the property is located in relation to surrounding streets, landmarks, and other areas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Identifies the general location of the property.",
+            "Shows nearby streets or roads.",
+            "May identify important landmarks.",
+            "Helps locate the project site."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Floor Plans",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A floor plan is a scaled drawing showing the arrangement of spaces within a building. It commonly indicates walls, doors, windows, rooms, dimensions, and other architectural information."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Room names",
+            "Room dimensions",
+            "Wall locations",
+            "Door locations",
+            "Window locations",
+            "Overall dimensions",
+            "Scale"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Door Dimensions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Doors are represented in architectural plans using symbols and dimensions. Door information helps identify the size and location of openings."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Door width",
+            "Door height",
+            "Door location",
+            "Door swing"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Window Dimensions and Jamb",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Windows are identified by their dimensions and marks. The jamb is part of the frame surrounding an opening and is important in describing door and window construction."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Window width",
+            "Window height",
+            "Window identification mark",
+            "Jamb information"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Door Jamb, Identification Marks, and Wall Thickness",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Architectural drawings use identification marks and dimensions to communicate construction information clearly. Wall thickness must also be represented accurately in floor plans."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Door and window identification marks help distinguish different types.",
+            "Wall thickness must be represented in the plan.",
+            "Dimensions should be clear and readable.",
+            "A consistent scale should be used."
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Which drawing provides a three-dimensional view of a building?",
+      "options": [
+        "Perspective drawing",
+        "Floor plan",
+        "Location plan",
+        "Lot line diagram"
+      ],
+      "answer": "Perspective drawing"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "What plan shows the building in relation to the property boundaries?",
+      "options": [
+        "Lot or site development plan",
+        "Perspective drawing",
+        "Floor finish plan",
+        "Reflected ceiling plan"
+      ],
+      "answer": "Lot or site development plan"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "What drawing helps identify the general location of a property?",
+      "options": [
+        "Vicinity map",
+        "Floor plan",
+        "Perspective drawing",
+        "Door schedule"
+      ],
+      "answer": "Vicinity map"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What drawing shows the arrangement of spaces within a building?",
+      "options": [
+        "Floor plan",
+        "Vicinity map",
+        "Perspective drawing",
+        "Location plan"
+      ],
+      "answer": "Floor plan"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "Which information is commonly shown on a floor plan?",
+      "options": [
+        "Room dimensions",
+        "Property tax history",
+        "Construction worker names",
+        "Weather forecast"
+      ],
+      "answer": "Room dimensions"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "Which element indicates the direction in which a door opens?",
+      "options": [
+        "Door swing",
+        "Wall thickness",
+        "Lot line",
+        "Vicinity mark"
+      ],
+      "answer": "Door swing"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "What is a jamb associated with?",
+      "options": [
+        "Door or window openings",
+        "Roof drainage only",
+        "Property taxes",
+        "Landscaping"
+      ],
+      "answer": "Door or window openings"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "Why are identification marks used in architectural plans?",
+      "options": [
+        "To distinguish different types of doors and windows",
+        "To calculate rainfall",
+        "To identify construction workers",
+        "To replace dimensions"
+      ],
+      "answer": "To distinguish different types of doors and windows"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "What must be accurately represented in a floor plan?",
+      "options": [
+        "Wall thickness",
+        "Weather conditions",
+        "Building owner's schedule",
+        "Material prices"
+      ],
+      "answer": "Wall thickness"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "What helps relate the drawing dimensions to actual dimensions?",
+      "options": [
+        "Scale",
+        "Color",
+        "Perspective",
+        "Caption"
+      ],
+      "answer": "Scale"
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "A perspective drawing provides a three-dimensional representation of a building.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "A vicinity map helps identify the general location of a property.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "A floor plan does not show the arrangement of rooms.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "Door swing can be represented in a floor plan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Wall thickness is irrelevant when preparing an architectural floor plan.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 16,
+      "type": "identification",
+      "question": "What drawing presents a three-dimensional view of a building?",
+      "answer": "Perspective drawing"
+    },
+    {
+      "id": 17,
+      "type": "identification",
+      "question": "What plan shows the proposed building in relation to the property boundaries?",
+      "answer": "Lot or site development plan"
+    },
+    {
+      "id": 18,
+      "type": "identification",
+      "question": "What drawing shows the general location of the property?",
+      "answer": "Location plan or vicinity map"
+    },
+    {
+      "id": 19,
+      "type": "identification",
+      "question": "What drawing shows the arrangement of rooms and spaces?",
+      "answer": "Floor plan"
+    },
+    {
+      "id": 20,
+      "type": "identification",
+      "question": "What part of a door or window opening forms part of its frame?",
+      "answer": "Jamb"
+    },
+    {
+      "id": 21,
+      "type": "enumeration",
+      "question": "Enumerate four common components of an architectural plan.",
+      "answer": [
+        "Perspective drawing",
+        "Lot or site development plan",
+        "Location or vicinity map",
+        "Floor plan"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "enumeration",
+      "question": "Enumerate four pieces of information commonly shown on a floor plan.",
+      "answer": [
+        "Room names",
+        "Room dimensions",
+        "Door locations",
+        "Window locations"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "enumeration",
+      "question": "Enumerate four types of information associated with doors.",
+      "answer": [
+        "Door width",
+        "Door height",
+        "Door location",
+        "Door swing"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "enumeration",
+      "question": "Enumerate four important items considered when representing openings in architectural plans.",
+      "answer": [
+        "Door dimensions",
+        "Window dimensions",
+        "Identification marks",
+        "Jamb information"
+      ]
+    }
+  ]
+}

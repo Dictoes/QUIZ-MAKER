@@ -1,0 +1,272 @@
+{
+  "id": "ce333",
+  "title": "CE333 : UTILITIES 1",
+  "description": "LECTURE 1 reviewer on basic electrical terms, Ohm's Law, energy calculation, and cost of operation.",
+  "reviewer": [
+    {
+      "title": "1. Electric Charge, Free Electrons, and Coulomb",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Electric charge</strong> is carried by the electrons and proton within an atom. Electrons carry negative charge, while protons carry positive charge. <strong>Free electrons</strong> are electrons which are not attached to a specific atom and are free to move; they are sometimes called conduction electrons."
+        },
+        {
+          "type": "list",
+          "items": [
+            "The SI unit of electric charge is the <strong>Coulomb (C)</strong>.",
+            "One electron or proton has a charge of <strong>1.6 x 10<sup>-19</sup> C</strong>.",
+            "Copper is used as a universal reference conductor.",
+            "1 cubic meter of copper has <strong>8.5 x 10<sup>28</sup> free electrons</strong>."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 150\" role=\"img\" aria-label=\"Original atom charge diagram\"><circle cx=\"120\" cy=\"75\" r=\"42\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"75\" r=\"9\" fill=\"var(--accent)\"/><circle cx=\"120\" cy=\"27\" r=\"8\" fill=\"var(--accent)\"/><circle cx=\"120\" cy=\"123\" r=\"8\" fill=\"var(--accent)\"/><circle cx=\"72\" cy=\"75\" r=\"8\" fill=\"var(--accent)\"/><text x=\"108\" y=\"80\" fill=\"currentColor\" font-size=\"14\">p+</text><text x=\"108\" y=\"32\" fill=\"currentColor\" font-size=\"14\">e-</text><text x=\"108\" y=\"128\" fill=\"currentColor\" font-size=\"14\">e-</text><text x=\"60\" y=\"80\" fill=\"currentColor\" font-size=\"14\">e-</text><text x=\"205\" y=\"52\" fill=\"currentColor\" font-size=\"16\">electron: negative</text><text x=\"205\" y=\"82\" fill=\"currentColor\" font-size=\"16\">proton: positive</text><text x=\"205\" y=\"112\" fill=\"currentColor\" font-size=\"16\">free electrons move through a conductor</text></svg>"
+        },
+        {
+          "type": "formula",
+          "title": "Number of free electrons",
+          "expression": "N = volume x 8.5 x 10^28;   volume = pi(d/2)^2L",
+          "where": ["N = number of free electrons", "d = conductor diameter", "L = conductor length"],
+          "example": "For copper with d = 0.0016 m and L = 10 m, N = 1.71 x 10^24 electrons.",
+          "practice": "A copper bus bar contains 4.18 x 10^24 electrons and has a cross section of 0.5 inch by 0.6 inch. Find its length."
+        }
+      ]
+    },
+    {
+      "title": "2. Electric Current",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Electric current</strong> is the rate of electron movement or electron flow in a given material. The SI unit of current is Coulomb per second, commonly called <strong>Ampere (A)</strong>."
+        },
+        {
+          "type": "formula",
+          "title": "Electric current",
+          "expression": "I = Q/t;   Q = It;   t = Q/I",
+          "where": ["I = current in amperes (A)", "Q = total charge in coulombs (C)", "t = time in seconds (s)"],
+          "example": "If I = 2 A for t = 30 s, Q = It = (2)(30) = 60 C.",
+          "practice": "A current of 4 A flows in a wire. Determine the electron flow per second."
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 125\" role=\"img\" aria-label=\"Original current flow diagram\"><line x1=\"55\" y1=\"62\" x2=\"585\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"4\"/><path d=\"M150 48l25 14-25 14zM300 48l25 14-25 14zM450 48l25 14-25 14z\" fill=\"var(--accent)\"/><text x=\"58\" y=\"28\" fill=\"currentColor\" font-size=\"17\">charge flow Q</text><text x=\"235\" y=\"105\" fill=\"currentColor\" font-size=\"17\">I = Q / t</text></svg>"
+        }
+      ]
+    },
+    {
+      "title": "3. Electromotive Force / Voltage",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Electromotive force (emf or voltage)</strong> is the energy provided by a cell, battery, or generator per coulomb of charge passing through it. Its SI unit is Joule per Coulomb, commonly called <strong>Volt (V)</strong>."
+        },
+        {
+          "type": "formula",
+          "title": "Voltage",
+          "expression": "V = W/Q;   W = VQ;   Q = W/V",
+          "where": ["V = voltage in volts (V)", "W = energy in joules (J)", "Q = charge in coulombs (C)"],
+          "example": "A 100 V battery does 500 J of work. Q = W/V = 500/100 = 5 C.",
+          "practice": "Moving 8.5 x 10^18 electrons uses 136 J. Determine the voltage."
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 145\" role=\"img\" aria-label=\"Original voltage energy per charge diagram\"><rect x=\"55\" y=\"42\" width=\"105\" height=\"60\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"160\" y1=\"62\" x2=\"245\" y2=\"62\" stroke=\"currentColor\" stroke-width=\"3\"/><line x1=\"160\" y1=\"82\" x2=\"245\" y2=\"82\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M220 52l25 20-25 20\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"3\"/><text x=\"78\" y=\"78\" fill=\"currentColor\" font-size=\"17\">battery</text><text x=\"290\" y=\"67\" fill=\"currentColor\" font-size=\"18\">W joules</text><text x=\"290\" y=\"98\" fill=\"currentColor\" font-size=\"18\">Q coulombs</text><text x=\"500\" y=\"80\" fill=\"var(--accent)\" font-size=\"20\">V = W/Q</text></svg>"
+        }
+      ]
+    },
+    {
+      "title": "4. Resistance and Resistivity",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Electric resistance</strong> is the property of a material to oppose or resist electron flow. The SI unit is the <strong>ohm (Ω)</strong>. Resistance varies directly as length and inversely as cross-sectional area."
+        },
+        {
+          "type": "formula",
+          "title": "Resistance and resistivity",
+          "expression": "R = ρL/A",
+          "where": ["R = resistance in ohms (Ω)", "ρ = resistivity in Ω-m", "L = conductor length in meters (m)", "A = cross-sectional area in m^2"],
+          "purpose": "relating resistance to a conductor's material and dimensions.",
+          "example": "For a 0.315 mm diameter wire with R = 10 Ω and ρ = 4.9 x 10^-7 Ω-m, L = RA/ρ = 1.59 m."
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 150\" role=\"img\" aria-label=\"Original resistance relationship diagram\"><line x1=\"65\" y1=\"75\" x2=\"490\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"18\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"48\" x2=\"65\" y2=\"102\" stroke=\"var(--accent)\" stroke-width=\"3\"/><line x1=\"490\" y1=\"48\" x2=\"490\" y2=\"102\" stroke=\"var(--accent)\" stroke-width=\"3\"/><text x=\"70\" y=\"30\" fill=\"currentColor\" font-size=\"17\">length L</text><text x=\"252\" y=\"125\" fill=\"currentColor\" font-size=\"17\">cross-sectional area A</text><text x=\"515\" y=\"81\" fill=\"var(--accent)\" font-size=\"20\">R = ρL/A</text></svg>"
+        }
+      ]
+    },
+    {
+      "title": "5. Electric Power Efficiency",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Electric power efficiency</strong> is the ratio of output power divided by input power."
+        },
+        {
+          "type": "formula",
+          "title": "Power efficiency",
+          "expression": "% Efficiency = (Pout/Pin) x 100",
+          "where": ["Pout = useful power output in watts (W)", "Pin = power input in watts (W)"],
+          "example": "A buzzer receives 5 J and transfers 2 J into sound. Efficiency = (2/5) x 100 = 40%.",
+          "practice": "A toaster receives 120 J and transfers 50 J into heat. Determine its efficiency."
+        }
+      ]
+    },
+    {
+      "title": "6. Electric Circuit, DC, and AC",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An <strong>electric circuit</strong> is a continuous and closed path of electric current. It consists of electric devices, a source of electricity, wires, and a switch connected together."
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 180\" role=\"img\" aria-label=\"Original closed electric circuit diagram\"><rect x=\"70\" y=\"48\" width=\"90\" height=\"55\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"91\" y=\"81\" fill=\"currentColor\" font-size=\"16\">source</text><line x1=\"160\" y1=\"75\" x2=\"260\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"292\" cy=\"75\" r=\"31\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"280\" y=\"82\" fill=\"var(--accent)\" font-size=\"20\">L</text><line x1=\"323\" y1=\"75\" x2=\"515\" y2=\"75\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M515 75v55H70V103\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M205 75l18 -12M205 75l18 12\" stroke=\"var(--accent)\" stroke-width=\"3\"/><text x=\"252\" y=\"160\" fill=\"currentColor\" font-size=\"16\">closed path with switch, source, wires, and device</text></svg>"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Direct current (DC):</strong> one-directional flow of electric charge, commonly from electrochemical cells or batteries.",
+            "<strong>Alternating current (AC):</strong> electron flow that periodically reverses; it can be produced by alternators."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Ohm's Law",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Ohm's Law</strong> states that the current drawn by an electric load is directly proportional to the voltage across the load and inversely proportional to the electrical resistance."
+        },
+        {
+          "type": "formula",
+          "title": "Ohm's Law",
+          "expression": "I = V/R;   V = IR;   R = V/I",
+          "where": ["I = current in amperes (A)", "V = voltage in volts (V)", "R = resistance in ohms (Ω)"],
+          "example": "An electric iron draws 2.5 A at 230 V. R = V/I = 230/2.5 = 92 Ω.",
+          "practice": "A nichrome heating coil takes 30 A at 120 V. Determine its resistance."
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 190\" role=\"img\" aria-label=\"Original Ohm's Law relationship diagram\"><circle cx=\"320\" cy=\"95\" r=\"52\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"3\"/><text x=\"300\" y=\"103\" fill=\"var(--accent)\" font-size=\"24\">I=V/R</text><line x1=\"320\" y1=\"43\" x2=\"320\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"267\" y1=\"122\" x2=\"175\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"373\" y1=\"122\" x2=\"465\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"270\" y=\"14\" fill=\"currentColor\" font-size=\"18\">Voltage (V)</text><text x=\"64\" y=\"180\" fill=\"currentColor\" font-size=\"18\">Resistance (Ω)</text><text x=\"472\" y=\"180\" fill=\"currentColor\" font-size=\"18\">Current (A)</text></svg>"
+        }
+      ]
+    },
+    {
+      "title": "8. Energy Calculation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Electric energy is a form of energy used to run or operate electrical devices. Its standard unit is the <strong>Joule (J)</strong> or kiloJoule (kJ); common units also include kiloWatt-hour (kWh) and MegaWatt-hour (MWh). Electric power is the rate of consuming electric energy. Its standard unit is the <strong>Watt (W)</strong>; bigger units are kiloWatt (kW) and MegaWatt (MW)."
+        },
+        {
+          "type": "formula",
+          "title": "Electric energy and power",
+          "expression": "W = Pt = VIt;   P = VI",
+          "where": ["W = energy in joules (J)", "P = power in watts (W)", "I = current in amperes (A)", "V = voltage in volts (V)", "t = time in seconds (s)"],
+          "example": "A radio draws 0.9 A at 110 V for 30 h. Energy = 99 W x 30 h = 2.97 kWh.",
+          "practice": "Calculate energy consumption when the power and operating time of an electrical device are given."
+        },
+        {
+          "type": "paragraph",
+          "text": "<svg class=\"ce333-diagram\" viewBox=\"0 0 640 145\" role=\"img\" aria-label=\"Original electric energy relationship diagram\"><rect x=\"65\" y=\"42\" width=\"110\" height=\"55\" rx=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><text x=\"92\" y=\"76\" fill=\"currentColor\" font-size=\"17\">device</text><line x1=\"175\" y1=\"70\" x2=\"280\" y2=\"70\" stroke=\"currentColor\" stroke-width=\"3\"/><path d=\"M255 57l25 13-25 13\" fill=\"none\" stroke=\"var(--accent)\" stroke-width=\"3\"/><text x=\"305\" y=\"50\" fill=\"currentColor\" font-size=\"17\">P = VI</text><text x=\"305\" y=\"82\" fill=\"currentColor\" font-size=\"17\">W = Pt = VIt</text><text x=\"305\" y=\"114\" fill=\"currentColor\" font-size=\"16\">J, kJ, kWh, MWh</text></svg>"
+        }
+      ]
+    },
+    {
+      "title": "9. Cost of Operation of Electrical Equipment / Devices",
+      "content": [
+        {
+          "type": "formula",
+          "title": "Operating cost",
+          "expression": "Cost = energy consumed (kWh) x rate (Php/kWh)",
+          "where": ["Energy consumed = electrical energy used in kWh", "Rate = cost per kWh"],
+          "example": "A radio consumes 2.97 kWh at Php 9.72 per kWh. Cost = 2.97 x 9.72 = Php 28.87.",
+          "practice": "Calculate the daily operating cost for the listed heater, refrigerator, microwave, and air-conditioning loads using the stated VECO rate."
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "What is the SI unit of electric charge?",
+      "options": ["Ampere", "Coulomb", "Volt", "Ohm"],
+      "answer": "Coulomb"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Which formula gives electric current?",
+      "options": ["I = Q/t", "V = W/Q", "R = ρL/A", "P = VI"],
+      "answer": "I = Q/t"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "A 100 V battery does 500 J of work. What charge is delivered?",
+      "options": ["2 C", "5 C", "50 C", "500 C"],
+      "answer": "5 C"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What is the resistance of a 230 V electric iron drawing 2.5 A?",
+      "options": ["4 Ω", "92 Ω", "227.5 Ω", "575 Ω"],
+      "answer": "92 Ω"
+    },
+    {
+      "id": 5,
+      "type": "identification",
+      "question": "What term describes electrons that are not attached to a specific atom and are free to move?",
+      "answer": "Free electrons"
+    },
+    {
+      "id": 6,
+      "type": "identification",
+      "question": "What is the SI unit of electrical power?",
+      "answer": "Watt"
+    },
+    {
+      "id": 7,
+      "type": "identification",
+      "question": "What law states that current is directly proportional to voltage and inversely proportional to resistance?",
+      "answer": "Ohm's Law"
+    },
+    {
+      "id": 8,
+      "type": "identification",
+      "question": "What is the standard unit of electrical energy named in the lecture?",
+      "answer": "Joule"
+    },
+    {
+      "id": 9,
+      "type": "enumeration",
+      "question": "List the three quantities and their units in Ohm's Law.",
+      "answer": ["Current - amperes (A)", "Voltage - volts (V)", "Resistance - ohms (Ω)"]
+    },
+    {
+      "id": 10,
+      "type": "enumeration",
+      "question": "List the components of an electric circuit described in the lecture.",
+      "answer": ["Electric devices", "Source of electricity", "Wires", "Switch"]
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "A radio uses 2.97 kWh and the rate is Php 9.72 per kWh. What is its operating cost?",
+      "options": ["Php 2.97", "Php 9.72", "Php 28.87", "Php 297.00"],
+      "answer": "Php 28.87"
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "question": "Using the stated VECO rate, what is the calculated daily cost for the final practice problem?",
+      "options": ["Php 66.00", "Php 120.55", "Php 828.32", "Php 1,255.00"],
+      "answer": "Php 828.32"
+    }
+  ]
+}

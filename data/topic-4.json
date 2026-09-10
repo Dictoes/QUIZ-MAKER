@@ -1,0 +1,206 @@
+{
+  "id": "topic-4",
+  "title": "Types of Structures and Loads",
+  "description": "Reviewer on structural systems, load classifications, load transfer, and NSCP 2015 load combinations.",
+  "reviewer": [
+    {
+      "title": "1. What Is a Structure?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>structure</strong> is an assembly of connected members designed to support loads safely and transfer them to the ground. Structural design must provide adequate <strong>strength</strong>, <strong>stability</strong>, and <strong>serviceability</strong>."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Strength</strong> - The structure resists failure or collapse.",
+            "<strong>Stability</strong> - The structure maintains equilibrium under applied loads.",
+            "<strong>Serviceability</strong> - Deflection, vibration, and cracking remain within acceptable limits.",
+            "<strong>Durability</strong> - Materials and connections perform for the intended service life."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "2. Types of Structures",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Structures may be classified by their form, material, or the way their members carry forces."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Frame structures</strong> use beams, columns, and connections to resist gravity and lateral loads.",
+            "<strong>Trusses</strong> use straight members connected at joints; ideal members carry mainly axial tension or compression.",
+            "<strong>Arches</strong> carry loads primarily through compression along a curved form.",
+            "<strong>Cables and membranes</strong> carry tension and are shaped by the applied loading.",
+            "<strong>Shells and plates</strong> distribute loads across thin, curved or flat surfaces.",
+            "<strong>Mass structures</strong> resist loads through their own weight and bulk, as in dams or retaining structures."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Structural Members and Their Actions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Different members are arranged so that each carries the internal action for which it is most suitable."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Slabs</strong> span across spaces and transfer floor or roof loads to beams.",
+            "<strong>Beams</strong> resist bending and shear and transfer loads to girders or columns.",
+            "<strong>Girders</strong> are primary beams that collect loads from smaller beams.",
+            "<strong>Columns</strong> carry mainly axial compression and transfer loads toward the foundation.",
+            "<strong>Foundations</strong> spread structural loads into the supporting soil or rock.",
+            "<strong>Braces and shear walls</strong> resist lateral forces and help maintain stability."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Structural Load Transfer",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "In a typical building, gravity loads follow a continuous path from the occupied spaces to the ground. The load-transfer sequence is <strong>slab -> beams -> girders -> columns -> footings -> soil</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-4/Load-transfer.png",
+          "alt": "Building load transfer from slab to footings",
+          "caption": "Typical gravity-load path through a building"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Every connection in the load path must be strong and properly detailed.",
+            "The supporting member must be checked for the accumulated load it receives.",
+            "Foundations distribute reactions so that soil pressure remains safe and acceptable."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Dead Loads",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Dead load</strong> is the permanent load caused by the self-weight of structural and permanently attached nonstructural components."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Beams, slabs, columns, walls, stairs, and foundations",
+            "Roofing, floor finishes, ceilings, partitions, and fixed equipment",
+            "The self-weight of a member should be included when calculating its design load"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dead loads are usually calculated from the material density multiplied by the member volume, or from a published unit weight multiplied by the area or length supported."
+        }
+      ]
+    },
+    {
+      "title": "6. Live and Environmental Loads",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Live loads</strong> are movable or changing loads produced by occupants, furniture, stored materials, vehicles, and similar use. Environmental loads come from natural conditions and site effects."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Live load</strong> - Occupants, furniture, movable partitions, storage, and vehicles.",
+            "<strong>Wind load</strong> - Pressure or suction caused by wind acting on exposed surfaces.",
+            "<strong>Earthquake load</strong> - Inertial forces generated by ground motion.",
+            "<strong>Snow or rain load</strong> - Accumulation on roofs where applicable.",
+            "<strong>Temperature load</strong> - Expansion or contraction caused by temperature change.",
+            "<strong>Soil and fluid loads</strong> - Lateral pressure, buoyancy, and hydrostatic effects."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Load Effects and Equilibrium",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Applied loads create internal forces and deformations. Structural analysis determines the reactions, shear forces, bending moments, axial forces, and torsion required for design."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Axial force</strong> acts along the member length and may produce tension or compression.",
+            "<strong>Shear force</strong> acts transverse to the member and tends to slide one part past another.",
+            "<strong>Bending moment</strong> causes curvature and bending stress.",
+            "<strong>Torsion</strong> twists a member about its longitudinal axis."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For a structure in static equilibrium, use the conditions <strong>sum of horizontal forces = 0</strong>, <strong>sum of vertical forces = 0</strong>, and <strong>sum of moments = 0</strong>."
+        }
+      ]
+    },
+    {
+      "title": "8. NSCP 2015 Load Combinations",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Design load combinations account for the possibility that different loads act together. The National Structural Code of the Philippines (NSCP) 2015 provides separate combinations for <strong>strength design using LRFD</strong> and for <strong>allowable stress design using ASD</strong>."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-4/LRFD-load-combination.png",
+          "alt": "NSCP 2015 LRFD and ASD load combinations",
+          "caption": "NSCP 2015 load-combination reference"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>D</strong> = dead load",
+            "<strong>L</strong> = live load",
+            "<strong>W</strong> = wind load",
+            "<strong>E</strong> = earthquake load",
+            "<strong>LRFD</strong> applies load factors to produce factored design effects.",
+            "<strong>ASD</strong> compares service-level effects with allowable strengths."
+          ]
+        },
+        {
+          "type": "formula",
+          "title": "NSCP 2015 load combinations",
+          "expression": "LRFD: 1.4D | 1.2D + 1.6L + 0.5(Lr or S or R) | 0.9D + 1.0W | 0.9D + 1.0E",
+          "where": ["D = dead load", "L = live load", "Lr = roof live load", "S = snow load", "R = rain load", "W = wind load", "E = earthquake load"],
+          "purpose": "strength design using LRFD and allowable stress design using ASD as specified by the source."
+        }
+      ]
+    },
+    {
+      "title": "9. Basic Design Checklist",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Identify the structural system and its supports.",
+            "Trace the complete load path from each load to the foundation.",
+            "Classify all applicable dead, live, wind, earthquake, soil, fluid, and temperature loads.",
+            "Calculate support reactions and member force effects.",
+            "Apply the governing NSCP 2015 LRFD or ASD load combinations.",
+            "Check strength, stability, serviceability, and foundation bearing conditions.",
+            "Confirm that connections and load-transfer details are continuous and adequate."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A safe design is not based on one member alone: every member, connection, support, and foundation in the load path must work together."
+        }
+      ]
+    }
+  ],
+  "quizzes": []
+}

@@ -1,0 +1,452 @@
+{
+  "id": "ce335",
+  "title": "CE335: Plumbing Engineering",
+  "description": "National Plumbing Code definitions, rules, and standards.",
+  "reviewer": [
+    {
+      "title": "1. Definition & Scope of Plumbing (Sec 217.6 NPC 1999)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "<strong>Plumbing</strong> is defined as the <strong>art and technique</strong> of installing pipes, fixtures, and other apparatuses in buildings for bringing in the <strong>water supply</strong>, liquids, substances, and removing <strong>wastewater</strong> and <strong>water-borne wastes</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Its primary purpose is to protect the <strong>health, sanitation, life, and property</strong> of building occupants by ensuring <strong>safe water distribution</strong> and <strong>effective waste removal</strong>."
+        }
+      ]
+    },
+    {
+      "title": "2. The Plumbing Unit Standards (Sec 217.13 NPC 1999)",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>Plumbing Unit</strong> represents a standard minimum quantity of fixtures specified under Section 217.13, consisting of <strong>13 total fixtures</strong>:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>1 Water Meter</strong>",
+            "<strong>1 Water Closet</strong>",
+            "<strong>1 Lavatory</strong>",
+            "<strong>1 Shower Head and Drain</strong>",
+            "<strong>1 Kitchen Sink</strong>",
+            "<strong>1 Laundry Tray</strong>",
+            "<strong>3 Floor Drains</strong>",
+            "<strong>4 Faucets / Hose Bibbs</strong>"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Classification of Plumbing Components",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Plumbing systems are composed of distinct categories of fixtures and devices:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Plumbing Fixture (Sec 217.10):</strong> Approved installed receptacles or devices supplied with water or receiving liquid-borne wastes. <em>Note: Industrial or commercial tanks, vats, and process equipment are <strong>NOT</strong> classified as plumbing fixtures.</em>",
+            "<strong>Plumbing Appliance (Sec 217.7):</strong> Devices performing special functions dependent on <strong>energized components</strong> such as motors, controls, or heating elements (e.g., <strong>water heaters, dishwashers</strong>).",
+            "<strong>Plumbing Appurtenance (Sec 217.8):</strong> Adjunct devices that serve a <strong>protective or regulatory function</strong> within the system <strong>without demanding additional water supply</strong> or adding discharge load (e.g., <strong>pressure regulators, backflow preventers</strong>)."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Plumber Classifications & Governing Laws",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Personnel levels, licensing, and organizational legal requirements are regulated under <strong>Republic Act 1378</strong> (<strong>The Plumbing Law of the Philippines</strong>):"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Apprentice Plumber:</strong> A beginner serving a required <strong>3 to 5 year</strong> learning period as a helper to a journeyman.",
+            "<strong>Journeyman Plumber:</strong> A skilled individual fully competent to execute plumbing <strong>installations, maintenance, and repairs</strong>.",
+            "<strong>Master Plumber (Sec 214.5):</strong> A technically and legally qualified practitioner who holds a <strong>valid license under RA 1378</strong>, authorized to <strong>design, sign, and oversee</strong> plumbing installations.",
+            "<strong>Plumbing Firm (Sec 217.9):</strong> A legal entity or partnership where the <strong>majority of membership, stock, and executive authority</strong> is held by Registered Master Plumbers.",
+            "<strong>Plumbing Official (Sec 217.11):</strong> The <strong>administrative officer</strong> charged with enforcing the provisions of the National Plumbing Code."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Hydraulic Principles & Pressure Limits",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Specific pressure parameters dictate system requirements to ensure functionality and prevent damage:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Inadequate Pressure:</strong> Supply pressure falling below <strong>103 kPa (15 psi)</strong> is legally inadequate and requires installation of a <strong>hydropneumatic tank</strong> or <strong>elevated tank and booster pump system</strong>.",
+            "<strong>Excessive Pressure:</strong> Supply pressure exceeding <strong>551 kPa (80 psi)</strong> requires the installation of an approved <strong>pressure regulator and strainer</strong> to protect piping and fixtures.",
+            "<strong>Water Hammer:</strong> A <strong>violent pressure wave/surge</strong> produced when moving fluid stops or changes direction abruptly.",
+            "<strong>Air Chamber:</strong> A capped <strong>vertical air space</strong> installed near valves that acts as a <strong>hydraulic shock absorber</strong> to cushion pressure surges."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Backflow Protection & Water Supply Safety",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Contamination prevention standards govern cross-connections and backflow risks:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Cross-Connection (Sec 204.24):</strong> Any physical connection or arrangement between a <strong>potable water system</strong> and an <strong>unpotable or polluted source</strong>.",
+            "<strong>Backflow (Sec 203.1):</strong> The flow of water or other liquids into the distribution pipes of a <strong>potable supply</strong> from unintended sources.",
+            "<strong>Back-Siphonage (Sec 203.5):</strong> The flowing back of contaminated water caused by <strong>negative or sub-atmospheric pressure</strong> in the supply line.",
+            "<strong>Airgap (Sec 202.6):</strong> An <strong>unobstructed vertical distance</strong> through the free atmosphere between the lowest opening of a supply pipe and the flood level rim of the receptacle.",
+            "<strong>Atmospheric Vacuum Breaker (AVB Sec 603.2.2):</strong> A backflow prevention device featuring a <strong>check valve and air inlet valve</strong> that opens to break a vacuum when fluid flow stops."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Mandatory System Testing Procedures",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "System integrity must be proven under specific test pressures held for a minimum of <strong>15 minutes</strong> without leaking:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Water Test (Drainage/Vent):</strong> Filling the piping system in whole or in sections with <strong>water</strong> to inspect for leaks.",
+            "<strong>Air Test (Drainage/Vent):</strong> Subjecting system to a uniform gauge pressure of <strong>34.5 kPa (5 psi)</strong> or <strong>254 mm mercury column</strong>.",
+            "<strong>Water Supply Piping Test:</strong> Proving piping tight under a hydrostatic test pressure equal to the <strong>working pressure plus 50%</strong> (or an air pressure of <strong>344.5 kPa / 50 psi</strong>)."
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "According to Sec 217.13 of NPC 1999, how many total plumbing fixtures make up a standard Plumbing Unit?",
+      "options": [
+        "10",
+        "12",
+        "13",
+        "15"
+      ],
+      "answer": "13"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Whenever the water pressure in the source of supply falls below what value is it considered Inadequate Water Pressure?",
+      "options": [
+        "103 kPa (15 psi)",
+        "344.5 kPa (50 psi)",
+        "551 kPa (80 psi)",
+        "100 kPa (10 psi)"
+      ],
+      "answer": "103 kPa (15 psi)"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "When local water pressure exceeds what threshold must an approved pressure regulator be installed?",
+      "options": [
+        "103 kPa (15 psi)",
+        "344.5 kPa (50 psi)",
+        "551 kPa (80 psi)",
+        "689 kPa (100 psi)"
+      ],
+      "answer": "551 kPa (80 psi)"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "How long usually does an Apprentice Plumber serve as a helper to a journeyman?",
+      "options": [
+        "1 to 2 years",
+        "3 to 5 years",
+        "5 to 7 years",
+        "10 years"
+      ],
+      "answer": "3 to 5 years"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "In an air test for drainage and vent systems, what uniform gauge pressure must be maintained?",
+      "options": [
+        "15 kPa (2 psi)",
+        "34.5 kPa (5 psi)",
+        "103 kPa (15 psi)",
+        "344.5 kPa (50 psi)"
+      ],
+      "answer": "34.5 kPa (5 psi)"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "What minimum duration must all plumbing test media hold pressure without leaking during inspection?",
+      "options": [
+        "5 minutes",
+        "10 minutes",
+        "15 minutes",
+        "30 minutes"
+      ],
+      "answer": "15 minutes"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "How many floor drains are included in a standard Plumbing Unit under Section 217.13?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": "3"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "How many faucets or hose bibbs are included in a standard Plumbing Unit?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "4"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "On what exact date was the revised National Plumbing Code of the Philippines approved?",
+      "options": [
+        "18 June 1955",
+        "28 November 1959",
+        "21 December 1999",
+        "1 January 2000"
+      ],
+      "answer": "21 December 1999"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "How many Basic Principles govern the 1999 National Plumbing Code of the Philippines?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "22"
+      ],
+      "answer": "22"
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "Which plumbing component carries foul air to the outer atmosphere and prevents pressure loss in traps?",
+      "options": [
+        "Soil stack",
+        "Vent pipe",
+        "Building drain",
+        "Cleanout"
+      ],
+      "answer": "Vent pipe"
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "question": "What private sewage disposal system is required when no public sewer exists within a reasonable distance?",
+      "options": [
+        "Catch basin",
+        "Septic tank",
+        "Cesspool",
+        "Grease trap"
+      ],
+      "answer": "Septic tank"
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "question": "What air pressure value may be substituted for the water test on water supply piping systems?",
+      "options": [
+        "34.5 kPa (5 psi)",
+        "103 kPa (15 psi)",
+        "344.5 kPa (50 psi)",
+        "551 kPa (80 psi)"
+      ],
+      "answer": "344.5 kPa (50 psi)"
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "question": "Which device is classified as a plumbing appliance under Section 217.7?",
+      "options": [
+        "Water Closet",
+        "Water Heater",
+        "Pressure Regulator",
+        "Lavatory"
+      ],
+      "answer": "Water Heater"
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "question": "What type of connection links a potable water system with an unpotable or contaminated source?",
+      "options": [
+        "Backflow",
+        "Cross-Connection",
+        "Airgap",
+        "Vacuum Breaker"
+      ],
+      "answer": "Cross-Connection"
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "question": "What is the primary function of an Air Chamber in a hydraulic system?",
+      "options": [
+        "Increase water pressure",
+        "Absorb hydraulic shock",
+        "Filter debris",
+        "Prevent backflow"
+      ],
+      "answer": "Absorb hydraulic shock"
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "question": "Under Section 217.10, which of the following is NOT considered a plumbing fixture?",
+      "options": [
+        "Kitchen Sink",
+        "Shower Head",
+        "Industrial Processing Tank",
+        "Laundry Tray"
+      ],
+      "answer": "Industrial Processing Tank"
+    },
+    {
+      "id": 18,
+      "type": "multiple_choice",
+      "question": "What minimum pressure addition is required when testing water piping with water?",
+      "options": [
+        "Working pressure + 10%",
+        "Working pressure + 25%",
+        "Working pressure + 50%",
+        "Double working pressure"
+      ],
+      "answer": "Working pressure + 50%"
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "question": "What entity requires a majority of its members and officers to be licensed Master Plumbers?",
+      "options": [
+        "Plumbing Bureau",
+        "Plumbing Firm",
+        "Plumbing Agency",
+        "Plumbing School"
+      ],
+      "answer": "Plumbing Firm"
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "question": "Which term describes the unobstructed vertical distance between the water supply outlet and the fixture rim?",
+      "options": [
+        "Airgap",
+        "Vacuum Gap",
+        "Freeboard",
+        "Clearance Height"
+      ],
+      "answer": "Airgap"
+    },
+    {
+      "id": 21,
+      "type": "identification",
+      "question": "What law governs the licensing and practice of Master Plumbing in the Philippines?",
+      "answer": "Republic Act 1378"
+    },
+    {
+      "id": 22,
+      "type": "identification",
+      "question": "What hydraulic surge or wave results when a fluid in motion is forced to stop or change direction suddenly?",
+      "answer": "Water Hammer"
+    },
+    {
+      "id": 23,
+      "type": "identification",
+      "question": "What air space device installed near valves acts as a hydraulic shock absorber to cushion pressure surges?",
+      "answer": "Air Chamber"
+    },
+    {
+      "id": 24,
+      "type": "identification",
+      "question": "What section of NPC 1999 defines a cross-connection as a physical connection between potable and unpotable sources?",
+      "answer": "Section 204.24"
+    },
+    {
+      "id": 25,
+      "type": "identification",
+      "question": "What administrative officer is charged with enforcing the provisions of the National Plumbing Code?",
+      "answer": "Plumbing Official"
+    },
+    {
+      "id": 26,
+      "type": "enumeration",
+      "question": "The three legal classifications of plumbers under Philippine law.",
+      "answer": [
+        "Apprentice Plumber",
+        "Journeyman Plumber",
+        "Master Plumber"
+      ]
+    },
+    {
+      "id": 27,
+      "type": "enumeration",
+      "question": "The three main classifications of plumbing system components (devices/fixtures).",
+      "answer": [
+        "Plumbing Fixture",
+        "Plumbing Appliance",
+        "Plumbing Appurtenance"
+      ]
+    },
+    {
+      "id": 28,
+      "type": "enumeration",
+      "question": "The two primary testing methods used for inspecting drainage and vent systems.",
+      "answer": [
+        "Water Test",
+        "Air Test"
+      ]
+    },
+    {
+      "id": 29,
+      "type": "enumeration",
+      "question": "Any two devices that require electrical energy or heating elements classified as Plumbing Appliances.",
+      "answer": [
+        "Water Heater",
+        "Dishwasher"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "enumeration",
+      "question": "Any two backflow protection concepts or devices used to prevent water supply contamination.",
+      "answer": [
+        "Airgap",
+        "Atmospheric Vacuum Breaker"
+      ]
+    }
+  ]
+  
+}

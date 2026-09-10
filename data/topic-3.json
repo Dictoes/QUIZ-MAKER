@@ -1,0 +1,307 @@
+{
+  "id": "topic-3",
+  "title": "Reactions to Determinate Structures  -  Trusses",
+  "description": "Reviewer on trusses, zero-force members, method of joints, and method of sections.",
+  "reviewer": [
+    {
+      "title": "1. What Is a Truss?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A <strong>truss</strong> is made of slender members connected at their ends by pins. Ideally, members carry only <strong>axial forces</strong> and each member is either in <strong>tension</strong> or <strong>compression</strong>."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Tension</strong>  -  The member is being pulled.",
+            "<strong>Compression</strong>  -  The member is being pushed.",
+            "<strong>Pin support</strong>  -  Usually provides horizontal and vertical reactions, Ax and Ay.",
+            "<strong>Roller support</strong>  -  Usually provides one vertical reaction, By."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For the whole truss: <strong>ΣFx = 0</strong>, <strong>ΣFy = 0</strong>, and <strong>ΣM = 0</strong>."
+        },
+        {
+          "type": "formula",
+          "title": "Whole-truss equilibrium",
+          "expression": "ΣFx = 0   |   ΣFy = 0   |   ΣM = 0",
+          "where": ["ΣFx = sum of horizontal forces", "ΣFy = sum of vertical forces", "ΣM = sum of moments"],
+          "purpose": "checking equilibrium of the entire truss."
+        }
+      ]
+    },
+    {
+      "title": "2. Zero-Force Members",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Zero-force members carry no axial load for the given loading condition. They can be identified by inspecting an unloaded joint."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member.png",
+          "alt": "Truss showing zero-force members",
+          "caption": "Zero-force members marked with red X symbols"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member-2.png",
+          "alt": "Second truss zero-force member example",
+          "caption": "Zero-force member identification at unloaded joints"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member3.png",
+          "alt": "Large truss zero-force member example",
+          "caption": "Zero-force members in a loaded truss"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/Truss-0force-member4.png",
+          "alt": "Supported truss zero-force member example",
+          "caption": "Zero-force member locations in a multi-panel truss"
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Rule 1:</strong> If a joint has only two non-collinear members and no load or support reaction, both members are zero-force members.",
+            "<strong>Rule 2:</strong> If a joint has three members, two collinear and one non-collinear, with no external load at the joint, the non-collinear member is a zero-force member."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Method of Joints",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The <strong>method of joints</strong> analyzes one joint at a time. At every joint, use <strong>ΣFx = 0</strong> and <strong>ΣFy = 0</strong>."
+        },
+        {
+          "type": "formula",
+          "title": "Method of joints",
+          "expression": "ΣFx = 0   |   ΣFy = 0",
+          "where": ["ΣFx = sum of horizontal forces at the joint", "ΣFy = sum of vertical forces at the joint"],
+          "purpose": "solving member forces at one joint."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Determine the support reactions.",
+            "Identify zero-force members.",
+            "Start at a joint with no more than two unknown member forces.",
+            "Assume all unknown members are in tension.",
+            "Resolve diagonal forces into horizontal and vertical components.",
+            "Solve using ΣFx = 0 and ΣFy = 0.",
+            "A positive answer indicates tension; a negative answer indicates compression."
+          ]
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-joints.png",
+          "alt": "Method of joints worked example",
+          "caption": "Method of joints example with a 500 N load"
+        },
+        {
+          "type": "paragraph",
+          "text": "For the illustrated 45-degree example, the diagonal member is <strong>707.1 N compression</strong>, the vertical member is <strong>500 N tension</strong>, and the horizontal member is <strong>500 N tension</strong>."
+        }
+      ]
+    },
+    {
+      "title": "4. Trigonometric Components",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "For a diagonal member at angle θ, resolve its force into components: <strong>Fx = F cos θ</strong> and <strong>Fy = F sin θ</strong>."
+        },
+        {
+          "type": "formula",
+          "title": "Trigonometric components",
+          "expression": "Fx = F cos θ   |   Fy = F sin θ",
+          "where": ["F = diagonal member force", "θ = member angle", "Fx = horizontal component", "Fy = vertical component"],
+          "example": "For a 3-4-5 triangle: sin θ = 3/5 and cos θ = 4/5."
+        },
+        {
+          "type": "list",
+          "items": [
+            "sin θ = opposite ÷ hypotenuse",
+            "cos θ = adjacent ÷ hypotenuse",
+            "For a 3-4-5 triangle: sin θ = 3/5 and cos θ = 4/5."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Always draw the free-body diagram first, then assign the correct signs to the horizontal and vertical components."
+        }
+      ]
+    },
+    {
+      "title": "5. Method of Sections",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The <strong>method of sections</strong> is useful when only a few member forces are required. An imaginary cut is passed through the truss, normally through no more than three unknown members."
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section.png",
+          "alt": "Method of sections truss example",
+          "caption": "A section cut through a truss"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section2.png",
+          "alt": "Method of sections example with marked members",
+          "caption": "Members GH, HC, and BC selected for analysis"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section3.png",
+          "alt": "Moment points for method of sections",
+          "caption": "Choosing moment centers to solve selected member forces"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section4.png",
+          "alt": "Another method of sections example",
+          "caption": "Section cut through BF, BC, and FG"
+        },
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-section5.png",
+          "alt": "Moment analysis for method of sections",
+          "caption": "Moment equations used to solve selected members"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pass the cut through the required members.",
+            "Isolate the simpler side of the truss.",
+            "Use ΣM = 0 first when possible.",
+            "Then use ΣFx = 0 and ΣFy = 0.",
+            "Take moments about a point where two unknown cut-member forces intersect to eliminate them."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "6. Method of Joints Seatwork",
+      "content": [
+        {
+          "type": "image",
+          "src": "assets/topic-3/method-of-joints-seatwork.png",
+          "alt": "Method of joints seatwork problem",
+          "caption": "Seatwork problem: determine FG, DG, and CD"
+        },
+        {
+          "type": "paragraph",
+          "text": "For seatwork problems, begin by finding the support reactions for the entire truss. Then select a joint with no more than two unknown member forces and proceed joint by joint."
+        }
+      ]
+    },
+    {
+      "title": "7. Solving Checklist",
+      "content": [
+        {
+          "type": "list",
+          "items": [
+            "Identify all joints, members, supports, and external loads.",
+            "Check dimensions and angles.",
+            "Search for zero-force members.",
+            "Use the entire truss to calculate support reactions.",
+            "For the method of joints, use ΣFx = 0 and ΣFy = 0.",
+            "For the method of sections, use ΣFx = 0, ΣFy = 0, and ΣM = 0.",
+            "Label every final result as tension, compression, or zero-force."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Sign convention:</strong> A positive result means the assumed tension direction is correct. A negative result means the member is in compression."
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 301,
+      "type": "multiple_choice",
+      "question": "An ideal truss member primarily carries which type of force?",
+      "options": ["Axial force", "Bending moment only", "Torsion only", "Distributed pressure"],
+      "answer": "Axial force"
+    },
+    {
+      "id": 302,
+      "type": "multiple_choice",
+      "question": "Which equilibrium equations are used at a truss joint?",
+      "options": ["ΣFx = 0 and ΣFy = 0", "ΣM = 0 only", "ΣFx = 1 and ΣFy = 1", "No equilibrium equations"],
+      "answer": "ΣFx = 0 and ΣFy = 0"
+    },
+    {
+      "id": 303,
+      "type": "multiple_choice",
+      "question": "A positive member-force result when tension is assumed indicates:",
+      "options": ["Tension", "Compression", "A zero-force member", "An unstable support"],
+      "answer": "Tension"
+    },
+    {
+      "id": 304,
+      "type": "true_false",
+      "question": "A negative result from a tension assumption indicates compression.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": 305,
+      "type": "true_false",
+      "question": "The method of sections normally cuts through no more than three unknown members.",
+      "options": ["True", "False"],
+      "answer": "True"
+    },
+    {
+      "id": 306,
+      "type": "identification",
+      "question": "What type of support usually provides horizontal and vertical reactions Ax and Ay?",
+      "answer": "Pin support"
+    },
+    {
+      "id": 307,
+      "type": "identification",
+      "question": "What type of support usually provides one vertical reaction By?",
+      "answer": "Roller support"
+    },
+    {
+      "id": 308,
+      "type": "identification",
+      "question": "What do we call a member that carries no axial load for the given loading condition?",
+      "answer": "Zero-force member"
+    },
+    {
+      "id": 309,
+      "type": "identification",
+      "question": "For a diagonal force F at angle θ, what is its horizontal component?",
+      "answer": "F cos θ"
+    },
+    {
+      "id": 310,
+      "type": "enumeration",
+      "question": "List the three whole-truss equilibrium equations.",
+      "answer": ["ΣFx = 0", "ΣFy = 0", "ΣM = 0"]
+    },
+    {
+      "id": 311,
+      "type": "enumeration",
+      "question": "List the two equations used at a truss joint.",
+      "answer": ["ΣFx = 0", "ΣFy = 0"]
+    },
+    {
+      "id": 312,
+      "type": "multiple_choice",
+      "question": "For a 500 N load and a 45-degree diagonal in the worked example, the diagonal member force is approximately:",
+      "options": ["250 N tension", "500 N compression", "707.1 N compression", "1000 N tension"],
+      "answer": "707.1 N compression"
+    }
+  ]
+}

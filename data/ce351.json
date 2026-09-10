@@ -1,0 +1,56 @@
+{
+  "id": "CE351: NUMSOL",
+  "title": "CE351 : NUMERICAL METHODS",
+  "description": "Matrix Algebra reviewer divided into two focused topics.",
+  "topics": [
+    {
+      "id": "CE351: NUMSOL:TOPIC 1",
+      "title": "MATRIX ALGEBRA  -  PART 1",
+      "description": "Matrices, notation, equality, operations, properties, and matrix multiplication.",
+      "reviewer": [
+        {"title":"Matrix and Matrix Notation","content":[{"type":"paragraph","text":"A <strong>matrix</strong> is a rectangular array of numbers or functions. An entry is written as a<sub>ij</sub>, where i identifies the row and j identifies the column."},{"type":"paragraph","text":"The size of a matrix is written m × n, with m rows and n columns. A row vector has one row; a column vector has one column."},{"type":"visual","kind":"notation","explanation":"The array has 2 rows and 3 columns, so its dimension is 2 × 3."}]},
+        {"title":"Equality of Matrices","content":[{"type":"paragraph","text":"Two matrices are equal when they have the same size and every corresponding entry is equal."},{"type":"formula","title":"Equality of matrices","expression":"A = B  when  aᵢⱼ = bᵢⱼ for every i and j","where":["A and B must have the same dimensions.","Every corresponding entry must be equal."]},{"type":"visual","kind":"equality","explanation":"Equality compares entries in the same row and column position."}]},
+        {"title":"Addition of Matrices","content":[{"type":"paragraph","text":"Matrices can be added only when they have the same dimensions. Add corresponding entries: (A + B)<sub>ij</sub> = a<sub>ij</sub> + b<sub>ij</sub>."},{"type":"formula","title":"Matrix addition","expression":"(A + B)ᵢⱼ = aᵢⱼ + bᵢⱼ","where":["A and B must have the same dimensions.","Corresponding entries are added."],"example":"[1  2; 3  4] + [5  6; 7  8] = [6  8; 10  12]"},{"type":"visual","kind":"addition","explanation":"Each position is added to the entry in the same position."}]},
+        {"title":"Scalar Multiplication","content":[{"type":"paragraph","text":"To multiply a matrix by a scalar, multiply every entry by that scalar. For kA, (kA)<sub>ij</sub> = ka<sub>ij</sub>."},{"type":"formula","title":"Scalar multiplication","expression":"(kA)ᵢⱼ = k aᵢⱼ","where":["k = scalar","A = matrix"],"example":"2[1  -2; 3  4] = [2  -4; 6  8]"},{"type":"visual","kind":"scalar","explanation":"The scalar 2 is applied to all four entries."}]},
+        {"title":"Properties of Matrix Operations","content":[{"type":"formula","title":"Matrix operation properties","expression":"A + B = B + A   |   (A + B) + C = A + (B + C)   |   k(A + B) = kA + kB","where":["A, B, C = matrices","k = scalar"]},{"type":"list","items":["Matrix addition is commutative: A + B = B + A.","Matrix addition is associative: (A + B) + C = A + (B + C).","Scalar multiplication distributes over matrix addition: k(A + B) = kA + kB.","Scalar multiplication is associative: (kl)A = k(lA).","The zero matrix is the additive identity and the identity matrix is the multiplicative identity when dimensions permit."]},{"type":"visual","kind":"properties","explanation":"These identities are rules to apply when simplifying matrix expressions."}]},
+        {"title":"Matrix Multiplication","content":[{"type":"paragraph","text":"The product AB exists when the number of columns of A equals the number of rows of B. If A is m × n and B is n × p, then AB is m × p."},{"type":"formula","title":"Matrix multiplication","expression":"(AB)ᵢⱼ = Σ aᵢₖbₖⱼ","where":["The number of columns of A must equal the number of rows of B.","Each entry is a row-by-column dot product."],"example":"[1  2; 3  4][5  6; 7  8] = [19  22; 43  50]"},{"type":"paragraph","text":"Each product entry is the dot product of a row of A and a column of B: (AB)<sub>ij</sub> = Σ a<sub>ik</sub>b<sub>kj</sub>."},{"type":"visual","kind":"multiplication","explanation":"The 2 × 2 result is formed from row-by-column dot products."}]},
+        {"title":"Matrix Multiplication Example","content":[{"type":"paragraph","text":"For A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], AB = [[19, 22], [43, 50]]. Matrix multiplication is generally not commutative, so AB may differ from BA."},{"type":"visual","kind":"multiplication","explanation":"This worked example preserves the entries and products shown in the reviewer."}]},
+        {"title":"Assignment 1","content":[{"type":"paragraph","text":"Practice identifying matrix dimensions, adding matrices, applying scalar multiplication, and calculating products. Show complete solutions."}]}
+      ],
+      "quizzes": [
+        {"id":101,"type":"multiple_choice","question":"A matrix with 3 rows and 2 columns has what size?","options":["2 × 3","3 × 2","3 + 2","6 × 6"],"answer":"3 × 2"},
+        {"id":102,"type":"multiple_choice","question":"When can two matrices be added?","options":["When they have the same dimensions","When both are square","When their entries are positive","Always"],"answer":"When they have the same dimensions"},
+        {"id":103,"type":"multiple_choice","question":"If A is 2 × 3 and B is 3 × 4, what is the size of AB?","options":["2 × 4","3 × 3","4 × 2","2 × 3"],"answer":"2 × 4"},
+        {"id":104,"type":"true_false","question":"Matrix multiplication is always commutative.","options":["True","False"],"answer":"False"},
+        {"id":105,"type":"identification","question":"What do the two indices in aᵢⱼ identify?","answer":"Row and column"},
+        {"id":106,"type":"identification","question":"What matrix acts as the additive identity?","answer":"Zero matrix"},
+        {"id":107,"type":"enumeration","question":"List the three basic matrix operations covered in Part 1.","answer":["Matrix addition","Scalar multiplication","Matrix multiplication"]}
+      ]
+    },
+    {
+      "id": "CE351: NUMSOL:TOPIC 2",
+      "title": "MATRIX ALGEBRA  -  PART 2",
+      "description": "Transposition, transpose rules, and special matrix classifications.",
+      "reviewer": [
+        {"title":"Matrix Transposition","content":[{"type":"paragraph","text":"The transpose Aᵀ is formed by interchanging the rows and columns of A. The first row becomes the first column, and so on."},{"type":"formula","title":"Transpose","expression":"(Aᵀ)ᵀ = A","where":["Aᵀ = transpose of A"],"purpose":"interchanging rows and columns."},{"type":"paragraph","text":"Transposition lets us work with a matrix or its transpose, whichever is more convenient."},{"type":"visual","kind":"transpose","explanation":"The three rows of A become the three columns of Aᵀ."}]},
+        {"title":"Rules for Transposition","content":[{"type":"formula","title":"Transpose rules","expression":"(A + B)ᵀ = Aᵀ + Bᵀ   |   (kA)ᵀ = kAᵀ   |   (AB)ᵀ = BᵀAᵀ","where":["A and B = matrices","k = scalar"]},{"type":"list","items":["(Aᵀ)ᵀ = A","(A + B)ᵀ = Aᵀ + Bᵀ","(kA)ᵀ = kAᵀ","(AB)ᵀ = BᵀAᵀ"]}]},
+        {"title":"Symmetric Matrices","content":[{"type":"paragraph","text":"A symmetric matrix is square and satisfies Aᵀ = A. Its entries mirror across the main diagonal."},{"type":"formula","title":"Symmetric matrix","expression":"Aᵀ = A","where":["A = square matrix"],"purpose":"identifying a matrix whose entries mirror across the main diagonal."},{"type":"visual","kind":"symmetric","explanation":"The entries on opposite sides of the diagonal match."}]},
+        {"title":"Skew-Symmetric Matrices","content":[{"type":"paragraph","text":"A skew-symmetric matrix is square and satisfies Aᵀ = −A. Every diagonal entry of a skew-symmetric matrix is zero."},{"type":"formula","title":"Skew-symmetric matrix","expression":"Aᵀ = −A","where":["A = square matrix","Each diagonal entry is zero."],"purpose":"identifying a matrix whose transposed off-diagonal entries have opposite signs."},{"type":"visual","kind":"skew","explanation":"Transposing reverses the signs of the off-diagonal entries."}]},
+        {"title":"Triangular Matrices","content":[{"type":"paragraph","text":"An upper triangular matrix has zero entries below the main diagonal. A lower triangular matrix has zero entries above the main diagonal. Strict triangular matrices also have zeros on the main diagonal."},{"type":"formula","title":"Triangular matrices","expression":"Upper: aᵢⱼ = 0 for i > j   |   Lower: aᵢⱼ = 0 for i < j","where":["i = row index","j = column index"]},{"type":"visual","kind":"triangular","explanation":"The zero regions identify whether a matrix is upper or lower triangular."}]},
+        {"title":"Diagonal Matrices","content":[{"type":"paragraph","text":"A diagonal matrix is square and has nonzero entries only on its main diagonal; all entries above and below it are zero."},{"type":"formula","title":"Diagonal matrix","expression":"aᵢⱼ = 0 when i ≠ j","where":["i = row index","j = column index"]},{"type":"visual","kind":"diagonal","explanation":"All off-diagonal positions are zero."}]},
+        {"title":"Scalar Matrices","content":[{"type":"paragraph","text":"A scalar matrix is a diagonal matrix whose diagonal entries are all equal to the same scalar."},{"type":"formula","title":"Scalar matrix","expression":"A = kI","where":["k = common diagonal scalar","I = unit matrix"]},{"type":"visual","kind":"scalarMatrix","explanation":"Every diagonal entry equals 5, so this matrix is 5I."}]},
+        {"title":"Unit Matrices","content":[{"type":"paragraph","text":"A unit matrix, also called an identity matrix, is a diagonal matrix with 1s on the main diagonal and 0s elsewhere."},{"type":"formula","title":"Unit matrix","expression":"Iₙ = diag(1, 1, ..., 1)","where":["Iₙ = n × n identity matrix"],"purpose":"serving as the multiplicative identity when dimensions permit."},{"type":"visual","kind":"unit","explanation":"Multiplying by I₃ leaves a compatible 3-component vector unchanged."}]},
+        {"title":"Seatwork 1","content":[{"type":"paragraph","text":"Calculate transpose expressions and classify given matrices as symmetric, skew-symmetric, triangular, diagonal, scalar, or unit. Show complete solutions."}]}
+      ],
+      "quizzes": [
+        {"id":201,"type":"multiple_choice","question":"What operation forms Aᵀ?","options":["Interchanging rows and columns","Adding all entries","Multiplying by zero","Deleting the diagonal"],"answer":"Interchanging rows and columns"},
+        {"id":202,"type":"multiple_choice","question":"Which identity is correct?","options":["(AB)ᵀ = AᵀBᵀ","(AB)ᵀ = BᵀAᵀ","(AB)ᵀ = AB","(AB)ᵀ = A + B"],"answer":"(AB)ᵀ = BᵀAᵀ"},
+        {"id":203,"type":"true_false","question":"A symmetric matrix must be square.","options":["True","False"],"answer":"True"},
+        {"id":204,"type":"true_false","question":"The diagonal entries of a skew-symmetric matrix are zero.","options":["True","False"],"answer":"True"},
+        {"id":205,"type":"identification","question":"What type of matrix has zeros below the main diagonal?","answer":"Upper triangular matrix"},
+        {"id":206,"type":"identification","question":"What is another name for a unit matrix?","answer":"Identity matrix"},
+        {"id":207,"type":"enumeration","question":"List the special matrices covered in Part 2.","answer":["Symmetric matrices","Skew-symmetric matrices","Triangular matrices","Diagonal matrices","Scalar matrices","Unit matrices"]}
+      ]
+    }
+  ]
+}

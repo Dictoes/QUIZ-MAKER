@@ -1,0 +1,906 @@
+{
+  "id": "topic-7",
+  "title": "Building Design",
+  "description": "Reviewer on elements and principles of design, functional design, site planning, orientation, room locations, living and dining areas, family rooms, porches, patios, lanais, and selected National Building Code provisions.",
+  "reviewer": [
+    {
+      "title": "1. Elements of Design",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The elements of design are the tools of the designer and the ingredients of every successful design. The basic elements are line, form, color, space, light, and material."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Line</strong> - Used to produce a sense of movement within an object or a greater sense of length or height. Lines enclose space and provide the outline or contour of forms.",
+            "<strong>Form</strong> - Lines joined together produce form and create the shape of an area. Straight lines can produce rectangles and squares, while curved lines can form circles, ovals, and ellipses.",
+            "<strong>Color</strong> - May be an integral part of an architectural material or added to create a desired effect. It can distinguish items and strengthen visual interest.",
+            "<strong>Space</strong> - Surrounds forms and is contained within them. Architectural design defines space and relationships between spaces.",
+            "<strong>Light and Shadow</strong> - Give a sense of depth to structures. Light reflects from surfaces while shadows appear where light cannot reach.",
+            "<strong>Materials</strong> - Raw substances used by designers. Materials possess color, form, dimension, hardness, and texture."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Texture refers to the surface finish of an object. Rough surfaces can make ceilings or walls appear lower or closer and make colors appear darker, while smooth surfaces can increase apparent height and reflect more light."
+        }
+      ]
+    },
+    {
+      "title": "2. Principles of Design",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The basic principles of design are guidelines for using the elements of design to create aesthetically functional buildings."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Balance</strong> - The achievement of equilibrium in design. Buildings may be formally balanced through symmetry or informally balanced through a harmonious distribution of design elements.",
+            "<strong>Rhythm</strong> - Achieved when lines, planes, and surface treatments are repeated in a regular sequence. It helps create motion and guide the viewer's eyes.",
+            "<strong>Emphasis</strong> - Used to draw attention to an area or subject. It can be achieved through color, form, texture, line, contrast, light, space relationships, or material changes.",
+            "<strong>Proportion</strong> - Concerns the proportional dimensions or scale of a building and the harmonious relationship between interior space, furniture, and accessories.",
+            "<strong>Unity</strong> - The expression or sense of wholeness in a design. Every structure should appear complete and harmonious.",
+            "<strong>Variety</strong> - Prevents an area from becoming dull or tiresome. Light, shadow, and color may be used to achieve variety.",
+            "<strong>Repetition</strong> - Repeating lines, spaces, and textures can tie structures together aesthetically and help achieve unity.",
+            "<strong>Opposition</strong> - Uses contrasting elements such as short and long, thick and thin, straight and curved, or black and white.",
+            "<strong>Subordination</strong> - When emphasis is given to one design feature, other features become lesser in emphasis or importance.",
+            "<strong>Transition</strong> - A change from one color to another or from a curved form to a straight line while maintaining unity in the design."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "3. Functional Design",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Architectural design involves not only how a structure appears but also how it functions. Architectural design begins with an assessment of human needs."
+        },
+        {
+          "type": "list",
+          "items": [
+            "The principle that <strong>form follows function</strong> is important in functional design.",
+            "Functional success alone does not guarantee that a design will be aesthetically pleasing.",
+            "A competent designer combines functional efficiency and aesthetics in a unified design.",
+            "A successful design considers and manipulates the entire environment rather than treating the design in isolation."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "4. Site Orientation and Lot Planning",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Orientation is the relationship of a building to its environment. Effective orientation helps take advantage of passive solar design by maximizing desirable environmental features and minimizing negative aspects."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sun heat",
+            "Sunlight",
+            "Existing vegetation",
+            "Desirable and undesirable views",
+            "Objectionable noise",
+            "Velocity and direction of prevailing winds or breezes",
+            "Land forms and shapes",
+            "Lot and structure size",
+            "Relationship of the site to the neighborhood and local buildings"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "For planning purposes, lots are divided into private, public, and service areas."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Private area</strong> - Includes the house and outdoor living space.",
+            "<strong>Public area</strong> - The part of the lot visible to the public, usually located at the front of the house. It should provide off-street parking and access to the main entrance.",
+            "<strong>Service area</strong> - Should be adjacent to the service portion of the house."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "5. Zoning Code Considerations",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An architectural plan should not be started until local building codes and zoning codes have been thoroughly checked."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lines are drawn within and parallel to the property line to represent the code minimum distance. The area within the inside lines represents the building area."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Frontage setback</strong> - 3.0 meters.",
+            "<strong>Side setback</strong> - 2.0 meters.",
+            "<strong>Rear setback</strong> - 2.0 meters."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Setbacks are the distances restricted by zoning codes between a building and the property or street line."
+        }
+      ]
+    },
+    {
+      "title": "6. Room Locations and Solar Orientation",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A room should be located according to its function, the season, the time of day it is used, and the amount of sunlight desired."
+        },
+        {
+          "type": "list",
+          "items": [
+            "The kitchen should generally receive sunshine during the early morning.",
+            "Kitchen and dining areas should generally be placed on the south or east side of the house.",
+            "Living areas on the south or west sides are desirable because they receive late-day rays of the sun.",
+            "The north side is considered appropriate for sleeping areas because it provides greater darkness during morning and evening and is also the coolest side.",
+            "North light is consistent and diffused and has little glare."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "7. Living Areas and Living Room",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The living area is where most living activities occur. Activities may include relaxing, dining, listening to music, watching television, hobbies, and other recreational activities."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Living room",
+            "Dining room",
+            "Recreation or game room",
+            "Patio",
+            "Entrance foyer",
+            "Den or study",
+            "Guest lavatories",
+            "Specialized rooms such as libraries and music rooms in larger houses"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The living room often serves as an entertainment center, recreation center, library, music room, TV center, reception room, social room, study, and occasionally a dining center."
+        },
+        {
+          "type": "list",
+          "items": [
+            "The living room should generally be centrally located.",
+            "It should be adjacent to the outside entrance, but the entrance should not directly lead into the living room whenever possible.",
+            "The living room should not serve as a traffic access route to sleeping and service areas.",
+            "The living room should be adjacent to the dining room because the two spaces function together."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A small or minimum-sized living room is approximately 3.7 m x 5.5 m. An average-sized living room is approximately 4.9 m x 6.1 m, while a very large or optimum-sized living room is approximately 6.1 m x 7.9 m or more."
+        }
+      ]
+    },
+    {
+      "title": "8. Dining Room",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The design of dining facilities depends greatly on the dining habits of the occupants. A dining room may be large and formal, a dining alcove, or a breakfast nook in the kitchen."
+        },
+        {
+          "type": "paragraph",
+          "text": "The dining area provides a place for the family to gather for breakfast, lunch, or dinner in both casual and formal situations."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A separate dining area capable of seating 8 to 12 persons for dinner should be provided when possible.",
+            "In a closed plan, a separate dining room is usually provided.",
+            "In an open plan, dining may be located in the kitchen or living room.",
+            "Regardless of its exact position, the dining area should be adjacent to the kitchen.",
+            "The ideal dining location requires few steps between the kitchen and dining table.",
+            "The dining room is commonly placed between the kitchen and living area."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A dining room accommodating a minimum amount of furniture, including a table, four chairs, and a buffet, is approximately 3.0 m x 3.7 m. A minimum-sized dining room accommodating a dining table with six or eight chairs and a buffet is approximately 4.3 m x 5.5 m or larger."
+        }
+      ]
+    },
+    {
+      "title": "9. Family Room",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The popularity of the family room has been influenced by the trend toward more informal living and increased leisure time."
+        },
+        {
+          "type": "list",
+          "items": [
+            "The family room is often accessible from, but not visible from, the rest of the living area because activities can result in hobby materials and clutter.",
+            "It is commonly located adjacent to the kitchen.",
+            "When adjacent to the living or dining room, it can become an extension of the rooms for social activities.",
+            "It may be separated from other rooms by folding doors, screens, or sliding doors.",
+            "Another location is between the service area and living area, especially when service functions such as home workshops are assigned to the family room.",
+            "A minimum-sized family room is approximately 150 sq. ft.",
+            "An optimum-sized family room is approximately 300 sq. ft. or more."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "10. Porches, Decks, Verandas, Balconies, Stoops, and Patios",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A porch is a covered platform leading into an entrance of a building. It is structurally attached to the house, unlike a patio, which is placed directly on the ground."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Porch</strong> - A covered platform leading into a building entrance.",
+            "<strong>Deck</strong> - An elevated porch.",
+            "<strong>Balcony</strong> - A porch suspended from an upper level of a structure, usually without outside access.",
+            "<strong>Veranda</strong> - A large porch, sometimes extending around several sides of a home.",
+            "<strong>Stoop</strong> - A projection from a building that provides shelter and access to the entrance but insufficient space for activities.",
+            "<strong>Patio</strong> - A covered surface adjacent or directly accessible to the house and placed directly on the ground."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Porches may be used for dining, entertaining, relaxing, outdoor living, or providing additional shelter at an entrance."
+        },
+        {
+          "type": "paragraph",
+          "text": "A porch approximately 1.8 m x 2.4 m is considered minimum-sized. A 2.4 m x 3.7 m porch is approximately average, while porches larger than 3.7 m are considered rather large."
+        }
+      ]
+    },
+    {
+      "title": "11. Patios and Lanais",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A patio can perform outdoors many of the functions that the living room, recreation room, kitchen, dining room, and family room perform indoors."
+        },
+        {
+          "type": "list",
+          "items": [
+            "<strong>Living patio</strong> - Located close to the living room or dining room. If dining is anticipated, access should be provided from the kitchen or dining room.",
+            "<strong>Play patio</strong> - Used by children and for physical activities. It may also function as a service terrace and can be placed adjacent to the service area.",
+            "<strong>Quiet patio</strong> - Can become an extension of the bedroom and is used for relaxation or sleeping. It should be secluded from normal household traffic."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Patios should generally be located adjacent to the area of the home to which they relate and should be somewhat secluded from streets and neighboring residences."
+        },
+        {
+          "type": "paragraph",
+          "text": "When a patio is placed on the north side of a house, the house can be used to shade the patio. If sunlight is desired, the patio should be located on the south side."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A minimum-sized patio is approximately 3.7 m x 3.7 m.",
+            "Patios with dimensions of 6.0 m x 9.1 m or more are considered large.",
+            "<strong>Lanai</strong> - A Hawaiian word for porch that is also used for a covered exterior passageway.",
+            "Lanais are commonly located between the garage and kitchen, patio and kitchen, or living area and service area."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "12. National Building Code Provisions",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Section 805 of the National Building Code provides requirements for ceiling heights."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Habitable rooms with natural ventilation: minimum ceiling height of <strong>2.70 m</strong>.",
+            "Habitable rooms with artificial ventilation: minimum ceiling height of <strong>2.40 m</strong>.",
+            "For buildings with more than one storey, the first storey has a minimum ceiling height of <strong>2.70 m</strong> and the second storey has a minimum of <strong>2.40 m</strong>.",
+            "Succeeding storeys require an unobstructed typical headroom clearance of at least <strong>2.10 m</strong> above the finished floor.",
+            "Mezzanine floors require a clear ceiling height of at least <strong>1.80 m</strong> above and below the mezzanine."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Section 806 provides minimum room sizes and least horizontal dimensions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Rooms for human habitation: <strong>6.0 sq. m</strong> with a least dimension of <strong>2.0 m</strong>.",
+            "Kitchen: <strong>3.0 sq. m</strong> with a least dimension of <strong>1.5 m</strong>.",
+            "Bath and toilet: <strong>1.20 sq. m</strong> with a least dimension of <strong>0.90 m</strong>."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Section 807 provides minimum air-space requirements: habitable rooms require 14.00 cu. m of air space per room, school rooms require 3.00 cu. m with 1.00 sq. m of floor area per person, and offices, workshops, and factories require 12.00 cu. m of air per person."
+        },
+        {
+          "type": "paragraph",
+          "text": "Section 808 provides that rooms not provided with an artificial ventilation system must have window or windows with a total free area equal to at least 10% of the floor area of the room, opening directly to a court, yard, public street or alley, or open water courses."
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "Which of the following is NOT listed as a basic element of design?",
+      "options": [
+        "Line",
+        "Form",
+        "Space",
+        "Foundation"
+      ],
+      "answer": "Foundation"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "Which element of design is used to produce a sense of movement or a greater sense of length or height?",
+      "options": [
+        "Line",
+        "Color",
+        "Material",
+        "Space"
+      ],
+      "answer": "Line"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "What do joined lines produce?",
+      "options": [
+        "Texture",
+        "Form",
+        "Light",
+        "Shadow"
+      ],
+      "answer": "Form"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "Which principle of design is the achievement of equilibrium?",
+      "options": [
+        "Balance",
+        "Variety",
+        "Opposition",
+        "Transition"
+      ],
+      "answer": "Balance"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "Which principle is used to draw attention to an area or subject?",
+      "options": [
+        "Rhythm",
+        "Emphasis",
+        "Subordination",
+        "Repetition"
+      ],
+      "answer": "Emphasis"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "What principle expresses a sense of wholeness in a design?",
+      "options": [
+        "Unity",
+        "Opposition",
+        "Variety",
+        "Rhythm"
+      ],
+      "answer": "Unity"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Which principle uses contrasting elements such as short and long or thick and thin?",
+      "options": [
+        "Balance",
+        "Opposition",
+        "Unity",
+        "Subordination"
+      ],
+      "answer": "Opposition"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "What principle states that architectural design should consider how a structure functions?",
+      "options": [
+        "Form follows function",
+        "Color follows space",
+        "Light follows material",
+        "Balance follows rhythm"
+      ],
+      "answer": "Form follows function"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "Which of the following should be considered when determining building orientation?",
+      "options": [
+        "Sunlight",
+        "Existing vegetation",
+        "Prevailing winds",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "Which area of the lot usually includes the house and outdoor living space?",
+      "options": [
+        "Public area",
+        "Private area",
+        "Service area",
+        "Street area"
+      ],
+      "answer": "Private area"
+    },
+    {
+      "id": 11,
+      "type": "multiple_choice",
+      "question": "According to the reviewer, where should kitchen and dining areas generally be placed?",
+      "options": [
+        "North or west side",
+        "South or east side",
+        "Only north side",
+        "Only west side"
+      ],
+      "answer": "South or east side"
+    },
+    {
+      "id": 12,
+      "type": "multiple_choice",
+      "question": "Which side is considered appropriate for sleeping areas because it is cooler and provides greater darkness?",
+      "options": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ],
+      "answer": "North"
+    },
+    {
+      "id": 13,
+      "type": "multiple_choice",
+      "question": "What is the recommended relationship between the living room and dining room?",
+      "options": [
+        "They should be far apart.",
+        "The living room should be adjacent to the dining room.",
+        "The dining room should always be outside.",
+        "They should never share access."
+      ],
+      "answer": "The living room should be adjacent to the dining room."
+    },
+    {
+      "id": 14,
+      "type": "multiple_choice",
+      "question": "What is the approximate minimum size of a living room stated in the reviewer?",
+      "options": [
+        "2.4 m x 3.7 m",
+        "3.7 m x 5.5 m",
+        "4.9 m x 6.1 m",
+        "6.1 m x 7.9 m"
+      ],
+      "answer": "3.7 m x 5.5 m"
+    },
+    {
+      "id": 15,
+      "type": "multiple_choice",
+      "question": "Where should the dining area generally be located?",
+      "options": [
+        "Adjacent to the kitchen",
+        "Far from the kitchen",
+        "Only beside the bedroom",
+        "Only beside the garage"
+      ],
+      "answer": "Adjacent to the kitchen"
+    },
+    {
+      "id": 16,
+      "type": "multiple_choice",
+      "question": "What is the approximate minimum-sized family room?",
+      "options": [
+        "100 sq. ft.",
+        "150 sq. ft.",
+        "200 sq. ft.",
+        "300 sq. ft."
+      ],
+      "answer": "150 sq. ft."
+    },
+    {
+      "id": 17,
+      "type": "multiple_choice",
+      "question": "What is the main structural difference between a porch and a patio?",
+      "options": [
+        "A porch is attached to the house while a patio is placed directly on the ground.",
+        "A patio is always suspended from an upper floor.",
+        "A porch is always inside the house.",
+        "There is no difference."
+      ],
+      "answer": "A porch is attached to the house while a patio is placed directly on the ground."
+    },
+    {
+      "id": 18,
+      "type": "multiple_choice",
+      "question": "Which type of patio can become an extension of the bedroom?",
+      "options": [
+        "Living patio",
+        "Play patio",
+        "Quiet patio",
+        "Service patio"
+      ],
+      "answer": "Quiet patio"
+    },
+    {
+      "id": 19,
+      "type": "multiple_choice",
+      "question": "If sunlight is desired, on which side of the house should a patio be located?",
+      "options": [
+        "North",
+        "South",
+        "East only",
+        "West only"
+      ],
+      "answer": "South"
+    },
+    {
+      "id": 20,
+      "type": "multiple_choice",
+      "question": "According to Section 805, what is the minimum ceiling height for a habitable room with natural ventilation?",
+      "options": [
+        "1.80 m",
+        "2.10 m",
+        "2.40 m",
+        "2.70 m"
+      ],
+      "answer": "2.70 m"
+    },
+    {
+      "id": 21,
+      "type": "multiple_choice",
+      "question": "According to Section 806, what is the minimum floor area for a room intended for human habitation?",
+      "options": [
+        "3.0 sq. m",
+        "6.0 sq. m",
+        "10.0 sq. m",
+        "14.0 sq. m"
+      ],
+      "answer": "6.0 sq. m"
+    },
+    {
+      "id": 22,
+      "type": "multiple_choice",
+      "question": "According to Section 808, what minimum percentage of the floor area must the total free area of window openings equal for rooms without artificial ventilation?",
+      "options": [
+        "5%",
+        "10%",
+        "15%",
+        "20%"
+      ],
+      "answer": "10%"
+    },
+    {
+      "id": 23,
+      "type": "true_false",
+      "question": "The basic elements of design include line, form, color, space, light, and material.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 24,
+      "type": "true_false",
+      "question": "Rough surfaces generally reflect more light and make colors appear brighter.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 25,
+      "type": "true_false",
+      "question": "Rhythm can be achieved through repetition of lines, colors, and patterns.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 26,
+      "type": "true_false",
+      "question": "Unity means that every structure should appear complete and harmonious.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 27,
+      "type": "true_false",
+      "question": "An architectural plan should be started before checking local building and zoning codes.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 28,
+      "type": "true_false",
+      "question": "The public area of a lot is usually located at the front of the house.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 29,
+      "type": "true_false",
+      "question": "The living room should serve as a traffic access route to the sleeping and service areas whenever possible.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 30,
+      "type": "true_false",
+      "question": "A patio is structurally attached to the house in the same way as a porch.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 31,
+      "type": "true_false",
+      "question": "A balcony is a porch suspended from an upper level of a structure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 32,
+      "type": "true_false",
+      "question": "A quiet patio should be secluded from the normal traffic of the home.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 33,
+      "type": "true_false",
+      "question": "A minimum-sized patio is approximately 3.7 m x 3.7 m.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 34,
+      "type": "true_false",
+      "question": "A habitable room with artificial ventilation must have a minimum ceiling height of 2.70 m according to Section 805.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 35,
+      "type": "true_false",
+      "question": "A kitchen has a minimum floor area of 3.0 sq. m according to Section 806.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 36,
+      "type": "identification",
+      "question": "What element of design consists of raw substances with which designers create?",
+      "answer": "Materials"
+    },
+    {
+      "id": 37,
+      "type": "identification",
+      "question": "What principle of design is used to draw attention to an area or subject?",
+      "answer": "Emphasis"
+    },
+    {
+      "id": 38,
+      "type": "identification",
+      "question": "What principle of design refers to the sense of wholeness in a design?",
+      "answer": "Unity"
+    },
+    {
+      "id": 39,
+      "type": "identification",
+      "question": "What is the relationship of a building to its environment called?",
+      "answer": "Orientation"
+    },
+    {
+      "id": 40,
+      "type": "identification",
+      "question": "What area of the lot includes the house and outdoor living space?",
+      "answer": "Private area"
+    },
+    {
+      "id": 41,
+      "type": "identification",
+      "question": "What area of the lot is usually located at the front of the house and should provide off-street parking and access to the main entrance?",
+      "answer": "Public area"
+    },
+    {
+      "id": 42,
+      "type": "identification",
+      "question": "What covered platform leads into an entrance of a building?",
+      "answer": "Porch"
+    },
+    {
+      "id": 43,
+      "type": "identification",
+      "question": "What outdoor surface is placed directly on the ground and is adjacent or directly accessible to the house?",
+      "answer": "Patio"
+    },
+    {
+      "id": 44,
+      "type": "identification",
+      "question": "What type of patio is used for relaxation or sleeping and can become an extension of the bedroom?",
+      "answer": "Quiet patio"
+    },
+    {
+      "id": 45,
+      "type": "identification",
+      "question": "What Hawaiian word means porch and is also used for a covered exterior passageway?",
+      "answer": "Lanai"
+    },
+    {
+      "id": 46,
+      "type": "identification",
+      "question": "According to Section 805, what is the minimum ceiling height for a habitable room with artificial ventilation?",
+      "answer": "2.40 meters"
+    },
+    {
+      "id": 47,
+      "type": "identification",
+      "question": "According to Section 806, what is the minimum floor area for a bath and toilet?",
+      "answer": "1.20 square meters"
+    },
+    {
+      "id": 48,
+      "type": "identification",
+      "question": "According to Section 808, what minimum percentage of the room floor area must the total free area of window openings equal?",
+      "answer": "10%"
+    },
+    {
+      "id": 49,
+      "type": "enumeration",
+      "question": "List the six basic elements of design.",
+      "answer": [
+        "Line",
+        "Form",
+        "Color",
+        "Space",
+        "Light and Shadow",
+        "Materials"
+      ]
+    },
+    {
+      "id": 50,
+      "type": "enumeration",
+      "question": "List the ten basic principles of design.",
+      "answer": [
+        "Balance",
+        "Rhythm",
+        "Emphasis",
+        "Proportion",
+        "Unity",
+        "Variety",
+        "Repetition",
+        "Opposition",
+        "Subordination",
+        "Transition"
+      ]
+    },
+    {
+      "id": 51,
+      "type": "enumeration",
+      "question": "List the three areas into which lots are divided according to function.",
+      "answer": [
+        "Private area",
+        "Public area",
+        "Service area"
+      ]
+    },
+    {
+      "id": 52,
+      "type": "enumeration",
+      "question": "List four factors that should be considered when determining the orientation of a building.",
+      "answer": [
+        "Sun heat",
+        "Sunlight",
+        "Existing vegetation",
+        "Prevailing winds or breezes"
+      ]
+    },
+    {
+      "id": 53,
+      "type": "enumeration",
+      "question": "List the three main types of patios according to function.",
+      "answer": [
+        "Living patio",
+        "Play patio",
+        "Quiet patio"
+      ]
+    },
+    {
+      "id": 54,
+      "type": "enumeration",
+      "question": "List the three major setback requirements stated in the reviewer.",
+      "answer": [
+        "Frontage setback - 3.0 m",
+        "Side setback - 2.0 m",
+        "Rear setback - 2.0 m"
+      ]
+    },
+    {
+      "id": 55,
+      "type": "enumeration",
+      "question": "List the minimum floor areas given in Section 806 for rooms for human habitation, kitchen, and bath and toilet.",
+      "answer": [
+        "Rooms for human habitation - 6.0 sq. m",
+        "Kitchen - 3.0 sq. m",
+        "Bath and toilet - 1.20 sq. m"
+      ]
+    },
+    {
+      "id": 56,
+      "type": "enumeration",
+      "question": "List the minimum ceiling heights stated in Section 805 for naturally ventilated habitable rooms, artificially ventilated habitable rooms, and mezzanine floors.",
+      "answer": [
+        "Natural ventilation - 2.70 m",
+        "Artificial ventilation - 2.40 m",
+        "Mezzanine floors - 1.80 m above and below"
+      ]
+    }
+  ]
+}

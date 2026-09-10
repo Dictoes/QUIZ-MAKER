@@ -1,0 +1,373 @@
+{
+  "id": "topic-10",
+  "title": "Lot Lines, Easements & Setbacks",
+  "description": "Basic concepts of lots, lot lines, easements, setbacks, privacy easements, courts and yards, and allowable building areas used in architectural site planning.",
+  "reviewer": [
+    {
+      "title": "What is a Lot?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A lot is a defined parcel of land on which a building or other development may be located. The lot is identified by its boundaries and dimensions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "A lot is a parcel of land.",
+            "Its boundaries define the extent of the property.",
+            "The building location must be planned within the lot."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is a Lot Line?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A lot line is a boundary line that defines the limits of a property or lot."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Front lot line",
+            "Rear lot line",
+            "Side lot lines",
+            "Lot lines define the property boundaries."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is an Easement?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "An easement is a legal right affecting the use of land. It may provide a person or property with a specific right to use part of another property for a particular purpose."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Easements may affect how a property can be developed.",
+            "An easement can restrict construction within a particular area.",
+            "The purpose of an easement determines how the affected area may be used."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "What is a Setback?",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "A setback is the required distance between a building and a property boundary, road, or other reference line. Setbacks provide required open spaces around buildings."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Front setback",
+            "Side setback",
+            "Rear setback",
+            "Setbacks help regulate building placement."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Minimum Easement of Two Meters",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Certain privacy-related easements may require a minimum distance between structures and property boundaries. A two-meter distance is associated with specific privacy easement provisions."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Privacy easements can limit the placement of openings.",
+            "The required distance protects privacy between adjoining properties.",
+            "The applicable legal provision should be checked for the specific situation."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "NBCP Courts, Yards, and Setbacks",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Courts, yards, and setbacks provide open spaces around buildings. These spaces contribute to light, ventilation, access, and safe building planning."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Courts provide open spaces within or around building arrangements.",
+            "Yards provide required open spaces around buildings.",
+            "Setbacks control how close a building can be placed to property boundaries."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Allowable Building Area and Setbacks",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "The allowable building area is affected by lot dimensions, required setbacks, easements, and other applicable regulations. Site planning must account for these restrictions before determining the building footprint."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Determine lot boundaries.",
+            "Identify required setbacks.",
+            "Identify applicable easements.",
+            "Determine the area available for the building.",
+            "Check applicable building regulations."
+          ]
+        }
+      ]
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "type": "multiple_choice",
+      "question": "What is a lot?",
+      "options": [
+        "A defined parcel of land",
+        "A building component",
+        "A type of foundation",
+        "A roof structure"
+      ],
+      "answer": "A defined parcel of land"
+    },
+    {
+      "id": 2,
+      "type": "multiple_choice",
+      "question": "What defines the limits of a property?",
+      "options": [
+        "Lot lines",
+        "Roof lines",
+        "Ceiling lines",
+        "Door swings"
+      ],
+      "answer": "Lot lines"
+    },
+    {
+      "id": 3,
+      "type": "multiple_choice",
+      "question": "Which is an example of a lot line?",
+      "options": [
+        "Front lot line",
+        "Roof line",
+        "Window line",
+        "Ceiling line"
+      ],
+      "answer": "Front lot line"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What is an easement?",
+      "options": [
+        "A legal right affecting the use of land",
+        "A type of roof",
+        "A room dimension",
+        "A type of window"
+      ],
+      "answer": "A legal right affecting the use of land"
+    },
+    {
+      "id": 5,
+      "type": "multiple_choice",
+      "question": "What can an easement affect?",
+      "options": [
+        "How a property can be developed",
+        "The color of furniture",
+        "The height of a chair",
+        "The type of paint used"
+      ],
+      "answer": "How a property can be developed"
+    },
+    {
+      "id": 6,
+      "type": "multiple_choice",
+      "question": "What is a setback?",
+      "options": [
+        "Required distance between a building and a reference boundary",
+        "The thickness of a wall",
+        "The height of a ceiling",
+        "The width of a door"
+      ],
+      "answer": "Required distance between a building and a reference boundary"
+    },
+    {
+      "id": 7,
+      "type": "multiple_choice",
+      "question": "Which is a type of setback?",
+      "options": [
+        "Front setback",
+        "Roof setback",
+        "Window setback",
+        "Ceiling setback"
+      ],
+      "answer": "Front setback"
+    },
+    {
+      "id": 8,
+      "type": "multiple_choice",
+      "question": "Why are setbacks important?",
+      "options": [
+        "They regulate building placement",
+        "They determine furniture color",
+        "They eliminate lot boundaries",
+        "They replace architectural plans"
+      ],
+      "answer": "They regulate building placement"
+    },
+    {
+      "id": 9,
+      "type": "multiple_choice",
+      "question": "What can courts and yards provide around buildings?",
+      "options": [
+        "Required open spaces",
+        "Additional structural floors",
+        "Roof coverings",
+        "Interior furniture"
+      ],
+      "answer": "Required open spaces"
+    },
+    {
+      "id": 10,
+      "type": "multiple_choice",
+      "question": "Which factor can affect the allowable building area?",
+      "options": [
+        "Required setbacks",
+        "Furniture arrangement",
+        "Interior paint",
+        "Ceiling decoration"
+      ],
+      "answer": "Required setbacks"
+    },
+    {
+      "id": 11,
+      "type": "true_false",
+      "question": "A lot is a defined parcel of land.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 12,
+      "type": "true_false",
+      "question": "Lot lines define the limits of a property.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 13,
+      "type": "true_false",
+      "question": "An easement can affect how a property may be developed.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 14,
+      "type": "true_false",
+      "question": "A setback means that a building may be placed directly on every property boundary.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "False"
+    },
+    {
+      "id": 15,
+      "type": "true_false",
+      "question": "Courts and yards can provide required open spaces.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": "True"
+    },
+    {
+      "id": 16,
+      "type": "identification",
+      "question": "What term refers to a defined parcel of land?",
+      "answer": "Lot"
+    },
+    {
+      "id": 17,
+      "type": "identification",
+      "question": "What term refers to a boundary line defining the limits of a property?",
+      "answer": "Lot line"
+    },
+    {
+      "id": 18,
+      "type": "identification",
+      "question": "What legal right affects the use of land and may restrict development?",
+      "answer": "Easement"
+    },
+    {
+      "id": 19,
+      "type": "identification",
+      "question": "What term refers to the required distance between a building and a property boundary or other reference line?",
+      "answer": "Setback"
+    },
+    {
+      "id": 20,
+      "type": "identification",
+      "question": "What open spaces around buildings can contribute to light and ventilation?",
+      "answer": "Courts and yards"
+    },
+    {
+      "id": 21,
+      "type": "enumeration",
+      "question": "Enumerate three common types of lot lines or lot boundaries.",
+      "answer": [
+        "Front lot line",
+        "Rear lot line",
+        "Side lot lines"
+      ]
+    },
+    {
+      "id": 22,
+      "type": "enumeration",
+      "question": "Enumerate three common types of setbacks.",
+      "answer": [
+        "Front setback",
+        "Side setback",
+        "Rear setback"
+      ]
+    },
+    {
+      "id": 23,
+      "type": "enumeration",
+      "question": "Enumerate four factors that should be considered when determining the allowable building area.",
+      "answer": [
+        "Lot boundaries",
+        "Required setbacks",
+        "Applicable easements",
+        "Lot dimensions"
+      ]
+    },
+    {
+      "id": 24,
+      "type": "enumeration",
+      "question": "Enumerate three purposes of courts, yards, and setbacks.",
+      "answer": [
+        "Provide open space",
+        "Support natural lighting and ventilation",
+        "Regulate building placement"
+      ]
+    }
+  ]
+}
