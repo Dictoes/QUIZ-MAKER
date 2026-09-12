@@ -1,0 +1,1125 @@
+{
+  "id": "SSP031: KANSEI ENGINEERING",
+  "title": "SSP031: Creative Thinking Tools",
+  "description": "Creative thinking tools, Kansei Engineering, and Pugh Matrix study materials.",
+  "topics": [
+    {
+      "id": "SSP031: KANSEI ENGINEERING:TOPIC 1",
+      "title": "Topic 1: Introduction to Creative Thinking Tools, Trends & Techniques",
+      "description": "Foundations of creativity, creative levels, and environments that support creative thinking.",
+      "reviewer": [
+        {
+          "title": "1.0 Welcome & Framing",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "This course explores creativity using a wide range of creativity tools. <strong>You do not need to be an artist to be a creative thinker, and vice versa.</strong> Many jobs that have nothing to do with the arts still require creative thinking. The course aims to explore innate creative abilities and enhance creative skills. No prior background is required, only an open mind."
+            }
+          ]
+        },
+        {
+          "title": "1.1 Tips for Studying Online",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Read the course guide; all essential information is there.",
+                "Plan weekly study time and submit outputs on time.",
+                "Spend time on the class at least three times a week.",
+                "Ask questions or seek consultation with the instructor.",
+                "Connect and collaborate with classmates."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.2 Mother and Father of Innovation",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Peter Childs proposes that the familiar saying is incomplete: <strong>necessity is the mother of invention, while opportunity is the father of invention.</strong> Creativity helps whether you are solving a problem or pursuing an opportunity. A creativity toolbox, paired with an understanding of creativity, can improve effectiveness at work and in personal life."
+            }
+          ]
+        },
+        {
+          "title": "1.3 What is Creativity to You?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Creativity is not bound to a single definition. Each person can describe what creativity means based on their experience when new ideas form. This is a reflection prompt rather than a graded item."
+            }
+          ]
+        },
+        {
+          "title": "1.4 Definitions of Creativity",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Ghiselin (1952): Creativity is the process of change, development, and evolution in the organization of subjective life.",
+                "Mednick (1962): Creativity forms associative elements into new combinations that meet requirements or are useful.",
+                "Vernon (1989): Creativity is the capacity to produce new or original ideas, insights, inventions, or artistic products accepted as valuable.",
+                "Sae Ra Kung (2009): Creativity is imagination with responsibility.",
+                "<strong>Working definition:</strong> Creativity is the ability to imagine or invent something new or valuable. It generates ideas by combining, changing, or reapplying existing ideas."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.5 Levels of Creativity",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "<strong>Small c:</strong> Everyday ideas that enrich daily life, such as changing a recipe or reorganizing cupboards.",
+                "<strong>Big C:</strong> Eminent, giant-leap creativity in literature, science, art, and engineering.",
+                "Important periods include the Renaissance, Industrial Revolution, twentieth-century psychology and neuroscience, and twenty-first-century automated and augmented creativity.",
+                "<strong>Patronage</strong> supports creative activity by providing resources and freeing people to concentrate on developing ideas."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "1.6 Examples of Creativity",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The source describes three examples for a reflection exercise: <strong>The Garage</strong>, a Stanley Spencer painting depicting wartime car repair; <strong>Ege's Chair</strong>, a pyramid-form chair concept exploring balance and non-destruction; and <strong>Ohoo!</strong>, an edible water bubble made from plant and seaweed materials with low environmental impact. Learners rate each using Social, Aesthetic, and Scientific value."
+            }
+          ]
+        },
+        {
+          "title": "1.7 Creative Environments",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Sustained stress can block novel thinking. A <strong>low-stress, high-trust environment</strong> helps people consider new ideas because the group reassures participants that it will support the idea and solve resulting problems. The 'B's of creativity include the bar, bath, boring meeting or lecture, bus, bed, and beach. They share a relaxed state in which the subconscious is active. Fiction, such as <em>Alice's Adventures in Wonderland</em>, can also stimulate imagination."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 3101,
+          "type": "multiple_choice",
+          "question": "According to Peter Childs, what is the father of invention?",
+          "options": ["Necessity", "Opportunity", "Patronage", "Technology"],
+          "answer": "Opportunity"
+        },
+        {
+          "id": 3102,
+          "type": "multiple_choice",
+          "question": "Which statement matches the working definition of creativity?",
+          "options": ["Creating something from nothing", "Generating new ideas by combining, changing, or reapplying existing ideas", "Copying an existing product", "Working only in the arts"],
+          "answer": "Generating new ideas by combining, changing, or reapplying existing ideas"
+        },
+        {
+          "id": 3103,
+          "type": "identification",
+          "question": "What level of creativity describes everyday ideas that enrich daily life?",
+          "answer": "Small c"
+        },
+        {
+          "id": 3104,
+          "type": "true_false",
+          "question": "A person must be an artist to be a creative thinker.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3105,
+          "type": "multiple_choice",
+          "question": "What type of environment supports creative thinking?",
+          "options": ["High-stress and competitive", "Low-stress and high-trust", "Silent and isolated", "One that punishes new ideas"],
+          "answer": "Low-stress and high-trust"
+        },
+        {
+          "id": 3106,
+          "type": "multiple_choice",
+          "question": "Which activity is listed as a tip for studying online?",
+          "options": ["Avoid collaboration", "Read the course guide", "Study only once a month", "Skip consultations"],
+          "answer": "Read the course guide"
+        },
+        {
+          "id": 3107,
+          "type": "multiple_choice",
+          "question": "Which definition says creativity forms associative elements into useful new combinations?",
+          "options": ["Ghiselin", "Mednick", "Vernon", "Sae Ra Kung"],
+          "answer": "Mednick"
+        },
+        {
+          "id": 3108,
+          "type": "true_false",
+          "question": "Big C creativity refers to everyday small accomplishments such as reorganizing cupboards.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3109,
+          "type": "enumeration",
+          "question": "Name three of the creativity-friendly 'B's described in the topic.",
+          "answer": ["bar", "bath", "bus"]
+        },
+        {
+          "id": 3110,
+          "type": "multiple_choice",
+          "question": "What three values are used to rate The Garage, Ege's Chair, and Ohoo!?",
+          "options": ["Social, Aesthetic, and Scientific", "Cost, Speed, and Safety", "Historic, Modern, and Technical", "Personal, Financial, and Legal"],
+          "answer": "Social, Aesthetic, and Scientific"
+        },
+        {
+          "id": 3111,
+          "type": "true_false",
+          "question": "Creative thinking is required only in jobs related to the arts.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3112,
+          "type": "multiple_choice",
+          "question": "What attitude does the course say is needed before studying creativity?",
+          "options": ["An open mind", "A fixed opinion", "No prior experience", "A dislike of new ideas"],
+          "answer": "An open mind"
+        },
+        {
+          "id": 3113,
+          "type": "identification",
+          "question": "Who presented the Mother and Father of Innovation video summary?",
+          "answer": "Peter Childs"
+        },
+        {
+          "id": 3114,
+          "type": "multiple_choice",
+          "question": "What does patronage provide to creative activity?",
+          "options": ["Investment and support", "Strict limits", "Only technical drawings", "A replacement for imagination"],
+          "answer": "Investment and support"
+        },
+        {
+          "id": 3115,
+          "type": "true_false",
+          "question": "Creativity can have personal, societal, financial, or combined value.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3116,
+          "type": "multiple_choice",
+          "question": "Which statement best describes small c creativity?",
+          "options": ["Everyday ideas that improve life", "Only scientific discoveries", "Only famous inventions", "Ideas with no practical value"],
+          "answer": "Everyday ideas that improve life"
+        },
+        {
+          "id": 3117,
+          "type": "multiple_choice",
+          "question": "Which period is associated with an explosion of interdisciplinary ideas?",
+          "options": ["The Renaissance", "The Middle Ages only", "The 1970s only", "The future"],
+          "answer": "The Renaissance"
+        },
+        {
+          "id": 3118,
+          "type": "true_false",
+          "question": "The Industrial Revolution used production and concentrated resources to support creative development.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3119,
+          "type": "identification",
+          "question": "What term describes eminent, giant-leap creativity?",
+          "answer": "Big C"
+        },
+        {
+          "id": 3120,
+          "type": "multiple_choice",
+          "question": "What can sustained stress do to creative thinking?",
+          "options": ["Block novel ideas", "Guarantee innovation", "Remove the need for imagination", "Make every idea scientific"],
+          "answer": "Block novel ideas"
+        },
+        {
+          "id": 3121,
+          "type": "multiple_choice",
+          "question": "What is essential for a supportive creative environment?",
+          "options": ["High trust", "Punishment for mistakes", "No collaboration", "Constant urgency"],
+          "answer": "High trust"
+        },
+        {
+          "id": 3122,
+          "type": "enumeration",
+          "question": "Name three activities or places included in the B's of creativity.",
+          "answer": ["bar", "bath", "bed"]
+        },
+        {
+          "id": 3123,
+          "type": "true_false",
+          "question": "The B's of creativity are associated with a relaxed state.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3124,
+          "type": "multiple_choice",
+          "question": "What is active during the relaxed B's of creativity?",
+          "options": ["The subconscious", "Only physical strength", "A scoring matrix", "A product warranty"],
+          "answer": "The subconscious"
+        },
+        {
+          "id": 3125,
+          "type": "multiple_choice",
+          "question": "Which work is suggested as an imagination-friendly reading example?",
+          "options": ["Alice's Adventures in Wonderland", "A financial report", "A load table", "A product invoice"],
+          "answer": "Alice's Adventures in Wonderland"
+        },
+        {
+          "id": 3126,
+          "type": "true_false",
+          "question": "Creativity is the ability to create something from absolutely nothing.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3127,
+          "type": "multiple_choice",
+          "question": "Which action is part of generating creative ideas?",
+          "options": ["Reapplying existing ideas", "Rejecting every existing idea", "Avoiding combinations", "Copying without change"],
+          "answer": "Reapplying existing ideas"
+        },
+        {
+          "id": 3128,
+          "type": "identification",
+          "question": "Which creativity value relates to beauty and artistic appeal?",
+          "answer": "Aesthetic Value"
+        },
+        {
+          "id": 3129,
+          "type": "identification",
+          "question": "Which creativity value relates to community or society?",
+          "answer": "Social Value"
+        },
+        {
+          "id": 3130,
+          "type": "identification",
+          "question": "Which creativity value relates to knowledge, discovery, or technical contribution?",
+          "answer": "Scientific Value"
+        },
+        {
+          "id": 3131,
+          "type": "multiple_choice",
+          "question": "What does The Garage depict?",
+          "options": ["Wartime car repair", "A water treatment plant", "A Pugh chart", "A sports car suspension"],
+          "answer": "Wartime car repair"
+        },
+        {
+          "id": 3132,
+          "type": "multiple_choice",
+          "question": "What is notable about Ohoo!?",
+          "options": ["It is an edible water bubble", "It is a metal chair", "It is a creative software tool", "It is a historical painting"],
+          "answer": "It is an edible water bubble"
+        },
+        {
+          "id": 3133,
+          "type": "true_false",
+          "question": "Ohoo! uses plant and seaweed materials for low-impact packaging.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3134,
+          "type": "multiple_choice",
+          "question": "What does Ege's Chair explore?",
+          "options": ["Balance and non-destruction", "Electrical resistance", "Water pressure", "Matrix multiplication"],
+          "answer": "Balance and non-destruction"
+        },
+        {
+          "id": 3135,
+          "type": "enumeration",
+          "question": "List two ways to study effectively online from the topic.",
+          "answer": ["Plan weekly study time", "Ask questions or seek consultation"]
+        },
+        {
+          "id": 3136,
+          "type": "multiple_choice",
+          "question": "What should a group provide when someone proposes a new idea?",
+          "options": ["Support and help solving problems", "Immediate rejection", "A financial penalty", "Silence"],
+          "answer": "Support and help solving problems"
+        },
+        {
+          "id": 3137,
+          "type": "true_false",
+          "question": "Collaboration with classmates is encouraged in the online study tips.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3138,
+          "type": "multiple_choice",
+          "question": "Which field is mentioned as contributing to twentieth-century understanding of creativity?",
+          "options": ["Psychology and neuroscience", "Plumbing code", "Structural surveying only", "Accounting law"],
+          "answer": "Psychology and neuroscience"
+        },
+        {
+          "id": 3139,
+          "type": "multiple_choice",
+          "question": "Which development is associated with twenty-first-century creativity?",
+          "options": ["Automated and augmented creativity", "The first Renaissance workshop", "The invention of patronage", "Only hand drawing"],
+          "answer": "Automated and augmented creativity"
+        },
+        {
+          "id": 3140,
+          "type": "true_false",
+          "question": "The topic presents reflection prompts as graded factual answers.",
+          "options": ["True", "False"],
+          "answer": "False"
+        }
+      ]
+    },
+    {
+      "id": "SSP031: KANSEI ENGINEERING:TOPIC 2",
+      "title": "Topic 2: Design on Kansei Engineering",
+      "description": "Kansei Engineering and the translation of human feelings into product characteristics.",
+      "reviewer": [
+        {
+          "title": "2.1 Introduction to Kansei Engineering",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<strong>Kansei Engineering</strong> (Kansei Kougaku) is also called emotional or affective engineering. Founded by <strong>Mitsuo Nagamachi</strong>, it translates a customer's psychological feelings and needs into product design characteristics and links emotional responses to product properties."
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Aesthetic qualities:</strong> how a product feels, looks, smells, and appears to the consumer.",
+                "<strong>Performance:</strong> how well the product functions.",
+                "A product can be designed to deliberately evoke an intended feeling."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2.2 Founder of Kansei Engineering",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Mitsuo Nagamachi invented Kansei Engineering in the <strong>1970s</strong> while at Kure University, now Hiroshima International University. He studied how to quantify consumers' impressions and account for customer emotion in product development. The method became popular in Japan in the 1970s and spread to North America and Western Europe by the mid-1990s."
+            }
+          ]
+        },
+        {
+          "title": "2.3 The Kansei Engineering Concept",
+          "content": [
+            {
+              "type": "image",
+              "src": "assets/ssp031/kansei-engineering-concept.svg",
+              "alt": "Kansei Engineering concept diagram",
+              "caption": "Engineering based on human feelings: feelings plus product capability produce a Kansei-designed product."
+            }
+          ]
+        },
+        {
+          "title": "2.4 How Do Consumers Decide?",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "When products are functionally equivalent, consumers also use <strong>subjective factors</strong>: how a product makes them feel. Kansei Engineering connects emotional responses with product properties and features so producers can design toward those feelings. Nagamachi described it as translating customers' feelings into concrete product parameters."
+            }
+          ]
+        },
+        {
+          "title": "2.5 Kansei Engineering Examples",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "<strong>Sports cars:</strong> Kansei can connect impressions such as elegant, powerful, fast, and sporty to physical parameters such as suspension design.",
+                "<strong>Mazda Miata:</strong> Kansei data supported development of the MX-5, which became the world's best-selling two-seater sports car according to the source.",
+                "<strong>Wacoal:</strong> Kansei data improved a brassiere design that achieved a 42% share of the Japanese brassiere market."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "2.6 Related Japanese Business Concepts",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "<strong>Kaikaku:</strong> radical change made all at once.",
+                "<strong>Kaizen:</strong> continuous improvement through small, incremental steps over the long term."
+              ]
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 3201,
+          "type": "multiple_choice",
+          "question": "Who founded Kansei Engineering, and in what decade?",
+          "options": ["Stuart Pugh in the 1980s", "Mitsuo Nagamachi in the 1970s", "Peter Childs in the 1990s", "Sae Ra Kung in the 1960s"],
+          "answer": "Mitsuo Nagamachi in the 1970s"
+        },
+        {
+          "id": 3202,
+          "type": "multiple_choice",
+          "question": "Kansei Engineering pleases consumers in which two ways?",
+          "options": ["Price and availability", "Aesthetic qualities and performance", "Brand recognition and packaging", "Warranty and durability"],
+          "answer": "Aesthetic qualities and performance"
+        },
+        {
+          "id": 3203,
+          "type": "multiple_choice",
+          "question": "Which company reached a 42% Japanese brassiere market share after improving a design with Kansei data?",
+          "options": ["Mazda", "Sony", "Wacoal", "Apple"],
+          "answer": "Wacoal"
+        },
+        {
+          "id": 3204,
+          "type": "multiple_choice",
+          "question": "What is the key difference between Kaikaku and Kaizen?",
+          "options": ["Kaikaku is incremental and Kaizen is radical", "Kaikaku is radical and Kaizen is incremental", "They are the same concept", "Kaikaku applies only to services"],
+          "answer": "Kaikaku is radical and Kaizen is incremental"
+        },
+        {
+          "id": 3205,
+          "type": "true_false",
+          "question": "Kansei Engineering links a consumer's emotional response to product properties and features.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3206,
+          "type": "multiple_choice",
+          "question": "What does Kansei Kougaku refer to?",
+          "options": ["Kansei Engineering", "Pugh Matrix", "Kaizen accounting", "Structural analysis"],
+          "answer": "Kansei Engineering"
+        },
+        {
+          "id": 3207,
+          "type": "identification",
+          "question": "What type of engineering translates customer feelings and needs into product design characteristics?",
+          "answer": "Kansei Engineering"
+        },
+        {
+          "id": 3208,
+          "type": "multiple_choice",
+          "question": "Which product parameter is given as an example of what may influence a sports car's impression?",
+          "options": ["Suspension design", "Office lighting", "Market tax", "Course schedule"],
+          "answer": "Suspension design"
+        },
+        {
+          "id": 3209,
+          "type": "true_false",
+          "question": "Kansei Engineering became popular in Japan in the 1970s and spread to Western regions by the mid-1990s.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3210,
+          "type": "enumeration",
+          "question": "List the two ways Kansei Engineering aims to please consumers.",
+          "answer": ["Aesthetic qualities", "Performance"]
+        },
+        {
+          "id": 3211,
+          "type": "multiple_choice",
+          "question": "What does Kansei mean in the course context?",
+          "options": ["Human feelings or sensibility", "A load combination", "A matrix score", "A legal code"],
+          "answer": "Human feelings or sensibility"
+        },
+        {
+          "id": 3212,
+          "type": "true_false",
+          "question": "Kansei Engineering can be applied to products and services.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3213,
+          "type": "multiple_choice",
+          "question": "What kind of needs does Kansei Engineering translate into design characteristics?",
+          "options": ["Psychological feelings and needs", "Only tax requirements", "Only dimensions", "Only production schedules"],
+          "answer": "Psychological feelings and needs"
+        },
+        {
+          "id": 3214,
+          "type": "identification",
+          "question": "What is another name for Kansei Engineering?",
+          "answer": "Affective Engineering"
+        },
+        {
+          "id": 3215,
+          "type": "multiple_choice",
+          "question": "What does parametrically linking emotional responses help designers do?",
+          "options": ["Relate feelings to product properties", "Remove all user feedback", "Avoid product testing", "Choose a datum"],
+          "answer": "Relate feelings to product properties"
+        },
+        {
+          "id": 3216,
+          "type": "true_false",
+          "question": "A product's aesthetic qualities include how it feels, looks, and smells.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3217,
+          "type": "multiple_choice",
+          "question": "Where did Nagamachi work when he developed the method?",
+          "options": ["Kure University", "University of Strathclyde", "Imperial College London", "Cebu Institute of Technology"],
+          "answer": "Kure University"
+        },
+        {
+          "id": 3218,
+          "type": "identification",
+          "question": "What is Kure University now called?",
+          "answer": "Hiroshima International University"
+        },
+        {
+          "id": 3219,
+          "type": "multiple_choice",
+          "question": "Why did Nagamachi research Kansei Engineering?",
+          "options": ["Companies wanted to quantify consumer impressions", "Companies wanted fewer products", "Consumers rejected all design", "He was studying structural loads"],
+          "answer": "Companies wanted to quantify consumer impressions"
+        },
+        {
+          "id": 3220,
+          "type": "true_false",
+          "question": "Kansei Engineering spread to North America and Western Europe by the mid-1990s.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3221,
+          "type": "multiple_choice",
+          "question": "What two things combine in the Kansei concept diagram?",
+          "options": ["Human feelings and product capability", "Cost and tax", "Criteria and datum only", "Stress and weight"],
+          "answer": "Human feelings and product capability"
+        },
+        {
+          "id": 3222,
+          "type": "multiple_choice",
+          "question": "When technical functions are equivalent, what may distinguish products?",
+          "options": ["Subjective feelings", "Only their page count", "The Pugh datum", "Their legal code"],
+          "answer": "Subjective feelings"
+        },
+        {
+          "id": 3223,
+          "type": "true_false",
+          "question": "Consumers compare only technical pros and cons when choosing functionally equivalent products.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3224,
+          "type": "multiple_choice",
+          "question": "Which adjective is associated with consumer impressions of sports cars?",
+          "options": ["Sporty", "Disposable", "Triangular", "Regulatory"],
+          "answer": "Sporty"
+        },
+        {
+          "id": 3225,
+          "type": "enumeration",
+          "question": "List three impressions consumers may associate with sports cars.",
+          "answer": ["Elegant", "Powerful", "Fast"]
+        },
+        {
+          "id": 3226,
+          "type": "multiple_choice",
+          "question": "What can Kansei analysis derive for vehicle parts?",
+          "options": ["Target values", "Legal penalties", "Study schedules", "Matrix dimensions"],
+          "answer": "Target values"
+        },
+        {
+          "id": 3227,
+          "type": "identification",
+          "question": "What Mazda model is identified with Kansei development?",
+          "answer": "Miata (MX-5)"
+        },
+        {
+          "id": 3228,
+          "type": "true_false",
+          "question": "The source says the Miata became the world's best-selling two-seater sports car within ten years.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3229,
+          "type": "multiple_choice",
+          "question": "What product did Wacoal study using Kansei data?",
+          "options": ["A brassiere", "A sports car", "A smartphone", "A chair hinge"],
+          "answer": "A brassiere"
+        },
+        {
+          "id": 3230,
+          "type": "identification",
+          "question": "What market share did the improved Wacoal product achieve?",
+          "answer": "42%"
+        },
+        {
+          "id": 3231,
+          "type": "multiple_choice",
+          "question": "What does Kaikaku mean?",
+          "options": ["Radical change", "Small continuous improvement", "Consumer feeling", "Product capability"],
+          "answer": "Radical change"
+        },
+        {
+          "id": 3232,
+          "type": "multiple_choice",
+          "question": "What does Kaizen emphasize?",
+          "options": ["Small continuous improvements", "One drastic change", "No change", "Only aesthetic design"],
+          "answer": "Small continuous improvements"
+        },
+        {
+          "id": 3233,
+          "type": "true_false",
+          "question": "Kaikaku focuses on making drastic changes all at once.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3234,
+          "type": "true_false",
+          "question": "Kaizen means radical change made in one step.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3235,
+          "type": "enumeration",
+          "question": "Name two product qualities considered in Kansei Engineering.",
+          "answer": ["Aesthetic qualities", "Performance"]
+        },
+        {
+          "id": 3236,
+          "type": "multiple_choice",
+          "question": "What should product designers deliberately evoke?",
+          "options": ["An intended feeling", "A random score", "A negative response", "A legal dispute"],
+          "answer": "An intended feeling"
+        },
+        {
+          "id": 3237,
+          "type": "true_false",
+          "question": "Kansei Engineering is concerned only with how well a product functions.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3238,
+          "type": "multiple_choice",
+          "question": "What is the goal of translating feelings into concrete product parameters?",
+          "options": ["To guide product development", "To remove consumer input", "To avoid design decisions", "To score a Pugh chart"],
+          "answer": "To guide product development"
+        },
+        {
+          "id": 3239,
+          "type": "identification",
+          "question": "What kind of engineering is Kansei Engineering described as in the topic?",
+          "answer": "Consumer-oriented technology"
+        },
+        {
+          "id": 3240,
+          "type": "multiple_choice",
+          "question": "Which phrase best summarizes Kansei Engineering?",
+          "options": ["Designing products around human feelings and product function", "Choosing alternatives only by cost", "Making only radical business changes", "Avoiding emotional responses"],
+          "answer": "Designing products around human feelings and product function"
+        }
+      ]
+    },
+    {
+      "id": "SSP031: KANSEI ENGINEERING:TOPIC 3",
+      "title": "Topic 3: Design on Pugh Matrix",
+      "description": "Pugh Matrix criteria, scoring, weighting, and quantitative concept selection.",
+      "reviewer": [
+        {
+          "title": "3.1 Definition of the Pugh Matrix",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The <strong>Pugh Matrix</strong> is a simple decision-making method for finding the best solution among alternatives. It compares concepts against chosen criteria and a reference concept called the <strong>datum</strong>. Stuart Pugh developed it at the University of Strathclyde. It is normally used after capturing the <strong>Voice of the Customer (VOC)</strong>."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Compare different concepts.",
+                "Strengthen weak concepts.",
+                "Combine the strongest features of alternatives.",
+                "Arrive at an optimal, possibly hybrid, concept.",
+                "Use limited quantitative data early in design."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.2 Users of the Pugh Matrix",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "The Pugh Matrix is typically used by teams but can also be used by individuals. In a team variation, each person creates a matrix independently and the team compares the results."
+            }
+          ]
+        },
+        {
+          "title": "3.3 Purpose of the Pugh Matrix",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "Evaluate alternative processes or designs against a baseline.",
+                "Choose one solution when multiple criteria must be weighed.",
+                "Combine the best aspects of imperfect alternatives into a stronger hybrid."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3.4 Steps in Doing a Pugh Matrix",
+          "content": [
+            {
+              "type": "list",
+              "items": [
+                "<strong>1.</strong> List criteria vertically, such as technological impact, cost impact, and organizational acceptance.",
+                "<strong>2.</strong> Select the datum, the team's current most-feasible solution.",
+                "<strong>3.</strong> List alternative solutions horizontally.",
+                "<strong>4.</strong> Mark each alternative: + means better, – means worse, and S means the same as the datum.",
+                "<strong>5.</strong> Aggregate scores, optionally applying criteria weights. If no alternative exceeds zero, retain the datum."
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "A limitation is that a small advantage and a very large advantage both receive the same + mark. The method therefore relies on human judgment."
+            }
+          ]
+        },
+        {
+          "title": "3.5 Worked Example — Unweighted Scoring",
+          "content": [
+            {
+              "type": "image",
+              "src": "assets/ssp031/pugh-matrix-unweighted.svg",
+              "alt": "Unweighted Pugh Matrix example",
+              "caption": "Unweighted Pugh Matrix: Option D has the highest total of +3."
+            },
+            {
+              "type": "paragraph",
+              "text": "The unweighted totals are: Baseline 0, A 1, B –1, C 1, and D 3. <strong>Option D wins</strong> with three pluses and no minuses."
+            }
+          ]
+        },
+        {
+          "title": "3.6 Weighting",
+          "content": [
+            {
+              "type": "image",
+              "src": "assets/ssp031/pugh-matrix-weighted.svg",
+              "alt": "Weighted Pugh Matrix example",
+              "caption": "Weighted Pugh Matrix example with criteria weights 1, 2, 3, and 4."
+            },
+            {
+              "type": "paragraph",
+              "text": "Each criterion can be weighted by importance. The mark in each row is multiplied by that row's weight. In the example, the weighted totals are A 0, B 0, C 3, and D 7. A five-point scale is also possible: +2 much better, +1 better, 0 equal, –1 worse, and –2 much worse."
+            }
+          ]
+        },
+        {
+          "title": "3.7 Full Sample Pugh Chart — Shower/Transfer Aid for Elderly Users",
+          "content": [
+            {
+              "type": "image",
+              "src": "assets/ssp031/pugh-chart-worked-example.svg",
+              "alt": "Worked Pugh chart for shower and transfer aid",
+              "caption": "Worked Pugh chart: Shower Grips has the highest weighted total."
+            },
+            {
+              "type": "list",
+              "items": [
+                "Shower Steps: –13",
+                "Swivel Chair with Hinge Leg (datum): 0",
+                "Hydraulic Swivel Chair: –3",
+                "Pivoting Tub: –38",
+                "<strong>Shower Grips: +15</strong>",
+                "Tub Door: +13"
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "<strong>Shower Grips</strong> is the winning concept. However, the highest score is not automatically the answer; if a result contradicts intuition, re-examine the ratings and weights."
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 3301,
+          "type": "multiple_choice",
+          "question": "What is the reference concept against which alternatives are compared?",
+          "options": ["The criterion", "The datum", "The total", "The VOC"],
+          "answer": "The datum"
+        },
+        {
+          "id": 3302,
+          "type": "multiple_choice",
+          "question": "Using the unweighted scores for Option A (+1, 0, +1, –1), what is its total?",
+          "options": ["+3", "+1", "0", "–1"],
+          "answer": "+1"
+        },
+        {
+          "id": 3303,
+          "type": "multiple_choice",
+          "question": "In the unweighted example, which alternative wins?",
+          "options": ["Baseline", "Option B", "Option C", "Option D"],
+          "answer": "Option D"
+        },
+        {
+          "id": 3304,
+          "type": "multiple_choice",
+          "question": "Criteria weights are 1, 2, 3, and 4. Option C scores 0, 0, +1, 0. What is its weighted total?",
+          "options": ["1", "3", "4", "0"],
+          "answer": "3"
+        },
+        {
+          "id": 3305,
+          "type": "multiple_choice",
+          "question": "Which alternative achieved the highest weighted total in the shower/transfer-aid sample?",
+          "options": ["Tub Door, +13", "Shower Grips, +15", "Hydraulic Swivel Chair, –3", "Shower Steps, –13"],
+          "answer": "Shower Grips, +15"
+        },
+        {
+          "id": 3306,
+          "type": "true_false",
+          "question": "If every alternative scores below the datum, the datum should be retained.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3307,
+          "type": "multiple_choice",
+          "question": "Which item should be listed vertically in a Pugh Matrix?",
+          "options": ["The criteria", "The alternative names only", "The final score only", "The instructor's name"],
+          "answer": "The criteria"
+        },
+        {
+          "id": 3308,
+          "type": "multiple_choice",
+          "question": "In a Pugh Matrix, what does a minus sign mean?",
+          "options": ["The alternative is better than the datum", "The alternative is worse than the datum", "The alternative is equal to the datum", "The alternative is not scored"],
+          "answer": "The alternative is worse than the datum"
+        },
+        {
+          "id": 3309,
+          "type": "true_false",
+          "question": "A Pugh Matrix can be used by an individual as well as by a team.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3310,
+          "type": "identification",
+          "question": "What customer input is normally captured before using a Pugh Matrix?",
+          "answer": "Voice of the Customer (VOC)"
+        },
+        {
+          "id": 3311,
+          "type": "multiple_choice",
+          "question": "What happens when a criterion is weighted in a Pugh Matrix?",
+          "options": ["Each mark in that row is multiplied by the criterion's weight", "The datum is removed", "All alternatives receive the same score", "The criteria are deleted"],
+          "answer": "Each mark in that row is multiplied by the criterion's weight"
+        },
+        {
+          "id": 3312,
+          "type": "multiple_choice",
+          "question": "What is a limitation of using only +, –, and S ratings?",
+          "options": ["They require too much quantitative data", "A small and large advantage both receive the same plus mark", "They cannot compare alternatives", "They eliminate human judgment"],
+          "answer": "A small and large advantage both receive the same plus mark"
+        },
+        {
+          "id": 3313,
+          "type": "multiple_choice",
+          "question": "What was the weighted total for Tub Door in the shower/transfer-aid example?",
+          "options": ["–13", "0", "+13", "+15"],
+          "answer": "+13"
+        },
+        {
+          "id": 3314,
+          "type": "true_false",
+          "question": "A five-point Pugh scale can use +2, +1, 0, –1, and –2.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3315,
+          "type": "enumeration",
+          "question": "List three example criteria suggested for evaluating alternatives.",
+          "answer": ["Technological impact", "Cost impact", "Organizational acceptance"]
+        },
+        {
+          "id": 3316,
+          "type": "multiple_choice",
+          "question": "Who developed the Pugh Matrix?",
+          "options": ["Stuart Pugh", "Mitsuo Nagamachi", "Peter Childs", "Mednick"],
+          "answer": "Stuart Pugh"
+        },
+        {
+          "id": 3317,
+          "type": "true_false",
+          "question": "The Pugh Matrix is mathematically intensive and difficult to use.",
+          "options": ["True", "False"],
+          "answer": "False"
+        },
+        {
+          "id": 3318,
+          "type": "identification",
+          "question": "What university was associated with Stuart Pugh?",
+          "answer": "University of Strathclyde"
+        },
+        {
+          "id": 3319,
+          "type": "multiple_choice",
+          "question": "When is the Pugh Matrix commonly used in the design process?",
+          "options": ["After capturing the Voice of the Customer", "Before identifying any alternatives", "Only after manufacturing", "After removing all criteria"],
+          "answer": "After capturing the Voice of the Customer"
+        },
+        {
+          "id": 3320,
+          "type": "multiple_choice",
+          "question": "What is the datum in a Pugh Matrix?",
+          "options": ["The reference concept", "The lowest score", "The list of criteria", "The final product cost"],
+          "answer": "The reference concept"
+        },
+        {
+          "id": 3321,
+          "type": "true_false",
+          "question": "Every alternative is evaluated relative to the datum.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3322,
+          "type": "multiple_choice",
+          "question": "What does the Pugh Matrix help a team create from weak concepts?",
+          "options": ["Stronger alternative concepts", "Less information", "A fixed datum only", "A product warranty"],
+          "answer": "Stronger alternative concepts"
+        },
+        {
+          "id": 3323,
+          "type": "enumeration",
+          "question": "Name three possible names for the Pugh Matrix.",
+          "answer": ["Pugh method", "Decision matrix", "Selection grid"]
+        },
+        {
+          "id": 3324,
+          "type": "multiple_choice",
+          "question": "Why is the Pugh Matrix useful early in design?",
+          "options": ["Much quantitative data may not yet be available", "It removes all judgment", "It requires final manufacturing data", "It avoids comparing concepts"],
+          "answer": "Much quantitative data may not yet be available"
+        },
+        {
+          "id": 3325,
+          "type": "true_false",
+          "question": "The Pugh Matrix can help produce a hybrid concept.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3326,
+          "type": "multiple_choice",
+          "question": "Where are the alternative solutions listed?",
+          "options": ["Horizontally across the top", "Only in the left column", "In a separate unrelated file", "Below the final score"],
+          "answer": "Horizontally across the top"
+        },
+        {
+          "id": 3327,
+          "type": "multiple_choice",
+          "question": "Where are the criteria listed?",
+          "options": ["Vertically in the left column", "Horizontally only", "In the footer", "Inside the datum name"],
+          "answer": "Vertically in the left column"
+        },
+        {
+          "id": 3328,
+          "type": "identification",
+          "question": "What symbol means an alternative is the same as the datum?",
+          "answer": "S"
+        },
+        {
+          "id": 3329,
+          "type": "true_false",
+          "question": "The datum receives an S rating against itself.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3330,
+          "type": "multiple_choice",
+          "question": "What is counted in the basic unweighted scoring method?",
+          "options": ["Pluses and minuses", "Only the number of criteria", "Only the datum name", "Only the alternatives' letters"],
+          "answer": "Pluses and minuses"
+        },
+        {
+          "id": 3331,
+          "type": "multiple_choice",
+          "question": "What is the datum's score in the example?",
+          "options": ["0", "+1", "-1", "+15"],
+          "answer": "0"
+        },
+        {
+          "id": 3332,
+          "type": "multiple_choice",
+          "question": "What was Option D's unweighted total?",
+          "options": ["+3", "0", "-1", "+15"],
+          "answer": "+3"
+        },
+        {
+          "id": 3333,
+          "type": "true_false",
+          "question": "Option B had an unweighted total of -1 in the example.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3334,
+          "type": "multiple_choice",
+          "question": "What happens when a criterion has a weight?",
+          "options": ["Its rating is multiplied by that weight", "It is removed", "It becomes the datum", "It is always scored zero"],
+          "answer": "Its rating is multiplied by that weight"
+        },
+        {
+          "id": 3335,
+          "type": "identification",
+          "question": "What was Option D's weighted total in the example?",
+          "answer": "7"
+        },
+        {
+          "id": 3336,
+          "type": "multiple_choice",
+          "question": "What was Option C's weighted total in the example?",
+          "options": ["3", "0", "7", "-3"],
+          "answer": "3"
+        },
+        {
+          "id": 3337,
+          "type": "true_false",
+          "question": "Weighting can cause a different final ranking depending on the values.",
+          "options": ["True", "False"],
+          "answer": "True"
+        },
+        {
+          "id": 3338,
+          "type": "multiple_choice",
+          "question": "What does +2 mean on the five-point Pugh scale?",
+          "options": ["Much better than the datum", "Better than the datum", "Equal to the datum", "Much worse than the datum"],
+          "answer": "Much better than the datum"
+        },
+        {
+          "id": 3339,
+          "type": "multiple_choice",
+          "question": "What does -2 mean on the five-point Pugh scale?",
+          "options": ["Much worse than the datum", "Much better than the datum", "Equal to the datum", "Slightly better"],
+          "answer": "Much worse than the datum"
+        },
+        {
+          "id": 3340,
+          "type": "enumeration",
+          "question": "List three alternatives from the shower/transfer-aid example.",
+          "answer": ["Shower Steps", "Hydraulic Swivel Chair", "Tub Door"]
+        }
+      ]
+    }
+  ]
+}

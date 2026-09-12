@@ -25,13 +25,22 @@ let scrollRevealObserver = null;
 
 // INITIALIZATION
 document.addEventListener("DOMContentLoaded", () => {
+  registerOfflineMode();
   setTheme(localStorage.getItem("themePreference") || "system");
   setPalette(localStorage.getItem("palettePreference") || "aurora");
   initScrollAnimations();
   initBackToTop();
+  initDrawerOutsideClick();
   showSection("home");
   loadSiteData();
 });
+
+function registerOfflineMode() {
+  if (!("serviceWorker" in navigator)) return;
+  navigator.serviceWorker.register("./sw.js?v=8").catch(error => {
+    console.warn("Offline mode could not be enabled.", error);
+  });
+}
 
 function initBackToTop() {
   const button = document.getElementById("back-to-top");
@@ -107,13 +116,14 @@ async function loadSiteData() {
       if (Array.isArray(subject.topics)) {
         subject.topics.forEach((topic, index) => {
           const existingTopic = subjectsData[topic.id];
-          topic.parentId = subject.id;
-          topic.courseTitle = subject.title;
-          topic.topicNumber = index + 1;
-          if ((!Array.isArray(topic.quizzes) || topic.quizzes.length === 0) && existingTopic?.quizzes?.length) {
-            topic.quizzes = existingTopic.quizzes;
+          const topicData = existingTopic || topic;
+          topicData.parentId = subject.id;
+          topicData.courseTitle = subject.title;
+          topicData.topicNumber = index + 1;
+          if ((!Array.isArray(topicData.quizzes) || topicData.quizzes.length === 0) && existingTopic?.quizzes?.length) {
+            topicData.quizzes = existingTopic.quizzes;
           }
-          subjectsData[topic.id] = topic;
+          subjectsData[topic.id] = topicData;
         });
       }
     });
@@ -291,6 +301,7 @@ function loadSubject(key) {
   renderStudyProgress(subject);
   renderSubjectTasks();
   renderNotes(subject.reviewer);
+  renderLessonTopicRail(subject.reviewer);
   renderQuiz(subject.quizzes);
 
   // Reset quiz result box
@@ -419,9 +430,10 @@ function renderNotes(notes) {
       } else if (c.type === "list") {
         return `<ul>${c.items.map(li => `<li>${li}</li>`).join("")}</ul>`;
       } else if (c.type === "image") {
+        const imageLoading = String(c.src || "").toLowerCase().endsWith(".svg") ? "eager" : "lazy";
         return `
           <figure class="reviewer-image">
-            <img src="${c.src}" alt="${escapeHtml(c.alt || item.title)}" loading="lazy">
+            <img src="${c.src}" alt="${escapeHtml(c.alt || item.title)}" loading="${imageLoading}">
             ${c.caption ? `<figcaption>${escapeHtml(c.caption)}</figcaption>` : ""}
           </figure>
         `;
@@ -1220,6 +1232,25 @@ function closeReviewerDrawer(event) {
   setReviewerSidebarState(false);
 }
 
+function initDrawerOutsideClick() {
+  document.addEventListener("pointerdown", event => {
+    if (currentSection === "home") return;
+
+    const drawer = document.getElementById("reviewer-drawer");
+    if (sidebarOpen && drawer && !drawer.contains(event.target)) {
+      closeReviewerDrawer();
+    }
+
+    const topicLayout = document.querySelector(".reviewer-layout");
+    const topicToggle = document.getElementById("reviewer-topic-toggle");
+    const topicRail = document.querySelector(".reviewer-layout.mobile-topic-menu-open .study-rail");
+    if (topicRail && topicToggle && !topicRail.contains(event.target) && !topicToggle.contains(event.target)) {
+      topicLayout.classList.remove("mobile-topic-menu-open");
+      topicToggle.setAttribute("aria-expanded", "false");
+    }
+  });
+}
+
 function renderReviewerDrawer() {
   const list = document.getElementById("reviewer-drawer-list");
   if (!list) return;
@@ -1577,4 +1608,36 @@ function stripMarkup(value) {
   const div = document.createElement("div");
   div.innerHTML = value || "";
   return div.textContent || div.innerText || "";
+}
+
+function renderLessonTopicRail(reviewer) {
+  const container = document.getElementById("lesson-topic-list");
+  if (!container) return;
+  const topics = Array.isArray(reviewer) ? reviewer : [];
+  container.innerHTML = topics.length ? topics.map((topic, index) => `
+    <button type="button" class="lesson-topic-link" data-lesson-topic="${escapeHtml(topic.title)}" onclick="jumpToLessonTopic('${encodeURIComponent(topic.title)}')">
+      <span class="lesson-topic-number">${String(index + 1).padStart(2, "0")}</span>
+      <span>${escapeHtml(stripMarkup(topic.title))}</span>
+    </button>
+  `).join("") : `<span class="lesson-topic-empty">No lesson topics yet.</span>`;
+}
+
+function toggleMobileTopicMenu() {
+  const layout = document.querySelector(".reviewer-layout");
+  const toggle = document.getElementById("reviewer-topic-toggle");
+  if (!layout || !toggle) return;
+  const isOpen = layout.classList.toggle("mobile-topic-menu-open");
+  toggle.setAttribute("aria-expanded", String(isOpen));
+}
+
+function jumpToLessonTopic(encodedTitle) {
+  const title = decodeURIComponent(encodedTitle);
+  const target = document.querySelector(`[data-topic-title="${CSS.escape(title)}"]`);
+  if (!target) return;
+  document.querySelectorAll(".lesson-topic-link").forEach(link => {
+    link.classList.toggle("active", link.dataset.lessonTopic === title);
+  });
+  document.querySelector(".reviewer-layout")?.classList.remove("mobile-topic-menu-open");
+  document.getElementById("reviewer-topic-toggle")?.setAttribute("aria-expanded", "false");
+  target.scrollIntoView({ behavior: "smooth", block: "start" });
 }

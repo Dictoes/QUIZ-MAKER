@@ -1,0 +1,10 @@
+{
+  "name": "Jnotaly Engineering Reviewer",
+  "short_name": "Jnotaly",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#10131a",
+  "theme_color": "#10131a",
+  "description": "Offline engineering reviewer for study and quizzes."
+}

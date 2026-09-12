@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 310" role="img" aria-labelledby="title">
+  <title id="title">Unweighted Pugh Matrix</title>
+  <rect width="760" height="310" fill="#fff"/>
+  <g font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#321c2b" stroke="#81536d" stroke-width="1">
+    <rect x="25" y="25" width="710" height="240" fill="#fff"/>
+    <path d="M25 65h710M25 105h710M25 145h710M25 185h710M25 225h710M105 25v240M205 25v240M315 25v240M425 25v240M535 25v240M635 25v240"/>
+    <g stroke="none" font-weight="700"><text x="65" y="51">Criteria</text><text x="155" y="51">Baseline</text><text x="260" y="51">A</text><text x="370" y="51">B</text><text x="480" y="51">C</text><text x="580" y="51">D</text><text x="680" y="51">Total</text></g>
+    <g stroke="none"><text x="65" y="91">1</text><text x="65" y="131">2</text><text x="65" y="171">3</text><text x="65" y="211">4</text><text x="65" y="251" font-weight="700">Total</text><text x="155" y="91">0</text><text x="260" y="91">+1</text><text x="370" y="91">-1</text><text x="480" y="91">0</text><text x="580" y="91">+1</text><text x="155" y="131">0</text><text x="260" y="131">0</text><text x="370" y="131">-1</text><text x="480" y="131">0</text><text x="580" y="131">+1</text><text x="155" y="171">0</text><text x="260" y="171">+1</text><text x="370" y="171">+1</text><text x="480" y="171">+1</text><text x="580" y="171">0</text><text x="155" y="211">0</text><text x="260" y="211">-1</text><text x="370" y="211">0</text><text x="480" y="211">0</text><text x="580" y="211">+1</text><text x="155" y="251">0</text><text x="260" y="251">1</text><text x="370" y="251">-1</text><text x="480" y="251">1</text><text x="580" y="251" font-weight="700">3</text></g>
+  </g>
+</svg>

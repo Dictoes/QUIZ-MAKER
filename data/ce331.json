@@ -1,0 +1,19 @@
+{
+  "id": "ce331",
+  "title": "CE331: Highway and Railroad Engineering",
+  "description": "Highway and railroad engineering topics, transportation systems, planning, route development, and alignment.",
+  "topics": [
+    {
+      "id": "topic-2",
+      "topicNumber": 1,
+      "title": "Module 1: Introduction to Highway & Railroad Engineering",
+      "description": "Transportation systems, modes, planning, and route surveys."
+    },
+    {
+      "id": "topic-11",
+      "topicNumber": 2,
+      "title": "Lesson 1: Highway Development and Transportation Planning",
+      "description": "From regional movement needs to precise geometric alignments."
+    }
+  ]
+}

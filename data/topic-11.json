@@ -1,0 +1,63 @@
+{
+  "id": "topic-11",
+  "title": "Lesson 1: Highway Development and Transportation Planning",
+  "description": "From regional movement needs to precise geometric alignments.",
+  "reviewer": [
+    { "title": "1. Macro-to-Micro Infrastructure Zoom-In Framework", "content": [
+      { "type": "paragraph", "text": "Highway development progresses from <strong>Need (Macro)</strong> to <strong>Network</strong>, <strong>Corridor</strong>, and <strong>Facility (Micro)</strong>. The goal is to identify and justify a transportation solution that serves a defined need." },
+      { "type": "list", "items": ["<strong>Need:</strong> regional demand, connectivity gaps, and strategic goals.", "<strong>Network:</strong> regional routes, intermodal connections, and capacity requirements.", "<strong>Corridor:</strong> topographical, environmental, and land-use constraints within a right-of-way.", "<strong>Facility:</strong> specific infrastructure elements, cross-sections, and material specifications."] },
+      { "type": "paragraph", "text": "The linear development chain is <strong>Need -> Planning -> Corridor -> Alignment -> Design -> Construction -> Operation</strong>. Information must support the next decision because weak early assumptions can cause expensive later design changes." },
+      { "type": "image", "src": "assets/topic-11/macro-to-micro.svg", "alt": "Macro to micro infrastructure progression from need to facility", "caption": "Need -> Network -> Corridor -> Facility" },
+      { "type": "image", "src": "assets/topic-11/development-chain.svg", "alt": "Seven-step highway development chain", "caption": "Linear development chain" }
+    ] },
+    { "title": "2. Functional Hierarchy and Network Types", "content": [
+      { "type": "list", "items": ["<strong>Arterial:</strong> high mobility and speed, low property access, and movement between major activity centers.", "<strong>Collector:</strong> gathers and distributes trips with moderate mobility and access.", "<strong>Local:</strong> direct property access with low mobility and speed."] },
+      { "type": "paragraph", "text": "Networks contain <strong>nodes</strong> (trip start, end, or transfer points) and <strong>links</strong> (routes connecting nodes). <strong>Redundancy</strong> provides alternative paths when a link fails." },
+      { "type": "list", "items": ["<strong>Grid:</strong> parallel routes and cross-connections.", "<strong>Radial:</strong> routes converge on a central hub.", "<strong>Linear:</strong> movement follows a valley or coastline.", "<strong>Ring + radial:</strong> a ring distributes radial traffic.", "<strong>Irregular:</strong> responds to terrain or historic constraints."] },
+      { "type": "image", "src": "assets/topic-11/hierarchy.svg", "alt": "Mobility and access continuum showing arterial, collector, and local roads", "caption": "Functional road hierarchy" },
+      { "type": "image", "src": "assets/topic-11/networks.svg", "alt": "Five transportation network patterns", "caption": "Grid, radial, linear, ring and radial, and irregular networks" }
+    ] },
+    { "title": "3. Planning Cycle and Planning Horizon", "content": [
+      { "type": "paragraph", "text": "The planning cycle is <strong>Problem -> Data -> Forecast -> Alternatives -> Evaluate -> Decide</strong>, centered on mobility, accessibility, safety, and sustainability." },
+      { "type": "list", "items": ["<strong>Short-term:</strong> operations and safety improvements.", "<strong>Medium-term:</strong> corridor widening and upgrades.", "<strong>Long-term:</strong> new strategic corridors responding to growth, changed travel patterns, and planned infrastructure."] },
+      { "type": "paragraph", "text": "Origin-destination studies show where trips begin and end and which zones interact. Thicker desire lines reveal corridors with concentrated movement demand." },
+      { "type": "image", "src": "assets/topic-11/planning-cycle.svg", "alt": "Six-step transportation planning cycle", "caption": "Problem -> Data -> Forecast -> Alternatives -> Evaluate -> Decide" },
+      { "type": "image", "src": "assets/topic-11/planning-horizon.svg", "alt": "Existing and future conditions across short, medium, and long planning horizons", "caption": "Existing and future conditions" },
+      { "type": "image", "src": "assets/topic-11/od-map.svg", "alt": "Origin destination map with nodes and desire lines", "caption": "O-D desire lines reveal concentrated travel demand" }
+    ] },
+    { "title": "4. Route Selection and Survey Stages", "content": [
+      { "type": "paragraph", "text": "Route selection considers <strong>terrain and geology, hydrology, right-of-way, cost and logistics, and environment</strong>. The physically shortest route is not automatically the best route." },
+      { "type": "paragraph", "text": "<strong>Reconnaissance</strong> rapidly understands the corridor; <strong>preliminary survey</strong> compares alternatives; <strong>detailed survey</strong> supplies exact topography, utilities, and site details for geometric design." },
+      { "type": "paragraph", "text": "GIS route optimization stacks O-D desire lines, land use and right-of-way, and topography and hydrology to identify a feasible route corridor." },
+      { "type": "image", "src": "assets/topic-11/route-criteria.svg", "alt": "Route selection criteria surrounding a proposed alignment", "caption": "Route selection is a multi-criteria decision" },
+      { "type": "image", "src": "assets/topic-11/survey-stages.svg", "alt": "Comparison of reconnaissance, preliminary, and detailed survey stages", "caption": "Survey stages from concept to detailed design" },
+      { "type": "image", "src": "assets/topic-11/gis-layers.svg", "alt": "GIS layers converging into a feasible route corridor", "caption": "Demand and constraints converge on a feasible corridor" }
+    ] },
+    { "title": "5. Alignment Geometry and Planning Failures", "content": [
+      { "type": "paragraph", "text": "Alignment refines a feasible corridor into a three-dimensional path. Plan-view elements include <strong>tangents, curves, and intersections</strong>; profile elements include <strong>grades, crest curves, and sag curves</strong>." },
+      { "type": "list", "items": ["Do not begin detailed geometric design before confirming the transportation need.", "Do not ignore surrounding network effects.", "Do not choose the physically shortest route without evaluating terrain, impacts, and other constraints."] },
+      { "type": "paragraph", "text": "There is no universally perfect route. The preferred alternative depends on project objectives and physical, social, environmental, and construction constraints." },
+      { "type": "image", "src": "assets/topic-11/alignment-geometry.svg", "alt": "Three-dimensional road alignment showing tangents, curves, intersections, grades, crest curves, and sag curves", "caption": "Alignment geometry in plan and profile" }
+    ] }
+  ],
+  "quizzes": [
+    { "id": 1801, "type": "multiple_choice", "question": "What is the correct macro-to-micro progression?", "options": ["Facility -> Corridor -> Network -> Need", "Need -> Network -> Corridor -> Facility", "Network -> Need -> Facility -> Corridor", "Corridor -> Facility -> Need -> Network"], "answer": "Need -> Network -> Corridor -> Facility" },
+    { "id": 1802, "type": "multiple_choice", "question": "Which functional class moves traffic between major activity centers?", "options": ["Local", "Collector", "Arterial", "Driveway"], "answer": "Arterial" },
+    { "id": 1803, "type": "multiple_choice", "question": "What does network redundancy provide?", "options": ["Only shorter routes", "Alternative paths when a link fails", "More property access", "A single hub"], "answer": "Alternative paths when a link fails" },
+    { "id": 1804, "type": "multiple_choice", "question": "Which survey supports final geometric design?", "options": ["Reconnaissance", "Preliminary survey", "Detailed survey", "Forecasting"], "answer": "Detailed survey" },
+    { "id": 1805, "type": "multiple_choice", "question": "Which factor includes slopes, valleys, soil, and rock stability?", "options": ["Hydrology", "Terrain and geology", "Right-of-way", "Operations"], "answer": "Terrain and geology" },
+    { "id": 1806, "type": "multiple_choice", "question": "What do thicker desire lines indicate?", "options": ["Lower demand", "Concentrated movement demand", "Property boundaries", "Construction cost"], "answer": "Concentrated movement demand" },
+    { "id": 1807, "type": "identification", "question": "What are the start, end, or transfer points for trips?", "answer": "Nodes" },
+    { "id": 1808, "type": "identification", "question": "What routes connect network nodes?", "answer": "Links" },
+    { "id": 1809, "type": "identification", "question": "What map shows origins, destinations, and desire lines?", "answer": "Origin-destination map" },
+    { "id": 1810, "type": "identification", "question": "What elements describe the vertical profile of a road?", "answer": "Grades, crest curves, and sag curves" },
+    { "id": 1811, "type": "true_false", "question": "The shortest route is always the preferred alignment.", "options": ["True", "False"], "answer": "False" },
+    { "id": 1812, "type": "true_false", "question": "A corridor study should consider right-of-way, hydrology, environment, and constructability.", "options": ["True", "False"], "answer": "True" },
+    { "id": 1813, "type": "true_false", "question": "Detailed geometric design should begin before the transportation need is confirmed.", "options": ["True", "False"], "answer": "False" },
+    { "id": 1814, "type": "enumeration", "question": "List the four macro-to-micro levels.", "answer": ["Need", "Network", "Corridor", "Facility"] },
+    { "id": 1815, "type": "enumeration", "question": "List the six planning cycle steps.", "answer": ["Problem", "Data", "Forecast", "Alternatives", "Evaluate", "Decide"] },
+    { "id": 1816, "type": "enumeration", "question": "List the five route-selection factors.", "answer": ["Terrain and geology", "Hydrology", "Right-of-way", "Cost and logistics", "Environment"] },
+    { "id": 1817, "type": "enumeration", "question": "List the three survey stages.", "answer": ["Reconnaissance", "Preliminary survey", "Detailed survey"] },
+    { "id": 1818, "type": "enumeration", "question": "List the three planning failures to avoid.", "answer": ["Starting detailed geometric design before confirming the transportation need", "Ignoring surrounding network effects", "Choosing the physically shortest route without evaluating constraints"] }
+  ]
+}

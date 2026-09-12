@@ -4,7 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reviewer for Nhericka(CE)</title>
-  <link rel="stylesheet" href="style.css?v=ce364-topic9-5">
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#10131a">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="stylesheet" href="style.css?v=drawer-interaction-1">
 
   <!-- Open Graph / Social Media Preview -->
   <meta property="og:type" content="website">
@@ -176,12 +181,27 @@
           <span>Bookmarked</span>
         </button>
       </div>
+      <button id="reviewer-topic-toggle" class="reviewer-topic-toggle" type="button" aria-expanded="false" onclick="toggleMobileTopicMenu()">
+        <span aria-hidden="true">☰</span>
+        <span>Topics</span>
+      </button>
 
-      <div class="reviewer-tools">
-        <div id="subject-progress-container"></div>
-        <div id="subject-tasks-container"></div>
+      <div class="reviewer-layout">
+        <div class="reviewer-main-column">
+          <div class="reviewer-tools">
+            <div id="subject-progress-container"></div>
+            <div id="subject-tasks-container"></div>
+          </div>
+          <div id="notes-container" class="cards-stack"></div>
+        </div>
+        <aside class="study-rail" aria-label="Lesson topics">
+          <section class="lesson-topic-card" aria-labelledby="lesson-topic-title">
+            <span class="focus-eyebrow">IN THIS LESSON</span>
+            <h3 id="lesson-topic-title">Topics</h3>
+            <nav id="lesson-topic-list" class="lesson-topic-list" aria-label="Topics in this lesson"></nav>
+          </section>
+        </aside>
       </div>
-      <div id="notes-container" class="cards-stack"></div>
     </section>
 
     <!-- QUIZ TAB -->
