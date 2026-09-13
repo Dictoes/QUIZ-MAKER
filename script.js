@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function registerOfflineMode() {
   if (!("serviceWorker" in navigator)) return;
-  navigator.serviceWorker.register("./sw.js?v=8").catch(error => {
+  navigator.serviceWorker.register("./sw.js?v=16").catch(error => {
     console.warn("Offline mode could not be enabled.", error);
   });
 }
