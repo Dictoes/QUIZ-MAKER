@@ -1,0 +1,922 @@
+{
+  "id": "ce335",
+  "title": "CE335: Plumbing Engineering",
+  "description": "House Plumbing 1 drainage, waste, vent, septic, pipe, and drainage sizing material.",
+  "topics": [
+    {
+      "id": "ce335-plumbing-fundamentals",
+      "topicNumber": 1,
+      "title": "Plumbing Fundamentals and Code",
+      "description": "National Plumbing Code definitions, rules, and standards.",
+      "reviewer": [
+        {
+          "title": "1. Definition & Scope of Plumbing (Sec 217.6 NPC 1999)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<strong>Plumbing</strong> is defined as the <strong>art and technique</strong> of installing pipes, fixtures, and other apparatuses in buildings for bringing in the <strong>water supply</strong>, liquids, substances, and removing <strong>wastewater</strong> and <strong>water-borne wastes</strong>."
+            },
+            {
+              "type": "paragraph",
+              "text": "Its primary purpose is to protect the <strong>health, sanitation, life, and property</strong> of building occupants by ensuring <strong>safe water distribution</strong> and <strong>effective waste removal</strong>."
+            }
+          ]
+        },
+        {
+          "title": "2. The Plumbing Unit Standards (Sec 217.13 NPC 1999)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "A <strong>Plumbing Unit</strong> represents a standard minimum quantity of fixtures specified under Section 217.13, consisting of <strong>13 total fixtures</strong>:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>1 Water Meter</strong>",
+                "<strong>1 Water Closet</strong>",
+                "<strong>1 Lavatory</strong>",
+                "<strong>1 Shower Head and Drain</strong>",
+                "<strong>1 Kitchen Sink</strong>",
+                "<strong>1 Laundry Tray</strong>",
+                "<strong>3 Floor Drains</strong>",
+                "<strong>4 Faucets / Hose Bibbs</strong>"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "3. Classification of Plumbing Components",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Plumbing systems are composed of distinct categories of fixtures and devices:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Plumbing Fixture (Sec 217.10):</strong> Approved installed receptacles or devices supplied with water or receiving liquid-borne wastes. <em>Note: Industrial or commercial tanks, vats, and process equipment are <strong>NOT</strong> classified as plumbing fixtures.</em>",
+                "<strong>Plumbing Appliance (Sec 217.7):</strong> Devices performing special functions dependent on <strong>energized components</strong> such as motors, controls, or heating elements (e.g., <strong>water heaters, dishwashers</strong>).",
+                "<strong>Plumbing Appurtenance (Sec 217.8):</strong> Adjunct devices that serve a <strong>protective or regulatory function</strong> within the system <strong>without demanding additional water supply</strong> or adding discharge load (e.g., <strong>pressure regulators, backflow preventers</strong>)."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "4. Plumber Classifications & Governing Laws",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Personnel levels, licensing, and organizational legal requirements are regulated under <strong>Republic Act 1378</strong> (<strong>The Plumbing Law of the Philippines</strong>):"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Apprentice Plumber:</strong> A beginner serving a required <strong>3 to 5 year</strong> learning period as a helper to a journeyman.",
+                "<strong>Journeyman Plumber:</strong> A skilled individual fully competent to execute plumbing <strong>installations, maintenance, and repairs</strong>.",
+                "<strong>Master Plumber (Sec 214.5):</strong> A technically and legally qualified practitioner who holds a <strong>valid license under RA 1378</strong>, authorized to <strong>design, sign, and oversee</strong> plumbing installations.",
+                "<strong>Plumbing Firm (Sec 217.9):</strong> A legal entity or partnership where the <strong>majority of membership, stock, and executive authority</strong> is held by Registered Master Plumbers.",
+                "<strong>Plumbing Official (Sec 217.11):</strong> The <strong>administrative officer</strong> charged with enforcing the provisions of the National Plumbing Code."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "5. Hydraulic Principles & Pressure Limits",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Specific pressure parameters dictate system requirements to ensure functionality and prevent damage:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Inadequate Pressure:</strong> Supply pressure falling below <strong>103 kPa (15 psi)</strong> is legally inadequate and requires installation of a <strong>hydropneumatic tank</strong> or <strong>elevated tank and booster pump system</strong>.",
+                "<strong>Excessive Pressure:</strong> Supply pressure exceeding <strong>551 kPa (80 psi)</strong> requires the installation of an approved <strong>pressure regulator and strainer</strong> to protect piping and fixtures.",
+                "<strong>Water Hammer:</strong> A <strong>violent pressure wave/surge</strong> produced when moving fluid stops or changes direction abruptly.",
+                "<strong>Air Chamber:</strong> A capped <strong>vertical air space</strong> installed near valves that acts as a <strong>hydraulic shock absorber</strong> to cushion pressure surges."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "6. Backflow Protection & Water Supply Safety",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Contamination prevention standards govern cross-connections and backflow risks:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Cross-Connection (Sec 204.24):</strong> Any physical connection or arrangement between a <strong>potable water system</strong> and an <strong>unpotable or polluted source</strong>.",
+                "<strong>Backflow (Sec 203.1):</strong> The flow of water or other liquids into the distribution pipes of a <strong>potable supply</strong> from unintended sources.",
+                "<strong>Back-Siphonage (Sec 203.5):</strong> The flowing back of contaminated water caused by <strong>negative or sub-atmospheric pressure</strong> in the supply line.",
+                "<strong>Airgap (Sec 202.6):</strong> An <strong>unobstructed vertical distance</strong> through the free atmosphere between the lowest opening of a supply pipe and the flood level rim of the receptacle.",
+                "<strong>Atmospheric Vacuum Breaker (AVB Sec 603.2.2):</strong> A backflow prevention device featuring a <strong>check valve and air inlet valve</strong> that opens to break a vacuum when fluid flow stops."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "7. Mandatory System Testing Procedures",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "System integrity must be proven under specific test pressures held for a minimum of <strong>15 minutes</strong> without leaking:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "<strong>Water Test (Drainage/Vent):</strong> Filling the piping system in whole or in sections with <strong>water</strong> to inspect for leaks.",
+                "<strong>Air Test (Drainage/Vent):</strong> Subjecting system to a uniform gauge pressure of <strong>34.5 kPa (5 psi)</strong> or <strong>254 mm mercury column</strong>.",
+                "<strong>Water Supply Piping Test:</strong> Proving piping tight under a hydrostatic test pressure equal to the <strong>working pressure plus 50%</strong> (or an air pressure of <strong>344.5 kPa / 50 psi</strong>)."
+              ]
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 1,
+          "type": "multiple_choice",
+          "question": "According to Sec 217.13 of NPC 1999, how many total plumbing fixtures make up a standard Plumbing Unit?",
+          "options": [
+            "10",
+            "12",
+            "13",
+            "15"
+          ],
+          "answer": "13"
+        },
+        {
+          "id": 2,
+          "type": "multiple_choice",
+          "question": "Whenever the water pressure in the source of supply falls below what value is it considered Inadequate Water Pressure?",
+          "options": [
+            "103 kPa (15 psi)",
+            "344.5 kPa (50 psi)",
+            "551 kPa (80 psi)",
+            "100 kPa (10 psi)"
+          ],
+          "answer": "103 kPa (15 psi)"
+        },
+        {
+          "id": 3,
+          "type": "multiple_choice",
+          "question": "When local water pressure exceeds what threshold must an approved pressure regulator be installed?",
+          "options": [
+            "103 kPa (15 psi)",
+            "344.5 kPa (50 psi)",
+            "551 kPa (80 psi)",
+            "689 kPa (100 psi)"
+          ],
+          "answer": "551 kPa (80 psi)"
+        },
+        {
+          "id": 4,
+          "type": "multiple_choice",
+          "question": "How long usually does an Apprentice Plumber serve as a helper to a journeyman?",
+          "options": [
+            "1 to 2 years",
+            "3 to 5 years",
+            "5 to 7 years",
+            "10 years"
+          ],
+          "answer": "3 to 5 years"
+        },
+        {
+          "id": 5,
+          "type": "multiple_choice",
+          "question": "In an air test for drainage and vent systems, what uniform gauge pressure must be maintained?",
+          "options": [
+            "15 kPa (2 psi)",
+            "34.5 kPa (5 psi)",
+            "103 kPa (15 psi)",
+            "344.5 kPa (50 psi)"
+          ],
+          "answer": "34.5 kPa (5 psi)"
+        },
+        {
+          "id": 6,
+          "type": "multiple_choice",
+          "question": "What minimum duration must all plumbing test media hold pressure without leaking during inspection?",
+          "options": [
+            "5 minutes",
+            "10 minutes",
+            "15 minutes",
+            "30 minutes"
+          ],
+          "answer": "15 minutes"
+        },
+        {
+          "id": 7,
+          "type": "multiple_choice",
+          "question": "How many floor drains are included in a standard Plumbing Unit under Section 217.13?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": "3"
+        },
+        {
+          "id": 8,
+          "type": "multiple_choice",
+          "question": "How many faucets or hose bibbs are included in a standard Plumbing Unit?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": "4"
+        },
+        {
+          "id": 9,
+          "type": "multiple_choice",
+          "question": "On what exact date was the revised National Plumbing Code of the Philippines approved?",
+          "options": [
+            "18 June 1955",
+            "28 November 1959",
+            "21 December 1999",
+            "1 January 2000"
+          ],
+          "answer": "21 December 1999"
+        },
+        {
+          "id": 10,
+          "type": "multiple_choice",
+          "question": "How many Basic Principles govern the 1999 National Plumbing Code of the Philippines?",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "22"
+          ],
+          "answer": "22"
+        },
+        {
+          "id": 11,
+          "type": "multiple_choice",
+          "question": "Which plumbing component carries foul air to the outer atmosphere and prevents pressure loss in traps?",
+          "options": [
+            "Soil stack",
+            "Vent pipe",
+            "Building drain",
+            "Cleanout"
+          ],
+          "answer": "Vent pipe"
+        },
+        {
+          "id": 12,
+          "type": "multiple_choice",
+          "question": "What private sewage disposal system is required when no public sewer exists within a reasonable distance?",
+          "options": [
+            "Catch basin",
+            "Septic tank",
+            "Cesspool",
+            "Grease trap"
+          ],
+          "answer": "Septic tank"
+        },
+        {
+          "id": 13,
+          "type": "multiple_choice",
+          "question": "What air pressure value may be substituted for the water test on water supply piping systems?",
+          "options": [
+            "34.5 kPa (5 psi)",
+            "103 kPa (15 psi)",
+            "344.5 kPa (50 psi)",
+            "551 kPa (80 psi)"
+          ],
+          "answer": "344.5 kPa (50 psi)"
+        },
+        {
+          "id": 14,
+          "type": "multiple_choice",
+          "question": "Which device is classified as a plumbing appliance under Section 217.7?",
+          "options": [
+            "Water Closet",
+            "Water Heater",
+            "Pressure Regulator",
+            "Lavatory"
+          ],
+          "answer": "Water Heater"
+        },
+        {
+          "id": 15,
+          "type": "multiple_choice",
+          "question": "What type of connection links a potable water system with an unpotable or contaminated source?",
+          "options": [
+            "Backflow",
+            "Cross-Connection",
+            "Airgap",
+            "Vacuum Breaker"
+          ],
+          "answer": "Cross-Connection"
+        },
+        {
+          "id": 16,
+          "type": "multiple_choice",
+          "question": "What is the primary function of an Air Chamber in a hydraulic system?",
+          "options": [
+            "Increase water pressure",
+            "Absorb hydraulic shock",
+            "Filter debris",
+            "Prevent backflow"
+          ],
+          "answer": "Absorb hydraulic shock"
+        },
+        {
+          "id": 17,
+          "type": "multiple_choice",
+          "question": "Under Section 217.10, which of the following is NOT considered a plumbing fixture?",
+          "options": [
+            "Kitchen Sink",
+            "Shower Head",
+            "Industrial Processing Tank",
+            "Laundry Tray"
+          ],
+          "answer": "Industrial Processing Tank"
+        },
+        {
+          "id": 18,
+          "type": "multiple_choice",
+          "question": "What minimum pressure addition is required when testing water piping with water?",
+          "options": [
+            "Working pressure + 10%",
+            "Working pressure + 25%",
+            "Working pressure + 50%",
+            "Double working pressure"
+          ],
+          "answer": "Working pressure + 50%"
+        },
+        {
+          "id": 19,
+          "type": "multiple_choice",
+          "question": "What entity requires a majority of its members and officers to be licensed Master Plumbers?",
+          "options": [
+            "Plumbing Bureau",
+            "Plumbing Firm",
+            "Plumbing Agency",
+            "Plumbing School"
+          ],
+          "answer": "Plumbing Firm"
+        },
+        {
+          "id": 20,
+          "type": "multiple_choice",
+          "question": "Which term describes the unobstructed vertical distance between the water supply outlet and the fixture rim?",
+          "options": [
+            "Airgap",
+            "Vacuum Gap",
+            "Freeboard",
+            "Clearance Height"
+          ],
+          "answer": "Airgap"
+        },
+        {
+          "id": 21,
+          "type": "identification",
+          "question": "What law governs the licensing and practice of Master Plumbing in the Philippines?",
+          "answer": "Republic Act 1378"
+        },
+        {
+          "id": 22,
+          "type": "identification",
+          "question": "What hydraulic surge or wave results when a fluid in motion is forced to stop or change direction suddenly?",
+          "answer": "Water Hammer"
+        },
+        {
+          "id": 23,
+          "type": "identification",
+          "question": "What air space device installed near valves acts as a hydraulic shock absorber to cushion pressure surges?",
+          "answer": "Air Chamber"
+        },
+        {
+          "id": 24,
+          "type": "identification",
+          "question": "What section of NPC 1999 defines a cross-connection as a physical connection between potable and unpotable sources?",
+          "answer": "Section 204.24"
+        },
+        {
+          "id": 25,
+          "type": "identification",
+          "question": "What administrative officer is charged with enforcing the provisions of the National Plumbing Code?",
+          "answer": "Plumbing Official"
+        },
+        {
+          "id": 26,
+          "type": "enumeration",
+          "question": "The three legal classifications of plumbers under Philippine law.",
+          "answer": [
+            "Apprentice Plumber",
+            "Journeyman Plumber",
+            "Master Plumber"
+          ]
+        },
+        {
+          "id": 27,
+          "type": "enumeration",
+          "question": "The three main classifications of plumbing system components (devices/fixtures).",
+          "answer": [
+            "Plumbing Fixture",
+            "Plumbing Appliance",
+            "Plumbing Appurtenance"
+          ]
+        },
+        {
+          "id": 28,
+          "type": "enumeration",
+          "question": "The two primary testing methods used for inspecting drainage and vent systems.",
+          "answer": [
+            "Water Test",
+            "Air Test"
+          ]
+        },
+        {
+          "id": 29,
+          "type": "enumeration",
+          "question": "Any two devices that require electrical energy or heating elements classified as Plumbing Appliances.",
+          "answer": [
+            "Water Heater",
+            "Dishwasher"
+          ]
+        },
+        {
+          "id": 30,
+          "type": "enumeration",
+          "question": "Any two backflow protection concepts or devices used to prevent water supply contamination.",
+          "answer": [
+            "Airgap",
+            "Atmospheric Vacuum Breaker"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ce335-house-plumbing-combined",
+      "topicNumber": 1,
+      "title": "HOUSE PLUMBING 1",
+      "description": "Combined House Plumbing 1 material from the provided Markdown source.",
+      "reviewer": [
+        {
+          "title": "DRAINAGE, WASTE AND VENT SYSTEM",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p><strong>Student Learning Material — ENGR. ROWIN PUJIDA</strong></p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Sample Project: A Two Storey Residential House",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p>The learning material uses a <strong>Sample Project: A Two Storey Residential House</strong> as the basis for illustrating drainage, waste, and vent (DWV) system design. The sample project includes a Front Elevation, Right-Side Elevation, Cross Section, Ground Floor Drainage Plan, and Second Floor Drainage Plan.</p><blockquote><p>[REPLICA IMAGE: SAMPLE PROJECT PERSPECTIVE]</p><p>Create an accurate educational replica of a perspective drawing of a two-storey residential house.</p><p>Include:</p><p>- Two-storey house with carport</p><p>- Sloped roof with louver roof vent</p><p>- Perspective view label: \"PERSPECTIVE\"</p><p>- Scale label: \"SCALE 1/50 m.\"</p><p>- A car parked in the carport</p><p>- Landscaping (trees, shrubs) around the house</p><p>- Two people standing near the driveway</p><p>Preserve the general massing and proportions of a two-storey residential house as shown in the source.</p></blockquote><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: FRONT ELEVATION AND RIGHT-SIDE ELEVATION]</p><p>Create an accurate engineering elevation diagram with the following labeled dimensions and notes:</p><p><strong>Front Elevation (Scale 1/100 m):</strong></p><p>- Grid lines labeled A, B1, C (bottom) and B, C, D (top)</p><p>- Dimensions: 3000 (B to C), 3000 (C to D), 3500 (A to B), 1500 (B to B1)</p><p>- Elevation markers: 0.00 m N.G.L. (Natural Grade Line), 0.10 m Carport Floor Line, 3.00 m Bottom of Beam, 4.40 m Top of Parapet, 6.60 m Top of Roof Beam</p><p>- Notes: \"FROM 1/2\" x 2\" FIXED WOOD LOUVER ROOF VENT PAINTED FINISH\", \"400mm x 400mm HOLE\", \"R.C. SLAB WITH WATER PROOFING (REBTRADE)\", \"SEMI-GLOSS LATEX PAINT ON ROUGH CEMENT PLASTER TYPICAL FOR EXTERIOR FACE OF WALLS\", \"4.5mm THK. HARDIFLEX FASCIA BOARD ON ANGLE BAR FRAMING W/ G.I. PRE-PAINTED GUTTER\"</p><p><strong>Right-Side Elevation (Scale 1/100 m):</strong></p><p>- Grid lines labeled 1, 2 (bottom) and 2, 3, 4, 5 (top)</p><p>- Dimensions: 3500, 3500, 2500 bay spacing; 2500 vertical</p><p>- Elevation markers: 3.60 m Second Floor Line, 0.40 m Grnd. Flr. Line, 0.00 m Natural Grade Line</p><p>- Notes: \"GA. 26 PRE-PAINTED LONG SPAN G.I. ROOFING\", \"FR. 1\"x6\" V-CUT SIDING\", \"75mmØ PVC DOWNSPOUT\", \"CHAIN RAIN LEADER\", \"12mm GROOVE AT 150mm O.C.\", \"SEMI-GLOSS LATEX PAINT ON ROUGH CEMENT PLASTER\"</p></blockquote><blockquote><p>[REPLICA IMAGE: CROSS SECTION]</p><p>Create an accurate engineering cross-section diagram showing:</p><p>- Grid lines A, B, C, D with dimensions: 2000, 3000, 3000, 1000 (top row); 800, 2600, 1600 (secondary dimension row); overall 8000 mm</p><p>- Rooms labeled: STUDIO, MASTER BEDROOM (upper floor); CARPORT, ENTRY PORCH, LIVING (ground floor)</p><p>- A SEPTIC TANK shown below the carport slab</p><p>- Elevation markers: 0.00 m Natural Grade Line, 0.40 m Grnd. Fl. Line, 3.60 m Second Floor Line, 3.40 m Top of Beam, 5.60 m Top of Roof Beam</p><p>- Vertical dimensions: 3000, 2800, 3200, 3400, 2400, 2800, 3200</p><p>- RC Roof slab with waterproofing (Rebtrade), cabinet shelves, roof truss framing</p><p>- Title block: \"CROSS SECTION, SCALE 1/100 m.\"</p></blockquote><blockquote><p>[REPLICA IMAGE: GROUND FLOOR DRAINAGE PLAN]</p><p>Create an accurate engineering floor plan (Scale 1/100 m) showing:</p><p>- Grid lines A, B1, C, D (horizontal) and 1, 2, 3, 4, 5 (vertical), with overall dimensions 8000 mm x 12000 mm (bay spacing: 3500/1500/3000 horizontal; 1000/2500/3500/3500/2500 vertical)</p><p>- Rooms: KITCHEN, DINING, LIVING, ENTRY PORCH, CARPORT, STO. (storage)</p><p>- Plumbing fixtures labeled: WC (water closet), LAV (lavatory), CR (comfort room), KS (kitchen sink), PD (pantry drain/floor drain)</p><p>- Pipe runs: 100mmØ PVC Soil Stack, Series 1000 (from kitchen and from CR/WC/LAV group)</p><p>- Storm drainage: SD (storm drain) risers at grid intersections with CB-style catch points marked \"DS\" (downspout), 100mmØ PVC Storm Drain Pipe (typical), 75mmØ PVC Downspout (typical)</p><p>- Sanitary system: DIGESTIVE CHAMBER and LEACHING (2 chambers) shown near carport, connected via 100mmØ PVC Soil Pipe to \"TAP TO SUBD. SEWER LINE\"</p><p>- A CISTERN FOR RAIN WATER (3 CU.M.) near the living room, with 50mmØ PVC Overflow Pipe to \"TAP TO SEWER LINE\"</p><p>- FCO (floor cleanout) markers at multiple points</p><p>- Title: \"GROUND FLOOR DRAINAGE PLAN\"</p></blockquote><blockquote><p>[REPLICA IMAGE: SECOND FLOOR DRAINAGE PLAN]</p><p>Create an accurate engineering floor plan (Scale 1/100 m) showing:</p><p>- Grid lines A, B1, C, D (horizontal) and 1, 2, 3, 4, 5 (vertical); overall 8000 mm x 12000 mm</p><p>- Rooms: BEDROOM 1, BEDROOM 2, MASTER BEDROOM, STUDIO, HALLWAY, TERRACE, ROOF OVER CARPORT</p><p>- Fixtures: WC, LAV, SFD (shower floor drain), FD (floor drain), TBB/MTBB (tub/master tub bath)</p><p>- Pipe labels: 100mmØ PVC Soil Stack, Series 1000; 100mmØ PVC Soil Stack Atlanta Series 1000; VSTR (Vent Stack Thru Roof); CO (cleanout)</p><p>- 75mmØ PVC Downspout (typical) at building corners</p><p>- Title: \"SECOND FLOOR DRAINAGE PLAN\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 2–6</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "The 4 Major Components of the Drainage System",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<ul><li><strong>Sanitary or Soil Drainage System</strong> – the piping that conveys the discharge of water closets or fixtures having similar functions (containing fecal matter), with or without the discharges from other fixtures.</li><li><strong>Waste Drainage System</strong> – the piping that receives the liquid discharge from plumbing fixtures other than water closets. It is free of fecal matter.</li><li><strong>Vent System</strong> – The piping installed to provide a flow of air to or from a drainage system or to provide a circulation of air within such system to protect trap seals from siphonage and back pressure.</li><li><strong>Storm Drainage System</strong> - the piping system that receives clear water drainage from leaders, downspouts, surface runoff, ground water, subsurface water, condensate water, cooling water or other similar discharges and conveys them to the point of disposal. All sanitary wastes must not be included in this system.</li></ul><blockquote><p>[REPLICA IMAGE: DRAINAGE SYSTEM - GRAY WATER / BLACK WATER DIAGRAM]</p><p>Create an accurate clean engineering diagram of a building drainage system (isometric/plan style) showing:</p><p>- <strong>BLACK WATER</strong> (labeled callouts, left side):</p><p>  - Vent System: Main Vent Stack &amp; Vent Stack Thru Roof (VSTR)</p><p>  - Sanitary Drainage System: Soil pipe from water closet and other fixtures</p><p>  - Private Treatment Facility: Septic Tank</p><p>  - Point of Disposal for Sanitary Waste</p><p>- <strong>GRAY WATER</strong> (labeled callouts, right side):</p><p>  - Storm Drainage System: Downspout, Catch Basin &amp; Storm pipe</p><p>  - Waste Drainage System: Waste pipe from Kitchen sink</p><p>  - Points of Disposal for Storm water</p><p>- Diagram components: CB (Catch Basin) boxes at corners, SD (storm drain) pipe runs, DS (downspout) markers, CO (cleanout), KS (kitchen sink) with waste pipe, VENT STACK PIPE, BUILDING DRAIN (HOUSE DRAIN), DIGESTIVE CHAMBER / LEACHING CHAMBER (septic tank), \"TAP TO PUBLIC SEWER\" markers (two of them — one for sanitary, one for storm)</p><p>- Overall label: \"DRAINAGE SYSTEM\"</p><p>- Preserve the rectangular building outline with pipe runs along the perimeter and interior.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 7–8</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Terms and Definitions in the DWV System",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<ul><li><strong>Building Drain</strong> – is that part of the lowest horizontal piping of a drainage system which receives the discharge from soil, waste &amp; other drainage pipes inside the walls of the building &amp; conveys it to the building sewer beginning <strong>600 mm</strong> outside the building wall. It is also known as <strong>House Drain</strong>.</li><li><strong>Building Sewer</strong> – is that part of the horizontal piping of a drainage system which starts from the end of the building drain &amp; receives the discharge of the building drain &amp; conveys it to the public sewer, private sewer, individual sewage disposal system or other point of disposal.</li><li><strong>House Sewer</strong> – is that part of a plumbing system extending from the house drain at a point <strong>600 mm</strong> from the outside face of the foundation wall of a building to the conjunction with the street sewer or to any point of discharge, and conveying the drainage of one building site.</li><li><strong>Waste pipe</strong> – a pipe which conveys only wastewater or liquid waste, free of fecal matter.</li><li><strong>Soil pipe</strong> – any pipe which conveys the discharge of water closet, urinal or fixtures having similar functions, with or without the discharges from other fixtures to the building drain or building sewer.</li><li><strong>Soil Stack pipe</strong> – A vertical soil pipe conveying fecal matter and wastewater.</li><li><strong>Vent pipe</strong> – a pipe or opening used for ensuring the circulation of air in a plumbing system and for relieving the negative pressure exerted on trap seals.</li><li><strong>Vent Stack</strong> – the vertical vent pipe installed primarily for providing circulation of air to and from any part of the soil, waste of the drainage system.</li><li><strong>Stack Vent</strong> – the extension of a soil or waste stack above the highest horizontal drain connected to the stack.</li><li><strong>Stack Vent Through Roof (SVTR)</strong> – the uppermost end of the stack vent above the roof.</li><li><strong>Branch Vent</strong> – a horizontal vent connecting one or more individual vertical back vents with the vent stack or stack vent.</li></ul><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: DWV SYSTEM - BUILDING SECTION WITH SEWAGE DISPOSAL]</p><p>Create an accurate clean engineering diagram (building cross-section style) of a two-part illustration:</p><p><strong>Part 1 (small inset, left):</strong> A simplified layout used in localities with a public sewage treatment plant (no septic tank required), showing:</p><p>- PUBLIC SEWER (SEWAGE DISPOSAL SYSTEM)</p><p>- FCO (floor cleanout)</p><p>- HOUSE TRAP</p><p>- BUILDING SEWER OR HOUSE SEWER</p><p>- Caption below: \"THE ABOVE LAYOUT IS USED IN LOCALITIES WHERE A PUBLIC SEWAGE TREATMENT PLANT IS PRESENT AND SEPTIC TANKS ARE NOT REQUIRED.\"</p><p><strong>Part 2 (main diagram, right):</strong> A full building cross-section showing:</p><p>- Roof peak with VENT STACK THRU ROOF (VSTR) and ROOF GUTTER with DOWNSPOUT OR STORM LEADER</p><p>- Upper floor fixtures: BT (bathtub), WC (water closet), LAV (lavatory), labeled BRANCH VENT, BRANCH SOIL</p><p>- Middle level: FILTER BOX, RAINWATER CISTERN</p><p>- Lower floor fixtures: BT, LAV, WC, S (sink), KS (kitchen sink), LT (laundry tub), each with FCO (floor cleanout)</p><p>- Vertical stacks labeled: SOIL STACK, WASTE STACK, VENT STACK</p><p>- Roof drain path: FD (floor drain) to BRANCH WASTE to CATCH BASIN</p><p>- Ground level: MAIN STREET CULVERT, LEACHING CHAMBER, DIGESTIVE CHAMBER (SEPTIC TANK / SEWAGE DISPOSAL SYSTEM), BUILDING SEWER / HOUSE SEWER, BUILDING DRAIN OR HOUSE DRAIN with \"2% SLOPE\" label, SOIL AND WASTE PIPE, CO (cleanout), CATCH BASIN</p><p>Preserve relative vertical stacking of fixtures floor-to-floor and the horizontal drain running to septic tank on one side and catch basin/storm system on the other.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 9–11</p><blockquote><p>[REPLICA IMAGE: DWV SYSTEM AXONOMETRIC - TRAPS, VENTS, WASTE LINES, SOIL STACKS]</p><p>Create an accurate clean axonometric (3D) engineering illustration of a bathroom DWV rough-in showing:</p><p>- A toilet (water closet) with connecting drain and cleanout below it</p><p>- Multiple vertical pipe runs (soil stack and vent pipes) rising through the ceiling</p><p>- Three \"Cleanout\" labels pointing to different cleanout fittings at floor level and mid-height</p><p>- Callout boxes with text:</p><p>  - <strong>TRAPS</strong> permit waste &amp; wastewater to enter the drainage system &amp; prevent any sewer gases from entering the house. The water seal utilizes a portion of the wastewater to act as a barrier.</p><p>  - <strong>VENTS</strong> protect the water seals in traps and permit them to operate effectively. By admitting air to the system, vents permit atmospheric pressure on both sides of the trap seal to be maintained, and permit air to enter at the same time as gases escape the drainage system.</p><p>  - <strong>WASTE LINES</strong> carry wastes such as hair, lint, grease, food scraps, etc. Because of this function, cleanouts should be located so that the entire system can be opened up if necessary.</p><p>  - <strong>SOIL STACKS &amp; LINES</strong> are bigger in diameter than the waste lines, except at ground floor or basement</p><p>- Bottom caption: \"The DWV System combines the use of TRAPS, VENTS, WASTE LINES and SOIL STACKS &amp; LINES\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 12</p><blockquote><p>[REPLICA IMAGE: THE DWV SYSTEM - FULL AXONOMETRIC WITH SEPTIC TANK]</p><p>Create an accurate clean axonometric (3D) engineering illustration titled \"The DWV SYSTEM\" showing, from top to bottom:</p><p>- <strong>VSTR or SVTR</strong> (Vent Stack Thru Roof) at the top</p><p>- <strong>Branch Vent</strong> connecting to <strong>Vent Stack</strong></p><p>- <strong>Individual Vent or Back Vent</strong> serving a Lavatory</p><p>- A <strong>Water Closet</strong> and <strong>Lavatory</strong> with an <strong>Auxiliary Floor Drain</strong></p><p>- <strong>Waste Pipe</strong> leading to a <strong>Shower Floor Drain</strong></p><p>- <strong>Wall Cleanout</strong> at the vertical-to-horizontal transition</p><p>- <strong>Floor Cleanout</strong> with a callout: \"600 mm from foundation wall\"</p><p>- <strong>House Drain or Building Drain</strong> running horizontally</p><p>- <strong>Sanitary or Soil Pipe</strong> with a <strong>Cleanout</strong></p><p>- <strong>House Sewer or Building Sewer</strong> leading down to a <strong>Septic Tank</strong></p><p>- The Septic Tank showing internal <strong>Holding Chamber</strong> and <strong>Digestive Chamber</strong>, each with its own <strong>Cleanout</strong> on top</p><p>- Arrow labeled \"To point of Disposal\" leading away from the septic tank</p><p>Preserve the layered top-to-bottom flow: roof vent → fixtures → house drain → house sewer → septic tank → point of disposal, and the 600 mm dimension from the foundation wall.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 13</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "General Requirements for a Properly Designed Drainage System",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<ul><li><strong>Each plumbing fixture trap shall be provided with vent pipes.</strong></li><li><strong>Each plumbing fixture, except those with integral traps, shall be separately trapped by an approved type watersealed trap.</strong></li><li><strong>All horizontal piping shall run in practical alignment &amp; at a uniform grade of not less than 2% (20 mm per meter) toward the point of disposal.</strong></li><li><strong>All horizontal piping shall be supported &amp; anchored at intervals not to exceed 3 meters.</strong></li><li><strong>Vertical piping shall be secured at sufficiently close intervals to keep the pipes in alignment. Stacks shall be properly supported at their bases.</strong></li><li><strong>A cleanout, easily accessible, shall be provided for inspection or cleaning of the pipe run.</strong></li></ul><blockquote><p>[REPLICA IMAGE: GENERAL REQUIREMENTS FOR A PROPERLY DESIGNED DRAINAGE SYSTEM]</p><p>Create an accurate clean engineering diagram (multi-story building cross-section, blueprint style) showing:</p><p>- Upper floor fixtures: TOILET, LAVATORY, TUB, with pipe sizes labeled: 4\", 2\", 1 1/4\", 1 1/4\", 3\", 1 1/2\", 4\" VENT STACK</p><p>- Fixture branch labeled \"FIXTURE BRANCH\"</p><p>- Second level fixtures: SINK, with 2\" VENT STACK, 1 1/4\", 1 1/2\"</p><p>- Lower level fixtures: LAVATORY, TOILET (with 1 1/4\", 2\", 3\" pipe sizes)</p><p>- Basement/ground level: HOT WATER HEATER, SOFTENER, WASHER, LAUNDRY TUB, with 4\" SOIL STACK, FLOOR DRAIN, C.O. (cleanout)</p><p>- Horizontal run: 4\" BUILDING DRAIN leading to BUILDING SEWER, CITY SEWER, with STREET, CURB, FROST LINE, BUILDING LINE labels shown</p><p>- Legend: solid line = DRAIN, dashed line = VENT</p><p>Preserve pipe diameters exactly as labeled (4\", 2\", 1 1/4\", 1 1/2\", 3\").</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 14</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Drainage Traps",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>What is a Drain?</h4><ul><li>A <strong>Drain</strong> is a pipe, which carries ground and surface waters, storm water or wastewater into a building drainage system.</li><li>The common types of drains are the <strong>floor drains</strong> and the <strong>roof drains</strong>.</li><li>The 2 types of drain connections are the <strong>direct drain connection</strong> and the <strong>indirect drain connection</strong>.</li></ul><h4>What is a Trap?</h4><p>A <strong>Trap</strong> is a fitting or device designed and constructed to provide, when properly vented, a liquid seal which prevents the backflow of foul air or methane gas without materially affecting the flow of sewage or wastewater through it.</p><h4>Types of Watersealed Traps</h4><p>1. <strong>P-trap</strong> – is the most widely used for fixtures, common diameter sizes are <strong>32 mm (1-1/4\")</strong> and <strong>38 mm (1-1/2\")</strong>. 2. <strong>Drum trap</strong> – is used mostly for bathtubs. It has the advantage of containing a larger volume of water &amp; discharging a greater volume of water than a P-trap. 3. <strong>Grease Interceptor / Grease Trap</strong> – Grease interceptor is an interceptor of at least <strong>3 cubic meter</strong> capacity to serve one or more fixtures and which is remotely located. Grease trap is a device designed to retain grease from one to a maximum of four fixtures. 4. <strong>House Trap/Running trap</strong> – a device installed to prevent circulation of air between the drainage of the building and the building sewer.</p><h4>Types of Waterseal Traps — Key Terms</h4><ul><li><strong>Crown Weir</strong> – the highest point of the bottom of the internal surface of the trap.</li><li><strong>Dip</strong> – the lowest portion of the inside top surface of the channel through the trap.</li><li><strong>Trap seal</strong> – the vertical distance or depth of liquid that a trap will retain, measured between the crown weir and the top of the dip of the trap. Range: <strong>51 – 102 mm</strong>.</li></ul><p>&gt;</p><blockquote><p>[REPLICA IMAGE: TYPES OF WATERSEAL TRAPS]</p><p>Create an accurate clean engineering illustration set showing:</p><p>1. <strong>P-Trap (cross-section)</strong>: labeled Inlet, Crown, Outlet, Dip, Overflow, Seal, Clean out; with dimension callout \"51 – 102 mm\" between Crown Weir and Dip.</p><p>2. <strong>Drum Trap on Bathtub Outlet</strong>: showing bathtub with Overflow Plate, Lever, Overflow Tube, Stopper, Waste Pipe, Trap Seal, Screw Cover.</p><p>3. <strong>Pop-up Drain Mechanism in Bathtub</strong>: showing Overflow Plate, Lever, Overflow Tube, Lift Linkage, Spring, Stopper, Rocker Linkage.</p><p>4. <strong>P-Trap for Lavatory and Kitchen Sink</strong>: showing Rubber Stopper, Full Chain, Escutcheon, Wall Line, 32mm (1-1/4\") Plastic P-Trap Chrome Finish, Cleanout Cap, Plastic P.O. Plug Chrome Finish, dimension 117mm height, 245mm length.</p><p>5. <strong>P-Trap for Floor Drains</strong>: showing FD, Finish Floor Line, Extension Piece, P-Trap, Cleanout for above grade floors.</p><p>6. <strong>House Trap</strong>: showing Vent Stack, Basement Floor, CO, Running Trap, \"TO SUMP PIT\" arrow. Caption: \"HOUSE TRAP - A DEVICE INSTALLED TO PREVENT CIRCULATION OF AIR BETWEEN THE DRAINAGE OF THE BUILDING AND THE BUILDING BUILDING SEWER.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 15–18</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: GREASE TRAP AND KITCHEN DRAINAGE ACCESSORIES]</p><p>Create an accurate clean engineering illustration set showing:</p><p>1. <strong>Grease Trap Installation</strong>: Two kitchen sinks each with Free Level Handle Drain, connected via Flow Control Valve to a Grease Trap, with Vent Stack shown.</p><p>2. <strong>Grease Trap / Grease Interceptor (Top View and Section)</strong>: showing Recessed Lift Ring, Non-Skid Cast-Iron Cover, dimensions 400–900 (top view width), 250–500 (section height), Removable Baffles, Cast Iron Body. Caption: \"GREASE TRAP: A DEVICE FOR REMOVING FAT AND GREASE FROM WASTE WATER BY ALLOWING THE RETAINED LIQUID TO COOL AND THE GREASE TO SOLIDIFY; THEN THE GREASE IS SEPARATED BY FLOATATION; IT RISES TO THE TOP OF THE TRAP, WHERE IT IS HELD. THE PRIME PURPOSE OF A GREASE TRAP IS TO ASSURE A FREE RUNNING DRAINAGE THROUGH PIPE LINES AT ALL TIMES BY INTERCEPTING, ACCUMULATING AND RECOVERING GLOBULES OF GREASE, FAT AND OILS FROM WASTE WATER.\"</p><p>3. <strong>Free Level Handle Drain (Metma Brand)</strong>: with Brass Strainer, Rubber Gasket, Bell Type Control Handle, Solid Brass Body; dimensions 101mm. Caption: \"USING FREE LEVEL HANDLE DRAIN IS FOR EASY DRIPPING OF WASTE WATER FROM KITCHEN SINK.\"</p><p>4. <strong>Flow Control Valve (Metma Brand)</strong>: with Plunger for Cleaning Orifice, Packing Gland, Flow Controller, 19mm Ø Vent Connection; dimensions 101mm, 102mm, 53mm. Caption: \"FLOW CONTROL VALVE IS RECOMMENDED FOR INSTALLATION BETWEEN FREE LEVEL HANDLE DRAIN AND GREASE TRAP TO PREVENT FATS FROM CLOGGING INTO PIPES.\"</p><p>Header label: \"DRAINAGE ACCESSORIES FOR INSTITUTIONAL KITCHEN\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 19</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Drainage Vent",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>What is a Vent?</h4><ul><li>A <strong>Vent</strong> is a pipe or opening that brings outside air into the plumbing system and equalizes the pressure on both sides of a trap to prevent trap seal loss.</li><li>Inadequate ventilation usually causes the loss of trap seal.</li><li>At sea level, atmospheric pressure is about <strong>102 kPa (14.75 psi)</strong>. Any difference between this pressure and the pressure on the discharge side forces the water seal into the direction of less pressure. Venting the discharge side of the trap to the atmosphere tends to equalize these pressures.</li></ul><h4>Causes of Trap Seal Loss</h4><p>1. Direct or Self-siphonage 2. Indirect or Momentum siphonage</p><ul><li><strong>Siphonage</strong> – the withdrawal of a liquid from a trap due to a suction caused by liquid flow in a pipe without proper ventilation.</li><li><strong>Back Pressure or Back Siphonage</strong> – pressure developed in opposition to the flow of liquid in a pipe due to friction, gravity or some other restriction to the flow of the conveyed liquid.</li><li><strong>Evaporation</strong> – occurs when a fixture is not used for a long time.</li><li><strong>Capillary Attraction</strong> – a foreign object lodged in the trap causes loss of trap seal by capillary action by acting as a wick.</li><li><strong>Wind Effect</strong></li></ul><p>&gt;</p><blockquote><p>[REPLICA IMAGE: CAUSES OF TRAP SEAL LOSS - DIRECT SIPHONAGE]</p><p>Create an accurate clean engineering diagram showing three lavatory sink states side by side:</p><p>1. \"Seal intact\" — showing Inlet or fixture side, Trap seal, Outlet (discharge) side, water level shown intact in the trap.</p><p>2. \"Fixture discharging\" — showing water rushing through the fixture.</p><p>3. \"Seal lost\" — showing the trap emptied of water.</p><p>Caption below: \"Direct Siphonage\"</p><p>Also include a second illustration:</p><p>- Fixture discharge arrow labeled \"1. FIXTURE DISCHARGE\" into a lavatory-style trap labeled \"UNVENTILATED TRAP\"</p><p>- Arrow labeled \"2. WATER RUSHES THROUGH THE TRAP AND INTO THE VERTICAL WASTE PIPE\"</p><p>- Downward arrow to \"OUTLET\"</p><p>- Caption: \"1.) LOSS OF TRAP SEAL DUE TO DIRECT SIPHONAGE OR SELF SIPHONAGE - OCCURS IN UNVENTED TRAPS THAT SERVE OVAL-BOTTOM FIXTURES SUCH AS LAVATORIES, DUE TO RAPID DISCHARGE.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 22–23</p><p>&gt;</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: CAUSES OF TRAP SEAL LOSS - INDIRECT SIPHONAGE, BACK PRESSURE, CAPILLARY ATTRACTION]</p><p>Create an accurate clean engineering diagram set (Figure 3: Causes of Trap Seal Loss) showing:</p><p>1. <strong>Indirect or Momentum Siphonage</strong>: A vertical waste stack with an upper fixture discharging (labeled \"1. FIXTURE DISCHARGE\"), an \"UNVENTILATED TRAP\", arrows showing \"2. WATER RUSHES THROUGH THE TRAP AND INTO THE VERTICAL WASTE PIPE\", and a lower fixture trap where \"3. TRAP SEAL IS FORCED OUT FROM THE TRAP BY THE SUCTION ACTION OF THE RUSHING WATER\". Caption: \"b.) LOSS OF TRAP SEAL DUE TO INDIRECT OR MOMENTUM SIPHONAGE. - IS CAUSED BY A LARGE DISCHARGE OF WATER FROM A FIXTURE INSTALLED ONE OR MORE FLOORS ABOVE THE AFFECTED FIXTURE.\"</p><p>2. <strong>Back Pressure / Back Siphonage</strong>: A toilet (water closet) with arrows showing \"TRAP SEAL IS BLOWN OUT FROM THE FIXTURE\", labels \"BACK PRESSURE\", \"COMPRESSED AIR\", \"BLOCKAGE\". Caption: \"c.) LOSS OF TRAP SEAL DUE TO BACK PRESSURE / BACK SIPHONAGE - IS CAUSED BY SIMULTANEOUS FIXTURE USE THAT OVERTAXES THE PLUMBING SYSTEM, CAUSING A POSITIVE PRESSURE THAT AFFECTS THE TRAP SEAL.\"</p><p>3. <strong>Capillary Attraction</strong>: A P-trap with a \"STRING OR RAG\" lodged inside it. Caption: \"d.) LOSS OF TRAP SEAL BY CAPILLARY ATTRACTION - RAGS, STRING, LINT AND HAIR COMMONLY CAUSE THIS PROBLEM.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 24</p><h4>What are the Types of Vents?</h4><ul><li>Soil and Waste Vent</li><li>Main Vent</li><li>Individual Vent or Back Vent</li><li>Unit Vent</li><li>Circuit Vent or Loop Vent</li><li>Relief Vent</li><li>Yoke Vent</li><li>Wet Vent</li><li>Looped Vent</li><li>Local Vent</li><li>Utility Vent</li></ul><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: MAIN SOIL &amp; WASTE VENT AND MAIN VENT]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Main Soil &amp; Waste Vent</strong>: A building section showing \"AIR\" entering from the top, \"VENT STACK THRU ROOF (VSTR)\", \"MAIN SOIL AND WASTE VENT\" pipe labeled, \"BRANCH VENT\" branching off, \"CO\" (cleanout) at the base, with an \"ALTERNATIVE FITTING\" detail circled at the base connection. Caption: \"MAIN SOIL &amp; WASTE VENT. THE PORTION OF SOIL STACK PIPE ABOVE THE HIGHEST INSTALLED FIXTURE BRANCH EXTENDING THROUGH THE ROOF.\"</p><p>2. <strong>Main Vent</strong>: A multi-floor building section showing \"AIR\" entering from the top through the roof, \"MAIN SOIL &amp; WASTE VENT\" main riser, \"MAIN VENT\" and \"INDIVIDUAL VENT\" branches connecting to LAV and WC fixtures with CO (cleanout) fittings on each floor. Caption: \"MAIN VENT. THE PRINCIPAL PORTION OF THE VENT PIPE SYSTEM TO WHICH VENT BRANCHES MAY BE CONNECTED. IT SERVES AS A COLLECTING VENT LINE.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 26</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: INDIVIDUAL VENT/BACK VENT AND UNIT VENT]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Individual Vent for Lavatory</strong>: Soil pipe/soil stack with Main Vent and Back Vent branching to a lavatory fixture.</p><p>2. <strong>Individual Vent for Water Closet</strong>: Soil stack with Main Vent and Back Vent to a water closet.</p><p>3. <strong>Individual Vent for Bathtub and Shower</strong>: Soil stack with Main Vent, Back Vent, and Drum Trap connections.</p><p>Caption: \"INDIVIDUAL VENT or BACK VENT. THE PORTION OF THE VENT PIPE SYSTEM WHICH SERVES A SINGLE FIXTURE. IT SHOULD BE CONNECTED AS CLOSE TO THE [trap as possible].\"</p><p>4. <strong>Unit Vent used in Lavatory Installation</strong>: Two lavatories back to back sharing a Unit Vent, Waste Stack, Soil Stack, Main Vent.</p><p>5. <strong>Unit Vent used in Water Closet Installation</strong>: Two water closets sharing Soil Stack, Main Vent, Unit Vent.</p><p>6. <strong>Unit Vent used in Bathtub Installation</strong>: Two bathtubs with Drum Traps sharing Soil Stack, Main Vent, Unit Vent.</p><p>Caption: \"UNIT VENT. THE PORTION OF THE VENT PIPE SYSTEM WHICH VENTILATES TWO FIXTURE OF SIMILAR DESIGN INSTALLED ON OPPOSITE SIDES OF A PARTITION.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 27</p><p>&gt;</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: CIRCUIT VENT, RELIEF VENT, AND YOKE VENT]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Circuit Vent or Loop Vent</strong>: Three toilets (water closets) connected in series to a \"SOIL BRANCH\" with a \"MAIN SOIL &amp; WASTE VENT\", \"BRANCH VENT\", and \"MAIN VENT\". A note states: \"THE VENT STACK IS INSTALLED BETWEEN THE 2nd &amp; 3rd FIXTURE AS A PRECAUTION. IN CASE THE SOIL BRANCH BECOMES CLOGGED, THE 3rd FIXTURE SCOURS THE PIPE OF FECAL WASTE WHICH MAY OBSTRUCT THE VENT.\" Caption: \"CIRCUIT VENT or LOOP VENT. THE PORTION OF THE DRAINAGE SYSTEM WHICH VENTILATES TWO OR MORE FIXTURE TRAPS THAT DISCHARGE INTO A SOIL OR WASTE BRANCH.\"</p><p>2. <strong>Relief Vent</strong>: Three toilets connected with \"MAIN SOIL &amp; WASTE VENT\", \"RELIEF VENT\", \"CIRCUIT VENT\", \"MAIN VENT\" labeled. Also a second smaller diagram showing \"SOIL STACK\", \"MAIN VENT\", \"LOWEST FIXTURE BRANCH\", \"RELIEF VENT FOR SOIL PIPE\" serving a LAV and BATH TUB. Caption: \"RELIEF VENT. THE PORTION OF THE VENT PIPE INSTALLATION THAT PERMITS ADDITIONAL CIRCULATION OF AIR AROUND THE DRAINAGE PIPES TO ELIMINATE BACK PRESSURE AND RETARDATION OF WASTE FLOW.\"</p><p>3. <strong>Yoke Vent (multi-story riser diagram)</strong>: A tall vertical riser diagram spanning from Ground Floor to 10th floor, showing \"BRANCH VENT\" at top, \"MAIN VENT\" and \"SOIL STACK\" as parallel risers, with \"YOKE VENT\" connections shown at the 3rd/4th floor and 6th/7th floor levels, and a \"RELIEF VENT\" at the base.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 28</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: WET VENT AND LOOPED VENT]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Wet Vent</strong>: A building section with \"SOIL STACK\" and \"MAIN VENT\" as parallel vertical pipes, a \"Mezzanine floor\" level with a LAV fixture connected via a \"WET VENT\" pipe, a \"Ground floor\" level with W.C. and LAV fixtures and a C.O. (cleanout). Caption: \"WET VENT. A PORTION OF THE VENT PIPE SYSTEM THROUGH WHICH LIQUID WASTE FLOW.\"</p><p>2. <strong>Looped Vent</strong>: \"SOIL STACK\" and \"MAIN VENT\" vertical risers connecting to a \"LOW COUNTER AND PARTITION\" area with a \"SINK\" fixture, and a \"BLEEDER\" pipe connection shown. Caption: \"LOOPED VENT. A METHOD OF VENTILATION USED IN FIXTURES WHICH ARE LOCATED IN THE ROOM AWAY FROM PARTITIONS\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 29</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: UTILITY VENT AND LOCAL VENT]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Utility Vent</strong>: A basement/underground public restroom cross-section showing \"SIDEWALK or PARK LAWN\" at grade, a \"UTILITY VENT\" pipe running horizontally near the ceiling of the basement space, connecting to LAV and W.C. fixtures. Caption: \"UTILITY VENT. THIS IS USED FOR BASEMENT OR UNDERGROUND PUBLIC RESTROOM WHEREIN A VENT STACK MAY NOT BE POSSIBLE TO EXTEND 3 METERS ABOVE THE GROUND, AS IT MAY CONSTITUTE A HAZARD AND IS UNSIGHTLY.\"</p><p>2. <strong>Local Vent</strong>: A cross-section showing a \"SCREEN\" at the top of a vent pipe extending above a roof, with \"PIPE SUPPORT\", connected down through a W.C. fixture to a \"SEEPAGE PIT\" below. Caption: \"LOCAL VENT. A PIPE USED TO CONVEY FOUL ODORS FROM A FIXTURE OR ROOM. IT HAS NO CONNECTION WITH DRAINAGE PIPING SYSTEM.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 30</p><h4>Vent Termination</h4><p><strong>Section 906 VENT TERMINATION</strong></p><ul><li><strong>906.1</strong> Each vent pipe or stack through roof (SVTR) shall extend its flashing all around and the stack vent shall terminate vertically not less than <strong>15 cm</strong> above the roof nor less than <strong>0.3 meter</strong> from any vertical surface nearby.</li><li><strong>905.4</strong> … the vent through roof (VSTR) shall be increased <strong>1 pipe size</strong> above the reconnection point of stack vent and horizontal vent.</li></ul><p>Key minimum dimensions:</p><ul><li><strong>300 mm (minimum)</strong> — distance from vertical surface</li><li><strong>150 mm (minimum)</strong> — vertical termination above roof</li></ul><blockquote><p>[REPLICA IMAGE: VENT TERMINATION THROUGH ROOF DETAIL]</p><p>Create an accurate clean engineering diagram of a vent pipe terminating through a sloped roof, showing:</p><p>- A \"VERTICAL SURFACE\" (chimney-like structure) at top</p><p>- Dimension \"300 mm (minimum)\" between the vent pipe and the vertical surface</p><p>- Dimension \"150 mm (minimum)\" (also marked \"6\" MINIMUM\") for the vent stack extending above the roof flashing</p><p>- \"FLASHING\" labeled around the pipe penetration through the sloped roof</p><p>- \"VENT INCREASER 4\" MINIMUM\" label with an arrow to the pipe transition point</p><p>- \"12\" MINIMUM\" dimension below the flashing</p><p>- \"VENT\" label at the bottom of the pipe</p><p>Include the code text callouts:</p><p>- 906.1: \"Each vent pipe or stack through roof (SVTR) shall extend its flashing all around and the stack vent shall terminate vertically not less than 15 cm above the roof nor less than 0.3 meter from any vertical surface nearby.\"</p><p>- 905.4: \"...the vent through roof (VSTR) shall be increased 1 pipe size above the reconnection point of stack vent and horizontal vent.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 31</p><blockquote><p>[REPLICA IMAGE: VENT TERMINATION MINIMUM DISTANCES FROM OPENINGS]</p><p>Create an accurate clean engineering diagram titled \"Vents Termination above Roof &amp; from Openings\" showing:</p><p>- A building cross-section with a Property Line (dashed red vertical line) and a Parapet Wall</p><p>- Two vent pipes with waterproof flashing penetrating a sloped roof</p><p>- Openable windows shown on the sloped roof section (two green window rectangles)</p><p>- Dimension callouts (all labeled \"Minimum Distances\"):</p><p>  - 900 mm — height of vent pipe on the parapet wall side, from roof surface</p><p>  - 300 mm — distance from vent pipe to nearby vertical surface (parapet wall)</p><p>  - 150 mm — vent pipe height above roof surface</p><p>  - 900 mm — vent pipe distance near the openable window</p><p>  - 300 mm — vent pipe clearance near the sloped roof/openable window</p><p>  - 150 mm — vent height above sloped roof surface</p><p>  - 3000 mm — horizontal distance from vent pipe to the openable window at the top of the roof</p><p>- Label: \"This are Minimum Distances\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 32</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: VENT TERMINAL - ROOF USED AS SUN DECK / WEATHER PROTECTION AND SLEEVE FLASHING]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Vent terminal height when roof is a sun deck</strong>: Vent Terminal pipe extending \"7'-8'\" above Finished Roof Deck. Caption: \"WHEN ROOF IS INTENDED FOR SUN DECK OR OTHER SIMILAR PURPOSES, THE VENT TERMINAL SHOULD BE EXTENDED.\"</p><p>2. <strong>Vent terminal height when roof is for weather protection only</strong>: Vent Terminal pipe extending \"12\"\" above Finished Roof Deck. Caption: \"WHEN ROOF IS USED FOR WEATHER PROTECTION ONLY.\"</p><p>3. <strong>Photo-style illustration</strong>: A rooftop terrace/deck scene with people's chairs and a table, and a vent pipe rising \"3\" min\" with a dimension \"2100 mm (minimum)\" shown to the roof surface, caption: \"The roof is intended for human occupancy.\"</p><p>4. <strong>Sleeve-type flashing detail on a flat roof</strong>: showing \"Minimum 150 mm above the flood level of the roof\", \"Rain cap fits around stack terminal and over sleeve\", \"Sleeve may be circular and installed between layers of roofing material\", labeled \"Neoprene Roof Flashing\", with \"3\" min\" dimension.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 33</p><h4>Air Admittance Valve (Studor System)</h4><p>Air admittance valves offer a substitute for running vent pipes to the outside of buildings. These valves open automatically to let fresh air into the sanitary system if there is a decrease in air pressure within the system. The valves close automatically, to avoid the discharge of foul air, whenever the pressure in the system is equal to or greater than the external pressure.</p><p>You can use air admittance valves for:</p><ul><li>trap vents</li><li>group vents</li><li>stack vents</li><li>branch drains</li></ul><p>These are not suitable for upstream venting of a main drain (unless there are two upstream vents, in which case one may be an air admittance valve). They should be installed in the same location and using the same method as the vent they are replacing.</p><blockquote><p>[REPLICA IMAGE: AIR ADMITTANCE VALVE (STUDOR SYSTEM) DETAIL]</p><p>Create an accurate clean engineering diagram showing:</p><p>- A fixture with a P-trap (\"Water trap\") connected to a vertical vent riser</p><p>- An \"Air admittance valve\" fitted at the top of the vent riser, with a callout \"Air admittance valve integral with tap\"</p><p>- Dimension \"100 mm\" shown from the trap to the air admittance valve</p><p>- A photo-style rendering of a \"STUDOR MINI-VENT\" product (white cylindrical valve with threaded connector) shown separately</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 34</p><blockquote><p>[REPLICA IMAGE: CONVENTIONAL LOOPED VENT VS STUDOR SYSTEM UNDER-SINK COMPARISON]</p><p>Create an accurate clean illustration comparing two under-sink vent installations side by side:</p><p>1. <strong>Conventional Looped Vent</strong>: A cutaway view of a kitchen cabinet under a sink, showing a vent pipe looping up through the counter/wall labeled \"vent\" (multiple locations) and \"water flow\" following the P-trap and drain line down through the floor.</p><p>2. <strong>Studor System</strong>: A cutaway view of a kitchen cabinet under a sink, showing a compact \"AAV VENT\" (Air Admittance Valve) unit mounted directly above the P-trap, labeled \"vent\", with the drain line (\"water flow\" direction arrow) going to the wall.</p><p>Captions: \"Conventional Looped Vent\" and \"Studor System\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 35</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Septic Tank Design and Construction",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>Siting of Septic Tank (Minimum Horizontal Distance)</h4><p><em>Table B-1, Revised National Plumbing Code of the Philippines</em></p><pre>| From / To | Minimum Horizontal Distance |</pre><pre>|---|---:|</pre><pre>| From building or structure | 1.50 meters |</pre><pre>| Property line adjoining private property | 1.50 meters |</pre><pre>| Water supply Wells | 15.20 meters |</pre><pre>| Streams | 15.20 meters |</pre><pre>| Trees | 3.00 meters |</pre><pre>| Seepage pits or Cesspools | 1.50 meters |</pre><pre>| Disposal Fields | 1.50 meters |</pre><pre>| On site Domestic Water Service line | 1.50 meters |</pre><pre>| Pressure Public Water Main | 3.00 meters |</pre><blockquote><p>[REPLICA IMAGE: GROUND FLOOR HOUSE DRAIN PLAN WITH SEPTIC TANK SITING TABLE]</p><p>Create an accurate clean engineering floor plan showing a residential ground floor with rooms LAUNDRY, KITCHEN, DINING, UTILITY, ENTRANCE HALL, LIVING, CARPORT, ENTRY PORCH, with grid lines 1–4 (vertical) and A–D (horizontal), dimensions 3000/3500/4200 and 3200/9200/1800/4200, pipe labels \"50mm.Ø PVC WASTE PIPE, ATLANTA, SERIES 1000\", \"100 mm.Ø PVC SOIL PIPE ATLANTA, SERIES 1000\", \"2 3/4 SLOPE (TYP.)\", \"50mm.Ø PVC VENT STACK\", \"50mm Ø PVC BRANCH VENT PIPES\", a Digestive Chamber (D.C.) and Leaching Chamber (L.C.) shown near the carport, and \"TAP TO STREET CULVERT\". Title: \"GROUND FLOOR HOUSE DRAIN PLAN\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 37</p><h4>Septic Tank: Design and Construction Considerations</h4><p><strong>Septic Tank Definition:</strong> A water tight receptacle which receives the discharge of a sanitary plumbing system or part thereof, designed and constructed to retain solids, digest organic matter through a period of detention and to allow the liquids to discharge into the soil outside of the tank through a system of open-jointed sub-surface pipings or a seepage pit meeting the requirements of the National Plumbing Code.</p><h4>Septic Tank Construction</h4><ul><li>Septic tanks shall have a <strong>minimum of 2 compartments</strong>.</li><li>The <strong>Inlet Compartment (Digestive Chamber)</strong> shall not be less than <strong>2/3 of the total capacity</strong> of the tank, nor less than <strong>2 cubic meters</strong> liquid capacity.</li><li>The <strong>Outlet Compartment (Leaching Chamber)</strong> shall have a minimum capacity of <strong>1 cubic meter</strong> and a maximum capacity of <strong>1/3 of the total capacity</strong> of the septic tank.</li><li><strong>Minimum Length:</strong> 1500 mm</li><li><strong>Minimum Width:</strong> 900 mm</li></ul><blockquote><p>[REPLICA IMAGE: SEPTIC TANK PLAN AT CHAMBERS]</p><p>Create an accurate clean engineering plan-view diagram of a septic tank titled \"PLAN AT CHAMBERS\" showing:</p><p>- Overall length dimension 3250 mm, subdivided into 150 / 1800 / 150 / 1000 / 150 mm</p><p>- Two chambers: \"DIGESTIVE CHAMBER\" (larger, left) with a \"10% SLOPE\" diagonal floor line, and \"LEACHING CHAMBER\" (smaller, right)</p><p>- \"100mmØ PVC INLET PIPE SERIES 1000\" entering the digestive chamber</p><p>- \"100mmØ PVC OUTLET PIPE SERIES 1000\" exiting the leaching chamber, labeled \"TAP TO CITY / MUNICIPAL SEWER LINE\"</p><p>- Wall reinforcement notes: \"12mmØ BARS AT 300mm O.C. B.W. FOR 100mm THK. BOTTOM SLAB\", \"150mm THK.CHB W/ 12mmØ VERTICAL BAR AT 600mm O.C. AND HORIZONTAL BAR AT 400mm O.C.\"</p><p>- Plaster note: \"25mm THK. PLAIN CEMENT PLASTER WITH INTEGRAL WATER PROOFING COMPOUND 'SAHARA' OR NEVADA BRAND\"</p><p>- Overall width dimension 1200 mm, with 900 mm and 150/150 mm subdivisions</p><p>- Callout boxes: \"Septic tanks shall have a minimum of 2 compartments\", \"The Inlet Compartment shall not be less than 2/3 of the total capacity of the tank, nor less than 2 cubic meters liquid capacity\", \"Minimum Length of 1500 mm\", \"Minimum Width of 900 mm\", \"The Outlet Compartment shall have a minimum capacity of 1 cubic meter and a maximum capacity of 1/3 of the total capacity of the septic tank\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 38</p><h4>Septic Tank Longitudinal Section — Key Dimensions</h4><ul><li><strong>Manhole:</strong> Minimum of 2, with minimum dimension of <strong>508 mm x 508 mm</strong>, placed over the inlet and the outlet.</li><li><strong>228.6 mm</strong> — Minimum Air Space or Freeboard.</li><li><strong>Liquid Depth:</strong> 600 mm (minimum) to 1800 mm (maximum).</li><li><strong>2 cu.m. minimum volume</strong> (digestive chamber).</li><li><strong>Secondary Compartment:</strong> Minimum Capacity of 1 cubic meter or Maximum of 1/3 of the Total Capacity of Septic Tank.</li><li>If the Septic Tank is over <strong>6 cubic meters</strong>, the minimum length of Secondary Compartment shall be <strong>1500 mm</strong>.</li><li>The vaults and chambers are vented through the sanitary tees in the inlet and outlet having the top ends open and screened to make the tank mosquito proof.</li><li>The bottom of the tank should slope <strong>(1:10)</strong> towards the center and below the manhole to facilitate cleaning.</li><li><strong>No septic tank shall be constructed or installed within or under a house.</strong> <em>(Sec. 233 of the 1959 Phil. National Plumbing Code)</em></li></ul><blockquote><p>[REPLICA IMAGE: SEPTIC TANK LONGITUDINAL SECTION - MANHOLE, FREEBOARD, LIQUID DEPTH]</p><p>Create an accurate clean engineering longitudinal cross-section diagram of a septic tank showing:</p><p>- Two manholes at the top, each labeled \"500mm x 500mm MANHOLE\" with \"12mmØ BAR MANHOLE\" and \"100mm THK. R.C. MANHOLE COVER\"</p><p>- \"CO\" (cleanout) markers above each chamber</p><p>- \"100mmØ PVC CLEANOUT FERRULE DIRECTLY ABOVE SOIL TEE BUT NOT CONNECTED\"</p><p>- Water level line labeled \"WATER LEVEL\"</p><p>- \"100 x 100mm PVC TEE (TYP.)\" fittings shown at inlet/outlet</p><p>- Left chamber: \"DIGESTIVE CHAMBER\" with \"2 cu.m. minimum volume\" callout, N.G.L. (Natural Grade Line) marker, \"MIN AIR GAP\" dimension of 200mm, liquid depth dimension of 1200mm (with overall height 1600mm), \"10%\" sloped bottom (shown twice, sloping toward center)</p><p>- Right chamber: \"LEACHING CHAMBER\" with \"150mm THK.CHB W/ 12mmØ VERTICAL BAR AT 600mm O.C. AND HORIZONTAL BAR AT...\" wall note</p><p>- Bottom slab note: \"100mm THK. R.C. BOTTOM SLAB W/ 12mmØ BARS AT 300mm O.C. B.W.\"</p><p>- Title: \"LONGITUDINAL SECTION\"</p><p>- Callout boxes: \"Manhole: Minimum of 2 with Minimum Dimension of 508mm x 508mm placed over the inlet and the outlet\", \"228.6mm Minimum Air Space or Freeboard\", \"Liquid Depth: 600 mm (minimum) to 1800 mm (maximum)\", \"If the Septic Tank is over 6 cubic meters, the minimum length of Secondary Compartment shall be 1500mm.\", \"Secondary Compartment: Minimum Capacity of 1 cubic meter or Maximum of 1/3 of the Total Capacity of Septic Tank\", \"The vaults and chambers are vented through the sanitary tees in the inlet and outlet having the top ends open and screened to make the tank mosquito proof\", \"The bottom of the tank should slope (1:10) towards the center and below the manhole to facilitate cleaning\", \"No septic tank shall be constructed or installed within or under a house. Sec. 233 of the 1959 Phil. National Plumbing Code\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 39</p><h4>Inlet/Outlet/Siphon Pipe Requirements</h4><ul><li><strong>Inlet Pipe and Fitting:</strong> use <strong>104.6 mm Ø (minimum)</strong>.</li><li><strong>Outlet Pipe and Fitting:</strong> use <strong>104.6 mm Ø (minimum)</strong>.</li><li><strong>Siphon Pipe and Fitting:</strong> use <strong>104.6 mm Ø (minimum)</strong>.</li><li>The invert of the Inlet Pipe shall be at least <strong>50.8 mm</strong> above the invert of the Outlet Pipe.</li><li>Inlet and Outlet Pipe shall extend at least <strong>101.6 mm</strong> above the water surface.</li><li><strong>304.8 mm</strong> Minimum Depth of Inlet and Outlet Pipe below the water surface.</li></ul><blockquote><p>[REPLICA IMAGE: SEPTIC TANK INLET/OUTLET PIPE DETAIL SECTION]</p><p>Create an accurate clean engineering longitudinal section diagram (similar layout to the previous septic tank section) with callouts specifically highlighting:</p><p>- \"Inlet Pipe and Fitting: use 104.6mm Ø (minimum)\" pointing to the inlet pipe entering the Digestive Chamber</p><p>- \"The invert of the Inlet Pipe shall be at least 50.8mm above the invert of the Outlet Pipe\" pointing to the relative pipe invert heights</p><p>- \"Inlet and Outlet Pipe shall extend at least 101.6mm above the water surface\" pointing to pipe extension above the water level line</p><p>- \"304.8mm Minimum Depth of Inlet and Outlet Pipe below the water surface\" pointing to the submerged portion of the pipe/tee</p><p>- \"Siphon Pipe and Fitting: Use 104.6mm Ø (minimum)\" pointing to a pipe between Digestive Chamber and Leaching Chamber</p><p>- \"Outlet Pipe and Fitting: use 104.6mm Ø (minimum)\" pointing to the outlet pipe from the Leaching Chamber</p><p>- Show the DIGESTIVE CHAMBER and LEACHING CHAMBER labeled, with manholes, CO markers, water level, and 10% sloped floor as in the earlier section drawing.</p><p>Title: \"LONGITUDINAL SECTION\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 40</p><h4>Manhole and Structural Requirements</h4><ul><li>Access to each septic tank shall be provided by at least <strong>2 manholes</strong>, <strong>508 mm</strong> in minimum dimension, or by an equivalent removable cover slab. One access manhole shall be located over the inlet and 1 access manhole shall be located over the outlet. Whenever a first compartment exceeds <strong>3700 mm</strong> in length, an additional manhole shall be provided over the baffle wall.</li><li>Septic tank installed under concrete or black top paving shall have the required manholes accessible by extending the manhole openings to grade in a manner acceptable to the Administrative Authority.</li><li>Septic tank shall be structurally designed to withstand all anticipated earth or other loads. All septic tank covers shall be capable of supporting an earth load of not less than <strong>14.4 kPa</strong> when the maximum coverage does not exceed <strong>9000 mm</strong>.</li></ul><blockquote><p>[REPLICA IMAGE: SEPTIC TANK STRUCTURAL PLAN AT TOP SLAB]</p><p>Create an accurate clean engineering structural plan diagram titled \"STRUCTURAL PLAN AT TOP SLAB\" showing:</p><p>- Overall length 3250 mm subdivided into 800 / 500 / 1050 / 500 / 400 mm</p><p>- Two square manhole openings labeled \"MANHOLE\" within a reinforcement grid, each surrounded by diagonal bar reinforcement patterns (shown as scalloped/cloud-like red highlighting in the source, representing \"12mm Ø DIAGONAL BAR\")</p><p>- Reinforcement callouts: \"12mmØ REBARS AT 150mm O.C.\", \"12mmØ TEMPERATURE BAR AT 200mm O.C.\"</p><p>- \"CO\" cleanout markers near each manhole</p><p>- Overall width 1200 mm subdivided into 350 / 500 / 350 mm</p><p>- A separate detail (right side) titled \"MANHOLE COVER\" showing a 500mm x 500mm square manhole cover with \"3-12mmØ BARS B.W.\" reinforcement</p><p>- Callout boxes: \"Access to each septic tank shall be provided by at least 2 manholes 508mm in minimum dimension or by an equivalent removable cover slab. One access manhole shall be located over the inlet and 1 access manhole shall be located over the outlet. Whenever a first compartment exceeds 3700mm in length, an additional manhole shall be provided over the baffle wall.\", \"Septic tank installed under concrete or black top paving shall have the required manholes accessible by extending the manhole openings to grade in a manner acceptable to the Administrative Authority.\", \"Septic tank shall be structurally designed to withstand all anticipated earth or other loads. All septic tanks covers shall be capable of supporting an earth load of not less than 14.4 kPa when the maximum coverage does not exceed 9000mm.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 41</p><h4>Sizing of the Septic Tank</h4><p>Septic tank should be properly sized due to the following conditions:</p><p>1. A septic tank of smaller capacity is impractical because some leeway must be allowed for storage of accumulated sludge. 2. A tank of larger size is not advisable because retarded bacterial activity is liable to result.</p><h4>Methods of Sizing the Septic Tank</h4><p>1. The Philippine National Plumbing Code of 1959 (Sec. 233) provides the standard sizes of septic tanks based on the capacity (the number of persons) served by the tank. 2. The 1999 Revised National Plumbing Code of the Philippines uses the Estimated Waste/Sewage Flow Rates of the Design Population in sizing the septic tank. (Tables B-2 and B-3). 3. If the number of persons served (design population) is not available, the Fixture Unit Method may be employed. 4. If the values for the estimated waste flow rate are not available, use the following volume:</p><ul><li>For residential installations, allow <strong>0.14 to 0.17 cubic meter</strong> of tank content per person.</li><li>For school, commercial or industrial purposes, allow <strong>0.06 to 0.09 cubic meter</strong> of tank content per person.</li></ul><h4>Method 2a: Estimated Waste/Sewage Flow Rates (Table B-2, 1999 National Plumbing Code)</h4><pre>| Single Family Dwelling (No. of Bedrooms) | Multiple Dwelling Units or Apartments | Other Uses: Max. DFU Served | Gallons | Liters | Cubic Meters |</pre><pre>|---|---|---:|---:|---:|---:|</pre><pre>| 1 or 2 | --- | 15 | 750 | 2838 | 2.84 |</pre><pre>| 3 | --- | 20 | 1000 | 3785 | 3.79 |</pre><pre>| 4 | 2 units | 25 | 1200 | 4582 | 4.58 |</pre><pre>| 5 or 6 | 3 units | 33 | 1500 | 5677.5 | 5.68 |</pre><pre>| --- | 4 units | 45 | 2000 | 7570 | 7.57 |</pre><pre>| --- | 5 units | 55 | 2250 | 8516.3 | 8.52 |</pre><pre>| --- | 6 units | 60 | 2500 | 9462.5 | 9.46 |</pre><pre>| --- | 7 units | 70 | 2750 | 10,408.8 | 10.41 |</pre><pre>| --- | 8 units | 80 | 3000 | 11,355 | 11.36 |</pre><pre>| --- | 9 units | 90 | 3250 | 12,301.3 | 12.30 |</pre><pre>| --- | 10 units | 100 | 3500 | 13,247.5 | 13.25 |</pre><p><strong>Extra Bedroom:</strong> 150 gallons (567.8 liters) each <strong>Extra Dwelling Units over 10:</strong> 250 gallons (946.3 liters) <strong>Extra Fixture Units over 100:</strong> 25 gallons (94.6 liters) per fixture unit</p><p><em>Note: Septic Tank sizes in this table include sludge storage capacity and the connection disposal of domestic food waste units without further volume increase.</em></p><h4>Method 2b: Estimated Waste/Sewage Flow Rates (Table B-3, 1999 National Plumbing Code)</h4><pre>| Type of Occupancy | Gallons per Day | Liters per Day |</pre><pre>|---|---|---|</pre><pre>| Airport: per employee | 15 + 4 per passenger | 56.8 + 18.9 per passenger |</pre><pre>| Churches (Sanctuary) | 4 per seat; (with Kitchen): 7 per seat | 18.9 per seat; (with Kitchen): 26.5 per seat |</pre><pre>| Factories: w/o shower | 25/person/shift | 94.6/person/shift |</pre><pre>| Factories: w/ showers | Add 10/employee | Add 3.79/employee |</pre><pre>| Factories: w/ cafeteria | Add 5/employee | Add 18.9/employee |</pre><pre>| Hospitals | 250 per bed | 946.3 per bed |</pre><pre>| Hospital: Kitchen waste | 25 per bed | 94.6 per bed |</pre><pre>| Hospital: Laundry waste | 40 per bed | 151.4 per bed |</pre><pre>| Hotel: No kitchen waste | 60/bed (2 person) | 227.1/bed (2 person) |</pre><pre>| Hotel: w/ kitchen waste | 70/bed (2 person) | 264.95/bed |</pre><pre>| Offices | 20/employee or 1.12/sq.m. floor area | 75.7/employee or 4.23/sq.m. floor area |</pre><pre>| Stores | 20/employee | 75.7/employee |</pre><pre>| Stores: Public Restroom | Add 1.2/sq.m. of floor space | Add 4/sq.m. of floor area |</pre><pre>| Restaurant: Cafeteria | 20/employee | 75.7/employee |</pre><pre>| Restaurant: Toilet | 7/customer | 26.5/customer |</pre><pre>| Restaurant: Kitchen waste | 6/meal | 22.7/meal |</pre><pre>| Restaurant: Add for garbage disposal | 1/meal | 3.8/meal |</pre><pre>| Restaurant: Add for cocktail lounge | 2/customer | 7.6/customer |</pre><pre>| Schools: Staff &amp; Office | 20/person | 75.7/person |</pre><pre>| Schools: Elementary | --- | 56.8/person |</pre><pre>| Schools: intermediate &amp; High School | 20/person | 75.7/student |</pre><pre>| Schools: w/ gym &amp; showers | 5/person | Add 18.9/student |</pre><pre>| Schools: w/ cafeteria | 3/person | Add 11.4/student |</pre><h4>Recommended Design Criteria</h4><p><strong>A. Waste/Sewage Flow, up to 1500 GPD (5677.5 LPD):</strong></p><p><code>Septic Tank Capacity = Flow x 1.5</code></p><p><strong>B. Waste/Sewage Flow over 1500 GPD (5677.5 LPD):</strong></p><p><code>Septic Tank Capacity = (Flow x 0.75) + 1125</code></p><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 42–44</p><h4>Prefabricated Septic Tanks</h4><p>Manufactured or prefabricated septic tanks shall comply with all approved applicable standards and be approved by the Administrative Authority.</p><p>Independent laboratory tests and engineering calculations certifying the tank capacity and structural stability shall be provided as required by the Administrative Authority.</p><blockquote><p>[REPLICA IMAGE: PLASTIC PURIFYING SEPTIC TANK (PPST) COMPONENTS]</p><p>Create an accurate clean engineering cutaway diagram of a Plastic Purifying Septic Tank (PPST) showing labeled numbered components:</p><p>1. MANHOLE COVER (top)</p><p>2. TOP COVER</p><p>5. INLET SOCKET (labeled \"IN\" with arrow entering)</p><p>6. OUTLET SOCKET (labeled \"OUT\" with arrow exiting), with \"4\" PVC PIPE\" label</p><p>3. CULTURING CHAMBER (internal filtration section)</p><p>7. GRAVEL, CHARCOAL, GRAVEL (layered filter media within the culturing chamber)</p><p>4. STRAINER</p><p>\"WASTE INLET HOLES\" (arrows pointing up into the chamber from below)</p><p>\"BODY\" (main cylindrical tank body)</p><p>\"DIGESTIVE CHAMBER\" (lower portion, labeled with arrow)</p><p>\"SAND (3\" HIGH)\" at the base</p><p>Caption: \"Plastic Purifying Septic Tank (PPST): Courtesy of KOTEC PLASTIC CORPORATION. Invented by a Korean Engineer, Soon Weon Seo in 1997\"</p><p>Also include a separate photo-style rendering of the black plastic cylindrical tank with a domed lid.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 45</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: PREFABRICATED SEPTIC TANK COMPONENTS EXPLODED VIEW AND INSTALLATION FOR 5-7 PERSON HOUSE]</p><p>Create an accurate clean engineering exploded-view diagram showing individual components of a prefabricated septic tank, labeled: MANHOLE COVER, TOP COVER, STRAINER, CHAMBER, BODY.</p><p>Also include an installation diagram titled \"5-7 PERSONS HOUSE (SINGLE SEPTIC TANK INSTALLATION)\" showing:</p><p>- A building outline at top with a \"4\" PVC PIPE\" drainage line running to the tank</p><p>- The septic tank (dome-shaped top) with \"IN\" and \"OUT\" (labeled \"TO OUTFALL/DRAINAGE\") connections</p><p>- \"1.9m DEPTH\" dimension shown for the buried tank</p><p>- \"3\" OF SAND\" layer shown at the base</p><p>- A photo-style rendering of the black plastic tank shown alongside</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 46</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: SERIES AND TRIPLE SEPTIC TANK INSTALLATIONS FOR LARGER HOUSEHOLDS]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>\"11-15 PERSONS HOUSE (SERIES SEPTIC TANK INSTALLATION)\"</strong>: Two prefabricated septic tanks connected in series, with \"4\" PVC PIPE\" inlet from the building, \"IN\" and \"OUT\" connections between the two tanks, and a final outlet with dimension markers (labeled in inches, e.g. 15\", 6\").</p><p>2. <strong>\"16-20 PERSONS HOUSE (TRIPLE SEPTIC TANK INSTALLATION)\"</strong>: Three prefabricated septic tanks connected in series, with \"4\" PVC PIPE\" inlet, \"IN\"/\"OUT\" connections between each tank, and a final \"OUT\" outlet.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 47</p><h4>Private Sewage Disposal System</h4><p><strong>Private Sewage Disposal System</strong> – a septic tank with the effluent discharging into a subsurface disposal field, seepage pits or of such other facilities as may be permitted by the plumbing code.</p><blockquote><p>[REPLICA IMAGE: PRIVATE SEWAGE DISPOSAL SYSTEM - SEPTIC TANK TO SEEPAGE PIT]</p><p>Create an accurate clean illustration showing a house connected via a pipe to a rectangular \"Septic tank\", which then connects via a pipe to a cylindrical \"Seepage pit\" filled with \"Gravel or rock fill\" (shown as perforated/circular openings around the pit).</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 48</p><blockquote><p>[REPLICA IMAGE: PRIVATE SEWAGE DISPOSAL SYSTEM - SANITARY DRAIN FIELD]</p><p>Create an accurate clean illustration titled \"Private Sewage Disposal System: Sanitary Drain Field\" showing:</p><p>1. A house connected to a \"Septic tank\" (showing internal layers labeled \"Scum\", \"Liquid\", \"Sludge\"), then to a \"Distribution box\", which branches into multiple perforated \"Tile lines\" laid in a \"Drainfield (Trench)\" bedded in \"Gravel or crushed rock\".</p><p>2. A second cutaway illustration of a house with underground \"Household wastewater\" flowing through a \"Perforated pipe\" to a \"Septic tank\" with a \"Manhole (for cleanout)\", then to an optional \"Distribution box\", branching into a \"Drain field\" with \"Nonperforated pipe\", \"Vent pipe\", and \"Gravel or crushed stone\" bedding.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 49</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Sanitary Drain Stack / Riser Diagram and Pipe Joint Details",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p>&gt;</p><blockquote><p>[REPLICA IMAGE: SANITARY DRAIN STACK/RISER DIAGRAM WITH JOINT DETAILS A AND B]</p><p>Create an accurate clean engineering isometric riser diagram (Scale 1/75 m) labeled \"SANITARY DRAIN STACK/RISER DIAGRAM\" showing:</p><p>- A multi-point plumbing riser with points labeled A, B, C, D, E</p><p>- Point B: VSTR, pipe sleeve, 50mmØ PVC Vent Pipe, 100mmØ PVC Vent Stack Thru Roof (Typical), LAV, WC, GSFD (garage/general shower floor drain)</p><p>- Point C: LAV, WC</p><p>- Point D and E: BT (bathtub), FCO</p><p>- 100mmØ PVC Sanitary Stack - Series 1000 vertical risers</p><p>- 100mmØ PVC DWV Pipe House Drain Series 1000 horizontal run</p><p>- Connection to a septic tank (two-chamber box shown at bottom) via \"TAP TO STREET CULVERT\"</p><p>- Point A: FCO connection point</p><p>Also include two detail call-outs:</p><p>- <strong>Detail B \"FOR HOUSE DRAIN TO SOIL STACK (HORIZONTAL TO VERTICAL JOINT)\"</strong>: showing 100mmØ PVC Cleanout Ferrule, Floor Line, CO, 100 x 1/8 Bend, 100mm PVC Soil Pipe, 50mmØ PVC Vent, 50 x 100 PVC Reducer, 100 x 100mm PVC Wye, 100mmØ PVC Soil Stack, 100 x 100 PVC Wye.</p><p>- <strong>Detail A \"FOR SOIL STACK TO HOUSE DRAIN (VERTICAL TO HORIZONTAL JOINT)\"</strong>: showing 100mm PVC Cleanout, CO, Nat. Grade Line, 100 x 1/8 PVC Bend, 100mmØ PVC Soil Stack Atlanta Series 1000, 100 x 100 PVC Wye, Concrete Support, 100mmØ PVC Soil Pipe Atlanta Series 1000.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 50</p><p>&gt;</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: FIXTURE PIPE JOINT DETAILS - LAVATORY, WATER CLOSET, FLOOR DRAIN]</p><p>Create an accurate clean engineering diagram set titled \"Fixture Pipe Joint Details\" showing:</p><p><strong>C) FOR LAVATORY</strong>: 37mmØ Chrome Plastic P-Trap, 50mmØ PVC Vent Stack, 50x50 PVC San. Tee (two of them, stacked), Floor Line, 50 x 1/8 PVC Bend, 50mmØ PVC San. Pipe.</p><p><strong>D) FOR WATER CLOSET</strong>: WC symbol at top, Floor Line, 100 x 1/8 PVC Bend or Long Sweep Elbow, 100mmØ PVC Soil Pipe, 100x100mm PVC Wye (option).</p><p><strong>(Partial) FOR FLOOR DRAIN</strong>: FD symbol, Floor Line, 50mmØ PVC Sanitary Pipe, 50mmØ PVC P-Trap.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 51</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Materials for Drainage Pipes and Fittings",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>Section 701: Materials for Drainage Pipes and Fittings</h4><p><strong>Excreta Drainage Piping materials are:</strong></p><ul><li>Cast Iron</li><li>Ductile Iron</li><li>Galvanized Steel</li><li>Galvanized Wrought Iron</li><li>Lead</li><li>Copper</li><li>Brass</li><li>Series 1000 PVC DWV</li><li>Extra Strength Vitrified Clay Pipe</li><li>or other approved materials having <strong>smooth and uniform bore</strong>.</li></ul><p><strong>Drainage pipes</strong> are the pipes that convey wastes from the building to an approved point of disposal.</p><p><strong>Drainage fittings</strong> are the pipe accessories in the drainage system, such as coupling, bend, wye, etc., used to join two or more pipes together or to change their direction.</p><h4>The Types of Drainage Pipes</h4><ul><li><strong>Sanitary or Soil pipe</strong> – the pipe which carries the wastes from water closets, urinals or fixtures of similar function to the building drain. This contains <em>human excrement</em>.</li><li><strong>Waste pipe</strong> – the pipe which carries only liquid wastes, free of human excrement or fecal matter.</li><li><strong>Vent pipe</strong> – the pipe connected to the drainage system that conveys air to and from the system and keep the water from being siphoned from the trap.</li><li><strong>Storm pipe</strong> – the pipe which convey rainwater from the roof gutter to the building storm drain.</li></ul><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 52</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Cast Iron Soil Pipes (CISP)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p><strong>Cast Iron Soil Pipe</strong> – is made from an alloy of iron, carbon &amp; silicon, with the controlled amounts of manganese, sulfur &amp; phosphorous. This is primarily used for sanitary drain, waste and storm water systems.</p><ul><li><strong>SPIGOT</strong> – the end of a pipe which fits into a bell.</li><li><strong>BELL or HUB</strong> – that portion of a pipe which, for a short distance, is sufficiently enlarge to receive the end of another pipe of the same diameter for the purpose of making a caulked or push-on joint.</li><li><strong>Telescoping Length:</strong> 64 mm (2-1/2\") to 108 mm (4-1/4\")</li><li><strong>Laying Length:</strong> 1500 mm to 3000 mm</li></ul><h4>Classification of CISP</h4><p>1. <strong>Class A – Extra Heavy (XH)</strong> – is often used for underground applications. 2. <strong>Class B – Service Weight (SV)</strong> – is used for general building installations.</p><h4>Properties of CISP</h4><ul><li><strong>Available Diameter (Nominal I.D.):</strong> 2\", 3\", 4\", 5\", 6\", 8\", 12\", and 15\"</li><li><strong>Length:</strong> 1500 mm (5') and 3000 mm (10')</li><li><strong>Hydrostatic Test:</strong></li><li><strong>345 kPa (50 psi)</strong> for Service Weight</li><li><strong>690 kPa (100 psi)</strong> for Extra Heavy</li></ul><p>&gt;</p><blockquote><p>[REPLICA IMAGE: CAST IRON SOIL PIPE (CISP) OVERVIEW]</p><p>Create an accurate clean 3D rendering of a single length of cast iron soil pipe, labeled \"Hub or Bell\" on one end and \"SPIGOT\" on the other end, with a callout \"Laying Length: 1500 mm to 3000 mm\" spanning the pipe length and \"Telescoping Length: 64mm (2-1/2\") to 108mm (4-1/4\")\" indicating the overlap distance at the hub/spigot connection.</p><p>Include text callouts:</p><p>- \"Most popular and generally specified material for drainage installation. Extensively used in the 60s and 70s.\"</p><p>- \"Durable, conveniently installed (&lt;25 storey)\"</p><p>- \"Commercial length: 1.5 m &amp; 3.0 m\"</p><p>- \"Diameters: 2\", 3\", 4\", 5\", 6\", 8\", 10\", 12\" and 15\"\"</p><p>- \"Affected to some extent by corrosion by acid formed by Carbon Dioxide, Sulphur Oxide, and Methane Gases that create rust\"</p><p>- \"2 Types: Extra Heavy (XH) - Class A (100 psi); for underground installations\" and \"Service Weight (SV) - Class B (50 psi); for general building installations\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 53–54</p><h4>Bell/Hub Types</h4><ul><li><strong>SPIGOT</strong> – is the end of the pipe that fits into a bell. (Sec. 220.24)</li><li><strong>SINGLE HUB</strong> – is equipped with 1 hub &amp; 1 spigot end and used in the installation of plumbing in its full length.</li><li><strong>DOUBLE HUB</strong> – is constructed with hub on each end so it may be cut into 2 pieces when a short piece of pipe is needed.</li><li><strong>HUBLESS PIPES</strong> – are cast iron pipes with plain ends connected together with bolted stainless steel bands and neoprene gaskets. (Sec. 209.9)</li></ul><blockquote><p>[REPLICA IMAGE: SINGLE HUB, DOUBLE HUB, AND HUBLESS PIPE TYPES]</p><p>Create an accurate clean 3D rendering set of four cast iron pipe variants, each shown as a labeled cylindrical pipe segment:</p><p>1. \"Single Hub Pipe with Spigot Bead\" — pipe with an enlarged hub on one end and a beaded spigot on the other.</p><p>2. \"Single Hub Pipe\" — pipe with a plain hub on one end, plain spigot on the other.</p><p>3. \"Double Hub Pipe\" — pipe with enlarged hubs on both ends.</p><p>4. \"Hubless Pipe\" — pipe with plain, unenlarged ends on both sides.</p><p>Definition callout box: \"BELL or HUB –is that portion of the pipe which, for a short distance, is sufficiently enlarged to receive the end of another pipe of the same diameter for the purpose of making a caulked or push-on joint. (Sec.203.12)\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 55</p><blockquote><p>[REPLICA IMAGE: CAST IRON SOIL PIPE HUB DIMENSIONS AND JOINT TYPES]</p><p>Create an accurate clean engineering diagram set showing:</p><p>1. <strong>Single Hub (Plain End or Beaded)</strong>: cylindrical pipe with \"HUB OR BELL\" on one end and \"SPIGOT (w/BEAD)\" on the other, dimension \"LAYING LENGTH 1500mm (5')\" and \"TELESCOPING LENGTH (2 1/2\"-4 1/4\")\".</p><p>2. <strong>Double Hub</strong>: pipe with hubs on both ends.</p><p>3. <strong>Hubless</strong>: pipe with plain ends on both sides.</p><p>4. <strong>Calk Joint</strong>: cross-section showing \"HUB\", \"PLAIN END OR BEADED SPIGOT\", \"PACKED OAKUM\", \"MOLTEN LEAD (25mm. DEEP)\" dimension.</p><p>5. <strong>Compression Joint</strong>: cross-section showing \"HUB\", \"SPIGOT WITHOUT BEAD\", \"NEOPRENE GASKET\".</p><p>6. <strong>Stainless Steel Couplings</strong>: cross-section showing \"HUBLESS PIPE\", \"NEOPRENE RUBBER SLEEVE\", \"STAINLESS STEEL SHIELD\", \"STAINLESS STEEL RETAINING CLAMP\", \"SEPARATOR RING\".</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 56</p><blockquote><p>[REPLICA IMAGE: CAST IRON SOIL PIPE (CISP) FITTINGS CATALOG]</p><p>Create an accurate clean engineering catalog-style diagram sheet showing standard cast iron soil pipe fittings, labeled individually:</p><p>1/4 Bend, Combination Y &amp; 1/8 Bend (Single and Double), Vent Branch (Single and Double), 3/4 S-Trap with or without Vent &amp; Cleanout, 1/4 Bend with Heel Inlet, Upright Y Branch (Single and Double), 1/8 Bend Offset, P-Trap (1/2 S-Trap) with or without Vent and Cleanout, Long Sweep Bend, Sanitary T (Tee) Branch (Single &amp; Double), Double Hub, Running Trap with or without Single or Double Vents and Cleanout, 1/5 &amp; 1/6 Bend (72° for 1/5 Bend, 60° for 1/6 Bend), Tapped Sanitary T Branch (Single and Double), Reducer, Screw Plug (Brass), 1/8 &amp; 1/16 Bend (45° for 1/8 Bend, 22.5° for 1/16 Bend), T Branch (Single &amp; Double), Increaser (dimension 11 3/4\"-12\", 15 1/2\"), Plug for Hub (Brass Screw Plug, Iron Body Ferrule, size 6\" and smaller), Y (Wye) Branch (Single &amp; Double), Tapped T Branch (Single &amp; Double), Long Increaser (dimension 24\"-48\"), sizes 8\" and larger Iron Body Ferrule with Brass Screw Plug, Y Branch Inverted (Single and Double), T Branch Cleanout with Screw Plug, S-Trap with or without Vent and Cleanout.</p><p>Footer: \"FITTINGS FOR CAST IRON SOIL PIPE — SOURCE: SILVA PIPE BY FILIPINO PIPE &amp; FOUNDARY CORP.\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 57</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: CAST IRON SOIL PIPE FITTING SHAPES AND ENGAGEMENT TABLE]</p><p>Create an accurate clean engineering diagram sheet showing four fitting categories:</p><p><strong>A. BENDS</strong>: (1) 1/16 Bend, (2) 1/8 Bend, (3) 1/4 Bend, (4) Long-sweep 1/4 Bend, (5) Reducing 1/4 Bend</p><p><strong>B. TEES</strong>: (1) Reducing Tee, (2) Test Tee, (3) Tapped Tee, (4) Sanitary Tee</p><p><strong>C. 90° Y-BRANCHES</strong>: Straight, Reducing, Double, Box</p><p><strong>D. 45° Y-BRANCHES</strong>: (1) Reducing, (2) Straight</p><p>Also include a pipe-to-pipe / pipe-to-fitting engagement diagram, showing \"Hub\", \"Pipe\", \"Engagement\" dimension arrows, and a table:</p><p>| PIPE SIZE (IN INCHES) | APPROXIMATE ENGAGEMENT INTO HUB (IN INCHES) |</p><p>|---|---|</p><p>| 2 | 2 1/2 |</p><p>| 3 | 2 3/4 |</p><p>| 4 | 3 |</p><p>| 5 | 3 |</p><p>Also include a photo-style rendering of a cast iron pipe with a \"Special cutting tool\" (chain-style pipe cutter) attached, labeled \"Cast Iron Pipe\".</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 58</p><h4>Cast Iron Soil Pipe (CISP): Types of Joints</h4><p>1. Caulked joint or Calk Joint 2. Neoprene Compression Gasket 3. Stainless Steel couplings for hubless pipes</p><blockquote><p>[REPLICA IMAGE: CAULKED JOINT, STAINLESS STEEL COUPLING, NEOPRENE COMPRESSION GASKET]</p><p>Create an accurate clean illustration set showing:</p><p>1. <strong>Caulked Joint</strong>: A vertical pipe run showing \"Hubs\", with a cutaway detail circle showing \"Lead\" poured over \"Oakum\" inside the hub.</p><p>2. <strong>Stainless Steel Couplings</strong>: A vertical pipe run showing \"Cast iron\" pipe sections joined by a \"No-hub coupling\" with visible \"Cast-iron fitting\", \"Neoprene sleeve\", \"Stainless-steel band clamp\".</p><p>3. <strong>Neoprene Compression Gasket</strong>: A cross-section of a hub-and-spigot joint with the gasket labeled \"NEOPRENE COMPRESSION GASKET\" fitted inside the hub.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 59</p><h4>Cast Iron Soil Pipe (CISP): Caulked Joint</h4><p>Cast iron soil pipe joints, also known as calked joints, when made with oakum fiber and lead, are leak-proof, rot-proof, strong and flexible. The waterproofing qualities of oakum fiber have long been recognized by plumbers. Molten lead, when poured over oakum in the hub end of the pipe, completely seals and locks the joint. After the lead has cooled a minute or two, it can be caulked into the joint.</p><p><strong>NOTE:</strong> Remember to wear appropriate personal protective equipment to work with molten lead. Wear safety glasses and full length shirt and pants of non-synthetic material. Always be sure to warm tools and materials that are being placed into molten lead — remove any condensing moisture which might react explosively.</p><p><strong>CAULKING</strong> – plugging an opening with oakum, lead or other materials that are pounded into the annular space. Also the material pounded into the annular opening. <em>(Sec. 204.1)</em></p><p><strong>Oakum</strong> – hemp or old hemp rope soaked in oil or tar to make it waterproof.</p><blockquote><p>[REPLICA IMAGE: CAULKED JOINT CROSS-SECTION - GROOVE IN HUB]</p><p>Create an accurate clean engineering cross-section diagram of a caulked joint showing:</p><p>- \"GROOVE IN HUB HELPS PREVENT LEAD WORKING OUT OF PIPE\" pointing to a groove machined into the hub interior</p><p>- \"LEAD\" labeling the poured lead ring at the top of the joint</p><p>- \"BEAD ON SPIGOT END OF PIPE\" labeling the raised bead on the spigot</p><p>- \"OAKUM AFTER IT IS CALKED INTO ANNULAR SPACE\" labeling the packed oakum fiber below the lead</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 60</p><h4>Caulking and Yarning Irons</h4><p><strong>Yarning Irons</strong> – used to pack the oakum into the joint.</p><p><strong>Calking Irons</strong> – used to drive the lead firmly into the joint. This is necessary because lead shrinks when it cools. Therefore, to produce a tight seal, the lead must be caulked to fill the joint.</p><p><strong>Inside and Outside Calking Irons</strong> – There are \"inside\" and \"outside\" caulking irons. Outside caulking irons are used to shape the lead to the inside of the hub. Inside caulking irons are used to shape the lead near the spigot.</p><h4>Materials Needed per Joint (by Pipe Size)</h4><pre>| Pipe Size (inches) | Oakum of Equivalent (16\" sections) | Lead (lbs.) |</pre><pre>|---:|---:|---:|</pre><pre>| 2 | 3 | 1-1/2 |</pre><pre>| 3 | 4-1/2 | 2-1/4 |</pre><pre>| 4 | 5 | 3 |</pre><pre>| 5 | 6-1/2 | 3-3/4 |</pre><pre>| 6 | 7-1/2 | 4-1/2 |</pre><pre>| 8 | 9-1/2 | 6 |</pre><pre>| 10 | 12 | 7-1/2 |</pre><blockquote><p>[REPLICA IMAGE: CAULKING AND YARNING IRON TOOLS]</p><p>Create an accurate clean engineering illustration set of hand tools used in caulked joint assembly:</p><p>- <strong>Yarning Irons</strong>: two long-handled flat-bladed tools with slightly curved tips (one straight, one bent at the tip)</p><p>- <strong>Caulking Irons</strong> (six variants shown, each labeled): Inside Pony Caulker, Regular Caulking Iron, Bent Caulking Iron, S-Type Caulking Iron, Ceiling Caulking Iron, Spring Yarning Gasket Iron, Double Caulking Iron, Broad Curved-Nose Caulking Iron</p><p>- <strong>Outside Caulking Iron</strong> (separate labeled illustration, two variants)</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 61</p><h4>Making Vertical Caulked Joints</h4><p>To assemble vertical, upside-down and horizontal caulked joints, the plumber should follow these procedures:</p><p>1. Wipe the hub and spigot ends dry and free from any other foreign materials. <strong>MOISTURE CAN CAUSE MOLTEN LEAD TO EXPLODE OUT OF A JOINT. SERIOUS INJURIES CAN RESULT.</strong> If necessary, dry the ends with a heating torch to eliminate all traces of moisture. 2. Slide spigot end into the hub of the other pipe and align the joint. A cut piece of pipe has no spigot bead, so extra care should be taken to center the cut end in the hub. 3. Using a yarning iron, pack the oakum around the pipe. Repeat this operation until the hub is packed to about 1\" from its top. Pack the oakum with a hammer and packing iron to make a bed for the molten lead. 4. Using the plumber's ladle, carefully pour the molten lead into the joint. Dip enough lead to fill the joint in one pouring. Allow a minute or two for the molten lead to harden and change in color from royal blue to a dull grey. Usually, one pound of lead is melted for each inch of pipe size. 5. Caulk the joint first using the outside caulking iron and then the inside caulking iron. The first four blows should be struck 90 degrees apart around the joint to set the pipe. Drive the lead down on the oakum and into contact with the spigot surface on one edge and the inner surface of the hub on the other. Use firm but light hammer blows. Caulking the lead too tightly may create pressures high enough to crack the pipe. If this occurs, the broken section must be replaced.</p><blockquote><p>[REPLICA IMAGE: LADLE AND LEAD POT, AND CAULKED JOINT CROSS-SECTION]</p><p>Create an accurate clean illustration showing:</p><p>1. A \"LADLE\" (long-handled scoop) and a \"LEAD POT\" (kettle) used for pouring molten lead.</p><p>2. A repeated cross-section diagram of the caulked joint (same as previous) showing \"GROOVE IN HUB HELPS PREVENT LEAD WORKING OUT OF PIPE\", \"LEAD\", \"BEAD ON SPIGOT END OF PIPE\", \"OAKUM AFTER IT IS CALKED INTO ANNULAR SPACE\".</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 62</p><h4>Making Horizontal Caulked Joints</h4><p>1. Prepare the ends of the pipe and pack the joint with oakum as in vertical joints. 2. Clamp the joint runner in place around the pipe and fill the joint with molten lead. 3. After the lead hardens, remove the runner and trim off the surplus. 4. Caulk the joint as a vertical joint, but use the inside iron first.</p><blockquote><p>[REPLICA IMAGE: HORIZONTAL CAULKED JOINT - JOINT RUNNER AND MOLTEN LEAD POUR]</p><p>Create an accurate clean engineering illustration showing:</p><p>1. A horizontal pipe joint with \"MOLTEN LEAD\" being poured via a \"PLUMBER'S LADLE\" into a \"SPRING CLAMP\" holding an \"ASBESTOS RUNNER\" wrapped around the \"BELL\" of the pipe.</p><p>2. A second diagram showing the asbestos runner clamped in position around the joint, viewed at an angle, illustrating how the flexible runner forms a temporary dam around the hub to contain the molten lead while it's poured and hardens.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 63</p><h4>Cast Iron Soil Pipe (CISP): Neoprene Compression Gasket Joint</h4><p>The compression gasket is a precision molded one-piece gasket that is made of an elastomer that meets the requirements of <strong>ASTM C-564</strong>. The physical characteristics of this elastomer ensures that the gasket will not decay or deteriorate from contact with the materials flowing in the pipe or chemicals in the soil or air around the pipe.</p><blockquote><p>[REPLICA IMAGE: NEOPRENE COMPRESSION GASKET JOINT CROSS-SECTION AND PRODUCT PHOTO]</p><p>Create an accurate clean engineering cross-section diagram of a hub-and-spigot joint showing \"HUB BEAD\", \"HUB\", \"GASKET\", and \"SPIGOT END\" labeled, illustrating how the molded neoprene gasket seats inside the hub to seal against the spigot.</p><p>Also include a photo-style rendering of a black ribbed neoprene compression gasket ring (donut-shaped with two ridges), labeled \"NEOPRENE COMPRESSION GASKET\".</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 64</p><h4>Cast Iron Soil Pipe (CISP): Stainless Steel Coupling for Hubless Pipe Joint</h4><p>Hubless cast iron soil pipe and fittings are simply pipe and fittings manufactured, without a hub, in accordance with <strong>ASTM A888 or CISPI 301</strong>. The method of joining these pipe and fittings utilizes a <strong>hubless coupling</strong> which slips over the plain ends of the pipe and fittings and is tightened to seal it. Hubless cast iron soil pipe and fittings are made in only one class or thickness. There are many varied configurations of fittings and both pipe and fittings range in sizes from <strong>1-1/2\" to 10\"</strong>. Couplings for use in joining hubless pipe and fittings are also available in these same size ranges from the member companies of the Cast Iron Soil Pipe Institute.</p><blockquote><p>[REPLICA IMAGE: HUBLESS COUPLING ASSEMBLY AND FITTING VARIETY]</p><p>Create an accurate clean illustration showing:</p><p>1. A vertical pipe assembly labeled \"Cast iron\" pipe joined via a \"No-hub coupling\" to a \"Cast-iron fitting\" (wye branch), continuing down through a \"Neoprene sleeve\" and \"Stainless-steel band clamp\" to another \"Cast iron\" pipe section.</p><p>2. A photo-style rendering of an assembled stainless steel no-hub coupling (cylindrical band clamp with bolts).</p><p>3. A photo-style collage of various hubless cast iron fittings (bends, tees, wyes) with an installation tool.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 65</p><h4>Shielded Hubless Coupling</h4><p>The shielded hubless coupling for cast iron soil pipe and fittings is a plumbing concept that provides a more compact arrangement without sacrificing the quality and permanence of cast iron. The system typically uses a one-piece neoprene gasket and a shield of stainless steel retaining clamps. The great advantage of the system is that it permits joints to be made in limited-access areas. The <strong>300 series stainless steel</strong>, which is often used with hubless couplings, was selected because of its superior corrosion resistance. It is resistant to oxidation, warping and deformation, offers rigidity under tension with a substantial tensile strength, and yet provides sufficient flexibility.</p><p>The shield is corrugated in order to grip the gasket sleeve and give maximum compression distribution. The stainless steel worm gear clamps compress the neoprene gasket to seal the joint. The gasket absorbs shock, vibration and completely eliminates galvanic action between the cast iron soil pipe and the stainless steel shield.</p><blockquote><p>[REPLICA IMAGE: SHIELDED HUBLESS COUPLING INSTALLATION AND WORM-GEAR CLAMP DETAIL]</p><p>Create an accurate clean illustration showing:</p><p>1. A photo-style rendering of a plumber installing a no-hub coupling under a floor joist, using a torque wrench, with a \"Cast-iron tee\" visible and labels \"No-hub coupling\" and \"Torque wrench\".</p><p>2. An engineering diagram titled \"No-Hub Assembly (Worm-Gear Clamp Type)\" showing \"PIPE END\", \"CLAMPING DEVICE\", \"RUBBER SLEEVE\", \"PIPE END\" in a cutaway cross-section, plus a second detail view labeling \"RUBBER SLEEVE\", \"STAINLESS COLLAR\", \"WORM-GEAR BANDS\", \"PIPE END\" (both sides).</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 66</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "PVC DWV Series 1000",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p>ABS and PVC DWV piping installations shall be used in high-rise buildings, provided that its use shall be the discretion of the Master Plumber/Designer and also with the full consent of the owner. <em>(Sec. 701.1.2)</em></p><p>ABS pipe and fittings are made from a thermoplastic resin called <strong>Acrylonitrile-Butadiene-Styrene (ABS for short)</strong>.</p><p>A <strong>polyvinyl chloride (PVC)</strong> pipe is made from a plastic and vinyl combination material. The pipes are durable, hard to damage, and long lasting. A PVC pipe does not rust, rot, or wear over time. For that reason, PVC piping is most commonly used in water systems, underground wiring, and sewer lines.</p><p>PVC was first developed in 1925 when a BF Goodrich employee, Dr. Waldo Semon, attempted to invent a method for bonding metal and rubber. After blending materials together to create a strong and flexible material, Semon discovered PVC. Nonetheless, the product remained virtually useless for another decade. In the late 1930s, PVC was found to have great shock absorbing abilities. This discovery led to the creation of long lasting PVC tire treads, which were created with flexible forms of PVC.</p><p>Two decades later, PVC pipe was invented. By heating the PVC material, a special machine called an extruder could be used to push it into hollow pipes. This PVC pipe was extremely solid and virtually indestructible. Using these pipes for irrigation systems proved to be effective, and PVC pipe has since been considered an affordable and reliable means for water piping.</p><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 67</p><h4>PVC DWV Series 1000 — Pipe Dimensions</h4><pre>| Nominal Size (mm) | Nominal Size (inch) | O.D. (mm) | Wall Thickness Series 600 (mm) | Wall Thickness Series 1000 (mm) | L Length (mm) |</pre><pre>|---:|---:|---:|---:|---:|---:|</pre><pre>| 63 | 2 | 57.15 | 1.78 | 2.44 | 3000 |</pre><pre>| 90 | 3 | 82.55 | 2.44 | 3.65 | 3000 |</pre><pre>| 110 | 4 | 107.06 | 2.44 | 3.71 | 3000 |</pre><pre>| 160 | 6 | 160 | --- | 4.70 (Class-34) | 3000 |</pre><pre>| 200 | 8 | 200 | --- | 5.90 (Class-34) | 3000 |</pre><pre>| 250 | 10 | 250 | --- | 7.30 (Class-34) | 3000 |</pre><pre>| 315 | 12 | 315 | --- | 9.20 (Class-34) | 3000 |</pre><blockquote><p>[REPLICA IMAGE: PVC DWV SERIES 1000 PIPES AND FITTINGS CATALOG]</p><p>Create an accurate clean engineering catalog diagram showing:</p><p>1. A pipe cross-section diagram labeled with \"O.D.\" (outer diameter), \"L\" (length), and \"t\" (wall thickness), matching the dimension table above.</p><p>2. A fittings table/diagram (labeled \"FITTINGS\") showing orange PVC fitting icons for: 1/8 (45°) Bend, 1/4 (90°) Bend, Coupling, San Wye, San Tee, P-Trap, Cross Wye, Cross Tee, C.O. Adapter.</p><p>3. Photo-style renderings of orange PVC DWV fittings: a 1/8 bend elbow, a P-trap/cleanout combination fitting, and four tee-style fittings shown from different angles.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 68</p><blockquote><p>[REPLICA IMAGE: PIPE JOINT DETAILS - PVC SOLVENT WELD]</p><p>Create an accurate clean engineering title slide graphic reading \"PIPE JOINT DETAILS\" as a section header (no additional diagram content beyond this title on this page).</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 69</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: PVC SANITARY DRAIN STACK/RISER DIAGRAM (SAME AS CISP VERSION, PVC MATERIALS)]</p><p>Create an accurate clean engineering isometric riser diagram (Scale 1/75 m) labeled \"SANITARY DRAIN STACK/RISER DIAGRAM\" — identical layout to the earlier Cast Iron version but using PVC pipe callouts — showing:</p><p>- Points A, B, C, D, E on a multi-fixture riser</p><p>- Point B: VSTR, Pipe Sleeve, 50mmØ PVC Vent Pipe, 100mmØ PVC Vent Stack Thru Roof (Typical), LAV, WC, GSFD</p><p>- Point C: LAV, WC</p><p>- Points D, E: BT, FCO</p><p>- 100mmØ PVC Sanitary Stack - Series 1000 vertical risers</p><p>- 100mmØ PVC DWV Pipe House Drain Series 1000 horizontal run to a septic tank (two-chamber box) via \"TAP TO STREET CULVERT\"</p><p>- Point A: FCO</p><p>Include detail call-outs:</p><p>- <strong>Detail B \"FOR HOUSE DRAIN TO SOIL STACK (HORIZONTAL TO VERTICAL JOINT)\"</strong>: 100mm PVC Cleanout Ferrule, Floor Line, CO, 100 x 1/8 Bend, 100mm PVC Soil Pipe, 50mmØ PVC Vent, 50 x 100 PVC Reducer, 100 x 100mm PVC Wye, 100mmØ PVC Soil Stack.</p><p>- <strong>Detail A \"FOR SOIL STACK TO HOUSE DRAIN (VERTICAL TO HORIZONTAL JOINT)\"</strong>: 100mm PVC Cleanout, CO, Nat. Grade Line, 100 x 1/8 PVC Bend, 100mmØ PVC Soil Stack Atlanta Series 1000, 100 x 100 PVC Wye, Concrete Support, 100mmØ PVC Soil Pipe Atlanta Series 1000.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 70</p><p>&gt;</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: PVC FIXTURE PIPE JOINT DETAILS - LAVATORY, WATER CLOSET, FLOOR DRAIN]</p><p>Create an accurate clean engineering diagram set titled \"Fixture Pipe Joint Details\" (PVC version) showing:</p><p><strong>C) FOR LAVATORY</strong>: 37mmØ Chrome Plastic P-Trap, 50mmØ PVC Vent Stack, 50x50 PVC San. Tee (two), Floor Line, 50 x 1/8 PVC Bend, 50mmØ PVC San. Pipe.</p><p><strong>D) FOR WATER CLOSET</strong>: WC symbol, Floor Line, 100 x 1/8 PVC Bend or Long Sweep Elbow, 100mmØ PVC Soil Pipe, 100x100mm PVC Wye (option).</p><p><strong>E) FOR FLOOR DRAIN</strong>: FD symbol, Floor Line, 50mmØ PVC Sanitary Pipe, 50mmØ PVC P-Trap.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 71</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Fixture Connections (Excreta Drainage)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>Section 704: Fixture Connections (Excreta Drainage)</h4><p>Two fixtures set back-to-back, or side-by-side, within the distance allowed between a trap and its vent, may be served by a single vertical drainage pipe provided that each fixture wastes separately into an approved double fixture fitting, such as double sanitary tee or double wye and 1/8 bend having inlet openings at the same level. <em>(Sec. 704.2)</em></p><blockquote><p>[REPLICA IMAGE: BACK-TO-BACK FIXTURE CONNECTIONS WITH DOUBLE FIXTURE FITTINGS]</p><p>Create an accurate clean engineering diagram showing:</p><p>1. A multi-floor building elevation with \"SOIL STACK\" and \"VENT STACK\" as parallel risers, and rows of back-to-back Water Closets (labeled \"WATER CLOSET (TYP.)\"), Lavatories (labeled \"LAVATORY (TYP.)\"), and Urinals, each connected via \"CO\" (cleanout) fittings.</p><p>2. A riser detail showing \"SOIL STACK\", \"4\" HORIZONTAL BRANCH\", \"VENT STACK\" with dimension callouts \"2\"\", \"1½\"\", \"3\"\", labeled for water closets and lavatories tapping into the branch at specified pipe sizes.</p><p>3. Photo-style renderings of a \"Double Sanitary Tee\" fitting and a \"Double Wye &amp; 1/8 Bends\" fitting.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 72</p><h4>Section 705: Changes in Direction of Excreta Drainage Flow</h4><ul><li><strong>705.1</strong> Changes in direction of drainage piping shall be made by the appropriate use of approved fittings and shall be of the angles presented by a <strong>22-1/2° or 1/16 bend</strong>, <strong>45° or 1/8 bend</strong>, and <strong>60° or 1/6 bend</strong>, or other approved fittings of equivalent sweeps.</li><li><strong>705.2</strong> Horizontal drainage lines, connecting with a vertical stack, shall enter through 45 or 60 degree wye branches, combination wye and 1/8 bend branches, sanitary tee or sanitary tapped tee branches, or other approved fittings of equivalent sweep. No fitting having more than one (1) inlet at the same level shall be used unless such fitting is constructed so that the discharge from one (1) inlet cannot readily enter any other inlet. Double sanitary tees may be used when the barrel of the fitting is at least two (2) pipe sizes larger than the largest inlet, (pipe sizes recognized for this purpose are <strong>51, 64, 76, 89, 102, 114, 127, 152 mm</strong>, etc.)</li><li><strong>705.3</strong> Horizontal drainage lines connecting with other horizontal drainage lines shall enter through 45 degree wye branches, combination wye and 1/8 bend branches or other approved fittings of equivalent sweep.</li><li><strong>704.4</strong> Vertical drainage lines connecting with horizontal drainage lines shall enter through forty-five (45) degree branches or other approved fittings of equivalent sweep. Sixty (60) degree branches or offsets may be used only when installed in a true vertical position.</li></ul><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 73</p><h4>Section 706: Cleanouts</h4><ul><li><strong>706.1</strong> Each horizontal drainage pipe shall be provided with a cleanout at its upper terminal and each run of piping, which is more than <strong>15 meters</strong> in total developed length shall be provided with a cleanout and at every <strong>15 meter</strong> length or a fraction thereof.</li></ul><p><strong>Exceptions:</strong></p><ul><li><strong>706.1.1</strong> Cleanouts may be omitted on a horizontal drain line less than <strong>1.50 meter</strong> in length unless such line is serving sinks or urinals.</li><li><strong>706.1.2</strong> Cleanouts may be omitted on any horizontal drainage pipe installed on a slope of seventy-two (72) degrees or less from the vertical angle (or an angle of 1/5 bend).</li><li><strong>706.1.3</strong> An approved type of two-way cleanout fitting, installed inside the building wall near the connection between the building drain and building sewer or installed outside of a building at the lower end of a building drain and extended to grade, may be substituted for an upper terminal cleanout.</li></ul><ul><li><strong>706.2</strong> An additional cleanout shall be provided in a drainage line for each aggregate horizontal change of direction exceeding one hundred and thirty-five (135) degrees.</li><li><strong>706.3</strong> Each cleanout shall be installed so that it opens to allow cleaning in the direction of flow of the soil or waste or at right angles thereto and, except in the case of wye branch and end-of-line cleanouts, shall be installed vertically above the flow line of the pipe.</li><li><strong>706.4</strong> Each cleanout extension shall be considered as drainage piping and each ninety (90) degree cleanout extension shall be extended from a wye type fitting or other approved fitting of equivalent sweep.</li></ul><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 74</p><h4>Section 706: Cleanouts — Sizing Table</h4><pre>| Size of Pipe (mm) | Size of Cleanout (mm) | Threads per 25.4 mm |</pre><pre>|---:|---:|---:|</pre><pre>| 40 | 38 | 11-1/2 |</pre><pre>| 50 | 38 | 11-1/2 |</pre><pre>| 65 | 64 | 8 |</pre><pre>| 80 | 64 | 8 |</pre><pre>| 100 &amp; larger | 89 | 8 |</pre><p><strong>706.7</strong> Each cleanout in piping <strong>51 mm or less</strong> in size shall be installed so that there is a clearance of not less than <strong>305 mm</strong> in front of the cleanout. Cleanouts in piping larger than <strong>51 mm</strong> shall have a clearance of not less than <strong>0.45 m</strong> in front of the cleanout. Cleanouts in underfloor piping shall be extended to or above the finished floor or shall be extended outside the building when there is less than <strong>0.45 meter</strong> vertical and <strong>0.75 meter</strong> horizontal clearance from the means of access to such cleanout.</p><blockquote><p>[REPLICA IMAGE: CLEANOUT SPACING AND ANGLE SCHEMATICS]</p><p>Create an accurate clean engineering schematic diagram showing:</p><p>1. A horizontal pipe run with \"FLOW\" arrow direction, with three cleanout fittings (C.O.) at bend points — two marked \"ok\" (correctly oriented, angled to open in the direction of flow) and one marked \"incorrect\" (improperly oriented against the flow).</p><p>2. A \"Cleanouts Schematics\" diagram showing two \"1/8 Bends\" forming a shallow offset with C.O. fittings at each end, and a separate diagram showing a sharper offset where \"This angle exceeds 135 deg. &amp; cleanout is required\" is called out with an arrow.</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 75</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Sizing of the Drainage Pipings (Drainage Fixture Unit Method)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>Section 702: Fixture Unit Equivalent</h4><p>The Fixture Unit (F.U.) rating of plumbing fixtures shall be based on the size of the trap required.</p><pre>| Fixture | Trap Size | DFU Value |</pre><pre>|---|---:|---:|</pre><pre>| Bathtub | 38mm | 2 |</pre><pre>| Bidet | 38mm | 2 |</pre><pre>| Drinking Fountain | 31mm | 1 |</pre><pre>| Floor Drain | 51mm | 2 |</pre><pre>| Grease Interceptor | 51mm | 3 |</pre><pre>| Laundry Tubs | 38mm | 2 |</pre><pre>| Shower (Single Stall) | 51mm | 2 |</pre><pre>| Shower, Gang (1 unit/head) | 51mm | --- |</pre><pre>| Sink | 38mm | 2 |</pre><pre>| Sink, Commercial | 38mm | 3 |</pre><pre>| Sink, Service | 51mm | 3 |</pre><pre>| Urinal, Wall Mounted | 51mm | 2 |</pre><pre>| Wash Basin/Lavatory, Private | 32mm | 1 |</pre><pre>| Wash Basin/Lavatory, Public | 38mm | 2 |</pre><pre>| Water Closet, Private | 76mm | 4 |</pre><pre>| Water Closet, Public | 76mm | 6 |</pre><h4>Maximum Trap Loadings</h4><pre>| Pipe Size | DFU Value |</pre><pre>|---:|---:|</pre><pre>| 32mm | 1 |</pre><pre>| 38mm | 3 |</pre><pre>| 51mm | 4 |</pre><pre>| 76mm | 6 |</pre><pre>| 102mm | 8 |</pre><p>The fixture unit equivalent of fixtures and devices not shown, shall be based on the rated discharge capacity in liters per second. For intermittent flow only.</p><pre>| Discharge Capacity | DFU Value |</pre><pre>|---|---:|</pre><pre>| Up to 0.47 liter/second | 1 |</pre><pre>| 0.50 to 0.95 liter/second | 2 |</pre><pre>| 1.00 to 1.89 liter/second | 4 |</pre><pre>| 1.95 to 3.15 liter/second | 6 |</pre><p>For continuous flow into a drainage system, such as from sump pump or ejector, air conditioning equipment or similar devices, <strong>2 fixture units shall be allowed for every 0.063 L/S (1 gpm) of flow</strong>.</p><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 77</p><h4>Section 703: Size of Drainage Piping</h4><p>The minimum sizes of vertical and/or horizontal drainage piping shall be determined from the total of all fixture units connected thereto, and additionally, in the case of vertical drainage pipes, in accordance with their height or length.</p><pre>| Size of Pipe, inches (mm) | 1-1/4 (32) | 1-1/2 (40) | 2 (50) | 2-1/2 (65) | 3 (80) | 4 (100) | 5 (125) | 6 (150) | 8 (200) | 10 (250) | 12 (300) |</pre><pre>|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|</pre><pre>| <strong>Maximum Units — Drainage Piping¹</strong> | | | | | | | | | | | |</pre><pre>| Vertical | 1 | 2² | 16³ | 32³ | 48⁴ | 256 | 600 | 1380 | 3600 | 5600 | 8400 |</pre><pre>| Horizontal | 1 | 1 | 8³ | 14³ | 35⁴ | 216⁵ | 428⁵ | 720⁵ | 2640⁵ | 4680⁵ | 8200⁵ |</pre><pre>| <strong>Maximum Length — Drainage Piping</strong> | | | | | | | | | | | |</pre><pre>| Vertical, feet (m) | 45 (14) | 65 (20) | 85 (26) | 148 (45) | 212 (65) | 300 (91) | 390 (119) | 510 (155) | 750 (228) | --- | --- |</pre><pre>| Horizontal | (Unlimited) | | | | | | | | | | |</pre><pre>| <strong>Vent Piping — Horizontal and Vertical</strong> | | | | | | | | | | | |</pre><pre>| Maximum Units | 1 | 8³ | 24 | 48 | 84 | 256 | 600 | 1380 | 3600 | --- | --- |</pre><pre>| Maximum Lengths, feet (m) | 45 (14) | 60 (18) | 120 (37) | 180 (55) | 212 (65) | 300 (91) | 390 (119) | 510 (155) | 750 (228) | --- | --- |</pre><p><strong>Notes:</strong> 1. Excluding trap arm. 2. Except sinks, urinals and dishwashers. 3. Except six-unit traps or water closets. 4. Only four (4) water closets or six-unit traps allowed on any vertical pipe or stack; and not to exceed three (3) water closets or six-unit traps on any horizontal branch or drain. 5. Based on one-fourth (1/4) inch per foot (20.9 mm/m) slope. For one-eighth (1/8) inch per foot (10.4 mm/m) slope, multiply horizontal fixture units by a factor of 0.8.</p><blockquote><p><strong>Source note:</strong> The 1/2 unit multiplication factor note in the source states: \"the maximum length limitations specified in this table do not apply\" when vents are increased one (1) pipe size for their entire length.</p></blockquote><p><strong>Note:</strong> The diameter of an individual vent shall not be less than one and one-fourth (1-1/4) inches (<strong>31.8 mm</strong>) nor less than one-half (1/2) the diameter of the drain to which it is connected. Fixture unit load values for drainage and vent piping shall be computed from Tables 1-1 and 1-2. Not to exceed one-third (1/3) of the total permitted length of any vent may be installed in a horizontal position. When vents are increased one (1) pipe size for their entire length, the maximum length limitations specified in this table do not apply.</p><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 78</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Project Exercises: Sizing Drainage Piping",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<h4>Project Exercise No. 1 — Determine the Size of Branch 1 and Stack 1 (Second Floor Drainage Plan)</h4><p><strong>Sample Solution shown in source for Sanitary Branch 2:</strong></p><p><strong>(A) Fixture Load:</strong></p><ul><li>1 WC x 4 DFU = 4</li><li>1 SFD x 2 DFU = 2</li><li>1 FD x 2 DFU = 2</li><li>1 LAV x 1 DFU = 1</li><li><strong>Total DFU = 9 DFU</strong></li></ul><p><strong>(B) Sizing of Branch (from Table 2):</strong> Use <strong>76 mm or 102 mm</strong></p><p><strong>(C) Sizing for Vent (from Table 2):</strong> Use <strong>51 mm</strong></p><blockquote><p>[REPLICA IMAGE: SECOND FLOOR DRAINAGE PLAN WITH PROJECT EXERCISE NO. 1 CALCULATIONS]</p><p>Create an accurate clean engineering floor plan (Scale 1/100 m) titled \"SECOND FLOOR DRAINAGE PLAN\" showing:</p><p>- Grid lines B, C, D (horizontal) and 1–5 (vertical); overall dimensions 6000 mm (B to D), 8000 mm total; 12000 mm vertical span</p><p>- Rooms: BEDROOM 1, BEDROOM 2, MASTER BEDROOM, STUDIO, HALLWAY, TERRACE, ROOF OVER CARPORT</p><p>- \"BRANCH 1\" and \"STACK 1\" labeled with empty fixture-load box symbols (legend shows a box split into \"SIZE OF BRANCH OR STACK PIPE\" on top and \"FIXTURE LOAD\" on bottom) near Bedroom 1's fixture group (VSTR, SFD, LAV, TBB, WC, CO)</p><p>- \"STACK 2\" and \"BRANCH 2\" labeled with filled-in box values \"9 DFU\" over \"76 | 51\" (or 100) near the Master Bedroom fixture group (LAV, FD, WC, CO, SFD, MTBB), connected to \"PVC SOIL STACK ATLANTA SERIES 1000\"</p><p>- Handwritten calculation panel (bottom right) showing:</p><p>  - \"SOLVING FOR SANITARY BRANCH 2:\"</p><p>  - \"(A) FIXTURE LOAD: 1WC x 4DFU = 4, 1 SFD x 2DFU = 2, 1 FD x 2DFU = 2, 1 LAV x 1DFU = 1, TOTAL DFU = 9 DFU\"</p><p>  - \"(B) SIZING OF BRANCH FROM TABLE 2: USE 76mm OR 102mm\"</p><p>  - \"(C) SIZING FOR VENT FROM TABLE 2: USE 51mm\"</p><p>- Legend box: \"FIXTURE LOAD\" / \"SIZE OF BRANCH OR STACK PIPE\" / \"SIZE OF VENT PIPE\"</p><p>- Bottom label: \"PROJECT EXERCISE NO.1 — DETERMINE THE SIZE OF BRANCH 1 AND STACK 1. FILL-IN THE VALUES IN THE APPROPRIATE BOX\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 79</p><blockquote><p>[REPLICA IMAGE: GROUND FLOOR DRAINAGE PLAN WITH PROJECT EXERCISE NO. 2]</p><p>Create an accurate clean engineering floor plan (Scale, matching grid dimensions 8000mm x 12000mm) titled \"GROUND FLOOR DRAINAGE PLAN\" showing:</p><p>- Grid lines A, B1, C, D (horizontal) and 1–5 (vertical)</p><p>- Rooms: KITCHEN, DINING, LIVING, ENTRY PORCH, CARPORT, STO.</p><p>- \"HOUSE DRAIN 1\" and \"HOUSE SEWER\" labeled with empty fixture-load box symbols near the left side (SD storm drain risers, DS downspouts)</p><p>- \"HOUSE DRAIN 2\" labeled with a filled-in box \"9 DFU\" over \"76 | 51\" (or 100) near the dining/kitchen area, connected to \"PVC SOIL STACK SERIES 1000\"</p><p>- DIGESTIVE CHAMBER, LEACHING (2 chambers) shown near the carport</p><p>- PVC DOWNSPOUT, PVC STORM DRAIN PIPE (typical), PVC OVERFLOW PIPE labels</p><p>- \"TAP TO SUBD. SEWER LINE\" and \"TAP TO SEWER LINE\" labels at the bottom</p><p>- Bottom label: \"PROJECT EXERCISE NO.2 — DETERMINE THE SIZE OF HOUSE DRAIN 1 AND THE HOUSE SEWER. FILL-IN THE VALUES IN THE APPROPRIATE BOX\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 80</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: TYPICAL PIPE JOINT DETAIL AND PROJECT EXERCISE NO. 3 ISOMETRIC]</p><p>Create an accurate clean engineering diagram (Scale 1/30 m) titled \"TYPICAL PIPE JOINT DETAIL\" showing five labeled joint details:</p><p>- <strong>(A) FOR SOIL STACK TO HOUSE DRAIN (VERTICAL TO HORIZONTAL JOINT)</strong>: Cleanout, PVC Bend, N.G.L., PVC Soil Stack Atlanta Series 1000, PVC Wye, Concrete Support, Soil Pipe Atlanta Series 1000.</p><p>- <strong>(B) FOR WATER CLOSET</strong>: WC symbol, Floor Line, PVC Bend or Long Sweep Elbow, PVC Wye (option), Soil Pipe.</p><p>- <strong>(C) FOR HOUSE DRAIN TO SOIL STACK (HORIZONTAL TO VERTICAL JOINT)</strong>: Cleanout Ferrule, Floor Line, PVC Bend, PVC Wye, Soil Stack, Soil Pipe.</p><p>- <strong>(D) FOR FLOOR DRAIN</strong>: FD symbol, Floor Line, PVC Sanitary Pipe, PVC P-Trap.</p><p>- <strong>(E) FOR LAVATORY</strong>: LAV symbol, Chrome Plastic P-Trap, PVC Vent Stack, PVC Sanitary Tee, PVC Sanitary Pipe, PVC Bend.</p><p>Also include a full isometric riser diagram below showing a septic tank (three-chamber box at bottom) connected via \"PVC HOUSE DRAIN PIPE SERIES 1000\" to a vertical \"PVC SOIL STACK ATLANTA SERIES 1000\" with \"PVC BRANCH VENT (TYPICAL)\" at top through \"VSTR\", and labeled points A, B, C, D, E corresponding to the joint details above, with FD, WC, LAV, SFD, CO fixtures placed along the riser.</p><p>Bottom label: \"PROJECT EXERCISE NO.3 — INDICATE THE SIZES OF THE DWV PIPES IN THE ISOMETRIC DRAWING AND JOINT DETAIL DRAWING\"</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 81</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Design of Septic Tank (Using Sewage Flow Method)",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p><strong>Sewage Flow Method</strong> is used when the value of the design population is not available.</p><h4>Step 1: Determine the Estimated Sewage Flow Rates</h4><p>Refer to the National Plumbing Code, Table B-3, pages 194-195. For residential, use the table below:</p><p><strong>Table 3: Estimated Sewage Flow Rates – Residential</strong></p><pre>| Occupancy | Sewage Flow |</pre><pre>|---|---:|</pre><pre>| 1 Bedroom | 600 liters per day |</pre><pre>| 2 Bedroom | 1200 LPD |</pre><pre>| 3 Bedroom | 1600 LPD |</pre><pre>| 4 Bedroom | 1900 LPD |</pre><pre>| 5 Bedroom | 2200 LPD |</pre><h4>Step 2: Solve for the Volume of the Septic Tank</h4><p>Use the formula:</p><p><code>V_ST = (4260 + 0.75 S) / 1000</code></p><p>Where:</p><ul><li><strong>V_ST</strong> = Volume of Septic Tank in m³</li><li><strong>S</strong> = Estimated Sewage Flow in Liters per Day</li></ul><h4>Step 3: Determine the Volume of the Chambers</h4><ul><li>For Digestive Chamber: <code>V_DC = (2/3) V_ST</code></li><li>For Holding Chamber: <code>V_HC = V_ST / 3</code></li></ul><h4>Step 4: Design the Septic Tank</h4><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 82</p><pre>---</pre>"
+            }
+          ]
+        },
+        {
+          "title": "Sample Project: Design of Septic Tank by Sewage Flow Method",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "<p><strong>Project:</strong> Proposed 2 Storey - 3 Bedroom Residential House <strong>Subject:</strong> Design of Septic Tank by Sewage Flow Method</p><h4>Step 1: Estimated Sewage Flow Method</h4><p>From Table 3: 3 Bedroom = <strong>1600 LPD</strong></p><h4>Step 2: Solving for Volume of Septic Tank (V_ST)</h4><p><code>V_ST = (4260 + 0.75 S) / 1000 liters/m³</code></p><p>Substituting:</p><p><code>V_ST = (4260 + 0.75(1600 LPD)) / 1000</code></p><p><code>= 5460 / 1000</code></p><p><code>V_ST = 5.46 m³</code></p><p><strong>Say V_ST = 5.5 m³</strong></p><h4>Step 3: Solving for Volume of Digestive Chamber and Holding Chamber</h4><p><strong>(A) For Digestive Chamber (V_DC):</strong></p><p><code>V_DC = (2/3) V_ST = (2/3)(5.5) = 3.70 m³</code></p><p><strong>(B) For Holding Chamber (V_HC):</strong></p><p><code>V_HC = V_ST / 3 = 5.5 / 3 = 1.80 m³</code></p><h4>Step 4: Designing of Septic Tank</h4><p>Assume Depth of Septic Tank at <strong>1.80 m (max.)</strong></p><p><strong>(A) For Digestive Chamber:</strong></p><p><code>A_DC = V_DC / 1.80 = 3.70 m³ / 1.80 m = 2.06 m²</code></p><p>→ Length = 2.06 m, Width = 1.00 m</p><p><strong>(B) For Holding Chamber:</strong></p><p><code>A_HC = V_HC / 1.80 = 1.80 m³ / 1.80 m = 1.00 m²</code></p><p>→ Length = 1.00 m, Width = 1.00 m</p><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 83–84</p><p>&gt;</p><p>&gt;</p><p>&gt;</p><blockquote><p>[REPLICA IMAGE: DETAIL OF SEPTIC TANK - SAMPLE PROJECT (LONGITUDINAL SECTION, STRUCTURAL PLAN, PLAN AT CHAMBERS)]</p><p>Create an accurate clean engineering three-part drawing sheet titled \"DETAIL OF SEPTIC TANK\" for the sample project's 3-chamber septic tank, showing:</p><p>1. <strong>Longitudinal Section</strong>: Three chambers in sequence labeled \"LEACHING CHAMBER 2\", \"LEACHING CHAMBER 1\", \"DIGESTIVE CHAMBER\" (left to right), each with a manhole labeled \"500mm x 500mm MANHOLE\" at top, \"CO\" cleanout markers, \"100mm x 100mm PVC TEE (TYP.)\" fittings, \"WATER LEVEL\" line, \"OPEN WITH SCREEN (TYP.)\" vents, \"100mmØ PVC CLEANOUT FERRULE DIRECTLY ABOVE SOL TEE BUT NOT CONNECTED\", \"100mmØ PVC OUTLET PIPE, SERIES 1000\" leading to \"TAP TO CITY/MUNICIPALITY SEWER LINE\", \"150mm THK.CHB W/12mmØ VERT. BAR AT 600mm O.C. AND HOR. BAR AT 400mm O.C.\", \"10% SLOPE\" bottom slab, \"100mm THK. R.C. BOTTOM SLAB W/ Ø12mm BARS AT 300mm O.C. B.W.\", dimension \"1600mm\" overall height, \"1200mm\" and \"400mm\" sub-dimensions, \"GRADE LINE\" marker.</p><p>2. <strong>Structural Plan at Top Slab</strong>: Three square manhole openings each labeled \"MANHOLE\" within a reinforcement grid, overall length 4400mm subdivided into 400/500/650/500/1050/500/800mm, reinforcement notes \"Ø12mm DIAGONAL BAR\", \"Ø12mm REBAR AT 150mm O.C.\", \"Ø12mm TEMPERATURE BAR AT 200mm O.C.\", \"CO\" markers, and a separate \"MANHOLE COVER\" detail (500mm x 500mm) with \"3-Ø12mm REBARS BOTHWAYS\" reinforcement.</p><p>3. <strong>Plan at Chambers</strong>: Plan view of the same three chambers \"LEACHING CHAMBER 2\", \"LEACHING CHAMBER 1\", \"DIGESTIVE CHAMBER\" with \"10% SLOPE\" floor, \"100mmØ PVC OUTLET PIPE, SERIES 1000\" to \"TAP TO CITY/MUNICIPALITY SEWER LINE\", \"150mm THK.CHB W/12mmØ VERT. BAR AT 600mm O.C. AND HOR. BAR AT 400mm O.C.\" walls, dimension 4400mm overall (150/1000/150/1000/150/1800/150), \"100mmØ PVC INLET PIPE SERIES 1000\", \"25mm THK. PLAIN CEMENT PLASTER WITH INTEGRAL WATER PROOFING COMPOUND\", height dimension \"900mm\" and \"1200mm\".</p></blockquote><p class=\"replica-image-instruction\"><strong>Source pages:</strong> 85</p>"
+            }
+          ]
+        }
+      ],
+      "quizzes": [
+        {
+          "id": 335200,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "DRAINAGE, WASTE AND VENT SYSTEM"
+        },
+        {
+          "id": 335201,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"DRAINAGE, WASTE AND VENT SYSTEM\"?",
+          "answer": "Student Learning Material — ENGR. ROWIN PUJIDA"
+        },
+        {
+          "id": 335202,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Sample Project: A Two Storey Residential House"
+        },
+        {
+          "id": 335203,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sample Project: A Two Storey Residential House\"?",
+          "answer": "Sample Project: A Two Storey Residential House"
+        },
+        {
+          "id": 335204,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sample Project: A Two Storey Residential House\"?",
+          "answer": "Front Elevation (Scale 1/100 m):"
+        },
+        {
+          "id": 335205,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "The 4 Major Components of the Drainage System"
+        },
+        {
+          "id": 335206,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"The 4 Major Components of the Drainage System\"?",
+          "answer": "Sanitary or Soil Drainage System"
+        },
+        {
+          "id": 335207,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"The 4 Major Components of the Drainage System\"?",
+          "answer": "Waste Drainage System"
+        },
+        {
+          "id": 335208,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Terms and Definitions in the DWV System"
+        },
+        {
+          "id": 335209,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Terms and Definitions in the DWV System\"?",
+          "answer": "Building Drain"
+        },
+        {
+          "id": 335210,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Terms and Definitions in the DWV System\"?",
+          "answer": "600 mm"
+        },
+        {
+          "id": 335211,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "General Requirements for a Properly Designed Drainage System"
+        },
+        {
+          "id": 335212,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"General Requirements for a Properly Designed Drainage System\"?",
+          "answer": "Each plumbing fixture trap shall be provided with vent pipes."
+        },
+        {
+          "id": 335213,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"General Requirements for a Properly Designed Drainage System\"?",
+          "answer": "Source pages:"
+        },
+        {
+          "id": 335214,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Drainage Traps"
+        },
+        {
+          "id": 335215,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Drainage Traps\"?",
+          "answer": "Drain"
+        },
+        {
+          "id": 335216,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Drainage Traps\"?",
+          "answer": "floor drains"
+        },
+        {
+          "id": 335217,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Drainage Vent"
+        },
+        {
+          "id": 335218,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Drainage Vent\"?",
+          "answer": "Vent"
+        },
+        {
+          "id": 335219,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Drainage Vent\"?",
+          "answer": "102 kPa (14.75 psi)"
+        },
+        {
+          "id": 335220,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Septic Tank Design and Construction"
+        },
+        {
+          "id": 335221,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Septic Tank Design and Construction\"?",
+          "answer": "Source pages:"
+        },
+        {
+          "id": 335222,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Septic Tank Design and Construction\"?",
+          "answer": "Septic Tank Definition:"
+        },
+        {
+          "id": 335223,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Sanitary Drain Stack / Riser Diagram and Pipe Joint Details"
+        },
+        {
+          "id": 335224,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sanitary Drain Stack / Riser Diagram and Pipe Joint Details\"?",
+          "answer": "Detail B \"FOR HOUSE DRAIN TO SOIL STACK (HORIZONTAL TO VERTICAL JOINT)\""
+        },
+        {
+          "id": 335225,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sanitary Drain Stack / Riser Diagram and Pipe Joint Details\"?",
+          "answer": "Detail A \"FOR SOIL STACK TO HOUSE DRAIN (VERTICAL TO HORIZONTAL JOINT)\""
+        },
+        {
+          "id": 335226,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Materials for Drainage Pipes and Fittings"
+        },
+        {
+          "id": 335227,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Materials for Drainage Pipes and Fittings\"?",
+          "answer": "Excreta Drainage Piping materials are:"
+        },
+        {
+          "id": 335228,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Materials for Drainage Pipes and Fittings\"?",
+          "answer": "smooth and uniform bore"
+        },
+        {
+          "id": 335229,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Cast Iron Soil Pipes (CISP)"
+        },
+        {
+          "id": 335230,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Cast Iron Soil Pipes (CISP)\"?",
+          "answer": "Cast Iron Soil Pipe"
+        },
+        {
+          "id": 335231,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Cast Iron Soil Pipes (CISP)\"?",
+          "answer": "SPIGOT"
+        },
+        {
+          "id": 335232,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "PVC DWV Series 1000"
+        },
+        {
+          "id": 335233,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"PVC DWV Series 1000\"?",
+          "answer": "Acrylonitrile-Butadiene-Styrene (ABS for short)"
+        },
+        {
+          "id": 335234,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"PVC DWV Series 1000\"?",
+          "answer": "polyvinyl chloride (PVC)"
+        },
+        {
+          "id": 335235,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Fixture Connections (Excreta Drainage)"
+        },
+        {
+          "id": 335236,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Fixture Connections (Excreta Drainage)\"?",
+          "answer": "Source pages:"
+        },
+        {
+          "id": 335237,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Fixture Connections (Excreta Drainage)\"?",
+          "answer": "705.1"
+        },
+        {
+          "id": 335238,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Sizing of the Drainage Pipings (Drainage Fixture Unit Method)"
+        },
+        {
+          "id": 335239,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sizing of the Drainage Pipings (Drainage Fixture Unit Method)\"?",
+          "answer": "2 fixture units shall be allowed for every 0.063 L/S (1 gpm) of flow"
+        },
+        {
+          "id": 335240,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sizing of the Drainage Pipings (Drainage Fixture Unit Method)\"?",
+          "answer": "Source pages:"
+        },
+        {
+          "id": 335241,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Project Exercises: Sizing Drainage Piping"
+        },
+        {
+          "id": 335242,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Project Exercises: Sizing Drainage Piping\"?",
+          "answer": "Sample Solution shown in source for Sanitary Branch 2:"
+        },
+        {
+          "id": 335243,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Project Exercises: Sizing Drainage Piping\"?",
+          "answer": "(A) Fixture Load:"
+        },
+        {
+          "id": 335244,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Design of Septic Tank (Using Sewage Flow Method)"
+        },
+        {
+          "id": 335245,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Design of Septic Tank (Using Sewage Flow Method)\"?",
+          "answer": "Sewage Flow Method"
+        },
+        {
+          "id": 335246,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Design of Septic Tank (Using Sewage Flow Method)\"?",
+          "answer": "Table 3: Estimated Sewage Flow Rates – Residential"
+        },
+        {
+          "id": 335247,
+          "type": "identification",
+          "question": "What is the main topic of this reviewer section?",
+          "answer": "Sample Project: Design of Septic Tank by Sewage Flow Method"
+        },
+        {
+          "id": 335248,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sample Project: Design of Septic Tank by Sewage Flow Method\"?",
+          "answer": "Project:"
+        },
+        {
+          "id": 335249,
+          "type": "identification",
+          "question": "Which term is specifically identified in the section \"Sample Project: Design of Septic Tank by Sewage Flow Method\"?",
+          "answer": "Subject:"
+        }
+      ]
+    }
+  ]
+}

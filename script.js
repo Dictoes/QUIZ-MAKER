@@ -112,7 +112,26 @@ async function loadSiteData() {
         subject.quizzes = subject.topics.flatMap(topic => topic.quizzes || []);
         delete subject.topics;
       }
-      subjectsData[subject.id] = subject;
+      const existingSubject = subjectsData[subject.id];
+      if (existingSubject) {
+        if (Array.isArray(subject.topics)) {
+          const existingTopicIds = new Set((existingSubject.topics || []).map(topic => topic.id));
+          existingSubject.topics = [
+            ...(existingSubject.topics || []),
+            ...subject.topics.filter(topic => !existingTopicIds.has(topic.id)),
+          ];
+        }
+        if (Array.isArray(subject.reviewer) && !Array.isArray(existingSubject.reviewer)) {
+          existingSubject.reviewer = subject.reviewer;
+        }
+        if (Array.isArray(subject.quizzes) && !Array.isArray(existingSubject.quizzes)) {
+          existingSubject.quizzes = subject.quizzes;
+        }
+        existingSubject.description = existingSubject.description || subject.description;
+        subjectsData[subject.id] = existingSubject;
+      } else {
+        subjectsData[subject.id] = subject;
+      }
       if (Array.isArray(subject.topics)) {
         subject.topics.forEach((topic, index) => {
           const existingTopic = subjectsData[topic.id];
@@ -131,6 +150,10 @@ async function loadSiteData() {
 
     const firstKey = loaded[0] ? loaded[0].id : null;
     if (firstKey && !subjectsData[currentSubjectKey]) currentSubjectKey = firstKey;
+    const initialSubject = subjectsData[currentSubjectKey];
+    if (initialSubject && Array.isArray(initialSubject.topics) && !Array.isArray(initialSubject.reviewer)) {
+      currentSubjectKey = initialSubject.topics[0]?.id || currentSubjectKey;
+    }
 
     loadSubject(currentSubjectKey);
     initHomePage();
@@ -417,16 +440,118 @@ function renderNotes(notes) {
   container.innerHTML = notes.map(item => {
     let contentHtml = item.content.map(c => {
       if (c.type === "paragraph") {
-        if (c.text.includes("ce333-diagram")) {
-          const visualLabel = c.text.match(/aria-label="([^"]+)"/)?.[1] || "Educational diagram";
+        const paragraphText = c.text.replace(/<p[^>]*class=["']replica-image-instruction["'][^>]*>\s*<strong>\s*Source\s+pages?:\s*<\/strong>[^<]*<\/p>/gi, "");
+        if (/^(?:<p>)?\s*(?:&gt;|>)\s*(?:<\/p>)?$/i.test(paragraphText.trim())) {
+          return "";
+        }
+        if (!paragraphText.trim()) {
+          return "";
+        }
+        const tableVisualParagraph = renderTableVisualReplacements(paragraphText);
+        if (tableVisualParagraph !== paragraphText) {
+          return `<div class="replica-content">${tableVisualParagraph}</div>`;
+        }
+        const genericTableParagraph = renderGenericPreTables(paragraphText);
+        if (genericTableParagraph !== paragraphText) {
+          return `<div class="replica-content">${genericTableParagraph}</div>`;
+        }
+        if (paragraphText.includes("[REPLICA IMAGE:")) {
+          return `<div class="replica-content">${renderReplicaMarkup(paragraphText)}</div>`;
+        }
+        if (paragraphText.includes("ce333-diagram")) {
+          const visualLabel = paragraphText.match(/aria-label="([^"]+)"/)?.[1] || "Educational diagram";
           return `
             <figure class="educational-visual-box">
               <figcaption>${visualLabel.replace(/^Original /, "")}</figcaption>
-              <div class="educational-visual">${c.text}</div>
+              ${renderSvgViewerControls()}
+              <div class="educational-visual">${paragraphText}</div>
             </figure>
           `;
         }
-        return `<p>${c.text}</p>`;
+        if (/<h4>Section 703:\s*Size of Drainage Piping/i.test(paragraphText)) {
+          return renderDrainageSizingVisual(paragraphText);
+        }
+        if (/<h4>Section 706: Cleanouts\s*[^<]*Sizing Table<\/h4>/i.test(paragraphText)) {
+          return paragraphText.replace(
+            /<pre>\|?\s*Size of Pipe[\s\S]*?<\/pre>(?:\s*<pre>[\s\S]*?<\/pre>){1,}/i,
+            () => renderCleanoutSizingVisual()
+          );
+        }
+        if (/<h4>PVC DWV Series 1000\s*[^<]*Pipe Dimensions<\/h4>/i.test(paragraphText)) {
+          return paragraphText.replace(
+            /<pre>\|?\s*Nominal Size[\s\S]*?<\/pre>(?:\s*<pre>[\s\S]*?<\/pre>){1,}/i,
+            () => renderPvcDimensionsVisual()
+          );
+        }
+        if (isTechnicalCalculationText(paragraphText)) {
+          return renderTechnicalVisual(paragraphText);
+        }
+
+        function renderReplicaMarkup(content) {
+          const cleanedContent = content.replace(/<p>\s*(?:&gt;|>)\s*<\/p>/gi, "");
+          return cleanedContent.replace(/\[REPLICA IMAGE:\s*([^\]]+)\]/g, (_, title) => {
+            const plainContent = content.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ");
+            const labels = title
+              .replace(/&amp;/g, "&")
+              .split(/\s+-\s+|,\s+|\s+WITH\s+|\s+AND\s+/i)
+              .map(label => label.trim())
+              .filter(Boolean)
+              .slice(0, 5);
+            const details = [...plainContent.matchAll(/(?:-|\u2022)\s*([^.;]{12,100})/g)]
+              .map(match => match[1].trim())
+              .filter(detail => !/^create an accurate/i.test(detail))
+              .slice(0, 8);
+            return `
+              <figure class="replica-plate" aria-label="Educational replica: ${escapeHtml(title)}">
+                <figcaption>Replica study plate: ${escapeHtml(title)}</figcaption>
+                ${renderSvgViewerControls()}
+                <div class="replica-plate-canvas">
+                  <svg class="replica-blueprint" viewBox="0 0 720 190" role="img" aria-label="Detailed engineering diagram for ${escapeHtml(title)}">
+                    <rect x="22" y="28" width="676" height="132" rx="5"></rect>
+                    <path d="M52 126h160V70h122v56h170V70h164M212 70V42h122v28M504 70V42h164v28"></path>
+                    <path d="M52 145h616M92 126v20M174 126v20M294 126v20M402 126v20M558 126v20"></path>
+                    <circle cx="96" cy="91" r="16"></circle><circle cx="354" cy="94" r="16"></circle><circle cx="590" cy="92" r="16"></circle>
+                    <path d="M112 91h226M370 94h204M354 110v34M590 108v36"></path>
+                    <path class="replica-blueprint-accent" d="M52 56h616M52 56l16-10M668 56l-16-10"></path>
+                    <path class="replica-blueprint-dimension" d="M52 168v10M212 168v10M334 168v10M504 168v10M668 168v10M52 174h616"></path>
+                    <path class="replica-blueprint-vent" d="M96 75V42M354 78V42M590 76V42"></path>
+                    <text x="360" y="20" text-anchor="middle">${escapeHtml(title.slice(0, 62))}</text>
+                    <text x="96" y="95" text-anchor="middle">A</text><text x="354" y="98" text-anchor="middle">B</text><text x="590" y="96" text-anchor="middle">C</text>
+                    <text x="132" y="187" text-anchor="middle">BAY 1</text><text x="273" y="187" text-anchor="middle">BAY 2</text><text x="419" y="187" text-anchor="middle">BAY 3</text><text x="586" y="187" text-anchor="middle">BAY 4</text>
+                  </svg>
+                  <div class="replica-plate-roof"></div>
+                  <div class="replica-plate-flow">
+                    ${labels.map((label, index) => `
+                      <div class="replica-node">
+                        <span class="replica-node-index">${index + 1}</span>
+                        <span>${escapeHtml(label)}</span>
+                      </div>
+                      ${index < labels.length - 1 ? '<span class="replica-arrow" aria-hidden="true">→</span>' : ""}
+                    `).join("")}
+                  </div>
+                  <div class="replica-plate-pipes" aria-hidden="true">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+                <div class="replica-legend">
+                  <span><i class="replica-legend-line"></i>Pipe / drainage route</span>
+                  <span><i class="replica-legend-vent"></i>Vent / vertical connection</span>
+                  <span><i class="replica-legend-dimension"></i>Dimension / grid reference</span>
+                </div>
+                ${details.length ? `
+                  <div class="replica-detail-grid">
+                    ${details.map((detail, index) => `<div><span>${String(index + 1).padStart(2, "0")}</span>${escapeHtml(detail)}</div>`).join("")}
+                  </div>
+                ` : ""}
+                <small>Study the labeled flow and compare it with the original engineering instructions below.</small>
+              </figure>
+            `;
+          });
+        }
+        return `<p>${paragraphText}</p>`;
+      } else if (c.type === "heading") {
+        const level = Math.min(Math.max(Number(c.level) || 4, 3), 6);
+        return `<h${level}>${c.text}</h${level}>`;
       } else if (c.type === "list") {
         return `<ul>${c.items.map(li => `<li>${li}</li>`).join("")}</ul>`;
       } else if (c.type === "image") {
@@ -473,6 +598,336 @@ function renderNotes(notes) {
     }, { threshold: 0.55 });
     container.querySelectorAll(".card, [data-study-section]").forEach(element => studyPositionObserver.observe(element));
   }
+}
+
+function isTechnicalCalculationText(value) {
+  const plain = value.replace(/<[^>]+>/g, " ");
+  const measurementCount = (plain.match(/\b\d+(?:\.\d+)?\s*(?:mm|cm|m|m2|m3|cu\.?\s*m|L\/S|gpm|%|°)\b/gi) || []).length;
+  const formulaCount = (plain.match(/[=×÷]/g) || []).length;
+  return (measurementCount >= 2 || formulaCount >= 2 || /\b(?:Step|Determine|Solve|Sizing|Volume|dimension|calculation)\b/i.test(plain))
+    && !/\[REPLICA IMAGE:/i.test(value);
+}
+
+function renderTableVisualReplacements(content) {
+  let rendered = content;
+  if (/<h4>Section 706: Cleanouts\s*[^<]*Sizing Table<\/h4>/i.test(rendered)) {
+    rendered = rendered.replace(
+      /<pre>\|?\s*Size of Pipe[\s\S]*?<\/pre>(?:\s*<pre>[\s\S]*?<\/pre>){1,}/i,
+      () => renderCleanoutSizingVisual()
+    );
+  }
+  if (/<h4>PVC DWV Series 1000\s*[^<]*Pipe Dimensions<\/h4>/i.test(rendered)) {
+    rendered = rendered.replace(
+      /<pre>\|?\s*Nominal Size[\s\S]*?<\/pre>(?:\s*<pre>[\s\S]*?<\/pre>){1,}/i,
+      () => renderPvcDimensionsVisual()
+    );
+  }
+  return rendered;
+}
+
+function renderGenericPreTables(content) {
+  return content.replace(/((?:\s*<pre>[\s\S]*?<\/pre>){2,})/gi, block => {
+    const rows = [...block.matchAll(/<pre>([\s\S]*?)<\/pre>/gi)]
+      .map(match => decodeTableText(match[1]))
+      .filter(row => row.includes("|"))
+      .map(row => row.split("|").map(cell => cell.trim()).filter((cell, index, cells) => index > 0 && index < cells.length - 1));
+    if (rows.length < 2 || !rows.some(row => row.length > 1)) return block;
+    const usableRows = rows.filter(row => !row.every(cell => /^:?-+:?$/.test(cell)));
+    if (usableRows.length < 2) return block;
+    return renderGenericTableVisual(usableRows);
+  });
+}
+
+function decodeTableText(value) {
+  return String(value)
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function renderGenericTableVisual(rows) {
+  const columnCount = Math.max(...rows.map(row => row.length));
+  const width = Math.max(760, columnCount * 205 + 40);
+  const rowHeight = 56;
+  const headerHeight = 76;
+  const bodyStart = 158;
+  const height = Math.max(220, bodyStart + Math.max(0, rows.length - 1) * rowHeight + 24);
+  const normalizedRows = rows.map(row => Array.from({ length: columnCount }, (_, index) => row[index] || "—"));
+  const header = normalizedRows[0];
+  const body = normalizedRows.slice(1);
+  const columnWidth = (width - 40) / columnCount;
+  return `
+    <figure class="simple-table-visual generic-table-visual" aria-label="Labeled study table">
+      <figcaption>Study table - labeled reference chart</figcaption>
+      ${renderSvgViewerControls()}
+      <div class="svg-interactive-stage">
+        <svg viewBox="0 0 ${width} ${height}" role="img" aria-label="Labeled reference table">
+          <rect class="table-visual-bg" x="8" y="8" width="${width - 16}" height="${height - 16}" rx="12"></rect>
+          <rect class="table-visual-title" x="20" y="20" width="${width - 40}" height="48" rx="8"></rect>
+          <text class="table-visual-heading" x="${width / 2}" y="50" text-anchor="middle">LABELED REFERENCE TABLE</text>
+          ${header.map((cell, index) => {
+            const x = 20 + index * columnWidth;
+            const words = escapeHtml(cell).split(/\s+/).filter(Boolean);
+            const lines = [];
+            for (let wordIndex = 0; wordIndex < words.length; wordIndex += 2) {
+              lines.push(words.slice(wordIndex, wordIndex + 2).join(" "));
+            }
+            const lineStart = 106 - ((lines.length - 1) * 8);
+            return `<rect class="table-visual-header-cell" x="${x}" y="82" width="${columnWidth}" height="${headerHeight}" rx="4"></rect><text class="table-visual-label table-visual-label-centered" x="${x + columnWidth / 2}" y="${lineStart}" text-anchor="middle">${lines.map((line, lineIndex) => `<tspan x="${x + columnWidth / 2}" dy="${lineIndex ? 18 : 0}">${line}</tspan>`).join("")}</text>`;
+          }).join("")}
+          ${body.map((row, rowIndex) => {
+            const y = bodyStart + rowIndex * rowHeight;
+            return `<g class="table-visual-row">${row.map((cell, columnIndex) => {
+              const x = 20 + columnIndex * columnWidth;
+              return `<rect x="${x}" y="${y}" width="${columnWidth}" height="${rowHeight}" rx="4"></rect><text x="${x + columnWidth / 2}" y="${y + 29}" text-anchor="middle">${escapeHtml(cell)}</text>`;
+            }).join("")}</g>`;
+          }).join("")}
+        </svg>
+      </div>
+    </figure>
+  `;
+}
+
+function adjustSvgZoom(button, amount) {
+  const viewer = button.closest(".simple-table-visual, .drainage-sizing-visual, .replica-plate, .technical-visual, .educational-visual-box");
+  if (!viewer) return;
+  const svg = viewer.querySelector("svg");
+  const level = viewer.querySelector(".svg-zoom-level");
+  if (!svg || !level) return;
+  const current = Number(viewer.dataset.svgZoom || 1);
+  const next = Math.min(2.5, Math.max(1, current + amount));
+  viewer.dataset.svgZoom = String(next);
+  svg.style.width = `${next * 100}%`;
+  level.textContent = `${Math.round(next * 100)}%`;
+}
+
+function resetSvgZoom(button) {
+  const viewer = button.closest(".simple-table-visual, .drainage-sizing-visual, .replica-plate, .technical-visual, .educational-visual-box");
+  if (!viewer) return;
+  const svg = viewer.querySelector("svg");
+  const level = viewer.querySelector(".svg-zoom-level");
+  if (!svg || !level) return;
+  viewer.dataset.svgZoom = "1";
+  svg.style.width = "100%";
+  level.textContent = "100%";
+}
+
+function renderSvgViewerControls() {
+  return `
+    <div class="svg-viewer-controls" role="group" aria-label="Image controls">
+      <button type="button" onclick="adjustSvgZoom(this, -0.15)" aria-label="Zoom out">−</button>
+      <span class="svg-zoom-level">100%</span>
+      <button type="button" onclick="adjustSvgZoom(this, 0.15)" aria-label="Zoom in">+</button>
+      <button type="button" onclick="resetSvgZoom(this)" aria-label="Reset image zoom">Reset</button>
+    </div>
+  `;
+}
+
+function renderTechnicalVisual(content) {
+  const plain = content.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+  const measurements = [...plain.matchAll(/\b\d+(?:\.\d+)?\s*(?:mm|cm|m|m2|m3|cu\.?\s*m|L\/S|gpm|%|°)\b/gi)]
+    .map(match => match[0])
+    .filter((value, index, values) => values.indexOf(value) === index)
+    .slice(0, 8);
+  const equations = [...plain.matchAll(/[^.;]{0,35}[=×÷][^.;]{0,55}/g)]
+    .map(match => match[0].trim())
+    .filter(Boolean)
+    .slice(0, 4);
+  const labels = [...measurements, ...equations].slice(0, 8);
+  return `
+    <figure class="technical-visual" aria-label="Calculation and measurement study plate">
+      <figcaption>Calculation / measurement study plate</figcaption>
+      ${renderSvgViewerControls()}
+      <svg viewBox="0 0 720 190" role="img" aria-label="Dimension and calculation diagram">
+        <rect x="24" y="25" width="672" height="135" rx="6"></rect>
+        <path d="M70 125h580M70 125V70h580v55M110 70V48h500v22"></path>
+        <path class="technical-dimension" d="M70 165h580M70 157v16M650 157v16M110 40h500M110 32v16M610 32v16"></path>
+        <path class="technical-flow" d="M105 105h510M180 82v46M360 82v46M540 82v46"></path>
+        <circle cx="180" cy="105" r="11"></circle><circle cx="360" cy="105" r="11"></circle><circle cx="540" cy="105" r="11"></circle>
+        <text x="360" y="17" text-anchor="middle">DIMENSIONS / WORKED SOLUTION</text>
+        <text x="360" y="184" text-anchor="middle">CHECK UNITS → SUBSTITUTE VALUES → VERIFY RESULT</text>
+      </svg>
+      <div class="technical-value-grid">
+        ${labels.map((label, index) => `<div><span>${String(index + 1).padStart(2, "0")}</span>${escapeHtml(label)}</div>`).join("")}
+      </div>
+      <div class="technical-source">${content}</div>
+    </figure>
+  `;
+}
+
+function renderDrainageSizingVisual(content) {
+  const pipeSizes = ["1-1/4\n(32)", "1-1/2\n(40)", "2\n(50)", "2-1/2\n(65)", "3\n(80)", "4\n(100)", "5\n(125)", "6\n(150)", "8\n(200)", "10\n(250)", "12\n(300)"];
+  const verticalUnits = ["1", "2²", "16³", "32³", "48⁴", "256", "600", "1380", "3600", "5600", "8400"];
+  const horizontalUnits = ["1", "1", "8³", "14³", "35⁴", "216⁵", "428⁵", "720⁵", "2640⁵", "4680⁵", "8200⁵"];
+  const verticalLengths = ["45 (14)", "65 (20)", "85 (26)", "148 (45)", "212 (65)", "300 (91)", "390 (119)", "510 (155)", "750 (228)", "---", "---"];
+  const ventUnits = ["1", "8³", "24", "48", "84", "256", "600", "1380", "3600", "---", "---"];
+  const ventLengths = ["45 (14)", "60 (18)", "120 (37)", "180 (55)", "212 (65)", "300 (91)", "390 (119)", "510 (155)", "750 (228)", "---", "---"];
+  const columns = pipeSizes.map((size, index) => {
+    const x = 365 + index * 78;
+    const [inches, mm] = size.split("\n");
+    return `<g class="sizing-column">
+      <rect x="${x - 37}" y="126" width="74" height="72"></rect>
+      <text x="${x}" y="143" text-anchor="middle">${inches}</text>
+      <text x="${x}" y="160" text-anchor="middle">(${mm} mm)</text>
+      <text x="${x}" y="184" text-anchor="middle">${verticalUnits[index]}</text>
+      <text x="${x}" y="216" text-anchor="middle">${horizontalUnits[index]}</text>
+      <text x="${x}" y="261" text-anchor="middle">${verticalLengths[index]}</text>
+      <text x="${x}" y="293" text-anchor="middle">${ventUnits[index]}</text>
+      <text x="${x}" y="325" text-anchor="middle">${ventLengths[index]}</text>
+    </g>`;
+  }).join("");
+  const sourceNotes = [
+    "1. Excluding trap arm.",
+    "2. Except sinks, urinals and dishwashers.",
+    "3. Except six-unit traps or water closets.",
+    "4. Limit water closets / six-unit traps on vertical and horizontal branches.",
+    "5. Values use 1/4 in per foot slope; use 0.8 factor for 1/8 in per foot slope."
+  ];
+  return `
+    <figure class="drainage-sizing-visual" aria-label="Section 703 drainage piping sizing chart">
+      <figcaption>Section 703 - Drainage Piping Sizing Visual Guide</figcaption>
+      <p class="sizing-intro">Choose the pipe diameter, then read across the same column. Compare the connected drainage fixture units (DFU) with the permitted pipe length.</p>
+      <div class="svg-viewer-controls" role="group" aria-label="SVG image controls">
+        <button type="button" onclick="adjustSvgZoom(this, -0.15)" aria-label="Zoom out">−</button>
+        <span class="svg-zoom-level">100%</span>
+        <button type="button" onclick="adjustSvgZoom(this, 0.15)" aria-label="Zoom in">+</button>
+        <button type="button" onclick="resetSvgZoom(this)" aria-label="Reset image zoom">Reset</button>
+      </div>
+      <div class="sizing-svg-wrap svg-interactive-stage">
+        <svg viewBox="0 0 1240 365" role="img" aria-labelledby="sizing-title sizing-desc">
+          <title id="sizing-title">Maximum units and pipe lengths for drainage and vent piping</title>
+          <desc id="sizing-desc">A detailed color-coded table showing pipe size, vertical and horizontal drainage units, drainage lengths, and vent limits.</desc>
+          <rect class="sizing-background" x="8" y="8" width="1224" height="349" rx="12"></rect>
+          <rect class="sizing-header" x="18" y="18" width="1204" height="38" rx="8"></rect>
+          <text class="sizing-title" x="620" y="43" text-anchor="middle">SECTION 703 - DRAINAGE PIPE SIZING</text>
+          <rect class="sizing-label-band" x="18" y="72" width="330" height="270" rx="8"></rect>
+          <text class="sizing-label" x="30" y="101">PIPE SIZE</text>
+          <text class="sizing-label" x="30" y="139">Pipe diameter (inches)</text>
+          <text class="sizing-label" x="30" y="158">Nominal diameter (mm)</text>
+          <line class="sizing-rule" x1="18" y1="198" x2="1222" y2="198"></line>
+          <line class="sizing-rule" x1="18" y1="230" x2="1222" y2="230"></line>
+          <line class="sizing-rule" x1="18" y1="274" x2="1222" y2="274"></line>
+          <line class="sizing-rule" x1="18" y1="306" x2="1222" y2="306"></line>
+          <text class="sizing-section drainage" x="30" y="189">DRAINAGE FIXTURE UNITS (DFU)</text>
+          <text class="sizing-label" x="30" y="218">Vertical stack capacity</text>
+          <text class="sizing-label" x="30" y="250">Horizontal branch capacity</text>
+          <text class="sizing-section length" x="30" y="267">MAXIMUM DRAINAGE LENGTH</text>
+          <text class="sizing-label" x="30" y="291">Vertical length (ft / m)</text>
+          <text class="sizing-section vent" x="30" y="299">VENT PIPE LIMITS</text>
+          <text class="sizing-label" x="30" y="323">Vent capacity (DFU)</text>
+          <text class="sizing-label" x="30" y="341">Vent length (ft / m)</text>
+          <g class="sizing-grid">${columns}</g>
+          <text class="sizing-callout" x="620" y="67" text-anchor="middle">Read down one column to compare capacity and permitted length</text>
+        </svg>
+      </div>
+      <div class="sizing-legend">
+        <span><i class="sizing-dot drainage"></i>Drainage fixture units (DFU)</span>
+        <span><i class="sizing-dot length"></i>Maximum permitted length</span>
+        <span><i class="sizing-dot vent"></i>Vent pipe limits</span>
+      </div>
+      <div class="sizing-steps">
+        <strong>How to use this chart</strong>
+        <span>1. Add all fixture-unit values connected to the pipe.</span>
+        <span>2. Select a pipe diameter whose DFU capacity is not exceeded.</span>
+        <span>3. For vertical stacks, check both DFU and height/length.</span>
+        <span>4. For horizontal branches, verify the required slope and footnote limits.</span>
+      </div>
+      <details class="sizing-notes">
+        <summary>Important table notes</summary>
+        <ul>${sourceNotes.map(note => `<li>${note}</li>`).join("")}</ul>
+        <p>Vent diameter must not be less than 1-1/4 inches (31.8 mm) or less than one-half the connected drain diameter.</p>
+      </details>
+    </figure>
+  `;
+}
+
+function renderCleanoutSizingVisual() {
+  const rows = [
+    ["40", "38", "11-1/2"],
+    ["50", "38", "11-1/2"],
+    ["65", "64", "8"],
+    ["80", "64", "8"],
+    ["100 and larger", "89", "8"]
+  ];
+  return `
+    <figure class="simple-table-visual cleanout-sizing-visual" aria-label="Cleanout sizing table">
+      <figcaption>Cleanout sizing - choose the cleanout size for each drainage pipe</figcaption>
+      <div class="svg-viewer-controls" role="group" aria-label="SVG image controls">
+        <button type="button" onclick="adjustSvgZoom(this, -0.15)" aria-label="Zoom out">−</button>
+        <span class="svg-zoom-level">100%</span>
+        <button type="button" onclick="adjustSvgZoom(this, 0.15)" aria-label="Zoom in">+</button>
+        <button type="button" onclick="resetSvgZoom(this)" aria-label="Reset image zoom">Reset</button>
+      </div>
+      <div class="svg-interactive-stage">
+      <svg viewBox="0 0 820 390" role="img" aria-label="Cleanout size, pipe size, and thread count chart">
+        <rect class="table-visual-bg" x="8" y="8" width="804" height="374" rx="12"></rect>
+        <rect class="table-visual-title" x="20" y="20" width="780" height="48" rx="8"></rect>
+        <text class="table-visual-heading" x="410" y="51" text-anchor="middle">SECTION 706 - CLEANOUT SIZING</text>
+        <text class="table-visual-label" x="50" y="100">Drainage pipe size</text>
+        <text class="table-visual-label" x="320" y="100">Required cleanout size</text>
+        <text class="table-visual-label" x="600" y="100">Threads per 25.4 mm</text>
+        ${rows.map((row, index) => {
+          const y = 118 + index * 48;
+          return `<g class="table-visual-row">
+            <rect x="28" y="${y}" width="764" height="40" rx="6"></rect>
+            <text x="50" y="${y + 26}">${row[0]} mm</text>
+            <text x="320" y="${y + 26}">${row[1]} mm</text>
+            <text x="600" y="${y + 26}">${row[2]}</text>
+          </g>`;
+        }).join("")}
+        <text class="table-visual-note" x="410" y="370" text-anchor="middle">Match the pipe diameter to the cleanout diameter and thread requirement.</text>
+      </svg>
+      </div>
+    </figure>
+  `;
+}
+
+function renderPvcDimensionsVisual() {
+  const rows = [
+    ["63", "2", "57.15", "1.78", "2.44", "3000"],
+    ["90", "3", "82.55", "2.44", "3.65", "3000"],
+    ["110", "4", "107.06", "2.44", "3.71", "3000"],
+    ["160", "6", "160", "---", "4.70 (Class-34)", "3000"],
+    ["200", "8", "200", "---", "5.90 (Class-34)", "3000"],
+    ["250", "10", "250", "---", "7.30 (Class-34)", "3000"],
+    ["315", "12", "315", "---", "9.20 (Class-34)", "3000"]
+  ];
+  const headings = ["Nominal size\n(mm)", "Nominal size\n(inch)", "Outside diameter\nO.D. (mm)", "Wall thickness\nSeries 600 (mm)", "Wall thickness\nSeries 1000 (mm)", "Pipe length\nL (mm)"];
+  return `
+    <figure class="simple-table-visual pvc-dimensions-visual" aria-label="PVC DWV Series 1000 pipe dimensions">
+      <figcaption>PVC DWV Series 1000 - pipe dimensions</figcaption>
+      <div class="svg-viewer-controls" role="group" aria-label="SVG image controls">
+        <button type="button" onclick="adjustSvgZoom(this, -0.15)" aria-label="Zoom out">−</button>
+        <span class="svg-zoom-level">100%</span>
+        <button type="button" onclick="adjustSvgZoom(this, 0.15)" aria-label="Zoom in">+</button>
+        <button type="button" onclick="resetSvgZoom(this)" aria-label="Reset image zoom">Reset</button>
+      </div>
+      <div class="svg-interactive-stage">
+      <svg viewBox="0 0 1180 490" role="img" aria-label="PVC pipe nominal sizes, outside diameters, wall thicknesses, and lengths">
+        <rect class="table-visual-bg" x="8" y="8" width="1164" height="474" rx="12"></rect>
+        <rect class="table-visual-title" x="20" y="20" width="1140" height="48" rx="8"></rect>
+        <text class="table-visual-heading" x="590" y="51" text-anchor="middle">PVC DWV SERIES 1000 - PIPE DIMENSIONS</text>
+        ${headings.map((heading, index) => {
+          const x = 25 + index * 190;
+          return `<text class="table-visual-label table-visual-label-centered" x="${x + 90}" y="96" text-anchor="middle">${heading.split("\n").map((line, lineIndex) => `<tspan x="${x + 90}" dy="${lineIndex ? 18 : 0}">${line}</tspan>`).join("")}</text>`;
+        }).join("")}
+        ${rows.map((row, rowIndex) => {
+          const y = 125 + rowIndex * 46;
+          return `<g class="table-visual-row">
+            <rect x="20" y="${y}" width="1140" height="38" rx="5"></rect>
+            ${row.map((value, columnIndex) => `<text x="${25 + columnIndex * 190 + 90}" y="${y + 25}" text-anchor="middle">${value}</text>`).join("")}
+          </g>`;
+        }).join("")}
+        <text class="table-visual-note" x="590" y="466" text-anchor="middle">Compare nominal size, O.D., wall thickness, and standard 3000 mm pipe length.</text>
+      </svg>
+      </div>
+    </figure>
+  `;
 }
 
 function renderFormula(formula) {
@@ -1302,6 +1757,13 @@ function renderReviewerDrawer() {
           </div>
         `;
       }).join("");
+      const subjectQuizCount = (subject.quizzes || []).length;
+      const subjectLinksHtml = (Array.isArray(subject.reviewer) || subjectQuizCount) ? `
+        <div class="drawer-subject-direct-links">
+          ${Array.isArray(subject.reviewer) ? `<button type="button" class="drawer-link ${currentSection === "reviewer" && isDirectSubject ? "active" : ""}" onclick="openSavedReviewer('${subject.id}')">${icon("reviewer")}<span>Reviewer</span></button>` : ""}
+          <button type="button" class="drawer-link quiz-drawer-link ${currentSection === "quiz" && isDirectSubject ? "active" : ""}" ${subjectQuizCount ? "" : "disabled"} onclick="openSavedQuiz('${subject.id}')">${icon("quiz")}<span class="drawer-link-label"><span>Quiz</span><small>${subjectQuizCount} question${subjectQuizCount === 1 ? "" : "s"}</small></span></button>
+        </div>
+      ` : "";
 
       return `
         <div class="drawer-subject ${isParentActive ? "active" : ""}">
@@ -1309,6 +1771,7 @@ function renderReviewerDrawer() {
             <span class="drawer-icon">${icon("subject")}</span><strong>${subject.title}</strong><span class="drawer-chevron" role="button" tabindex="0" aria-label="Toggle ${subject.title}" onclick="event.stopPropagation(); toggleDrawerSubject(this.closest('.drawer-subject-title'))" onkeydown="if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); event.stopPropagation(); toggleDrawerSubject(this.closest('.drawer-subject-title')); }"><svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m6 9 6 6 6-6"></path></svg></span>
           </button>
           <div class="drawer-subject-body ${isParentActive ? "" : "collapsed"}">
+            ${subjectLinksHtml}
             ${topicsHtml}
           </div>
         </div>
@@ -1357,10 +1820,7 @@ function selectDrawerSubject(subjectId) {
   if (!subject) return;
 
   if (Array.isArray(subject.topics) && subject.topics.length > 0) {
-    const hasActiveTopic = subject.topics.some(t => t.id === currentSubjectKey);
-    if (!hasActiveTopic) {
-      changeSubject(subject.topics[0].id);
-    }
+    changeSubject(subject.topics[0].id);
   } else {
     changeSubject(subjectId);
   }
