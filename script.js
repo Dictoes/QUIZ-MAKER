@@ -449,11 +449,17 @@ function renderNotes(notes) {
         }
         const tableVisualParagraph = renderTableVisualReplacements(paragraphText);
         if (tableVisualParagraph !== paragraphText) {
-          return `<div class="replica-content">${tableVisualParagraph}</div>`;
+          const renderedTables = tableVisualParagraph.includes("[REPLICA IMAGE:")
+            ? renderReplicaMarkup(tableVisualParagraph)
+            : tableVisualParagraph;
+          return `<div class="replica-content">${renderedTables}</div>`;
         }
         const genericTableParagraph = renderGenericPreTables(paragraphText);
         if (genericTableParagraph !== paragraphText) {
-          return `<div class="replica-content">${genericTableParagraph}</div>`;
+          const renderedTables = genericTableParagraph.includes("[REPLICA IMAGE:")
+            ? renderReplicaMarkup(genericTableParagraph)
+            : genericTableParagraph;
+          return `<div class="replica-content">${renderedTables}</div>`;
         }
         if (paragraphText.includes("[REPLICA IMAGE:")) {
           return `<div class="replica-content">${renderReplicaMarkup(paragraphText)}</div>`;
