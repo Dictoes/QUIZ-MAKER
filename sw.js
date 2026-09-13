@@ -1,4 +1,4 @@
-const CACHE_NAME = "jnotaly-offline-v8";
+const CACHE_NAME = "jnotaly-offline-v16";
 const APP_SHELL = [
   "./",
   "./index.html",
